@@ -21,7 +21,7 @@
             <li><a class="item-link" href="#">郷土料理</a></li>
             <li><a class="item-link" href="#">伝統芸能</a></li>
             <li><a class="item-link" href="#">年間行事</a></li>
-            <li><a class="item-link" href="#">観光地</a></li>
+            <li><a class="item-link" href="http://localhost:3000/tourist_area">観光地</a></li>
             <li><a class="item-link" href="#">世界遺産</a></li>
           </ul>
         </div>
