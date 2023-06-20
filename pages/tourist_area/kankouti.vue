@@ -4,70 +4,135 @@
     <header>
       <!-- ロゴ -->
       <div class="logo">
-        <a href="#"><img src="~/assets/img/Kagoshima_logo.png" alt="サイトのロゴ"></a>
+        <a href="http://localhost:3000"><img src="~/assets/img/Kagoshima_logo.png" alt="サイトのロゴ"></a>
       </div>
 
       <!--  サイトの名前 -->
       <div class="site-name">
-        <h1>鹿児島紹介サイト</h1>
+        <a href="http://localhost:3000"><h1>鹿児島紹介サイト</h1></a>
       </div>
 
       <!-- メニュー -->
       <nav>
         <div class="menu">
           <ul class="item">
-            <li><a class="item-link" href="http://localhost:3000/Craft">工芸品</a></li>
+            <li><a class="item-link" href="#">工芸品</a></li>
             <li><a class="item-link" href="#">歴史</a></li>
             <li><a class="item-link" href="#">郷土料理</a></li>
             <li><a class="item-link" href="#">伝統芸能</a></li>
             <li><a class="item-link" href="#">年間行事</a></li>
-            <li><a class="item-link" href="http://localhost:3000/tourist_area">観光地</a></li>
+            <li><a class="item-link" href="#">観光地</a></li>
             <li><a class="item-link" href="#">世界遺産</a></li>
           </ul>
         </div>
       </nav>
       
       <!-- 検索ボックス -->
-      <search>
       <form id="form1" action="http://localhost:3000/about">
       <input id="sbox" name="s" type="text" placeholder="キーワードを入力" />
       <input id="sbtn" type="submit" value="検索" />
       </form>
-      </search>
-      
+
     </header>
 
-    <body>
-      <div class="top_img">
-        <img src="~/assets/img/Top_img1.png" alt="トップ画像">
-      </div>
+    <main>
+        <h1>「おすすめの観光地一覧」</h1>
+        <h2 class = tourist_area_headline>桜島</h2>
+        <div class=" craft01 ">
+            <div class = tourist_area01_img>
+                <img src="~/assets/img/sakurajima.jpg" alt="桜島">
+            </div>
+            
+            <div class = explanation01>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
 
-      <div class="Kagoshima_about">
-        <center>
-          <h1>～鹿児島について～</h1>
-          <p>多くの観光名所や豊かな自然があり、その土地に根付いた伝統と人の温もり溢れる地方。</p>
-          <p>時代の流れに揉まれ戦乱の歴史をその身に刻みながらも発展してきた鹿児島。</p>
-          <p>そんな魅力溢れる鹿児島を体験してみてはいかがでしょうか？</p>
-        </center>
-      </div>
+        <h2 class = tourist_area_headline>???</h2>
+        <div class=" tourist_area02 ">
+            <div class = tourist_area01_img>
+                <img src="" alt="???">
+            </div>
 
-      <div class= talk>
-        <div class = human01><img src ="" alt="ジジイ"></div>
-        <p></p>
-        <div class = human02><img src ="" alt="息子"></div>
-        <p></p>
-      </div>
-    </body>
+            <div class = explanation02>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
 
-    <footer>
-      <p>footer</p>
-    </footer>
+        <h2 class = tourist_area_headline>???</h2>
+        <div class=" tourist_area03 ">
+            <div class = tourist_area03_img>
+                <img src="" alt="???">
+            </div>
+
+            <div class = explanation03>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+
+        <h2 class = tourist_area_headline>???</h2>
+        <div class=" tourist_area04 ">
+            <div class = tourist_area04_img>
+                <img src="" alt="???">
+            </div>
+
+            <div class = explanation04>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+
+        <h2 class = tourist_area_headline>???</h2>
+        <div class=" tourist_area05 ">
+            <div class = tourist_area_img>
+                <img src="" alt="???">
+            </div>
+
+            <div class = explanation05>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+    </main>
+
+    <fotter>
+
+    </fotter>
+    
   </div>
 </template>
 
 <style>
+    /* スマホ向けスタイル */
+    main {
+    
 
-  header {
+    }
+
+    /* PC向けスタイル */
+    @media screen and (min-width: 1024px) {
+      main {
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+
+
+    }
+
+    header {
     display: flex;  /*ヘッダーの下の要素を並列に*/
     height: 80px; /*ヘッダーの高さ*/
     padding: 0; /*ヘッダーの位置調整*/
@@ -76,6 +141,10 @@
 
   .site-name h1 {
     color: #fff;  /*サイトの名前の色*/
+  }
+
+  .site-name a {
+    text-decoration: none;
   }
 
   .logo {
@@ -152,16 +221,44 @@
   color:#666; /*検索ボタンマウスオーバー時のフォントカラー*/ 
   }
 
-  .top_img img {
-    width: 100%;
+  body {
+    margin: 20px;
+    padding: 0;
   }
 
-  .Kagoshima_about h1 {
-    margin-bottom: 8px;
+  h1 {
+    margin-bottom: 0;
   }
 
-  .Kagoshima_about p {
-    font-size: 25px;
+  h2.tourist_area_headline {
+    margin: 0;
+    padding-top: 8px;
+    border-top: 2px solid #d5d4c3;
+  }
+  
+  .tourist_area01 {
+    display: flex;
+  }
+
+  .tourist_area01_img {
+    width: 5cm;
+    margin: 0;
+    padding: 0;
+  }
+
+  .tourist_area01 img {
+    width: 5cm;
+    height: auto;
+  }
+
+  .tourist_area01 p {
+    padding: 0, 0, 0, 20;
     margin: 0;
   }
+
+  .explanation01 {
+    padding-top: 24px;
+    padding-left: 16px;
+  }
+
 </style>
