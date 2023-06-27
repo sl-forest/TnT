@@ -27,15 +27,6 @@
           </ul>
         </div>
       </nav>
-      
-      <!-- 検索ボックス -->
-      <!-- <div class = "search"> -->
-      <form id="form1" action="http://localhost:3000/about">
-      <input id="sbox" name="s" type="text" placeholder="キーワードを入力" />
-      <input id="sbtn" type="submit" value="検索" />
-      </form>
-      <!-- </div> -->
-
     </header>
 
     <main>
@@ -116,7 +107,7 @@
 
           <ul class="Pagination">
             <li class="Pagination-Item">
-              <a class="Pagination-Item-Link" href="/pages/1/">
+              <a class="Pagination-Item-Link" href="/pages/2/">
               <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
               </svg>
@@ -124,27 +115,27 @@
               </li>
 
                 <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link isActive" href="#"><span>1</span></a>
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/1"><span>1</span></a>
                 </li>
                 
                 <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="/pages/2/"><span>2</span></a>
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/2"><span>2</span></a>
                 </li>
 
                 <li class="Pagination-Item">
-                    <a class="Pagination-Item-Link" href="/pages/3/"><span>3</span></a>
+                    <a class="Pagination-Item-Link isActive" href="http://localhost:3000/Craft/pages/3"><span>3</span></a>
                 </li>
 
                 <li class="Pagination-Item">
-                    <a class="Pagination-Item-Link" href="/pages/4/"><span>4</span></a>
+                    <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/4"><span>4</span></a>
                 </li>
 
                 <li class="Pagination-Item">
-                    <a class="Pagination-Item-Link" href="/pages/5/"><span>5</span></a>
+                    <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/5"><span>5</span></a>
                 </li>
 
                 <li class="Pagination-Item">
-                    <a class="Pagination-Item-Link" href="/pages/5/">
+                    <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/5">
                         <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
                         </svg>
@@ -163,9 +154,6 @@
 
 <style>
     /* スマホ向けスタイル */
-    main {
-
-    }
 
     /* PC向けスタイル */
     @media screen and (min-width: 1024px) {
@@ -227,44 +215,6 @@
       .item li a {
         color: #fff;  /*メニューの色*/
         text-decoration: none;  /*メニューの下線を消す*/
-      }
-
-    /*フォーム全体*/
-      #form1{
-        margin-left: auto; 
-        position:relative;  /*フォームの相対位置*/	
-        max-width:270px;  /*フォームのサイズ*/
-        margin-bottom:15px; /*フォームの下に余白*/	 	
-      }
-
-    /*検索ボックス*/
-      #sbox{
-        left: 0;  /*検索ボタンの位置調整*/
-        top: 13.5px; 	/*検索ボタンの位置調整*/
-        outline:0;  /*クリック時の青い枠線消す*/	
-        height:50px;  /*検索ボックスの高さ*/	
-        padding:0 10px; /*テキスト位置調整*/	 
-        border-radius:2px 0 0 2px;  /*検索ボックスの角を丸める*/		
-        background:#eee;  /*検索ボックスの背景カラー*/		
-      }
-
-    /*検索ボタン*/
-      #sbtn{
-        width:70px; /*検索ボタンの横幅*/ 
-        height:50px;  /*検索ボタンの縦幅*/ 
-        left:190px; /*検索ボタンの位置調整*/  
-        top: 15.5px;  /*検索ボタンの位置調整*/
-        border-radius:0 2px 2px 0;  /*検索ボタンの角を丸める*/ 
-        background:#7fbfff; /*検索ボタンの背景カラー*/ 
-        border:none;  /*検索ボタンの枠線を消す*/ 
-        color:#fff; /*検索ボタンのテキストカラー*/ 
-        font-weight:bold; /*検索ボタンのテキスト太字*/ 
-        font-size:16px; /*検索ボタンのフォントサイズ*/ 
-      }
-
-    /*検索ボタンマウスオーバー時*/
-      #sbtn:hover{
-        color:#666; /*検索ボタンマウスオーバー時のフォントカラー*/ 
       }
 
       h1 {

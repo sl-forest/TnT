@@ -16,7 +16,7 @@
       <nav>
         <div class="menu">
           <ul class="item">
-            <li><a class="item-link" href="http://localhost:3000/Craft">工芸品</a></li>
+            <li><a class="item-link" href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
             <li><a class="item-link" href="#">歴史</a></li>
             <li><a class="item-link" href="#">郷土料理</a></li>
             <li><a class="item-link" href="#">伝統芸能</a></li>
