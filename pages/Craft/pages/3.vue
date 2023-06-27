@@ -1,7 +1,6 @@
 <template>
 
   <div>
-
     <header>
       <!-- ロゴ -->
       <div class="logo">
@@ -17,13 +16,13 @@
       <nav>
         <div class="menu">
           <ul class="item">
-            <li><a class="item-link" href="#">工芸品</a></li>
-            <li><a class="item-link" href="#">歴史</a></li>
-            <li><a class="item-link" href="#">郷土料理</a></li>
-            <li><a class="item-link" href="#">伝統芸能</a></li>
-            <li><a class="item-link" href="#">年間行事</a></li>
-            <li><a class="item-link" href="#">観光地</a></li>
-            <li><a class="item-link" href="#">世界遺産</a></li>
+            <li><a class="item-link" href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
+            <li><a class="item-link" href="http://localhost:3000">歴史</a></li>
+            <li><a class="item-link" href="http://localhost:3000">郷土料理</a></li>
+            <li><a class="item-link" href="http://localhost:3000">伝統芸能</a></li>
+            <li><a class="item-link" href="http://localhost:3000">年間行事</a></li>
+            <li><a class="item-link" href="http://localhost:3000">観光地</a></li>
+            <li><a class="item-link" href="http://localhost:3000">世界遺産</a></li>
           </ul>
         </div>
       </nav>
@@ -31,123 +30,121 @@
 
     <main>
         <h1>「伝統工芸品」</h1>
-        <h2 class = craft_headline>本場大島紬</h2>
-        <div class=" craft01 ">
+        <h2 class = craft_headline>???</h2>
+        <div class="craft">
             <div class = craft01_img>
-                <img src="~/assets/img/OshimaTsumugi.jpg" alt="本場大島紬">
+                <img src="" alt="???">
             </div>
             
-            <div class = explanation01>
-                <p>1,300年の歴史を持ち、
-                  絹織物の最高傑作といわれています。
-                  30数工程もある緻密な手作業により、
-                  図案から織り上がるまで半年から1年以上もかかります。
-                  大島紬独自の技法「テーチ木泥染」は、
-                  7世紀中頃から行われていた古代染色の技法を取り入れたものです。
-                  緻密な絣模様や、軽くて暖かく、しなやかで着くずれしないなどの
-                  優れた特徴があり、女性の着物として高い人気があります。</p>
+            <div class = explanation>
+                <p>
+                </p>
             </div>
+            <a class ="explanation-link" href="#">詳細はこちら</a>
         </div>
 
         <h2 class = craft_headline>???</h2>
-        <div class=" craft02 ">
+        <div class="craft">
             <div class = craft01_img>
                 <img src="" alt="???">
             </div>
 
-            <div class = explanation02>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+            <div class = explanation>
+                <p>
+                </p>
             </div>
+            <a class ="explanation-link" href="#">詳細はこちら</a>
         </div>
 
         <h2 class = craft_headline>???</h2>
-        <div class=" craft03 ">
+        <div class="craft">
             <div class = craft03_img>
                 <img src="" alt="???">
             </div>
 
-            <div class = explanation03>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+            <div class = explanation>
+                <p>
+                </p>
             </div>
+            <a class ="explanation-link" href="#">詳細はこちら</a>
         </div>
 
         <h2 class = craft_headline>???</h2>
-        <div class=" craft04 ">
+        <div class="craft">
             <div class = craft04_img>
                 <img src="" alt="???">
             </div>
 
-            <div class = explanation04>
-                <p></p>
-                <p></p>
-                <p></p>
+            <div class = explanation>
+                <p>
+                </p>
                 <p></p>
             </div>
+            <a class ="explanation-link" href="#">詳細はこちら</a>
         </div>
 
         <h2 class = craft_headline>???</h2>
-        <div class=" craft05 ">
+        <div class="craft">
             <div class = craft05_img>
                 <img src="" alt="???">
             </div>
 
-            <div class = explanation05>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+            <div class = explanation>
+                <p>
+                </p>
             </div>
+            <a class ="explanation-link" href="#">詳細はこちら</a>
         </div>
 
-          <ul class="Pagination">
-            <li class="Pagination-Item">
-              <a class="Pagination-Item-Link" href="/pages/2/">
-              <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
-              </svg>
-              </a>
+        <!-- 検索ボックス -->
+        <form id="form1" action="http://localhost:3000/">
+        <input id="sbox" name="s" type="text" placeholder="キーワードを入力" />
+        <input id="sbtn" type="submit" value="検索" />
+        </form>
+        
+        <ul class="Pagination">
+          <li class="Pagination-Item">
+            <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/1">
+            <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
+            </svg>
+            </a>
+            </li>
+
+              <li class="Pagination-Item">
+                <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/1"><span>1</span></a>
+              </li>
+              
+              <li class="Pagination-Item">
+                <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/2"><span>2</span></a>
               </li>
 
-                <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/1"><span>1</span></a>
-                </li>
-                
-                <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/2"><span>2</span></a>
-                </li>
+              <li class="Pagination-Item">
+                  <a class="Pagination-Item-Link isActive" href="http://localhost:3000/Craft/pages/3"><span>3</span></a>
+              </li>
 
-                <li class="Pagination-Item">
-                    <a class="Pagination-Item-Link isActive" href="http://localhost:3000/Craft/pages/3"><span>3</span></a>
-                </li>
+              <li class="Pagination-Item">
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/4"><span>4</span></a>
+              </li>
 
-                <li class="Pagination-Item">
-                    <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/4"><span>4</span></a>
-                </li>
+              <li class="Pagination-Item">
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/5"><span>5</span></a>
+              </li>
 
-                <li class="Pagination-Item">
-                    <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/5"><span>5</span></a>
-                </li>
+              <li class="Pagination-Item">
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/5">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                      </svg>
+                      </a>
+                  </li>
+              </ul>
+    </main>
 
-                <li class="Pagination-Item">
-                    <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/5">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
-                        </svg>
-                        </a>
-                    </li>
-               </ul>
-      </main>
+  <fotter>
 
-    <fotter>
-
-    </fotter>
-    
+  </fotter>
+  
   </div>
 
 </template>
@@ -178,10 +175,7 @@
       }
 
       .logo {
-        margin-top: 5px;  /*ロゴの位置調整*/
-        margin-bottom: 5px; /*ロゴの位置調整*/
-        margin-left: 15px;  /*ロゴの位置調整*/
-        margin-right: 15px; /*ロゴの位置調整*/
+        margin: 5px 15px;
       }
 
       .logo a img {
@@ -189,8 +183,8 @@
         height: 65px; /*ロゴ画像の高さ調整*/
         padding-top: 1.5px; /*ロゴの位置調整*/
       }
-    
-    nav ul{
+      
+      nav ul {
       padding-left: 24px;
     }
 
@@ -217,6 +211,43 @@
         text-decoration: none;  /*メニューの下線を消す*/
       }
 
+    /*フォーム全体*/
+      #form1{
+        margin-left: auto; 
+        margin-right: auto;
+        position: relative;  /*フォームの相対位置*/	
+        max-width: 270px;  /*フォームのサイズ*/
+        margin-bottom: 15px; /*フォームの下に余白*/	 	
+      }
+
+    /*検索ボックス*/
+      #sbox{
+        left: 0;  /*検索ボタンの位置調整*/
+        top: 13.5px; 	/*検索ボタンの位置調整*/
+        outline: 0;  /*クリック時の青い枠線消す*/	
+        height: 35px;  /*検索ボックスの高さ*/	
+        padding: 0 10px; /*テキスト位置調整*/	 
+        border-radius: 2px 0 0 2px;  /*検索ボックスの角を丸める*/		
+        background:#eee;  /*検索ボックスの背景カラー*/		
+      }
+
+    /*検索ボタン*/
+      #sbtn{
+        width:70px; /*検索ボタンの横幅*/ 
+        height:40px;  /*検索ボタンの縦幅*/ 
+        border-radius:0 2px 2px 0;  /*検索ボタンの角を丸める*/ 
+        background:#7fbfff; /*検索ボタンの背景カラー*/ 
+        border:none;  /*検索ボタンの枠線を消す*/ 
+        color:#fff; /*検索ボタンのテキストカラー*/ 
+        font-weight:bold; /*検索ボタンのテキスト太字*/ 
+        font-size:16px; /*検索ボタンのフォントサイズ*/ 
+      }
+
+    /*検索ボタンマウスオーバー時*/
+      #sbtn:hover{
+        color:#666; /*検索ボタンマウスオーバー時のフォントカラー*/ 
+      }
+
       h1 {
         margin-bottom: 0;
       }
@@ -227,32 +258,36 @@
         border-top: 2px solid #d5d4c3;
       }
       
-      .craft01 {
+      /* 工芸品一覧説明 */
+      .craft {
         display: flex;
       }
 
-      .craft01_img {
-        width: 5cm;
+      .craft p {
         margin: 0;
-        padding: 0;
       }
 
-      .craft01 img {
+      .explanation {
+        margin: auto;
+        width: 40em;
+      }
+      
+      .explanation-link {
+        align-self: end;
+      }
+
+      /* 工芸品画像 */
+      .craft01_img img{
         width: 5cm;
         height: auto;
       }
 
-      .craft01 p {
-        padding: 0, 0, 0, 20;
-        margin: 0;
+      .craft03_img img{
+        width: 5cm;
+        height: auto;
       }
-
-      .explanation01 {
-        margin-left: auto;
-        margin-right: auto;
-        width: 40em;
-      }
-
+      
+      /* ページネーション */
       .Pagination {
         display: flex;
         align-items: center;
