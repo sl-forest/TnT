@@ -17,10 +17,9 @@
         <div class="menu">
           <ul class="item">
             <li><a class="item-link" href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
-            <li><a class="item-link" href="http://localhost:3000">歴史</a></li>
-            <li><a class="item-link" href="http://localhost:3000">郷土料理</a></li>
-            <li><a class="item-link" href="http://localhost:3000">伝統芸能</a></li>
-            <li><a class="item-link" href="http://localhost:3000">年間行事</a></li>
+            <li><a class="item-link" href="http://localhost:3000/History/pages/1">歴史</a></li>
+            <li><a class="item-link" href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
+            <li><a class="item-link" href="http://localhost:3000/TraditionalCulture/pages/1">伝統芸能</a></li>
             <li><a class="item-link" href="http://localhost:3000">観光地</a></li>
             <li><a class="item-link" href="http://localhost:3000">世界遺産</a></li>
           </ul>
@@ -30,68 +29,41 @@
 
     <main>
         <h1>「伝統工芸品」</h1>
-        <h2 class = craft_headline>???</h2>
+        <h2 class = craft_headline>太鼓（チヂン）</h2>
         <div class="craft">
             <div class = craft01_img>
-                <img src="" alt="???">
+                <img src="~/assets/img/Tidin.png" alt="太鼓（チヂン）">
             </div>
             
             <div class = explanation>
-                <p>
-                </p>
+                <p>奄美地方の島唄・八月踊りの伴奏に欠かせない太鼓。</p> 
+                <p> 明治時代以前とから製作されてきた。</p>
             </div>
             <a class ="explanation-link" href="#">詳細はこちら</a>
         </div>
 
-        <h2 class = craft_headline>???</h2>
+        <h2 class = craft_headline>種子包丁</h2>
         <div class="craft">
             <div class = craft01_img>
-                <img src="" alt="???">
+                <img src="~/assets/img/TaneBoutyou.jpg" alt="種子包丁">
             </div>
 
             <div class = explanation>
-                <p>
-                </p>
+                <p>種子島には鉄砲伝来以来の鍛冶の歴史があり、種子包丁には刀鍛冶の伝統技術がいかされている。</p>
+                <p>切れ味鋭い包丁で、日常品としてだけでなく土産品としても需要がある。</p>
             </div>
             <a class ="explanation-link" href="#">詳細はこちら</a>
-        </div>
+        </div>        
 
-        <h2 class = craft_headline>???</h2>
-        <div class="craft">
-            <div class = craft03_img>
-                <img src="" alt="???">
-            </div>
-
-            <div class = explanation>
-                <p>
-                </p>
-            </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
-        </div>
-
-        <h2 class = craft_headline>???</h2>
+        <h2 class = craft_headline>五月幟</h2>
         <div class="craft">
             <div class = craft04_img>
-                <img src="" alt="???">
+                <img src="" alt="五月幟">
             </div>
 
             <div class = explanation>
-                <p>
-                </p>
-                <p></p>
-            </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
-        </div>
-
-        <h2 class = craft_headline>???</h2>
-        <div class="craft">
-            <div class = craft05_img>
-                <img src="" alt="???">
-            </div>
-
-            <div class = explanation>
-                <p>
-                </p>
+                <p>鯉のぼりよりも歴史の古い幟旗。 </p>
+                <p>家に男児が生まれたことを神様に伝え、子どもの成長と守護を願うために、家紋等を入れた幟を天に高く掲げるものとして、島津家に代々伝わっている。</p>
             </div>
             <a class ="explanation-link" href="#">詳細はこちら</a>
         </div>
@@ -124,15 +96,7 @@
               </li>
 
               <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/4"><span>4</span></a>
-              </li>
-
-              <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/5"><span>5</span></a>
-              </li>
-
-              <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/5">
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3">
                       <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
                       </svg>
@@ -278,7 +242,7 @@
 
       /* 工芸品画像 */
       .craft01_img img{
-        width: 5cm;
+        width: 4cm;
         height: auto;
       }
 

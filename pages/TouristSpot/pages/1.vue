@@ -20,7 +20,7 @@
             <li><a class="item-link" href="http://localhost:3000/History/pages/1">歴史</a></li>
             <li><a class="item-link" href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
             <li><a class="item-link" href="http://localhost:3000/TraditionalCulture/pages/1">伝統芸能</a></li>
-            <li><a class="item-link" href="http://localhost:3000">観光地</a></li>
+            <li><a class="item-link" href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
             <li><a class="item-link" href="http://localhost:3000">世界遺産</a></li>
           </ul>
         </div>
@@ -28,49 +28,58 @@
     </header>
 
     <main>
-        <h1>「伝統工芸品」</h1>
-        <h2 class = craft_headline>屋久杉</h2>
-        <div class="craft">
-            <div class = craft04_img>
-                <img src="~/assets/img/yakusugi.jpg" alt="屋久杉">
+        <h1>「観光地」</h1>
+        <h2 class = spot_headline>桜島</h2>
+        <div class="spot">
+            <div class = spot_img>
+                <img src="~/assets/img/sakurajima02.jpg" alt="桜島">
             </div>
-
+            
             <div class = explanation>
-                <p>世界自然遺産に登録されている「屋久島」は1,000メートル以上の高峰が連なっており、
-                  この大自然の中で育った樹齢1,000年以上のものを「屋久杉」と呼んでいます。
-                  縄文の太古より風雨に耐え抜いてきた生命力あふれる屋久杉は、木目の美しさ、色、かおりの良さなど、
-                  まさに銘木というにふさわしく、家具やインテリア用品などに幅広く活用されています。
-                </p>
-                <p>現在は自然保護のため、倒木や土埋木だけを工芸品として加工しています。</p>
+                <p>鹿児島のシンボルである「桜島」は、錦江湾にある陸続きの島。</p>
+                <p>標高約1,117メートルの御岳（北岳）という活火山が、現在も活発に噴火を続けている。</p>
+                <p>散策に適した溶岩遊歩道の途中には、絶景を望める展望所も複数完備。</p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/">詳細はこちら</a>
         </div>
 
-        <h2 class = craft_headline>薩摩切子</h2>
-        <div class="craft">
-            <div class = craft01_img>
-                <img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子">
+        <h2 class = spot_headline>仙巌園（せんがんえん）</h2>
+        <div class="spot">
+            <div class = spot_img>
+                <img src="~/assets/img/Senganen.jpg" alt="">
             </div>
 
             <div class = explanation>
-                <p>江戸末期に薩摩藩で造られた切子ガラス。</p>
-                <p>鉛を24～25％含むクリスタルガラスを使用し、無色のガラス（クリアガラス）の表面に色ガラスを1～2mm程度溶着させた ”色被せガラス”にカットを施し、磨きあげた製品を「薩摩切子」と言います。</p> 
+                <p>江戸時代初期に薩摩藩主・島津氏によって造られた、別邸跡とその庭園。</p>
+                <p>日本を代表するとも言われる庭園は、錦江湾や桜島の景観を取り入れた設計で、雄大な景色が楽しめます。</p>
+                <p>隣接する尚古集成館は幕末に建てられた金属加工の工場跡で、世界遺産「明治日本の産業革命遺産」のひとつ。</p>
+                <p>島津家の歴史や近代化事業を紹介する展示が行われている。</p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/BuriDaikon">詳細はこちら</a>
         </div>
 
-        <h2 class = craft_headline>薩摩弓</h2>
-        <div class="craft">
-            <div class = craft04_img>
-                <img src="" alt="薩摩弓">
+        <h2 class = spot_headline></h2>
+        <div class="spot">
+            <div class = spot_img>
+                <img src="~/assets/img/Torisashi.jpeg" alt="">
             </div>
 
             <div class = explanation>
-                <p>霧島市で製作されている。</p>
-                <p>弓には全国に幾つかの系統があるが、実践向きで耐湿性に優れた薩摩弓は、明治時代から大正時代にかけて特に人気があった。
-                <p>当時は、全国の弓の殆どが薩摩弓であった。</p>
+                <p></p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/ChickenSashimi">詳細はこちら</a>
+        </div>
+
+        <h2 class = spot_headline></h2>
+        <div class="spot">
+            <div class = spot_img>
+                <img src="~/assets/img/Tonjiru.jpg" alt="">
+            </div>
+
+            <div class = explanation>
+                <p></p>
+            </div>
+            <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Tonjiru">詳細はこちら</a>
         </div>
 
         <!-- 検索ボックス -->
@@ -81,7 +90,7 @@
         
         <ul class="Pagination">
           <li class="Pagination-Item">
-            <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/1">
+            <a class="Pagination-Item-Link" href="http://localhost:3000/TouristSpot/pages/1">
             <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
             </svg>
@@ -89,19 +98,19 @@
             </li>
 
               <li class="Pagination-Item">
-                <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/1"><span>1</span></a>
+                <a class="Pagination-Item-Link isActive" href="http://localhost:3000/TouristSpot/pages/1"><span>1</span></a>
               </li>
               
               <li class="Pagination-Item">
-                <a class="Pagination-Item-Link isActive" href="http://localhost:3000/Craft/pages/2"><span>2</span></a>
+                <a class="Pagination-Item-Link" href="http://localhost:3000/TouristSpot/pages/2"><span>2</span></a>
               </li>
 
               <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3"><span>3</span></a>
-              </li>           
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/TouristSpot/pages/3"><span>3</span></a>
+              </li>
 
               <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3">
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/TouristSpot/pages/3">
                       <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
                       </svg>
@@ -221,19 +230,20 @@
         margin-bottom: 0;
       }
 
-      h2.craft_headline {
+      h2.spot_headline {
         margin: 0;
         padding-top: 8px;
         border-top: 2px solid #d5d4c3;
       }
       
       /* 工芸品一覧説明 */
-      .craft {
+      .spot {
         display: flex;
       }
 
-      .craft p {
+      .spot p {
         margin: 0;
+        font-size: 14px;
       }
 
       .explanation {
@@ -245,18 +255,8 @@
         align-self: end;
       }
 
-      /* 工芸品画像 */
-      .craft01_img img{
-        width: 5cm;
-        height: auto;
-      }
-
-      .craft03_img img{
-        width: 5cm;
-        height: auto;
-      }
-
-      .craft04_img img{
+      /* 観光地画像 */
+      .spot_img img{
         width: 5cm;
         height: auto;
       }

@@ -28,49 +28,58 @@
     </header>
 
     <main>
-        <h1>「伝統工芸品」</h1>
-        <h2 class = craft_headline>屋久杉</h2>
+        <h1>「郷土料理」</h1>
+        <h2 class = craft_headline>鶏飯</h2>
         <div class="craft">
-            <div class = craft04_img>
-                <img src="~/assets/img/yakusugi.jpg" alt="屋久杉">
+            <div class = craft_img>
+                <img src="~/assets/img/Keihan.jpg" alt="鶏飯">
+                <p>写真協力：</p>
+                <p>公益社団法人 鹿児島県観光連盟</p>
             </div>
-
+            
             <div class = explanation>
-                <p>世界自然遺産に登録されている「屋久島」は1,000メートル以上の高峰が連なっており、
-                  この大自然の中で育った樹齢1,000年以上のものを「屋久杉」と呼んでいます。
-                  縄文の太古より風雨に耐え抜いてきた生命力あふれる屋久杉は、木目の美しさ、色、かおりの良さなど、
-                  まさに銘木というにふさわしく、家具やインテリア用品などに幅広く活用されています。
-                </p>
-                <p>現在は自然保護のため、倒木や土埋木だけを工芸品として加工しています。</p>
+                <p>「鶏飯」は、ほぐした鶏肉、干ししいたけ、錦糸卵、パパイヤの味噌漬け、みかんの皮などを、白いごはんの上にのせ、鶏ガラのスープをかけて食べる、奄美地域を代表する郷土料理。</p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Keihan">詳細はこちら</a>
         </div>
 
-        <h2 class = craft_headline>薩摩切子</h2>
+        <h2 class = craft_headline>ぶり大根</h2>
         <div class="craft">
-            <div class = craft01_img>
-                <img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子">
+            <div class = craft_img>
+                <img src="~/assets/img/Buridaikon.jpg" alt="ぶり大根">
             </div>
 
             <div class = explanation>
-                <p>江戸末期に薩摩藩で造られた切子ガラス。</p>
-                <p>鉛を24～25％含むクリスタルガラスを使用し、無色のガラス（クリアガラス）の表面に色ガラスを1～2mm程度溶着させた ”色被せガラス”にカットを施し、磨きあげた製品を「薩摩切子」と言います。</p> 
+                <p>鹿児島県の特産品であるブリと大根を使った「ぶり大根」は冬の定番料理として親しまれている。</p>
+                <p>ブリの旨味と大根の甘みが一体となった、冬の定番料理。</p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/BuriDaikon">詳細はこちら</a>
         </div>
 
-        <h2 class = craft_headline>薩摩弓</h2>
+        <h2 class = craft_headline>鶏刺し</h2>
         <div class="craft">
-            <div class = craft04_img>
-                <img src="" alt="薩摩弓">
+            <div class = craft_img>
+                <img src="~/assets/img/Torisashi.jpeg" alt="鶏刺し">
+                <p>写真協力：</p>
+                <p>公益社団法人 鹿児島県観光連盟</p>
             </div>
 
             <div class = explanation>
-                <p>霧島市で製作されている。</p>
-                <p>弓には全国に幾つかの系統があるが、実践向きで耐湿性に優れた薩摩弓は、明治時代から大正時代にかけて特に人気があった。
-                <p>当時は、全国の弓の殆どが薩摩弓であった。</p>
+                <p>もも肉、むね肉、ささみ、砂肝などの部位を魚のお刺身と同じように醤油をつけて食べる料理。</p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/ChickenSashimi">詳細はこちら</a>
+        </div>
+
+        <h2 class = craft_headline>豚汁</h2>
+        <div class="craft">
+            <div class = craft_img>
+                <img src="~/assets/img/Tonjiru.jpg" alt="豚汁">
+            </div>
+
+            <div class = explanation>
+                <p>豚肉（主にバラ肉）と好みの野菜（ニンジン、ゴボウ、だいこん）などを煮て、味噌仕立てにした汁物で、味噌汁の一種。</p>
+            </div>
+            <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Tonjiru">詳細はこちら</a>
         </div>
 
         <!-- 検索ボックス -->
@@ -81,7 +90,7 @@
         
         <ul class="Pagination">
           <li class="Pagination-Item">
-            <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/1">
+            <a class="Pagination-Item-Link" href="http://localhost:3000/LocalCuisine/pages/1">
             <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
             </svg>
@@ -89,19 +98,19 @@
             </li>
 
               <li class="Pagination-Item">
-                <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/1"><span>1</span></a>
+                <a class="Pagination-Item-Link isActive" href="http://localhost:3000/LocalCuisine/pages/1"><span>1</span></a>
               </li>
               
               <li class="Pagination-Item">
-                <a class="Pagination-Item-Link isActive" href="http://localhost:3000/Craft/pages/2"><span>2</span></a>
+                <a class="Pagination-Item-Link" href="http://localhost:3000/LocalCuisine/pages/2"><span>2</span></a>
               </li>
 
               <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3"><span>3</span></a>
-              </li>           
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/LocalCuisine/pages/3"><span>3</span></a>
+              </li>
 
               <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3">
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/LocalCuisine/pages/3">
                       <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
                       </svg>
@@ -234,6 +243,7 @@
 
       .craft p {
         margin: 0;
+        font-size: 14px;
       }
 
       .explanation {
@@ -246,17 +256,7 @@
       }
 
       /* 工芸品画像 */
-      .craft01_img img{
-        width: 5cm;
-        height: auto;
-      }
-
-      .craft03_img img{
-        width: 5cm;
-        height: auto;
-      }
-
-      .craft04_img img{
+      .craft_img img{
         width: 5cm;
         height: auto;
       }

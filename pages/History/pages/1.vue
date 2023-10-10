@@ -28,47 +28,75 @@
     </header>
 
     <main>
-        <h1>「伝統工芸品」</h1>
-        <h2 class = craft_headline>屋久杉</h2>
-        <div class="craft">
-            <div class = craft04_img>
-                <img src="~/assets/img/yakusugi.jpg" alt="屋久杉">
+        <h1>「偉人」</h1>
+        <h2 class = history_headline>島津斉彬（しまづなりあきら）（1809-1858）</h2>
+        <div class="history">
+            <div class = history01_img>
+                <img src="~/assets/img/shimadu.jpg" alt="島津斉彬">
             </div>
 
             <div class = explanation>
-                <p>世界自然遺産に登録されている「屋久島」は1,000メートル以上の高峰が連なっており、
-                  この大自然の中で育った樹齢1,000年以上のものを「屋久杉」と呼んでいます。
-                  縄文の太古より風雨に耐え抜いてきた生命力あふれる屋久杉は、木目の美しさ、色、かおりの良さなど、
-                  まさに銘木というにふさわしく、家具やインテリア用品などに幅広く活用されています。
-                </p>
-                <p>現在は自然保護のため、倒木や土埋木だけを工芸品として加工しています。</p>
+                <div>
+                  幕末の鹿児島藩主。号は惟敬・麟洲、謚号を順聖院。斉興の子。
+                  藩政改革・富国強兵策を推進。反射炉や機械制工業を他藩にさきがけて経営し、それらを一括して集成館を設立した。
+                  また開国の意見を抱き西郷隆盛・大久保利通等の英才を抜擢し、明治維新の先駆をなした。
+                  その卓越した識見は、松平春嶽より「英明近世の第一人者」と称された。
+                </div>
             </div>
             <a class ="explanation-link" href="#">詳細はこちら</a>
         </div>
 
-        <h2 class = craft_headline>薩摩切子</h2>
-        <div class="craft">
-            <div class = craft01_img>
-                <img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子">
+        <h2 class = history_headline>西郷隆盛（さいごうたかもり）（1827-1877）</h2>
+        <div class="history">
+            <div class = history01_img>
+                <img src="~/assets/img/segodon.jpeg" alt="西郷隆盛">
             </div>
-
+            
             <div class = explanation>
-                <p>江戸末期に薩摩藩で造られた切子ガラス。</p>
-                <p>鉛を24～25％含むクリスタルガラスを使用し、無色のガラス（クリアガラス）の表面に色ガラスを1～2mm程度溶着させた ”色被せガラス”にカットを施し、磨きあげた製品を「薩摩切子」と言います。</p> 
+                <p>西郷隆盛は幕末期の薩摩藩の武士。</p>
+                <p>故郷鹿児島の盟友・大久保利通と共に薩摩藩をリードして王政復古を実現させ、徳川幕府を倒し、明治政府の成立に大きな貢献をした。</p>
+                <p>維新後、封建制度下の特権を失った不平士族（旧武士）の首領となって西南戦争を起こしたが政府軍に敗れ自刃した。</p>
             </div>
             <a class ="explanation-link" href="#">詳細はこちら</a>
         </div>
 
-        <h2 class = craft_headline>薩摩弓</h2>
-        <div class="craft">
-            <div class = craft04_img>
-                <img src="" alt="薩摩弓">
+        <h2 class = history_headline>大久保利通（おおくぼとしみち）（1830-1878）</h2>
+        <div class="history">
+            <div class = history01_img>
+                <img src="~/assets/img/ookubo.jpg" alt="大久保利通">
             </div>
 
             <div class = explanation>
-                <p>霧島市で製作されている。</p>
-                <p>弓には全国に幾つかの系統があるが、実践向きで耐湿性に優れた薩摩弓は、明治時代から大正時代にかけて特に人気があった。
-                <p>当時は、全国の弓の殆どが薩摩弓であった。</p>
+                <p>明治維新の指導者。</p> 
+                <p>島津久光のもとで公武合体運動を推進。</p>
+                <p>やがて討幕へと転じ、薩長連合を成立させる一方、岩倉具視らと結んで慶応3(1867)年12月、王政復古のクーデターを敢行。</p>
+                <p>版籍奉還や廃藩置県を推進し、新政府の基礎を固める。</p>
+            </div>
+            <a class ="explanation-link" href="#">詳細はこちら</a>
+        </div>
+
+        <h2 class = history_headline>小松帯刀（こまつたてわき）（1835-1870）</h2>
+        <div class="history">
+            <div class = history01_img>
+                <img src="~/assets/img/komatsu.jpg" alt="小松帯刀">
+            </div>
+
+            <div class = explanation>
+                <p>島津久光の側近として大久保利通らの藩内下級武士を多く要職につかせ，</p>
+                <p>家老に進んだ後は大久保・西郷隆盛らとともに討幕派公卿・諸藩の間を奔走。</p>
+                <p>大政奉還に尽力。明治政府に重用され外国官（外務省の前身）副知事になったが病死。</p>
+            </div>
+            <a class ="explanation-link" href="#">詳細はこちら</a>
+        </div>
+
+        <h2 class = history_headline>天璋院篤姫</h2>
+        <div class="history">
+            <div class = history01_img>
+                <img src="~/assets/img/Atsuhime.jpg" alt="天璋院篤姫">
+            </div>
+
+            <div class = explanation>
+                <p>幕府の消滅に立会い、徳川本家廃絶・江戸城武力攻略の回避に力を尽くし、明治期には徳川本家の家格・家名の維持を目ざした。</p>
             </div>
             <a class ="explanation-link" href="#">詳細はこちら</a>
         </div>
@@ -81,7 +109,7 @@
         
         <ul class="Pagination">
           <li class="Pagination-Item">
-            <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/1">
+            <a class="Pagination-Item-Link" href="http://localhost:3000//History/pages/1">
             <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
             </svg>
@@ -89,19 +117,19 @@
             </li>
 
               <li class="Pagination-Item">
-                <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/1"><span>1</span></a>
+                <a class="Pagination-Item-Link isActive" href="http://localhost:3000/History/pages/1"><span>1</span></a>
               </li>
               
               <li class="Pagination-Item">
-                <a class="Pagination-Item-Link isActive" href="http://localhost:3000/Craft/pages/2"><span>2</span></a>
+                <a class="Pagination-Item-Link" href="http://localhost:3000/History/pages/2"><span>2</span></a>
               </li>
 
               <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3"><span>3</span></a>
-              </li>           
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/History/pages/3"><span>3</span></a>
+              </li>
 
               <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3">
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/History/pages/3">
                       <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
                       </svg>
@@ -221,18 +249,18 @@
         margin-bottom: 0;
       }
 
-      h2.craft_headline {
+      h2.history_headline {
         margin: 0;
         padding-top: 8px;
         border-top: 2px solid #d5d4c3;
       }
       
-      /* 工芸品一覧説明 */
-      .craft {
+      /* 歴史一覧説明 */
+      .history {
         display: flex;
       }
 
-      .craft p {
+      .history p {
         margin: 0;
       }
 
@@ -246,21 +274,11 @@
       }
 
       /* 工芸品画像 */
-      .craft01_img img{
+      .history01_img img{
         width: 5cm;
         height: auto;
       }
 
-      .craft03_img img{
-        width: 5cm;
-        height: auto;
-      }
-
-      .craft04_img img{
-        width: 5cm;
-        height: auto;
-      }
-      
       /* ページネーション */
       .Pagination {
         display: flex;

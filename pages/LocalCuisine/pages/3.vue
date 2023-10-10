@@ -17,10 +17,9 @@
         <div class="menu">
           <ul class="item">
             <li><a class="item-link" href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
-            <li><a class="item-link" href="http://localhost:3000">歴史</a></li>
-            <li><a class="item-link" href="http://localhost:3000">郷土料理</a></li>
-            <li><a class="item-link" href="http://localhost:3000">伝統芸能</a></li>
-            <li><a class="item-link" href="http://localhost:3000">年間行事</a></li>
+            <li><a class="item-link" href="http://localhost:3000/History/pages/1">歴史</a></li>
+            <li><a class="item-link" href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
+            <li><a class="item-link" href="http://localhost:3000/TraditionalCulture/pages/1">伝統芸能</a></li>
             <li><a class="item-link" href="http://localhost:3000">観光地</a></li>
             <li><a class="item-link" href="http://localhost:3000">世界遺産</a></li>
           </ul>
@@ -29,71 +28,61 @@
     </header>
 
     <main>
-        <h1>「伝統工芸品」</h1>
-        <h2 class = craft_headline>???</h2>
+        <h1>「郷土料理」</h1>
+        <h2 class = craft_headline>白熊</h2>
         <div class="craft">
-            <div class = craft01_img>
-                <img src="" alt="???">
+            <div class = craft_img>
+                <img src="~/assets/img/Shirokuma.jpg" alt="白熊">
+                <p>出典：</p>
+                <p>農林水産省「うちの郷土料理」</p>
             </div>
             
             <div class = explanation>
-                <p>
-                </p>
+                <p>「白熊」は、削った氷に練乳をかけ、その上にチェリーやレーズン、みかん、パイン、小豆、寒天と、色とりどりのトッピングをのせた氷菓子。</p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/ShiroKuma">詳細はこちら</a>
         </div>
 
-        <h2 class = craft_headline>???</h2>
+        <h2 class = craft_headline>かるかん</h2>
         <div class="craft">
-            <div class = craft01_img>
-                <img src="" alt="???">
+            <div class = craft_img>
+                <img src="~/assets/img/Karukan02.jpg" alt="かるかん">
+                <p>画像提供元 : 鹿児島県</p>
             </div>
 
             <div class = explanation>
-                <p>
-                </p>
+                <p>「かるかん」は、かるかん粉、山芋、水を使ってつくる鹿児島県の銘菓。</p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Karukan">詳細はこちら</a>
         </div>
 
-        <h2 class = craft_headline>???</h2>
+        <h2 class = craft_headline>両棒餅（じゃんぼ餅）</h2>
         <div class="craft">
-            <div class = craft03_img>
-                <img src="" alt="???">
+            <div class = craft_img>
+                <img src="~/assets/img/Janbomoti.jpg" alt="じゃんぼ餅">
+                <p>出典：</p>
+                <p>農林水産省「うちの郷土料理」</p>
             </div>
 
             <div class = explanation>
-                <p>
-                </p>
+                <p>「じゃんぼ餅」とは、つきたての餅やもち米粉を使っただんご串を2本さして、とろみのある砂糖醤油ダレをかけて食べる、鹿児島県で古くから親しまれている料理である。</p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/JumboMochi">詳細はこちら</a>
         </div>
 
-        <h2 class = craft_headline>???</h2>
+        <h2 class = craft_headline>神酒（みき）</h2>
         <div class="craft">
-            <div class = craft04_img>
-                <img src="" alt="???">
+            <div class = craft_img>
+                <img src="~/assets/img/Miki.jpg" alt="みき">
+                <p>出典：</p>
+                <p>農林水産省「うちの郷土料理」</p>
             </div>
 
             <div class = explanation>
-                <p>
-                </p>
-                <p></p>
+                <p>米とさつまいも、砂糖を使った乳酸菌発酵飲料で、奄美地域の他に沖縄県でも飲まれている。</p>
+                <p>沖縄県では、さつまいもではなく麦を使う。</p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
-        </div>
-
-        <h2 class = craft_headline>???</h2>
-        <div class="craft">
-            <div class = craft05_img>
-                <img src="" alt="???">
-            </div>
-
-            <div class = explanation>
-                <p>
-                </p>
-            </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Miki">詳細はこちら</a>
         </div>
 
         <!-- 検索ボックス -->
@@ -104,7 +93,7 @@
         
         <ul class="Pagination">
           <li class="Pagination-Item">
-            <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/1">
+            <a class="Pagination-Item-Link" href="http://localhost:3000/LocalCuisine/pages/1">
             <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
             </svg>
@@ -112,27 +101,19 @@
             </li>
 
               <li class="Pagination-Item">
-                <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/1"><span>1</span></a>
+                <a class="Pagination-Item-Link" href="http://localhost:3000/LocalCuisine/pages/1"><span>1</span></a>
               </li>
               
               <li class="Pagination-Item">
-                <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/2"><span>2</span></a>
+                <a class="Pagination-Item-Link" href="http://localhost:3000/LocalCuisine/pages/2"><span>2</span></a>
               </li>
 
               <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3"><span>3</span></a>
+                  <a class="Pagination-Item-Link isActive" href="http://localhost:3000/LocalCuisine/pages/3"><span>3</span></a>
               </li>
 
               <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/4"><span>4</span></a>
-              </li>
-
-              <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link  isActive" href="http://localhost:3000/Craft/pages/5"><span>5</span></a>
-              </li>
-
-              <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/5">
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/LocalCuisine/pages/3">
                       <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
                       </svg>
@@ -265,6 +246,7 @@
 
       .craft p {
         margin: 0;
+        font-size: 14px;
       }
 
       .explanation {
@@ -277,12 +259,7 @@
       }
 
       /* 工芸品画像 */
-      .craft01_img img{
-        width: 5cm;
-        height: auto;
-      }
-
-      .craft03_img img{
+      .craft_img img{
         width: 5cm;
         height: auto;
       }

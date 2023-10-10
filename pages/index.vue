@@ -17,11 +17,10 @@
         <div class="menu">
           <ul class="item">
             <li><a class="item-link" href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
-            <li><a class="item-link" href="#">歴史</a></li>
-            <li><a class="item-link" href="#">郷土料理</a></li>
-            <li><a class="item-link" href="#">伝統芸能</a></li>
-            <li><a class="item-link" href="#">年間行事</a></li>
-            <li><a class="item-link" href="http://localhost:3000/tourist_area">観光地</a></li>
+            <li><a class="item-link" href="http://localhost:3000/History/pages/1">歴史</a></li>
+            <li><a class="item-link" href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
+            <li><a class="item-link" href="http://localhost:3000/TraditionalCulture/pages/1">伝統芸能</a></li>
+            <li><a class="item-link" href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
             <li><a class="item-link" href="#">世界遺産</a></li>
           </ul>
         </div>
@@ -58,14 +57,36 @@
         <p></p>
       </div>
     </body>
-
-    <footer>
-      <p>footer</p>
+    
+    <footer class="footer">
+      <p class="copyright">© 2023 TnT Inc.</p>
+      <ul class="md-flex">
+        <li><a href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
+        <li><a href="http://localhost:3000/History/pages/1">歴史</a></li>
+        <li><a href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
+        <li><a href="http://localhost:3000/TraditionalCulture/pages/1">伝統芸能</a></li>
+        <li><a href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
+        <li><a href="#">世界遺産</a></li>
+    </ul>
     </footer>
+
   </div>
 </template>
 
 <style>
+  @media (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .md-flex {
+    display: flex;
+  }
+
+  .md-flex li + li {
+    margin-left: 16px;
+  }
 
   header {
     display: flex;  /*ヘッダーの下の要素を並列に*/
@@ -164,4 +185,35 @@
     font-size: 25px;
     margin: 0;
   }
+  
+  html {
+    font-family: sans-serif;
+  }
+
+  bo  dy {
+    background: rgb(0, 0, 0);
+  }
+
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer {
+    padding: 2rem;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .footer a:hover {
+    color: rgb(2, 243, 252);
+  }
+}
 </style>
