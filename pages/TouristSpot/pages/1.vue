@@ -28,7 +28,6 @@
     </header>
 
     <main>
-        <h1>「観光地」</h1>
         <h2 class = spot_headline>桜島</h2>
         <div class="spot">
             <div class = spot_img>
@@ -40,46 +39,47 @@
                 <p>標高約1,117メートルの御岳（北岳）という活火山が、現在も活発に噴火を続けている。</p>
                 <p>散策に適した溶岩遊歩道の途中には、絶景を望める展望所も複数完備。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Sakurajima">スポット情報</a>
         </div>
 
-        <h2 class = spot_headline>仙巌園（せんがんえん）</h2>
+        <h2 class = spot_headline>屋久島</h2>
         <div class="spot">
             <div class = spot_img>
-                <img src="~/assets/img/Senganen.jpg" alt="">
+                <img src="~/assets/img/Yakushima.jpg" alt="屋久島">
             </div>
 
             <div class = explanation>
-                <p>江戸時代初期に薩摩藩主・島津氏によって造られた、別邸跡とその庭園。</p>
-                <p>日本を代表するとも言われる庭園は、錦江湾や桜島の景観を取り入れた設計で、雄大な景色が楽しめます。</p>
-                <p>隣接する尚古集成館は幕末に建てられた金属加工の工場跡で、世界遺産「明治日本の産業革命遺産」のひとつ。</p>
-                <p>島津家の歴史や近代化事業を紹介する展示が行われている。</p>
+                <p>本土最南端・鹿児島県佐多岬の南南西約60キロメートルの海上に位置する島。</p>
+                <p>日本初の世界自然遺産登録エリア。</p>
+                <p>小さな面積ながら、九州最高峰の宮之浦岳（標高約1,936メートル）をはじめ、1,000メートル超の山々が46座もあり、「洋上のアルプス」と呼ばれている。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/BuriDaikon">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Yakushima">スポット情報</a>
         </div>
 
-        <h2 class = spot_headline></h2>
+        <h2 class = spot_headline>奄美大島</h2>
         <div class="spot">
             <div class = spot_img>
-                <img src="~/assets/img/Torisashi.jpeg" alt="">
+                <img src="~/assets/img/Amami.jpg" alt="奄美大島">
             </div>
 
             <div class = explanation>
-                <p></p>
+                <p>鹿児島県と沖縄県の中間に位置し、日本版「天国に一番近い島」と称されている。</p>
+                <p>青く澄んだ海や、ここにしか生息していない動植物など、雄大な自然が魅力。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/ChickenSashimi">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Amami">スポット情報</a>
         </div>
 
-        <h2 class = spot_headline></h2>
+        <h2 class = spot_headline>種子島宇宙センター</h2>
         <div class="spot">
             <div class = spot_img>
-                <img src="~/assets/img/Tonjiru.jpg" alt="">
+                <img src="~/assets/img/SpaceCenter.jpg" alt="種子島宇宙センター">
             </div>
 
             <div class = explanation>
-                <p></p>
+                <p>1969年に造られた種子島宇宙センターは、総面積約970万平米に及ぶ、日本最大のロケット発射場。</p>
+                <p>青い海と白い砂浜に囲まれていることから、「世界一美しいロケット発射場」と呼ばれている。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Tonjiru">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/SpaceCenter">スポット情報</a>
         </div>
 
         <!-- 検索ボックス -->
@@ -110,7 +110,11 @@
               </li>
 
               <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/TouristSpot/pages/3">
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/TouristSpot/pages/4"><span>4</span></a>
+              </li>
+
+              <li class="Pagination-Item">
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/TouristSpot/pages/4">
                       <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
                       </svg>

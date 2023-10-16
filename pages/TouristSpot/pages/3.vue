@@ -20,7 +20,7 @@
             <li><a class="item-link" href="http://localhost:3000/History/pages/1">歴史</a></li>
             <li><a class="item-link" href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
             <li><a class="item-link" href="http://localhost:3000/TraditionalCulture/pages/1">伝統芸能</a></li>
-            <li><a class="item-link" href="http://localhost:3000TouristSpot/pages/1">観光地</a></li>
+            <li><a class="item-link" href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
             <li><a class="item-link" href="http://localhost:3000">世界遺産</a></li>
           </ul>
         </div>
@@ -28,75 +28,31 @@
     </header>
 
     <main>
-        <h1>「伝統芸能」</h1>
-        <h2 class = craft_headline>本場大島紬</h2>
-        <div class="craft">
-            <div class = craft01_img>
-                <img src="~/assets/img/OshimaTsumugi.jpg" alt="本場大島紬">
+        <h1>「観光地」</h1>
+        <h2 class = spot_headline>指宿温泉 砂むし会館 砂楽</h2>
+        <div class="spot">
+            <div class = spot_img>
+                <img src="~/assets/img/Sunamushi.jpg" alt="指宿温泉 砂むし会館 砂楽">
             </div>
             
             <div class = explanation>
-                <p>1,300年の歴史を持ち、
-                  絹織物の最高傑作といわれています。
-                  30数工程もある緻密な手作業により、
-                  図案から織り上がるまで半年から1年以上もかかります。
-                  大島紬独自の技法「テーチ木泥染」は、
-                  7世紀中頃から行われていた古代染色の技法を取り入れたものです。
-                  緻密な絣模様や、軽くて暖かく、しなやかで着くずれしないなどの
-                  優れた特徴があり、女性の着物として高い人気があります。
-                </p>
+                <p>海岸に天然砂むし温泉、屋内には大浴場や休憩所を完備した、指宿温泉を代表する日帰り入浴施設。</p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/">スポット情報</a>
         </div>
 
-        <h2 class = craft_headline>川辺仏壇</h2>
-        <div class="craft">
-            <div class = craft01_img>
-                <img src="~/assets/img/Butsudan.jpg" alt="川辺仏壇">
+        <h2 class = spot_headline>霧島温泉市場</h2>
+        <div class="spot">
+            <div class = spot_img>
+                <img src="~/assets/img/Itiba.jpg" alt="霧島温泉市場">
             </div>
-
+            
             <div class = explanation>
-                <p>川辺仏壇（かわなべぶつだん）は、
-                  鹿児島県南九州市川辺町周辺で作られている仏壇です。
-                  川辺仏壇の特徴は、「ガマ戸」と呼ばれる川辺仏壇オリジナルの独特な仏壇があることです。
-                  ”ガマ”とは、鹿児島県の方言で洞窟を表します。
-                </p>
+                <p>霧島温泉郷の中心に位置する「霧島温泉市場」は、観光案内所・土産店・食事処が集まる施設。</p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/">スポット情報</a>
         </div>
-
-        <h2 class = craft_headline>薩摩焼</h2>
-        <div class="craft">
-            <div class = craft03_img>
-                <img src="~/assets/img/SatsumaYaki.jpg" alt="薩摩焼">
-            </div>
-
-            <div class = explanation>
-                <p>薩摩焼（さつまやき）は、鹿児島県内で焼かれる陶磁器です。</p>
-                <p>主な窯場は姶良市の龍門司窯、日置市の苗代川窯、鹿児島市の長太郎窯などです。</p>
-                <p>鉄分が多い土を高温で焼き締めるため、素朴で頑丈な仕上がりが特徴です。</p>
-                <p>「白もん」と呼ばれる豪華絢爛な色絵錦手の陶器と「黒もん」と呼ばれる大衆向けの雑器に分かれるています。</p>
-            </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
-        </div>
-
-        <h2 class = craft_headline>屋久杉</h2>
-        <div class="craft">
-            <div class = craft04_img>
-                <img src="~/assets/img/yakusugi.jpg" alt="屋久杉">
-            </div>
-
-            <div class = explanation>
-                <p>世界自然遺産に登録されている「屋久島」は1,000メートル以上の高峰が連なっており、
-                  この大自然の中で育った樹齢1,000年以上のものを「屋久杉」と呼んでいます。
-                  縄文の太古より風雨に耐え抜いてきた生命力あふれる屋久杉は、木目の美しさ、色、かおりの良さなど、
-                  まさに銘木というにふさわしく、家具やインテリア用品などに幅広く活用されています。
-                </p>
-                <p>現在は自然保護のため、倒木や土埋木だけを工芸品として加工しています。</p>
-            </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
-        </div>
-
+        
         <!-- 検索ボックス -->
         <form id="form1" action="http://localhost:3000/">
         <input id="sbox" name="s" type="text" placeholder="キーワードを入力" />
@@ -105,7 +61,7 @@
         
         <ul class="Pagination">
           <li class="Pagination-Item">
-            <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/1">
+            <a class="Pagination-Item-Link" href="http://localhost:3000/TouristSpot/pages/1">
             <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
             </svg>
@@ -113,19 +69,23 @@
             </li>
 
               <li class="Pagination-Item">
-                <a class="Pagination-Item-Link isActive" href="http://localhost:3000/Craft/pages/1"><span>1</span></a>
+                <a class="Pagination-Item-Link" href="http://localhost:3000/TouristSpot/pages/1"><span>1</span></a>
               </li>
               
               <li class="Pagination-Item">
-                <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/2"><span>2</span></a>
+                <a class="Pagination-Item-Link" href="http://localhost:3000/TouristSpot/pages/2"><span>2</span></a>
               </li>
 
               <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3"><span>3</span></a>
+                  <a class="Pagination-Item-Link isActive" href="http://localhost:3000/TouristSpot/pages/3"><span>3</span></a>
               </li>
 
               <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3">
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/TouristSpot/pages/4"><span>4</span></a>
+              </li>
+
+              <li class="Pagination-Item">
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/TouristSpot/pages/4">
                       <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
                       </svg>
@@ -245,19 +205,20 @@
         margin-bottom: 0;
       }
 
-      h2.craft_headline {
+      h2.spot_headline {
         margin: 0;
         padding-top: 8px;
         border-top: 2px solid #d5d4c3;
       }
       
       /* 工芸品一覧説明 */
-      .craft {
+      .spot {
         display: flex;
       }
 
-      .craft p {
+      .spot p {
         margin: 0;
+        font-size: 14px;
       }
 
       .explanation {
@@ -269,18 +230,8 @@
         align-self: end;
       }
 
-      /* 工芸品画像 */
-      .craft01_img img{
-        width: 5cm;
-        height: auto;
-      }
-
-      .craft03_img img{
-        width: 5cm;
-        height: auto;
-      }
-
-      .craft04_img img{
+      /* 観光地画像 */
+      .spot_img img{
         width: 5cm;
         height: auto;
       }
