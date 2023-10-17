@@ -32,7 +32,7 @@
         <h2 class = spot_headline>曾木の滝</h2>
         <div class="spot">
             <div class = spot_img>
-                <img src="~/assets/img/SogiTaki.jpg" alt="桜島">
+                <img src="~/assets/img/SogiTaki.jpg" alt="曾木の滝">
             </div>
             
             <div class = explanation>
@@ -40,7 +40,7 @@
                 <p>春は桜やつつじが彩り、夏は水量も多く豪快。</p>
                 <p>秋は紅葉がライトアップされ、冬は雪景色を楽しめる。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/">スポット情報</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Soginotaki">スポット情報</a>
         </div>
 
         <h2 class = spot_headline>丸尾の滝</h2>
@@ -53,7 +53,7 @@
                 <p>高さ約23メートル、幅約16メートルの滝。</p>
                 <p>ここを流れる水は温泉の湯であり、霧島地区の温泉水を集めて流れる珍しい「湯の滝」。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/BuriDaikon">スポット情報</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Maruonotaki">スポット情報</a>
         </div>
 
         <h2 class = spot_headline>雄川の滝</h2>
@@ -67,7 +67,7 @@
                 <p>大河ドラマ『西郷どん』のオープニング映像で話題となった。。</p>
                 <p>エメラルドグリーンの美しい滝つぼが特徴で、フォトジェニックな光景が広がる。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/ChickenSashimi">スポット情報</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Ogawanotaki">スポット情報</a>
         </div>
         
         <h2 class = spot_headline>開聞岳</h2>
@@ -116,12 +116,12 @@
 
               <li class="Pagination-Item">
                   <a class="Pagination-Item-Link" href="http://localhost:3000/TouristSpot/pages/4">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
-                      </svg>
-                      </a>
-                  </li>
-              </ul>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                  </svg>
+                  </a>
+              </li>
+        </ul>
     </main>
 
   <fotter>

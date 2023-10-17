@@ -158,19 +158,12 @@
       }
 
       .TouristSpot_note {
-        margin-top: 1.2cm;
-        margin-left: 16px;
+        margin-top: 0.8cm;
+        padding-left: 16px;
       }
 
       .TouristSpot_note h2 {
         margin: 8px auto;
-      }
-
-      .TouristSpot_note p {
-        margin: 0 auto;
-        font-size: 18px;
-        margin-top: 8px;
-        margin-bottom: 8px;
       }
 
       .TouristSpot_note dl {
@@ -178,22 +171,22 @@
         margin: 3px 0;
         overflow: hidden;
         display: flex;
-        flex-wrap: wrap;
       }
 
       .TouristSpot_note dt {
         background-color: #e0e2e2;
+        vertical-align: middle;
+        flex-shrink: 0;
+        text-align: center;
         width: 20%;
         margin-right: 1%;
-        align-items: center;
-        justify-content: center;
       }
 
       .TouristSpot_note dd {
-        padding-top: 8px;
         margin: 0px;
         display: flex;
       }
+   
     /* ボタン */
       a.btn {
         display: block;

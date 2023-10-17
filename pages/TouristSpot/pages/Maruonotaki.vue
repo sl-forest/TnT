@@ -29,24 +29,44 @@
 
     <main>
 
-      <h1>奄美大島</h1>
+      <h1>丸尾の滝</h1>
 
         <div class="TouristSpot">
 
             <div class = TouristSpot_img>
-                <img src="~/assets/img/Amami.jpg" alt="奄美大島">
+                <img src="~/assets/img/MaruoTaki.jpg" alt="丸尾の滝">
             </div>
             
             <div class = TouristSpot_note>    
               
               <dl>
-                <dt>移動方法</dt>
-                <dd>【飛行機】羽田空港、成田空港、伊丹空港、関西空港、福岡空港、鹿児島空港、那覇空港より直行便あり</dd>
-                <dd>【船】鹿児島新港より約11時間</dd>
+                <dt>営業時間</dt>
+                <dd>見学自由</dd>
               </dl>
 
-              <a href = "https://search.travel.rakuten.co.jp/ds/hotellist/Japan-Kagoshima-Amami-Amami_Oshima" class = "btn">奄美大島 周辺のホテル・旅館</a>
-              <a href = "https://experiences.travel.rakuten.co.jp/destinations/amamioshima-kikaijima-tokunoshima?scid=wi_txp_rakutentravel_travelguide" class = "btn">奄美大島でできること</a>
+              <dl>
+                <dt>料金</dt>
+                <dd>無料</dd>
+              </dl>
+
+              <dl>
+                <dt>住所</dt>
+                <dd>鹿児島県霧島市牧園町高千穂丸尾</dd>
+              </dl>
+
+              <dl>
+                <dt>移動方法</dt>
+                <dd>【電車・バス】JR日豊本線「霧島神宮」駅からバスで約30分、「丸尾」バス停下車、徒歩約10分
+                    <br>
+                    【車】九州自動車道「溝辺鹿児島空港」ICより約40分
+                </dd>
+              </dl>
+
+              <dl>
+                <dt>詳しく</dt>
+                <dd><a href="https://www.kagoshima-kankou.com/guide/10102">丸尾滝（鹿児島県観光サイト）</a></dd>
+              </dl>
+              <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46000324.html" class = "btn">丸尾の滝 周辺のホテル・旅館</a>
 
             </div>
 
@@ -73,10 +93,12 @@
         border: 1px solid #ddd;
         border-top: none;
     }
+
     .TouristSpot_note > dt,
     .TouristSpot_note > dd {
         text-align: center;
     }
+    
     .TouristSpot_note > dd > ul {
         text-align: left;
     }
@@ -158,7 +180,7 @@
       }
 
       .TouristSpot_note {
-        margin-top: 0.8cm;
+        margin-top: 1.7cm;
         padding-left: 16px;
       }
 

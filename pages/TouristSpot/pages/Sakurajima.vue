@@ -37,17 +37,19 @@
                 <img src="~/assets/img/Sakurajima02.jpg" alt="桜島">
             </div>
             
-            <div class = TouristSpot_note>    
+            <div class = TouristSpot_note>
               
-              <h2>移動方法</h2>
+              <dl>
+                <dt>移動方法</dt>
+                <dd>【電車】鹿児島市電「水族館口」駅下車徒歩約5分
+                  <br>
+                  【船】桜島フェリーターミナルより乗船約20分
+                  <br>
+                  【車】鹿児島空港から約80分
+                </dd>
+              </dl>
 
-                <ul>
-                  <li>【電車】鹿児島市電「水族館口」駅下車徒歩約5分</li>
-                  <li>【船】桜島フェリーターミナルより乗船約20分</li>
-                  <li>【車】鹿児島空港から約80分</li>
-                </ul>
-
-                <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46010087.html " class = "btn">桜島 周辺のホテル・旅館</a>
+              <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46010087.html " class = "btn">桜島 周辺のホテル・旅館</a>
 
             </div>
 
@@ -69,7 +71,19 @@
 
 <style>
     /* スマホ向けスタイル */
-
+    @media screen and (max-width: 767px) {
+    .TouristSpot_note > dd {
+        border: 1px solid #ddd;
+        border-top: none;
+    }
+    .TouristSpot_note > dt,
+    .TouristSpot_note > dd {
+        text-align: center;
+    }
+    .TouristSpot_note > dd > ul {
+        text-align: left;
+    }
+}
     /* PC向けスタイル */
     @media screen and (min-width: 1024px) {
       main {
@@ -147,24 +161,36 @@
       }
 
       .TouristSpot_note {
-        margin-top: 1.4cm;
-        margin-left: 16px;
+        margin-top: 0.8cm;
+        padding-left: 16px;
       }
 
       .TouristSpot_note h2 {
         margin: 8px auto;
       }
 
-      .TouristSpot_note p {
-        margin: 0 auto;
+      .TouristSpot_note dl {
+        font-size: 15px;
+        margin: 3px 0;
+        overflow: hidden;
+        display: flex;
       }
 
-      .TouristSpot_note li {
-        font-size: 18px;
-        margin-top: 8px;
-        margin-bottom: 8px;
+      .TouristSpot_note dt {
+        background-color: #e0e2e2;
+        vertical-align: middle;
+        flex-shrink: 0;
+        text-align: center;
+        width: 20%;
+        margin-right: 1%;
       }
 
+      .TouristSpot_note dd {
+        margin: 0px;
+        display: flex;
+      }
+   
+    /* ボタン */
       a.btn {
         display: block;
         text-align: center;
@@ -186,5 +212,6 @@
         background: #fff;
       }
 }
+
 
 </style>

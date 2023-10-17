@@ -98,10 +98,12 @@
         border: 1px solid #ddd;
         border-top: none;
     }
+
     .TouristSpot_note > dt,
     .TouristSpot_note > dd {
         text-align: center;
     }
+    
     .TouristSpot_note > dd > ul {
         text-align: left;
     }
@@ -196,15 +198,15 @@
         margin: 3px 0;
         overflow: hidden;
         display: flex;
-        flex-wrap: wrap;
       }
 
       .TouristSpot_note dt {
         background-color: #e0e2e2;
-        width: 19%;
+        vertical-align: middle;
+        flex-shrink: 0;
+        text-align: center;
+        width: 20%;
         margin-right: 1%;
-        align-items: center;
-        justify-content: center;
       }
 
       .TouristSpot_note dd {

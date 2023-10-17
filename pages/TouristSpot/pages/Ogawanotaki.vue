@@ -29,24 +29,44 @@
 
     <main>
 
-      <h1>奄美大島</h1>
+      <h1>雄川の滝</h1>
 
         <div class="TouristSpot">
 
             <div class = TouristSpot_img>
-                <img src="~/assets/img/Amami.jpg" alt="奄美大島">
+                <img src="~/assets/img/OgawaTaki.jpg" alt="雄川の滝">
             </div>
             
             <div class = TouristSpot_note>    
               
               <dl>
-                <dt>移動方法</dt>
-                <dd>【飛行機】羽田空港、成田空港、伊丹空港、関西空港、福岡空港、鹿児島空港、那覇空港より直行便あり</dd>
-                <dd>【船】鹿児島新港より約11時間</dd>
+                <dt>営業時間</dt>
+                <dd>見学自由
+                    <br>
+                    ※天候などにより立ち入り禁止になる場合あり
+                </dd>
               </dl>
 
-              <a href = "https://search.travel.rakuten.co.jp/ds/hotellist/Japan-Kagoshima-Amami-Amami_Oshima" class = "btn">奄美大島 周辺のホテル・旅館</a>
-              <a href = "https://experiences.travel.rakuten.co.jp/destinations/amamioshima-kikaijima-tokunoshima?scid=wi_txp_rakutentravel_travelguide" class = "btn">奄美大島でできること</a>
+              <dl>
+                <dt>料金</dt>
+                <dd>無料</dd>
+              </dl>
+
+              <dl>
+                <dt>住所</dt>
+                <dd>鹿児島県南大隅町根占</dd>
+              </dl>
+
+              <dl>
+                <dt>移動方法</dt>
+                <dd>【車】鹿児島空港から約1時間45分</dd>
+              </dl>
+
+              <dl>
+                <dt>詳しく</dt>
+                <dd><a href="https://www.kagoshima-kankou.com/guide/51100">雄川の滝（鹿児島県観光サイト）</a></dd>
+              </dl>
+              <a href = "https://travel.rakuten.co.jp/yado/kagoshima/kanoya.html" class = "btn">雄川の滝 周辺のホテル・旅館</a>
 
             </div>
 
@@ -73,10 +93,12 @@
         border: 1px solid #ddd;
         border-top: none;
     }
+
     .TouristSpot_note > dt,
     .TouristSpot_note > dd {
         text-align: center;
     }
+    
     .TouristSpot_note > dd > ul {
         text-align: left;
     }
@@ -158,7 +180,7 @@
       }
 
       .TouristSpot_note {
-        margin-top: 0.8cm;
+        margin-top: 1.7cm;
         padding-left: 16px;
       }
 

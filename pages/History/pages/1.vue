@@ -43,7 +43,7 @@
                   その卓越した識見は、松平春嶽より「英明近世の第一人者」と称された。
                 </div>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/History/pages/ShimazuNariakira">年表はこちら</a>
         </div>
 
         <h2 class = history_headline>西郷隆盛（さいごうたかもり）（1827-1877）</h2>
@@ -57,7 +57,7 @@
                 <p>故郷鹿児島の盟友・大久保利通と共に薩摩藩をリードして王政復古を実現させ、徳川幕府を倒し、明治政府の成立に大きな貢献をした。</p>
                 <p>維新後、封建制度下の特権を失った不平士族（旧武士）の首領となって西南戦争を起こしたが政府軍に敗れ自刃した。</p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/History/pages/SaigoTakamori">年表はこちら</a>
         </div>
 
         <h2 class = history_headline>大久保利通（おおくぼとしみち）（1830-1878）</h2>
@@ -72,7 +72,7 @@
                 <p>やがて討幕へと転じ、薩長連合を成立させる一方、岩倉具視らと結んで慶応3(1867)年12月、王政復古のクーデターを敢行。</p>
                 <p>版籍奉還や廃藩置県を推進し、新政府の基礎を固める。</p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/History/pages/OkuboToshimichi">年表はこちら</a>
         </div>
 
         <h2 class = history_headline>小松帯刀（こまつたてわき）（1835-1870）</h2>
@@ -86,10 +86,10 @@
                 <p>家老に進んだ後は大久保・西郷隆盛らとともに討幕派公卿・諸藩の間を奔走。</p>
                 <p>大政奉還に尽力。明治政府に重用され外国官（外務省の前身）副知事になったが病死。</p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/History/pages/KomatsuTatewak">年表はこちら</a>
         </div>
 
-        <h2 class = history_headline>天璋院篤姫</h2>
+        <h2 class = history_headline>天璋院篤姫（てんしょういんあつひめ）（1836-1883）</h2>
         <div class="history">
             <div class = history01_img>
                 <img src="~/assets/img/Atsuhime.jpg" alt="天璋院篤姫">
@@ -98,7 +98,7 @@
             <div class = explanation>
                 <p>幕府の消滅に立会い、徳川本家廃絶・江戸城武力攻略の回避に力を尽くし、明治期には徳川本家の家格・家名の維持を目ざした。</p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/History/pages/TenshoinAtsuhime">年表はこちら</a>
         </div>
 
         <!-- 検索ボックス -->
@@ -107,35 +107,6 @@
         <input id="sbtn" type="submit" value="検索" />
         </form>
         
-        <ul class="Pagination">
-          <li class="Pagination-Item">
-            <a class="Pagination-Item-Link" href="http://localhost:3000//History/pages/1">
-            <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
-            </svg>
-            </a>
-            </li>
-
-              <li class="Pagination-Item">
-                <a class="Pagination-Item-Link isActive" href="http://localhost:3000/History/pages/1"><span>1</span></a>
-              </li>
-              
-              <li class="Pagination-Item">
-                <a class="Pagination-Item-Link" href="http://localhost:3000/History/pages/2"><span>2</span></a>
-              </li>
-
-              <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/History/pages/3"><span>3</span></a>
-              </li>
-
-              <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/History/pages/3">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
-                      </svg>
-                      </a>
-                  </li>
-              </ul>
     </main>
 
   <fotter>
@@ -278,51 +249,6 @@
         width: 5cm;
         height: auto;
       }
-
-      /* ページネーション */
-      .Pagination {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .Pagination-Item-Link {
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        flex-wrap: wrap;
-        overflow: hidden;
-        background: #fff;
-        border: solid 2px #111;
-        font-size: 14px;
-        color: #111;
-        font-weight: bold;
-        transition: all 0.15s linear;
-      }
-
-      .Pagination-Item-Link-Icon {
-        width: 20px;
-      }
-
-      .Pagination-Item-Link.isActive {
-        background: #111;
-        color: #fff;
-        pointer-events: none;
-      }
-
-      .Pagination-Item-Link:not(.isActive):hover {
-        background: #111;
-        color: #fff;
-      }
-
-      .Pagination > * + * {
-        margin-left: 8px;
-      }
-
     }
 
 </style>
