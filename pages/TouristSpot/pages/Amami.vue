@@ -41,8 +41,10 @@
               
               <dl>
                 <dt>移動方法</dt>
-                <dd>【飛行機】羽田空港、成田空港、伊丹空港、関西空港、福岡空港、鹿児島空港、那覇空港より直行便あり</dd>
-                <dd>【船】鹿児島新港より約11時間</dd>
+                <dd>【飛行機】羽田空港、成田空港、伊丹空港、関西空港、福岡空港、鹿児島空港、那覇空港より直行便あり
+                  <br>
+                  【船】鹿児島新港より約11時間
+                </dd>
               </dl>
 
               <a href = "https://search.travel.rakuten.co.jp/ds/hotellist/Japan-Kagoshima-Amami-Amami_Oshima" class = "btn">奄美大島 周辺のホテル・旅館</a>
@@ -158,7 +160,7 @@
       }
 
       .TouristSpot_note {
-        margin-top: 0.8cm;
+        margin-top: 2.1cm;
         padding-left: 16px;
       }
 
@@ -185,6 +187,7 @@
       .TouristSpot_note dd {
         margin: 0px;
         display: flex;
+        width: 15cm;
       }
    
     /* ボタン */
@@ -194,7 +197,8 @@
         vertical-align: middle;
         text-decoration: none;
         width: 320px;
-        margin-top: 24px;
+        margin-top: 18px;
+        margin-left: 65px;
         padding: 1rem 4rem;
         font-weight: bold;
         border: 2px solid #27acd9;

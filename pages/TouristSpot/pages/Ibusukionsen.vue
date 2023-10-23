@@ -29,26 +29,59 @@
 
     <main>
 
-      <h1>屋久島</h1>
+      <h1>指宿温泉 砂むし会館 砂楽</h1>
 
         <div class="TouristSpot">
 
             <div class = TouristSpot_img>
-                <img src="~/assets/img/Yakushima.jpg" alt="屋久島">
+                <img src="~/assets/img/Sunamushi.jpg" alt="指宿温泉 砂むし会館 砂楽">
             </div>
             
             <div class = TouristSpot_note>    
               
               <dl>
-                <dt>移動方法</dt>
-                <dd>【飛行機】鹿児島空港から直行便約40分
-                  <br>
-                  【船】鹿児島港より高速船トッピー・ロケットで約105～155分（種子島経由）
+                <dt>営業時間</dt>
+                <dd>8:30～21:00（受付は20:30まで）
+                    <br>
+                    ※土日・祝日を除いて12:00～13:00は清掃等のため受付休止
+                    <br>
+                    ※繁忙期は最終受付時間が早まる場合あり
+                    <br>
+                    ※7月・12月は点検などで臨時休館あり
                 </dd>
               </dl>
-              
-              <a href = "https://travel.rakuten.co.jp/yado/kagoshima/yakushima.html" class = "btn">屋久島 周辺のホテル・旅館</a>
-              <a href = "https://experiences.travel.rakuten.co.jp/destinations/yakushima?scid=wi_txp_rakutentravel_travelguide" class = "btn">屋久島でできること</a>
+
+              <dl>
+                <dt>料金</dt>
+                <dd>中学生以上1,100円、小学生以下600円
+                    <br>
+                    ※浴衣込みの料金
+                    <br>
+                    ※バスタオル貸出は200円、砂むし記念タオルは200円で販売
+                    <br>
+                    ※砂むし入浴にはタオル（砂よけ用）が必要
+                </dd>
+              </dl>
+
+              <dl>
+                <dt>住所</dt>
+                <dd>鹿児島県指宿市湯の浜5-25-18</dd>
+              </dl>
+
+              <dl>
+                <dt>移動方法</dt>
+                <dd>【電車】JR指宿枕崎線「指宿駅」より徒歩約20分
+                    <br>
+                    【車】JR指宿枕崎線「指宿駅」より約5分
+                </dd>
+              </dl>
+
+              <dl>
+                <dt>詳しく</dt>
+                <dd><a href="http://ibusuki-saraku.jp/">砂むし会館 砂楽 公式ページ</a></dd>
+              </dl>
+              <a href = "https://travel.rakuten.co.jp/onsen/kagoshima/OK00906.html" class = "btn">指宿温泉の温泉旅館・ホテル一覧</a>
+
 
             </div>
 
@@ -160,7 +193,7 @@
       }
 
       .TouristSpot_note {
-        margin-top: 2cm;
+        margin-top: 0;
         padding-left: 16px;
       }
 
@@ -187,7 +220,7 @@
       .TouristSpot_note dd {
         margin: 0px;
         display: flex;
-        width: 9cm;
+        width: 14cm;
       }
    
     /* ボタン */
@@ -198,6 +231,7 @@
         text-decoration: none;
         width: 320px;
         margin-top: 18px;
+        margin-left: 60px;
         padding: 1rem 4rem;
         font-weight: bold;
         border: 2px solid #27acd9;

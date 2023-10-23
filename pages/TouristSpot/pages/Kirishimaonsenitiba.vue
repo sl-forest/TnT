@@ -29,26 +29,49 @@
 
     <main>
 
-      <h1>屋久島</h1>
+      <h1>霧島温泉市場</h1>
 
         <div class="TouristSpot">
 
             <div class = TouristSpot_img>
-                <img src="~/assets/img/Yakushima.jpg" alt="屋久島">
+                <img src="~/assets/img/Itiba.jpg" alt="霧島温泉市場">
             </div>
             
             <div class = TouristSpot_note>    
               
               <dl>
-                <dt>移動方法</dt>
-                <dd>【飛行機】鹿児島空港から直行便約40分
-                  <br>
-                  【船】鹿児島港より高速船トッピー・ロケットで約105～155分（種子島経由）
+                <dt>営業時間</dt>
+                <dd>8:30～18:00（店舗により異なる）
+                    <br>
+                    ※不定休
                 </dd>
               </dl>
-              
-              <a href = "https://travel.rakuten.co.jp/yado/kagoshima/yakushima.html" class = "btn">屋久島 周辺のホテル・旅館</a>
-              <a href = "https://experiences.travel.rakuten.co.jp/destinations/yakushima?scid=wi_txp_rakutentravel_travelguide" class = "btn">屋久島でできること</a>
+
+              <dl>
+                <dt>料金</dt>
+                <dd>足湯:大人100円、小学生以下50円（タオル貸出付き）
+                </dd>
+              </dl>
+
+              <dl>
+                <dt>住所</dt>
+                <dd>鹿児島県霧島市牧園町高千穂3878-114</dd>
+              </dl>
+
+              <dl>
+                <dt>移動方法</dt>
+                <dd>【バス】鹿児島空港から路線バス霧島いわさきホテル行きで約30分、「丸尾」バス停下車、徒歩約1分
+                    <br>
+                    【車】JR肥薩線「霧島温泉」駅より車で約20分、九州自動車道「横川」ICより車で約35分
+                </dd>
+              </dl>
+
+              <dl>
+                <dt>詳しく</dt>
+                <dd><a href="https://kirishima-marche.com/">霧島温泉市場 公式ページ</a></dd>
+              </dl>
+              <a href = "https://travel.rakuten.co.jp/onsen/kagoshima/OK00896.html" class = "btn">霧島温泉の温泉旅館・ホテル一覧</a>
+
 
             </div>
 
@@ -160,7 +183,7 @@
       }
 
       .TouristSpot_note {
-        margin-top: 2cm;
+        margin-top: 0.8cm;
         padding-left: 16px;
       }
 
@@ -187,7 +210,7 @@
       .TouristSpot_note dd {
         margin: 0px;
         display: flex;
-        width: 9cm;
+        width: 14cm;
       }
    
     /* ボタン */
@@ -198,6 +221,7 @@
         text-decoration: none;
         width: 320px;
         margin-top: 18px;
+        margin-left: 60px;
         padding: 1rem 4rem;
         font-weight: bold;
         border: 2px solid #27acd9;

@@ -161,7 +161,7 @@
       }
 
       .TouristSpot_note {
-        margin-top: 0.8cm;
+        margin-top: 3.1cm;
         padding-left: 16px;
       }
 

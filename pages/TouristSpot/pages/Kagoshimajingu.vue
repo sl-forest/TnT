@@ -29,26 +29,45 @@
 
     <main>
 
-      <h1>屋久島</h1>
+      <h1>鹿児島神宮</h1>
 
         <div class="TouristSpot">
 
             <div class = TouristSpot_img>
-                <img src="~/assets/img/Yakushima.jpg" alt="屋久島">
+                <img src="~/assets/img/kagoshimajingu.jpg" alt="鹿児島神宮">
             </div>
             
             <div class = TouristSpot_note>    
               
               <dl>
-                <dt>移動方法</dt>
-                <dd>【飛行機】鹿児島空港から直行便約40分
-                  <br>
-                  【船】鹿児島港より高速船トッピー・ロケットで約105～155分（種子島経由）
+                <dt>営業時間</dt>
+                <dd>参拝自由
+                    <br>
+                    授与所は8:30～17:00（閉所）
                 </dd>
               </dl>
-              
-              <a href = "https://travel.rakuten.co.jp/yado/kagoshima/yakushima.html" class = "btn">屋久島 周辺のホテル・旅館</a>
-              <a href = "https://experiences.travel.rakuten.co.jp/destinations/yakushima?scid=wi_txp_rakutentravel_travelguide" class = "btn">屋久島でできること</a>
+
+              <dl>
+                <dt>料金</dt>
+                <dd>無料</dd>
+              </dl>
+
+              <dl>
+                <dt>住所</dt>
+                <dd>鹿児島県霧島市隼人町内2496-1</dd>
+              </dl>
+
+              <dl>
+                <dt>移動方法</dt>
+                <dd>JR日豊本線隼人駅から徒歩15分</dd>
+              </dl>
+
+              <dl>
+                <dt>詳しく</dt>
+                <dd><a href="https://kagoshima-jingu.jp/">鹿児島神宮 公式ページ</a></dd>
+              </dl>
+              <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46010643.html" class = "btn">鹿児島神宮 周辺のホテル・旅館</a>
+
 
             </div>
 
@@ -160,7 +179,7 @@
       }
 
       .TouristSpot_note {
-        margin-top: 2cm;
+        margin-top: 1.8cm;
         padding-left: 16px;
       }
 
@@ -187,7 +206,7 @@
       .TouristSpot_note dd {
         margin: 0px;
         display: flex;
-        width: 9cm;
+        width: 14cm;
       }
    
     /* ボタン */
@@ -198,6 +217,7 @@
         text-decoration: none;
         width: 320px;
         margin-top: 18px;
+        margin-left: 60px;
         padding: 1rem 4rem;
         font-weight: bold;
         border: 2px solid #27acd9;

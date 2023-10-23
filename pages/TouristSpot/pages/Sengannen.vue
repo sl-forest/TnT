@@ -29,26 +29,53 @@
 
     <main>
 
-      <h1>屋久島</h1>
+      <h1>仙厳園</h1>
 
         <div class="TouristSpot">
 
             <div class = TouristSpot_img>
-                <img src="~/assets/img/Yakushima.jpg" alt="屋久島">
+                <img src="~/assets/img/Senganen.jpg" alt="仙厳園">
             </div>
             
             <div class = TouristSpot_note>    
               
               <dl>
-                <dt>移動方法</dt>
-                <dd>【飛行機】鹿児島空港から直行便約40分
-                  <br>
-                  【船】鹿児島港より高速船トッピー・ロケットで約105～155分（種子島経由）
+                <dt>営業時間</dt>
+                <dd>9:00～17:00
+                    <br>
+                    ※年中無休
+                    <br>
+                    ※3月第1日曜日は鹿児島マラソンのため休園
                 </dd>
               </dl>
-              
-              <a href = "https://travel.rakuten.co.jp/yado/kagoshima/yakushima.html" class = "btn">屋久島 周辺のホテル・旅館</a>
-              <a href = "https://experiences.travel.rakuten.co.jp/destinations/yakushima?scid=wi_txp_rakutentravel_travelguide" class = "btn">屋久島でできること</a>
+
+              <dl>
+                <dt>料金</dt>
+                <dd>庭園+尚古集成館+御殿:高校生以上1,500円、小中学生750円
+                    <br>
+                    庭園+尚古集成館:高校生以上1,000円、小中学生500円
+                </dd>
+              </dl>
+
+              <dl>
+                <dt>住所</dt>
+                <dd>鹿児島県鹿児島市吉野町9700-1</dd>
+              </dl>
+
+              <dl>
+                <dt>移動方法</dt>
+                <dd>【バス】各種バス「仙巌園前」バス停下車すぐ
+                    <br>
+                    【車】九州自動車道「姶良（あいら）」ICより約40分
+                </dd>
+              </dl>
+
+              <dl>
+                <dt>詳しく</dt>
+                <dd><a href="https://www.senganen.jp/">仙厳園 公式ページ</a></dd>
+              </dl>
+              <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46000332.html" class = "btn">名勝 仙厳園 周辺のホテル・旅館</a>
+
 
             </div>
 
@@ -160,7 +187,7 @@
       }
 
       .TouristSpot_note {
-        margin-top: 2cm;
+        margin-top: 1.2cm;
         padding-left: 16px;
       }
 
@@ -187,7 +214,7 @@
       .TouristSpot_note dd {
         margin: 0px;
         display: flex;
-        width: 9cm;
+        width: 15cm;
       }
    
     /* ボタン */
@@ -198,6 +225,7 @@
         text-decoration: none;
         width: 320px;
         margin-top: 18px;
+        margin-left: 65px;
         padding: 1rem 4rem;
         font-weight: bold;
         border: 2px solid #27acd9;

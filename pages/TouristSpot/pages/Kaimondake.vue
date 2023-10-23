@@ -153,7 +153,7 @@
       }
 
       .TouristSpot_note {
-        margin-top: 0.8cm;
+        margin-top: 3cm;
         padding-left: 16px;
       }
 
@@ -180,6 +180,7 @@
       .TouristSpot_note dd {
         margin: 0px;
         display: flex;
+        width: 9cm;
       }
    
     /* ボタン */
@@ -189,7 +190,7 @@
         vertical-align: middle;
         text-decoration: none;
         width: 320px;
-        margin-top: 24px;
+        margin-top: 18px;
         padding: 1rem 4rem;
         font-weight: bold;
         border: 2px solid #27acd9;

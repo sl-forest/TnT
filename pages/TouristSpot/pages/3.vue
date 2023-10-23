@@ -38,7 +38,7 @@
             <div class = explanation>
                 <p>海岸に天然砂むし温泉、屋内には大浴場や休憩所を完備した、指宿温泉を代表する日帰り入浴施設。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/">スポット情報</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Ibusukionsen">スポット情報</a>
         </div>
 
         <h2 class = spot_headline>霧島温泉市場</h2>
@@ -49,10 +49,37 @@
             
             <div class = explanation>
                 <p>霧島温泉郷の中心に位置する「霧島温泉市場」は、観光案内所・土産店・食事処が集まる施設。</p>
+                <p>鹿児島・霧島の特産品を多数取り揃えたお店があり、お土産探しにぴったり。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/">スポット情報</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Kirishimaonsenitiba">スポット情報</a>
         </div>
         
+        <h2 class = spot_headline>霧島神宮</h2>
+        <div class="spot">
+            <div class = spot_img>
+                <img src="~/assets/img/Jingu.jpg" alt="">
+            </div>
+
+            <div class = explanation>
+                <p>鹿児島県屈指のパワースポットで、6世紀に建立された歴史ある神社。</p>
+                <p>御主神は、建国神話の主人公である瓊々杵尊（ににぎのみこと）。</p>
+            </div>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Kirishimajingu">スポット情報</a>
+        </div>
+
+        <h2 class = spot_headline>鹿児島神宮</h2>
+        <div class="spot">
+            <div class = spot_img>
+                <img src="~/assets/img/kagoshimajingu.jpg" alt="鹿児島神宮">
+            </div>
+
+            <div class = explanation>
+                <p>天津日高日子穂穂出見尊（山幸彦）と豊玉比売命を主祭神として祀る。</p>
+                <p>旧暦1月18日を過ぎた最初の日曜には初午祭がある。</p>
+            </div>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Kagoshimajingu">スポット情報</a>
+        </div>
+
         <!-- 検索ボックス -->
         <form id="form1" action="http://localhost:3000/">
         <input id="sbox" name="s" type="text" placeholder="キーワードを入力" />

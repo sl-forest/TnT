@@ -29,26 +29,37 @@
 
     <main>
 
-      <h1>屋久島</h1>
+      <h1>天文館</h1>
 
         <div class="TouristSpot">
 
             <div class = TouristSpot_img>
-                <img src="~/assets/img/Yakushima.jpg" alt="屋久島">
+                <img src="~/assets/img/TenmonKan.jpg" alt="天文館">
             </div>
             
             <div class = TouristSpot_note>    
               
               <dl>
-                <dt>移動方法</dt>
-                <dd>【飛行機】鹿児島空港から直行便約40分
-                  <br>
-                  【船】鹿児島港より高速船トッピー・ロケットで約105～155分（種子島経由）
-                </dd>
+                <dt>営業日</dt>
+                <dd>通年</dd>
               </dl>
-              
-              <a href = "https://travel.rakuten.co.jp/yado/kagoshima/yakushima.html" class = "btn">屋久島 周辺のホテル・旅館</a>
-              <a href = "https://experiences.travel.rakuten.co.jp/destinations/yakushima?scid=wi_txp_rakutentravel_travelguide" class = "btn">屋久島でできること</a>
+
+              <dl>
+                <dt>住所</dt>
+                <dd>鹿児島県鹿児島市東千石町</dd>
+              </dl>
+
+              <dl>
+                <dt>移動方法</dt>
+                <dd>【市電「天文館通」下車</dd>
+              </dl>
+
+              <dl>
+                <dt>詳しく</dt>
+                <dd><a href="https://www.kagoshima-yokanavi.jp/spot?rta%5B%5D=3&rtd=&q=&lat=&lng=&st=acs&vw=tile">天文館エリアの観光スポット一覧</a></dd>
+              </dl>
+              <a href = "https://search.travel.rakuten.co.jp/ds/hotellist/Japan-Kagoshima-Kagoshima-Tenmonkan-review?s_kwcid=paidsearch&gclid=EAIaIQobChMIoofh8ICLggMVagp7Bx2LDQVLEAAYAyAAEgIpz_D_BwE&gclsrc=aw.ds" class = "btn">天文館 周辺のホテル・旅館</a>
+
 
             </div>
 
@@ -152,7 +163,7 @@
       }
 
       .TouristSpot_img img {
-        height: 10cm;
+        height: 8cm;
       }
 
       .TouristSpot_img p {
@@ -160,7 +171,7 @@
       }
 
       .TouristSpot_note {
-        margin-top: 2cm;
+        margin-top: 1.4cm;
         padding-left: 16px;
       }
 
@@ -187,7 +198,7 @@
       .TouristSpot_note dd {
         margin: 0px;
         display: flex;
-        width: 9cm;
+        width: 14cm;
       }
    
     /* ボタン */
@@ -198,6 +209,7 @@
         text-decoration: none;
         width: 320px;
         margin-top: 18px;
+        margin-left: 60px;
         padding: 1rem 4rem;
         font-weight: bold;
         border: 2px solid #27acd9;

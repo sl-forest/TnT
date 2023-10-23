@@ -29,26 +29,48 @@
 
     <main>
 
-      <h1>屋久島</h1>
+      <h1>知覧特攻平和会館</h1>
 
         <div class="TouristSpot">
 
             <div class = TouristSpot_img>
-                <img src="~/assets/img/Yakushima.jpg" alt="屋久島">
+                <img src="~/assets/img/Kinenkan.jpg" alt="知覧特攻平和会館">
             </div>
             
             <div class = TouristSpot_note>    
               
               <dl>
-                <dt>移動方法</dt>
-                <dd>【飛行機】鹿児島空港から直行便約40分
-                  <br>
-                  【船】鹿児島港より高速船トッピー・ロケットで約105～155分（種子島経由）
+                <dt>営業時間</dt>
+                <dd>9:00～17:00（入場は16:30まで）
+                    <br>
+                    ※年中無休
                 </dd>
               </dl>
-              
-              <a href = "https://travel.rakuten.co.jp/yado/kagoshima/yakushima.html" class = "btn">屋久島 周辺のホテル・旅館</a>
-              <a href = "https://experiences.travel.rakuten.co.jp/destinations/yakushima?scid=wi_txp_rakutentravel_travelguide" class = "btn">屋久島でできること</a>
+
+              <dl>
+                <dt>料金</dt>
+                <dd>大人500円、小中学生300円</dd>
+              </dl>
+
+              <dl>
+                <dt>住所</dt>
+                <dd>鹿児島県南九州市知覧町郡17881</dd>
+              </dl>
+
+              <dl>
+                <dt>移動方法</dt>
+                <dd>【電車・バス】JR指宿枕崎線「平川」駅よりバスで約30分、「特攻観音入口」バス停より徒歩約5分
+                    <br>
+                    【車】指宿スカイライン「谷山」ICより約45分
+                </dd>
+              </dl>
+
+              <dl>
+                <dt>詳しく</dt>
+                <dd><a href="https://www.chiran-tokkou.jp/index.html">知覧特攻平和会館 公式ページ</a></dd>
+              </dl>
+              <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46000483.html" class = "btn">知覧特攻平和会館 周辺のホテル・旅館</a>
+
 
             </div>
 
@@ -160,7 +182,7 @@
       }
 
       .TouristSpot_note {
-        margin-top: 2cm;
+        margin-top: 1.4cm;
         padding-left: 16px;
       }
 
@@ -187,7 +209,7 @@
       .TouristSpot_note dd {
         margin: 0px;
         display: flex;
-        width: 9cm;
+        width: 14cm;
       }
    
     /* ボタン */
@@ -198,6 +220,7 @@
         text-decoration: none;
         width: 320px;
         margin-top: 18px;
+        margin-left: 60px;
         padding: 1rem 4rem;
         font-weight: bold;
         border: 2px solid #27acd9;
