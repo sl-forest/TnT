@@ -19,9 +19,8 @@
             <li><a class="item-link" href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
             <li><a class="item-link" href="http://localhost:3000/History/pages/1">歴史</a></li>
             <li><a class="item-link" href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
-            <li><a class="item-link" href="http://localhost:3000/TraditionalCulture/pages/1">伝統芸能</a></li>
-            <li><a class="item-link" href="http://localhost:3000">観光地</a></li>
-            <li><a class="item-link" href="http://localhost:3000">世界遺産</a></li>
+            <li><a class="item-link" href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
+            <li><a class="item-link" href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
           </ul>
         </div>
       </nav>
@@ -190,21 +189,24 @@
         margin: 3px 0;
         overflow: hidden;
         display: flex;
+        align-items: center;
+        background-color: #e0e2e2;
       }
 
       .WorldHeritage_note dt {
-        background-color: #e0e2e2;
         vertical-align: middle;
         flex-shrink: 0;
         text-align: center;
         width: 20%;
-        margin-right: 1%;
       }
 
       .WorldHeritage_note dd {
+        width: 15cm;
         margin: 0px;
         display: flex;
-        width: 15cm;
+        background-color: #fff;
+        padding-left: 1%;
+        flex-grow: 1;
       }
    
     /* ボタン */

@@ -19,7 +19,6 @@
             <li><a class="item-link" href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
             <li><a class="item-link" href="http://localhost:3000/History/pages/1">歴史</a></li>
             <li><a class="item-link" href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
-            <li><a class="item-link" href="http://localhost:3000/TraditionalCulture/pages/1">伝統芸能</a></li>
             <li><a class="item-link" href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
             <li><a class="item-link" href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
           </ul>
@@ -76,7 +75,6 @@
         <li><a href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
         <li><a href="http://localhost:3000/History/pages/1">歴史</a></li>
         <li><a href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
-        <li><a href="http://localhost:3000/TraditionalCulture/pages/1">伝統芸能</a></li>
         <li><a href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
         <li><a href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
     </ul>

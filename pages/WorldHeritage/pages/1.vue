@@ -19,7 +19,6 @@
             <li><a class="item-link" href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
             <li><a class="item-link" href="http://localhost:3000/History/pages/1">歴史</a></li>
             <li><a class="item-link" href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
-            <li><a class="item-link" href="http://localhost:3000/TraditionalCulture/pages/1">伝統芸能</a></li>
             <li><a class="item-link" href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
             <li><a class="item-link" href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
           </ul>
@@ -28,7 +27,7 @@
     </header>
 
     <main>
-        <h1>「世界文化遺産」</h1>
+        <h1>「世界遺産」</h1>
         <h2 class = worldheritage_headline>関吉の疎水溝</h2>
         <div class="worldheritage">
             <div class = worldheritage_img>
@@ -42,73 +41,65 @@
             <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/SekiyoshinoSosuiko">スポット情報</a>
         </div>
 
-        <h2 class = worldheritage_headline></h2>
+        <h2 class = worldheritage_headline>寺山炭窯跡</h2>
         <div class="worldheritage">
             <div class = worldheritage_img>
-                <img src="~/assets/img/Yakushima.jpg" alt="">
+                <img src="~/assets/img/Sumigamaato.jpg" alt="寺山炭窯跡">
             </div>
 
             <div class = explanation>
-                <p></p>
+                <p>集成館事業で使用する白炭を増産するために建設した寺山炭窯の跡。</p>
+                <p>炭窯は斜面を造成して凝灰岩を積み上げて建設、その大きさは国内最大級。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/Yakushima">スポット情報</a>
+            <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/TerayamaCharcoalKiln">スポット情報</a>
         </div>
 
-        <h2 class = worldheritage_headline></h2>
+        <h2 class = worldheritage_headline>旧集成館「反射炉跡」</h2>
         <div class="worldheritage">
             <div class = worldheritage_img>
-                <img src="~/assets/img/Amami.jpg" alt="">
+                <img src="~/assets/img/Reverberatory furnace ruins.jpeg" alt="旧集成館「反射炉跡」">
+                <p>写真協力：</p>
+                <p>公益社団法人　鹿児島県観光連盟</p>
             </div>
 
             <div class = explanation>
-                <p></p>
+                <p>1851年、薩摩藩主に就任した島津斉彬は、富国強兵・殖産興業を唱え、集成館事業を興した。</p>
+                <p>集成館事業の中核となったのが、鹿児島市磯に築かれた工場群「集成館」。</p>
+                <p>製鉄大砲鋳造、洋式艦船の建造、製鉄や紡績、ガラス製造、活版印刷などがおこなわれた。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/Amami">スポット情報</a>
+            <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/ReverberatoryFurnaceRuins">スポット情報</a>
         </div>
 
-        <h2 class = worldheritage_headline></h2>
+        <h2 class = worldheritage_headline>旧集成館「旧鹿児島紡績所技師館」（異人館）</h2>
         <div class="worldheritage">
             <div class = worldheritage_img>
-                <img src="~/assets/img/SpaceCenter.jpg" alt="">
+                <img src="~/assets/img/Ijinkan.jpeg" alt="旧集成館「旧鹿児島紡績所技師館」（異人館）">
+                <p>写真協力：</p>
+                <p>公益社団法人　鹿児島県観光連盟</p>
             </div>
 
             <div class = explanation>
+                <p>日本で最初期の木造西洋建築。</p>
+                <p>西欧人たちがアジアなどの植民地によく建設したコロニアル様式の建物。</p>
                 <p></p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/SpaceCenter">スポット情報</a>
+            <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/Ijinkan">スポット情報</a>
         </div>
 
-        <!-- 検索ボックス -->
-        <form id="form1" action="http://localhost:3000/">
-        <input id="sbox" name="s" type="text" placeholder="キーワードを入力" />
-        <input id="sbtn" type="submit" value="検索" />
-        </form>
-        
-        <ul class="Pagination">
-          <li class="Pagination-Item">
-            <a class="Pagination-Item-Link" href="http://localhost:3000/WorldHeritage/pages/1">
-            <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
-            </svg>
-            </a>
-            </li>
+        <h2 class = worldheritage_headline>旧集成館機械工場（尚古集成館）</h2>
+        <div class="worldheritage">
+            <div class = worldheritage_img>
+                <img src="~/assets/img/Shoko Shuseikan Museum.jpg" alt="旧集成館機械工場（尚古集成館）">
+            </div>
 
-              <li class="Pagination-Item">
-                <a class="Pagination-Item-Link isActive" href="http://localhost:3000/WorldHeritage/pages/1"><span>1</span></a>
-              </li>
-              
-              <li class="Pagination-Item">
-                <a class="Pagination-Item-Link" href="http://localhost:3000/WorldHeritage/pages/2"><span>2</span></a>
-              </li>
-
-              <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/WorldHeritage/pages/2">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
-                      </svg>
-                      </a>
-                  </li>
-              </ul>
+            <div class = explanation>
+                <p>洋式船や蒸気機関の修理、部品製造を行った集成館の機械工場。</p>
+                <p>竹下清右衛門は長崎製鉄所などの西洋式の建物を参考に工場を建設。</p>
+                <p>現在は博物館（尚古集成館）として島津家や集成館事業の歴史を学ぶことができる。</p>
+            </div>
+            <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/ShokoShuseikanMuseum">スポット情報</a>
+        </div>
+      
     </main>
 
   <fotter>

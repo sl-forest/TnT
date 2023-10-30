@@ -19,9 +19,8 @@
             <li><a class="item-link" href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
             <li><a class="item-link" href="http://localhost:3000/History/pages/1">歴史</a></li>
             <li><a class="item-link" href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
-            <li><a class="item-link" href="http://localhost:3000/TraditionalCulture/pages/1">伝統芸能</a></li>
             <li><a class="item-link" href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
-            <li><a class="item-link" href="http://localhost:3000">世界遺産</a></li>
+            <li><a class="item-link" href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
           </ul>
         </div>
       </nav>
@@ -49,8 +48,8 @@
             </div>
 
             <div class = explanation>
+                <p>日本で初めて世界自然遺産に登録された。</p>
                 <p>本土最南端・鹿児島県佐多岬の南南西約60キロメートルの海上に位置する島。</p>
-                <p>日本初の世界自然遺産登録エリア。</p>
                 <p>小さな面積ながら、九州最高峰の宮之浦岳（標高約1,936メートル）をはじめ、1,000メートル超の山々が46座もあり、「洋上のアルプス」と呼ばれている。</p>
             </div>
             <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Yakushima">スポット情報</a>
@@ -63,6 +62,7 @@
             </div>
 
             <div class = explanation>
+                <p>世界自然遺産に登録されている。</p>
                 <p>鹿児島県と沖縄県の中間に位置し、日本版「天国に一番近い島」と称されている。</p>
                 <p>青く澄んだ海や、ここにしか生息していない動植物など、雄大な自然が魅力。</p>
             </div>

@@ -28,45 +28,59 @@
 
     <main>
 
-      <h1>鹿児島神宮</h1>
+      <h1>旧集成館「反射炉跡」</h1>
 
-        <div class="TouristSpot">
+        <div class="WorldHeritage">
 
-            <div class = TouristSpot_img>
-                <img src="~/assets/img/kagoshimajingu.jpg" alt="鹿児島神宮">
+            <div class = WorldHeritage_img>
+                <img src="~/assets/img/Reverberatory furnace ruins.jpeg" alt="旧集成館「反射炉跡」">
             </div>
             
-            <div class = TouristSpot_note>    
+            <div class = WorldHeritage_note>    
               
               <dl>
                 <dt>営業時間</dt>
-                <dd>参拝自由
-                    <br>
-                    授与所は8:30～17:00（閉所）
-                </dd>
+                <dd>
+                  8:30～17:30（3/16～10/31）
+                  <br>
+                  8:30～17:20（11/1～3/15）
+                  </dd>
+              </dl>
+
+              <dl>
+                <dt>休日</dt>
+                <dd>年中無休</dd>
               </dl>
 
               <dl>
                 <dt>料金</dt>
-                <dd>無料</dd>
+                <dd>
+                  大人:1,000円 
+                  <br>
+                  小人:500円（尚古集成館と共通）
+                  </dd>
               </dl>
 
               <dl>
                 <dt>住所</dt>
-                <dd>鹿児島県霧島市隼人町内2496-1</dd>
+                <dd>鹿児島県鹿児島市吉野町9700-1</dd>
               </dl>
 
               <dl>
                 <dt>移動方法</dt>
-                <dd>JR日豊本線隼人駅から徒歩15分</dd>
+                <dd>
+                    【車】鹿児島中央駅から20分
+                    <br>
+                    【車】鹿児島空港から40分
+                    <br>
+                    【バス】鹿児島市周遊バスで仙巌園前（磯庭園前）下車徒歩1分。
+                </dd>
               </dl>
 
               <dl>
-                <dt>詳しく</dt>
-                <dd><a href="https://kagoshima-jingu.jp/">鹿児島神宮 公式ページ</a></dd>
+                <dt>詳しくは</dt>
+                <dd><a href="https://www.senganen.jp/">仙厳園 公式ホームページ</a></dd>
               </dl>
-              <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46010643.html" class = "btn">鹿児島神宮 周辺のホテル・旅館</a>
-
 
             </div>
 
@@ -89,15 +103,15 @@
 <style>
     /* スマホ向けスタイル */
     @media screen and (max-width: 767px) {
-    .TouristSpot_note > dd {
+    .WorldHeritage_note > dd {
         border: 1px solid #ddd;
         border-top: none;
     }
-    .TouristSpot_note > dt,
-    .TouristSpot_note > dd {
+    .WorldHeritage_note > dt,
+    .WorldHeritage_note > dd {
         text-align: center;
     }
-    .TouristSpot_note > dd > ul {
+    .WorldHeritage_note > dd > ul {
         text-align: left;
     }
 }
@@ -160,33 +174,33 @@
         text-decoration: none;  /*メニューの下線を消す*/
       }
       
-      .TouristSpot {
+      .WorldHeritage {
         display: flex;
         padding-bottom: 24px;
       }
 
-      .TouristSpot h1 {
+      .WorldHeritage h1 {
         margin: 1.6px auto;
       }
 
-      .TouristSpot_img img {
-        height: 10cm;
+      .WorldHeritage_img img {
+        height: 9.5cm;
       }
 
-      .TouristSpot_img p {
+      .WorldHeritage_img p {
         margin: 0;
       }
 
-      .TouristSpot_note {
-        margin-top: 1.8cm;
+      .WorldHeritage_note {
+        margin-top: 1.5cm;
         padding-left: 16px;
       }
 
-      .TouristSpot_note h2 {
+      .WorldHeritage_note h2 {
         margin: 8px auto;
       }
 
-      .TouristSpot_note dl {
+      .WorldHeritage_note dl {
         font-size: 15px;
         margin: 3px 0;
         overflow: hidden;
@@ -195,14 +209,15 @@
         background-color: #e0e2e2;
       }
 
-      .TouristSpot_note dt {
+      .WorldHeritage_note dt {
         vertical-align: middle;
         flex-shrink: 0;
         text-align: center;
         width: 20%;
       }
 
-      .TouristSpot_note dd {
+      .WorldHeritage_note dd {
+        width: 15cm;
         margin: 0px;
         display: flex;
         background-color: #fff;
@@ -218,7 +233,7 @@
         text-decoration: none;
         width: 320px;
         margin-top: 18px;
-        margin-left: 60px;
+        margin-left: 65px;
         padding: 1rem 4rem;
         font-weight: bold;
         border: 2px solid #27acd9;
