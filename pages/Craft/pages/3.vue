@@ -33,6 +33,7 @@
         <div class="craft">
             <div class = craft01_img>
                 <img src="~/assets/img/Tidin.png" alt="太鼓（チヂン）">
+                <p>※画像はイメージです。</p>
             </div>
             
             <div class = explanation>
@@ -46,10 +47,12 @@
         <div class="craft">
             <div class = craft01_img>
                 <img src="~/assets/img/TaneBoutyou.jpg" alt="種子包丁">
+                <p>※画像はイメージです。</p>
             </div>
 
             <div class = explanation>
                 <p>種子島には鉄砲伝来以来の鍛冶の歴史があり、種子包丁には刀鍛冶の伝統技術がいかされている。</p>
+                <p>持ち手の部分に種子島と彫られている。</p>
                 <p>切れ味鋭い包丁で、日常品としてだけでなく土産品としても需要がある。</p>
             </div>
             <a class ="explanation-link" href="#">詳細はこちら</a>
@@ -233,7 +236,7 @@
 
       .explanation {
         margin: auto;
-        width: 40em;
+        width: 44em;
       }
       
       .explanation-link {

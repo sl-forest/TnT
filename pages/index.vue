@@ -37,16 +37,37 @@
           <h1>～鹿児島について～</h1>
           <p>多くの観光名所や豊かな自然があり、その土地に根付いた伝統と人の温もり溢れる地方。</p>
           <p>時代の流れに揉まれ戦乱の歴史をその身に刻みながらも発展してきた鹿児島。</p>
-          <p>そんな魅力溢れる鹿児島を体験してみてはいかがでしょうか？</p>
+          <p>そんな魅力溢れる鹿児島を体験してみてください。</p>
         </center>
       </div>
 
-      <div class= talk>
+      <div class= "talk">
         <div class = human01><img src ="" alt="ジジイ"></div>
         <p></p>
         <div class = human02><img src ="" alt="息子"></div>
         <p></p>
       </div>
+
+      <div class = "introduction">
+        <h1>工芸品</h1>
+        <ul class = "craft-introduction">
+        
+          <li class = "craft-image">
+            <a href = "http://localhost:3000/Craft/pages/1"><img src="~/assets/img/SatsumaYaki.jpg" alt="工芸品"></a>
+          </li>
+
+          <li class = "craft-image">
+            <a href = "http://localhost:3000/Craft/pages/2"><img src="~/assets/img/SatumaKiriko.jpg" alt="工芸品"></a>
+          </li>
+
+          <li class = "craft-image">
+            <a href = "http://localhost:3000/Craft/pages/3"><img src="~/assets/img/TaneBoutyou.jpg" alt="工芸品"></a>
+          </li>
+
+        </ul>
+      </div>
+
+
     </body>
     
     <footer class="footer">
@@ -79,6 +100,7 @@
     margin-left: 16px;
   }
 
+/* ヘッダー */
   header {
     display: flex;  /*ヘッダーの下の要素を並列に*/
     height: 80px; /*ヘッダーの高さ*/
@@ -101,6 +123,10 @@
     width: 65px;  /*ロゴ画像の幅調整*/
     height: 65px; /*ロゴ画像の高さ調整*/
     padding-top: 1.5px; /*ロゴの位置調整*/
+  }
+
+  .menu {
+    padding-left: 3em;
   }
  
   .item ul {
@@ -142,10 +168,6 @@
     font-family: sans-serif;
   }
 
-  bo  dy {
-    background: rgb(0, 0, 0);
-  }
-
   a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -154,6 +176,24 @@
   ul {
     list-style: none;
     padding: 0;
+  }
+
+/* 画像 */
+  .craft-introduction {
+    display: flex;
+    justify-content: center;
+  }
+
+  .craft-image {
+    list-style: none;
+  }
+
+  .craft-image:nth-child(2) {
+    margin: 0 4em;
+  }
+
+  .craft-image img {
+    height: 20em;
   }
 
   .footer {

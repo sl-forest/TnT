@@ -195,21 +195,23 @@
         margin: 3px 0;
         overflow: hidden;
         display: flex;
+        align-items: center;
+        background-color: #e0e2e2;
       }
 
       .TouristSpot_note dt {
-        background-color: #e0e2e2;
         vertical-align: middle;
         flex-shrink: 0;
         text-align: center;
         width: 20%;
-        margin-right: 1%;
       }
 
       .TouristSpot_note dd {
         margin: 0px;
         display: flex;
-        width: 14cm;
+        background-color: #fff;
+        padding-left: 1%;
+        flex-grow: 1;
       }
    
     /* ボタン */

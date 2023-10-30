@@ -29,28 +29,49 @@
 
     <main>
 
-      <h1>奄美大島</h1>
+      <h1>関吉の疎水溝</h1>
 
-        <div class="TouristSpot">
+        <div class="WorldHeritage">
 
-            <div class = TouristSpot_img>
-                <img src="~/assets/img/Amami.jpg" alt="奄美大島">
+            <div class = WorldHeritage_img>
+                <img src="~/assets/img/Sekiyoshi.jpg" alt="関吉の疎水溝">
             </div>
             
-            <div class = TouristSpot_note>    
+            <div class = WorldHeritage_note>    
               
               <dl>
+                <dt>営業時間</dt>
+                <dd>見学自由</dd>
+              </dl>
+
+              <dl>
+                <dt>料金</dt>
+                <dd>無料</dd>
+              </dl>
+
+              <dl>
+                <dt>住所</dt>
+                <dd>鹿児島県鹿児島市下田町</dd>
+              </dl>
+
+              <dl>
                 <dt>移動方法</dt>
-                <dd>【飛行機】羽田空港、成田空港、伊丹空港、関西空港、福岡空港、鹿児島空港、那覇空港より直行便あり
-                  <br>
-                  【船】鹿児島新港より約11時間
+                <dd>【車】鹿児島中央駅から30分
+                    <br>
+                    【バス】鹿児島中央駅から30分（バス下車後徒歩8分）
                 </dd>
               </dl>
 
-              <a href = "https://search.travel.rakuten.co.jp/ds/hotellist/Japan-Kagoshima-Amami-Amami_Oshima" class = "btn">奄美大島 周辺のホテル・旅館</a>
-              <a href = "https://experiences.travel.rakuten.co.jp/destinations/amamioshima-kikaijima-tokunoshima?scid=wi_txp_rakutentravel_travelguide" class = "btn">奄美大島でできること</a>
+              <dl>
+                <dt>詳しくは</dt>
+                <dd><a href="https://www.kagoshima-kankou.com/industrial-heritage/52606">鹿児島の旅 関吉の疎水溝</a></dd>
+              </dl>
 
             </div>
+
+        </div>
+
+        <div>
 
         </div>
 
@@ -67,15 +88,15 @@
 <style>
     /* スマホ向けスタイル */
     @media screen and (max-width: 767px) {
-    .TouristSpot_note > dd {
+    .WorldHeritage_note > dd {
         border: 1px solid #ddd;
         border-top: none;
     }
-    .TouristSpot_note > dt,
-    .TouristSpot_note > dd {
+    .WorldHeritage_note > dt,
+    .WorldHeritage_note > dd {
         text-align: center;
     }
-    .TouristSpot_note > dd > ul {
+    .WorldHeritage_note > dd > ul {
         text-align: left;
     }
 }
@@ -138,54 +159,52 @@
         text-decoration: none;  /*メニューの下線を消す*/
       }
       
-      .TouristSpot {
+      .WorldHeritage {
         display: flex;
         padding-bottom: 24px;
       }
 
-      .TouristSpot h1 {
+      .WorldHeritage h1 {
         margin: 1.6px auto;
       }
 
-      .TouristSpot_img img {
-        height: 10cm;
+      .WorldHeritage_img img {
+        height: 9.5cm;
       }
 
-      .TouristSpot_img p {
+      .WorldHeritage_img p {
         margin: 0;
       }
 
-      .TouristSpot_note {
-        margin-top: 2.1cm;
+      .WorldHeritage_note {
+        margin-top: 2.4cm;
         padding-left: 16px;
       }
 
-      .TouristSpot_note h2 {
+      .WorldHeritage_note h2 {
         margin: 8px auto;
       }
 
-      .TouristSpot_note dl {
+      .WorldHeritage_note dl {
         font-size: 15px;
         margin: 3px 0;
         overflow: hidden;
         display: flex;
-        align-items: center;
-        background-color: #e0e2e2;
       }
 
-      .TouristSpot_note dt {
+      .WorldHeritage_note dt {
+        background-color: #e0e2e2;
         vertical-align: middle;
         flex-shrink: 0;
         text-align: center;
         width: 20%;
+        margin-right: 1%;
       }
 
-      .TouristSpot_note dd {
+      .WorldHeritage_note dd {
         margin: 0px;
         display: flex;
-        background-color: #fff;
-        padding-left: 1%;
-        flex-grow: 1;
+        width: 15cm;
       }
    
     /* ボタン */

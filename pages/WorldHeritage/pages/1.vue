@@ -20,54 +20,62 @@
             <li><a class="item-link" href="http://localhost:3000/History/pages/1">歴史</a></li>
             <li><a class="item-link" href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
             <li><a class="item-link" href="http://localhost:3000/TraditionalCulture/pages/1">伝統芸能</a></li>
-            <li><a class="item-link" href="http://localhost:3000">観光地</a></li>
-            <li><a class="item-link" href="http://localhost:3000">世界遺産</a></li>
+            <li><a class="item-link" href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
+            <li><a class="item-link" href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
           </ul>
         </div>
       </nav>
     </header>
 
     <main>
-        <h1>「伝統工芸品」</h1>
-        <h2 class = craft_headline>本場大島紬</h2>
-        <div class="craft">
-            <div class = craft01_img>
-                <img src="~/assets/img/OshimaTsumugi.jpg" alt="本場大島紬">
+        <h1>「世界文化遺産」</h1>
+        <h2 class = worldheritage_headline>関吉の疎水溝</h2>
+        <div class="worldheritage">
+            <div class = worldheritage_img>
+                <img src="~/assets/img/Sekiyoshi.jpg" alt="関吉の疎水溝">
             </div>
             
             <div class = explanation>
-                <p>1,300年の歴史を持ち、絹織物の最高傑作といわれている。</p>
-                <p>30数工程もある緻密な手作業により、図案から織り上がるまで半年から1年以上もかかる。</p>
+                <p>集成館では高炉や鑽開台の動力源として水車を使用しており、水が必要だったため、新たな水路をこの場所に築いた。</p>
+                <p>世界文化遺産「明治日本の産業革命遺産」の構成資産。</p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/SekiyoshinoSosuiko">スポット情報</a>
         </div>
 
-        <h2 class = craft_headline>川辺仏壇</h2>
-        <div class="craft">
-            <div class = craft01_img>
-                <img src="~/assets/img/Butsudan.jpg" alt="川辺仏壇">
+        <h2 class = worldheritage_headline></h2>
+        <div class="worldheritage">
+            <div class = worldheritage_img>
+                <img src="~/assets/img/Yakushima.jpg" alt="">
             </div>
 
             <div class = explanation>
-                <p>川辺仏壇（かわなべぶつだん）は、鹿児島県南九州市川辺町周辺で作られている仏壇。</p>
-                <p>川辺仏壇の特徴は、「ガマ戸」と呼ばれる川辺仏壇オリジナルの独特な仏壇があることです。</p>
-                <p>”ガマ”とは、鹿児島県の方言で洞窟を表します。</p>
+                <p></p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/Yakushima">スポット情報</a>
         </div>
 
-        <h2 class = craft_headline>薩摩焼</h2>
-        <div class="craft">
-            <div class = craft03_img>
-                <img src="~/assets/img/SatsumaYaki.jpg" alt="薩摩焼">
+        <h2 class = worldheritage_headline></h2>
+        <div class="worldheritage">
+            <div class = worldheritage_img>
+                <img src="~/assets/img/Amami.jpg" alt="">
             </div>
 
             <div class = explanation>
-                <p>薩摩焼（さつまやき）は、鹿児島県内で焼かれる陶磁器です。</p>
-                <p>鉄分が多い土を高温で焼き締めるため、素朴で頑丈な仕上がりが特徴。</p>
-                <p>「白もん」と呼ばれる豪華絢爛な色絵錦手の陶器と「黒もん」と呼ばれる大衆向けの雑器に分かれる。</p>
+                <p></p>
             </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+            <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/Amami">スポット情報</a>
+        </div>
+
+        <h2 class = worldheritage_headline></h2>
+        <div class="worldheritage">
+            <div class = worldheritage_img>
+                <img src="~/assets/img/SpaceCenter.jpg" alt="">
+            </div>
+
+            <div class = explanation>
+                <p></p>
+            </div>
+            <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/SpaceCenter">スポット情報</a>
         </div>
 
         <!-- 検索ボックス -->
@@ -78,7 +86,7 @@
         
         <ul class="Pagination">
           <li class="Pagination-Item">
-            <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/1">
+            <a class="Pagination-Item-Link" href="http://localhost:3000/WorldHeritage/pages/1">
             <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
             </svg>
@@ -86,19 +94,15 @@
             </li>
 
               <li class="Pagination-Item">
-                <a class="Pagination-Item-Link isActive" href="http://localhost:3000/Craft/pages/1"><span>1</span></a>
+                <a class="Pagination-Item-Link isActive" href="http://localhost:3000/WorldHeritage/pages/1"><span>1</span></a>
               </li>
               
               <li class="Pagination-Item">
-                <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/2"><span>2</span></a>
+                <a class="Pagination-Item-Link" href="http://localhost:3000/WorldHeritage/pages/2"><span>2</span></a>
               </li>
 
               <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3"><span>3</span></a>
-              </li>
-
-              <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3">
+                  <a class="Pagination-Item-Link" href="http://localhost:3000/WorldHeritage/pages/2">
                       <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
                       </svg>
@@ -218,37 +222,33 @@
         margin-bottom: 0;
       }
 
-      h2.craft_headline {
+      h2.worldheritage_headline {
         margin: 0;
         padding-top: 8px;
         border-top: 2px solid #d5d4c3;
       }
       
-      /* 工芸品一覧説明 */
-      .craft {
+      /* 世界遺産一覧説明 */
+      .worldheritage {
         display: flex;
       }
 
-      .craft p {
+      .worldheritage p {
         margin: 0;
+        font-size: 14px;
       }
 
       .explanation {
         margin: auto;
-        width: 18cm;
+        width: 40em;
       }
       
       .explanation-link {
         align-self: end;
       }
 
-      /* 工芸品画像 */
-      .craft01_img img{
-        width: 5cm;
-        height: auto;
-      }
-
-      .craft03_img img{
+      /* 世界遺産画像 */
+      .worldheritage_img img{
         width: 5cm;
         height: auto;
       }

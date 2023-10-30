@@ -35,6 +35,7 @@
 
             <div class = TouristSpot_img>
                 <img src="~/assets/img/Sunamushi.jpg" alt="指宿温泉 砂むし会館 砂楽">
+                <a href = "https://travel.rakuten.co.jp/onsen/kagoshima/OK00906.html" class = "btn">指宿温泉の温泉旅館・ホテル一覧</a>
             </div>
             
             <div class = TouristSpot_note>    
@@ -80,8 +81,6 @@
                 <dt>詳しく</dt>
                 <dd><a href="http://ibusuki-saraku.jp/">砂むし会館 砂楽 公式ページ</a></dd>
               </dl>
-              <a href = "https://travel.rakuten.co.jp/onsen/kagoshima/OK00906.html" class = "btn">指宿温泉の温泉旅館・ホテル一覧</a>
-
 
             </div>
 
@@ -206,21 +205,23 @@
         margin: 3px 0;
         overflow: hidden;
         display: flex;
+        align-items: center;
+        background-color: #e0e2e2;
       }
 
       .TouristSpot_note dt {
-        background-color: #e0e2e2;
         vertical-align: middle;
         flex-shrink: 0;
         text-align: center;
         width: 20%;
-        margin-right: 1%;
       }
 
       .TouristSpot_note dd {
         margin: 0px;
         display: flex;
-        width: 14cm;
+        background-color: #fff;
+        padding-left: 1%;
+        flex-grow: 1;
       }
    
     /* ボタン */
