@@ -31,8 +31,7 @@
         <h2 class = craft_headline>太鼓（チヂン）</h2>
         <div class="craft">
             <div class = craft01_img>
-                <img src="~/assets/img/Tidin.png" alt="太鼓（チヂン）">
-                <p>※画像はイメージです。</p>
+                <img src="~/assets/img/Tijin.jpg" alt="太鼓（チヂン）">
             </div>
             
             <div class = explanation>
@@ -42,39 +41,32 @@
             <a class ="explanation-link" href="#">詳細はこちら</a>
         </div>
 
-        <h2 class = craft_headline>種子包丁</h2>
+        <h2 class = craft_headline>甲冑（かっちゅう）</h2>
         <div class="craft">
-            <div class = craft01_img>
-                <img src="~/assets/img/TaneBoutyou.jpg" alt="種子包丁">
-                <p>※画像はイメージです。</p>
+            <div class = craft02_img>
+                <img src="~/assets/img/Kattyu.jpeg" alt="甲冑">
+                <p>写真協力：</p>
+                <p>公益社団法人 鹿児島県観光連盟</p>
             </div>
 
             <div class = explanation>
-                <p>種子島には鉄砲伝来以来の鍛冶の歴史があり、種子包丁には刀鍛冶の伝統技術がいかされている。</p>
-                <p>持ち手の部分に種子島と彫られている。</p>
-                <p>切れ味鋭い包丁で、日常品としてだけでなく土産品としても需要がある。</p>
+                <p>昔ながらの製法を守りながら、映画・テレビなどの時代劇に使用される鎧やかぶとの全国シェア９割以上の生産を誇り、全国各地のお祭りの武者行列などでも使用されている。</p>
             </div>
             <a class ="explanation-link" href="#">詳細はこちら</a>
         </div>        
 
-        <h2 class = craft_headline>五月幟</h2>
+        <h2 class = craft_headline>つづら工芸</h2>
         <div class="craft">
-            <div class = craft04_img>
-                <img src="" alt="五月幟">
+            <div class = craft02_img>
+                <img src="~/assets/img/Tudura.jpg" alt="つづら工芸">
             </div>
 
             <div class = explanation>
-                <p>鯉のぼりよりも歴史の古い幟旗。 </p>
-                <p>家に男児が生まれたことを神様に伝え、子どもの成長と守護を願うために、家紋等を入れた幟を天に高く掲げるものとして、島津家に代々伝わっている。</p>
+                <p>薩摩郡さつま町で製作されており、山仕事の作業道具を入れる籠として中世から普及した。</p>
+                <p>現在では買い物かごや壁飾りがつくられている。</p>
             </div>
             <a class ="explanation-link" href="#">詳細はこちら</a>
         </div>
-
-        <!-- 検索ボックス -->
-        <form id="form1" action="http://localhost:3000/">
-        <input id="sbox" name="s" type="text" placeholder="キーワードを入力" />
-        <input id="sbtn" type="submit" value="検索" />
-        </form>
         
         <ul class="Pagination">
           <li class="Pagination-Item">
@@ -151,13 +143,13 @@
       }
       
       nav ul {
-      padding-left: 24px;
-    }
+        padding-left: 3em;
+      }
 
       .item ul {
         display: inline-block;
         margin-top: 25px;
-    }
+      }
 
       ul {
         list-style: none;
@@ -170,50 +162,13 @@
         margin-right: 16px;
         padding: 10px;
         border-bottom: 2px solid #2ac5b3;
-    }
+      }
 
       .item li a {
         color: #fff;  /*メニューの色*/
         text-decoration: none;  /*メニューの下線を消す*/
       }
-
-    /*フォーム全体*/
-      #form1{
-        margin-left: auto; 
-        margin-right: auto;
-        position: relative;  /*フォームの相対位置*/	
-        max-width: 270px;  /*フォームのサイズ*/
-        margin-bottom: 15px; /*フォームの下に余白*/	 	
-      }
-
-    /*検索ボックス*/
-      #sbox{
-        left: 0;  /*検索ボタンの位置調整*/
-        top: 13.5px; 	/*検索ボタンの位置調整*/
-        outline: 0;  /*クリック時の青い枠線消す*/	
-        height: 35px;  /*検索ボックスの高さ*/	
-        padding: 0 10px; /*テキスト位置調整*/	 
-        border-radius: 2px 0 0 2px;  /*検索ボックスの角を丸める*/		
-        background:#eee;  /*検索ボックスの背景カラー*/		
-      }
-
-    /*検索ボタン*/
-      #sbtn{
-        width:70px; /*検索ボタンの横幅*/ 
-        height:40px;  /*検索ボタンの縦幅*/ 
-        border-radius:0 2px 2px 0;  /*検索ボタンの角を丸める*/ 
-        background:#7fbfff; /*検索ボタンの背景カラー*/ 
-        border:none;  /*検索ボタンの枠線を消す*/ 
-        color:#fff; /*検索ボタンのテキストカラー*/ 
-        font-weight:bold; /*検索ボタンのテキスト太字*/ 
-        font-size:16px; /*検索ボタンのフォントサイズ*/ 
-      }
-
-    /*検索ボタンマウスオーバー時*/
-      #sbtn:hover{
-        color:#666; /*検索ボタンマウスオーバー時のフォントカラー*/ 
-      }
-
+      
       h1 {
         margin-bottom: 0;
       }
@@ -231,6 +186,7 @@
 
       .craft p {
         margin: 0;
+        font-size: 14px;
       }
 
       .explanation {
@@ -244,13 +200,13 @@
 
       /* 工芸品画像 */
       .craft01_img img{
-        width: 4cm;
+        width: 4.5cm;
         height: auto;
       }
 
-      .craft03_img img{
-        width: 5cm;
-        height: auto;
+      .craft02_img img{
+        width: 4.5cm;
+        height: 4cm;
       }
       
       /* ページネーション */

@@ -31,15 +31,12 @@
         <h2 class = craft_headline>屋久杉</h2>
         <div class="craft">
             <div class = craft04_img>
-                <img src="~/assets/img/yakusugi.jpg" alt="屋久杉">
+                <img src="~/assets/img/Yakusugi.jpg" alt="屋久杉">
             </div>
 
             <div class = explanation>
-                <p>世界自然遺産に登録されている「屋久島」は1,000メートル以上の高峰が連なっており、
-                  この大自然の中で育った樹齢1,000年以上のものを「屋久杉」と呼んでいます。
-                  縄文の太古より風雨に耐え抜いてきた生命力あふれる屋久杉は、木目の美しさ、色、かおりの良さなど、
-                  まさに銘木というにふさわしく、家具やインテリア用品などに幅広く活用されています。
-                </p>
+                <p>世界自然遺産に登録されている「屋久島」は1,000メートル以上の高峰が連なっており、この大自然の中で育った樹齢1,000年以上のものを「屋久杉」と呼んでいる。</p>
+                <p> 木目の美しさ、色、かおりの良さなど、まさに銘木というにふさわしく、家具やインテリア用品などに幅広く活用されている。</p>
                 <p>現在は自然保護のため、倒木や土埋木だけを工芸品として加工しています。</p>
             </div>
             <a class ="explanation-link" href="#">詳細はこちら</a>
@@ -53,30 +50,24 @@
 
             <div class = explanation>
                 <p>江戸末期に薩摩藩で造られた切子ガラス。</p>
-                <p>鉛を24～25％含むクリスタルガラスを使用し、無色のガラス（クリアガラス）の表面に色ガラスを1～2mm程度溶着させた ”色被せガラス”にカットを施し、磨きあげた製品を「薩摩切子」と言います。</p> 
+                <p>鉛を24～25%含むクリスタルガラスを使用し、無色のガラス（クリアガラス）の表面に色ガラスを1～2mm程度溶着させた ”色被せガラス”にカットを施し、磨きあげた製品を「薩摩切子」と言う。</p> 
             </div>
             <a class ="explanation-link" href="#">詳細はこちら</a>
         </div>
 
-        <h2 class = craft_headline>薩摩弓</h2>
+        <h2 class = craft_headline>薩摩つげ櫛</h2>
         <div class="craft">
             <div class = craft04_img>
-                <img src="" alt="薩摩弓">
+                <img src="~/assets/img/Tugegushi.jpg" alt="薩摩つげ櫛">
             </div>
 
             <div class = explanation>
-                <p>霧島市で製作されている。</p>
-                <p>弓には全国に幾つかの系統があるが、実践向きで耐湿性に優れた薩摩弓は、明治時代から大正時代にかけて特に人気があった。
-                <p>当時は、全国の弓の殆どが薩摩弓であった。</p>
+                <p>江戸時代から「櫛になりたや薩摩の櫛に、諸国娘の手に渡ろ」とうたわれ、全国に名を馳せていた。</p>
+                <p>材質が硬く、色艶が美しいのが特徴。</p>
+                <p>なめらかな櫛どおりで、静電気・抜け毛・切れ毛が少ないといわれている。</p>
             </div>
             <a class ="explanation-link" href="#">詳細はこちら</a>
         </div>
-
-        <!-- 検索ボックス -->
-        <form id="form1" action="http://localhost:3000/">
-        <input id="sbox" name="s" type="text" placeholder="キーワードを入力" />
-        <input id="sbtn" type="submit" value="検索" />
-        </form>
         
         <ul class="Pagination">
           <li class="Pagination-Item">
@@ -153,13 +144,13 @@
       }
       
       nav ul {
-      padding-left: 24px;
-    }
+        padding-left: 3em;
+      }
 
       .item ul {
         display: inline-block;
         margin-top: 25px;
-    }
+      }
 
       ul {
         list-style: none;
@@ -172,48 +163,11 @@
         margin-right: 16px;
         padding: 10px;
         border-bottom: 2px solid #2ac5b3;
-    }
+      }
 
       .item li a {
         color: #fff;  /*メニューの色*/
         text-decoration: none;  /*メニューの下線を消す*/
-      }
-
-    /*フォーム全体*/
-      #form1{
-        margin-left: auto; 
-        margin-right: auto;
-        position: relative;  /*フォームの相対位置*/	
-        max-width: 270px;  /*フォームのサイズ*/
-        margin-bottom: 15px; /*フォームの下に余白*/	 	
-      }
-
-    /*検索ボックス*/
-      #sbox{
-        left: 0;  /*検索ボタンの位置調整*/
-        top: 13.5px; 	/*検索ボタンの位置調整*/
-        outline: 0;  /*クリック時の青い枠線消す*/	
-        height: 35px;  /*検索ボックスの高さ*/	
-        padding: 0 10px; /*テキスト位置調整*/	 
-        border-radius: 2px 0 0 2px;  /*検索ボックスの角を丸める*/		
-        background:#eee;  /*検索ボックスの背景カラー*/		
-      }
-
-    /*検索ボタン*/
-      #sbtn{
-        width:70px; /*検索ボタンの横幅*/ 
-        height:40px;  /*検索ボタンの縦幅*/ 
-        border-radius:0 2px 2px 0;  /*検索ボタンの角を丸める*/ 
-        background:#7fbfff; /*検索ボタンの背景カラー*/ 
-        border:none;  /*検索ボタンの枠線を消す*/ 
-        color:#fff; /*検索ボタンのテキストカラー*/ 
-        font-weight:bold; /*検索ボタンのテキスト太字*/ 
-        font-size:16px; /*検索ボタンのフォントサイズ*/ 
-      }
-
-    /*検索ボタンマウスオーバー時*/
-      #sbtn:hover{
-        color:#666; /*検索ボタンマウスオーバー時のフォントカラー*/ 
       }
 
       h1 {

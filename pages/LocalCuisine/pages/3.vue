@@ -165,13 +165,13 @@
       }
       
       nav ul {
-      padding-left: 24px;
-    }
+        padding-left: 3em;
+      }
 
       .item ul {
         display: inline-block;
         margin-top: 25px;
-    }
+      }
 
       ul {
         list-style: none;
@@ -184,7 +184,7 @@
         margin-right: 16px;
         padding: 10px;
         border-bottom: 2px solid #2ac5b3;
-    }
+      }
 
       .item li a {
         color: #fff;  /*メニューの色*/

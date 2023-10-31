@@ -48,22 +48,96 @@
       </div>
 
       <div class = "introduction">
+        
         <h1>工芸品</h1>
         <ul class = "craft-introduction">
         
           <li class = "craft-image">
-            <a href = "http://localhost:3000/Craft/pages/1"><img src="~/assets/img/SatsumaYaki.jpg" alt="工芸品"></a>
+            <a href = "http://localhost:3000/Craft/pages/1"><img src="~/assets/img/SatsumaYaki.jpg" alt="薩摩焼"></a>
           </li>
 
           <li class = "craft-image">
-            <a href = "http://localhost:3000/Craft/pages/2"><img src="~/assets/img/SatumaKiriko.jpg" alt="工芸品"></a>
+            <a href = "http://localhost:3000/Craft/pages/2"><img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子"></a>
           </li>
 
           <li class = "craft-image">
-            <a href = "http://localhost:3000/Craft/pages/3"><img src="~/assets/img/TaneBoutyou.jpg" alt="工芸品"></a>
+            <a href = "http://localhost:3000/Craft/pages/3"><img src="~/assets/img/Tudura.jpg" alt="つづら"></a>
           </li>
 
         </ul>
+
+         <h1>歴史</h1>
+        <ul class = "history-introduction">
+        
+          <li class = "history-image">
+            <a href = "http://localhost:3000/History/pages/1"><img src="~/assets/img/segodon.jpeg" alt="西郷隆盛"></a>
+          </li>
+
+          <li class = "history-image">
+            <a href = "http://localhost:3000/History/pages/1"><img src="~/assets/img/shimadu.jpg" alt="島津斉彬"></a>
+          </li>
+
+          <li class = "history-image">
+            <a href = "http://localhost:3000/History/pages/1"><img src="~/assets/img/ookubo.jpg" alt="大久保利通"></a>
+          </li>
+
+        </ul>
+
+         <h1>郷土料理</h1>
+        <ul class = "LocalCuisine-introduction">
+        
+          <li class = "LocalCuisine-image">
+            <a href = "http://localhost:3000/LocalCuisine/pages/1"><img src="~/assets/img/Keihan.jpg" alt="鶏飯"></a>
+          </li>
+
+          <li class = "LocalCuisine-image">
+            <a href = "http://localhost:3000/LocalCuisine/pages/2"><img src="~/assets/img/Tonkotsu.jpg" alt="豚骨"></a>
+          </li>
+
+          <li class = "LocalCuisine-image">
+            <a href = "http://localhost:3000/LocalCuisine/pages/3"><img src="~/assets/img/Shirokuma.jpg" alt="白熊"></a>
+          </li>
+
+        </ul>
+
+        <h1>観光地</h1>
+        <ul class = "TouristSpot-introduction">
+        
+          <li class = "TouristSpot-image">
+            <a href = "http://localhost:3000/TouristSpot/pages/1"><img src="~/assets/img/SatsumaYaki.jpg" alt="薩摩焼"></a>
+          </li>
+
+          <li class = "TouristSpot-image">
+            <a href = "http://localhost:3000/TouristSpot/pages/2"><img src="~/assets/img/SogiTaki.jpg" alt="曾木の滝"></a>
+          </li>
+
+          <li class = "TouristSpot-image">
+            <a href = "http://localhost:3000/TouristSpot/pages/3"><img src="~/assets/img/Jingu.jpg" alt="霧島神宮"></a>
+          </li>
+
+          <li class = "TouristSpot-image">
+            <a href = "http://localhost:3000/TouristSpot/pages/4"><img src="~/assets/img/TenmonKan.jpg" alt="天文館"></a>
+          </li>
+
+        </ul>
+        
+        <h1>世界遺産</h1>
+        <ul class = "WorldHeritage-introduction">
+        
+          <li class = "WorldHeritage-image">
+            <a href = "http://localhost:3000/Craft/pages/1"><img src="~/assets/img/Yakushima.jpg" alt="屋久島"></a>
+          </li>
+
+          <li class = "WorldHeritage-image">
+            <a href = "http://localhost:3000/Craft/pages/2"><img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子"></a>
+          </li>
+
+          <li class = "WorldHeritage-image">
+            <a href = "http://localhost:3000/Craft/pages/3"><img src="~/assets/img/Tudura.jpg" alt="つづら"></a>
+          </li>
+
+        </ul>
+
       </div>
 
 
@@ -176,7 +250,7 @@
     padding: 0;
   }
 
-/* 画像 */
+/* 工芸品 */
   .craft-introduction {
     display: flex;
     justify-content: center;
@@ -194,6 +268,79 @@
     height: 20em;
   }
 
+/* 歴史 */
+  .history-introduction {
+    display: flex;
+    justify-content: center;
+  }
+
+  .history-image {
+    list-style: none;
+  }
+
+  .history-image:nth-child(2) {
+    margin: 0 4em;
+  }
+
+  .history-image img {
+    height: 15em;
+  }
+
+  /* 郷土料理 */
+  .LocalCuisine-introduction {
+    display: flex;
+    justify-content: center;
+  }
+
+  .LocalCuisine-image {
+    list-style: none;
+  }
+
+  .LocalCuisine-image:nth-child(2) {
+    margin: 0 4em;
+  }
+
+  .LocalCuisine-image img {
+    height: 15em;
+  }
+
+  /* 観光地 */
+  .TouristSpot-introduction {
+    display: flex;
+    justify-content: center;
+  }
+
+  .TouristSpot-image {
+    list-style: none;
+  }
+
+  .TouristSpot-image:nth-child(2) {
+    margin: 0 4em;
+  }
+
+  .TouristSpot-image img {
+    height: 15em;
+  }
+
+  /* 世界遺産 */
+  .WorldHeritage-introduction {
+    display: flex;
+    justify-content: center;
+  }
+
+  .WorldHeritage-image {
+    list-style: none;
+  }
+
+  .WorldHeritage-image:nth-child(2) {
+    margin: 0 4em;
+  }
+
+  .WorldHeritage-image img {
+    height: 15em;
+  }
+
+  /* フッター */
   .footer {
     padding: 2rem;
     font-size: 15px;

@@ -90,17 +90,19 @@
 <style>
     /* スマホ向けスタイル */
     @media screen and (max-width: 767px) {
-    .WorldHeritage_note > dd {
+      .WorldHeritage_note > dd {
         border: 1px solid #ddd;
         border-top: none;
-    }
-    .WorldHeritage_note > dt,
-    .WorldHeritage_note > dd {
+      }
+
+      .WorldHeritage_note > dt,
+      .WorldHeritage_note > dd {
         text-align: center;
-    }
-    .WorldHeritage_note > dd > ul {
+      }
+      
+      .WorldHeritage_note > dd > ul {
         text-align: left;
-    }
+      }
 }
     /* PC向けスタイル */
     @media screen and (min-width: 1024px) {
@@ -135,7 +137,7 @@
       }
       
       nav ul {
-      padding-left: 24px;
+        padding-left: 3em;
       }
 
       .item ul {
@@ -154,7 +156,7 @@
         margin-right: 16px;
         padding: 10px;
         border-bottom: 2px solid #2ac5b3;
-     }
+      }
 
       .item li a {
         color: #fff;  /*メニューの色*/
