@@ -50,90 +50,71 @@
       <div class = "introduction">
         
         <h1>工芸品</h1>
+        
         <ul class = "craft-introduction">
         
           <li class = "craft-image">
-            <a href = "http://localhost:3000/Craft/pages/1"><img src="~/assets/img/SatsumaYaki.jpg" alt="薩摩焼"></a>
+            <img src="~/assets/img/SatsumaYaki.jpg" alt="薩摩焼">
           </li>
 
           <li class = "craft-image">
-            <a href = "http://localhost:3000/Craft/pages/2"><img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子"></a>
-          </li>
-
-          <li class = "craft-image">
-            <a href = "http://localhost:3000/Craft/pages/3"><img src="~/assets/img/Tudura.jpg" alt="つづら"></a>
+            <img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子">
           </li>
 
         </ul>
 
          <h1>歴史</h1>
+
         <ul class = "history-introduction">
         
           <li class = "history-image">
-            <a href = "http://localhost:3000/History/pages/1"><img src="~/assets/img/segodon.jpeg" alt="西郷隆盛"></a>
+            <img src="~/assets/img/segodon.jpeg" alt="西郷隆盛">
           </li>
 
           <li class = "history-image">
-            <a href = "http://localhost:3000/History/pages/1"><img src="~/assets/img/shimadu.jpg" alt="島津斉彬"></a>
-          </li>
-
-          <li class = "history-image">
-            <a href = "http://localhost:3000/History/pages/1"><img src="~/assets/img/ookubo.jpg" alt="大久保利通"></a>
+            <img src="~/assets/img/ookubo.jpg" alt="大久保利通">
           </li>
 
         </ul>
 
          <h1>郷土料理</h1>
+
         <ul class = "LocalCuisine-introduction">
         
           <li class = "LocalCuisine-image">
-            <a href = "http://localhost:3000/LocalCuisine/pages/1"><img src="~/assets/img/Keihan.jpg" alt="鶏飯"></a>
+            <img src="~/assets/img/Keihan.jpg" alt="鶏飯">
           </li>
 
           <li class = "LocalCuisine-image">
-            <a href = "http://localhost:3000/LocalCuisine/pages/2"><img src="~/assets/img/Tonkotsu.jpg" alt="豚骨"></a>
-          </li>
-
-          <li class = "LocalCuisine-image">
-            <a href = "http://localhost:3000/LocalCuisine/pages/3"><img src="~/assets/img/Shirokuma.jpg" alt="白熊"></a>
+            <img src="~/assets/img/Shirokuma.jpg" alt="白熊">
           </li>
 
         </ul>
 
         <h1>観光地</h1>
+
         <ul class = "TouristSpot-introduction">
         
           <li class = "TouristSpot-image">
-            <a href = "http://localhost:3000/TouristSpot/pages/1"><img src="~/assets/img/SatsumaYaki.jpg" alt="薩摩焼"></a>
+            <img src="~/assets/img/Jingu.jpg" alt="霧島神宮">
           </li>
 
           <li class = "TouristSpot-image">
-            <a href = "http://localhost:3000/TouristSpot/pages/2"><img src="~/assets/img/SogiTaki.jpg" alt="曾木の滝"></a>
-          </li>
-
-          <li class = "TouristSpot-image">
-            <a href = "http://localhost:3000/TouristSpot/pages/3"><img src="~/assets/img/Jingu.jpg" alt="霧島神宮"></a>
-          </li>
-
-          <li class = "TouristSpot-image">
-            <a href = "http://localhost:3000/TouristSpot/pages/4"><img src="~/assets/img/TenmonKan.jpg" alt="天文館"></a>
+            <img src="~/assets/img/TenmonKan.jpg" alt="天文館">
           </li>
 
         </ul>
         
         <h1>世界遺産</h1>
+
         <ul class = "WorldHeritage-introduction">
         
           <li class = "WorldHeritage-image">
-            <a href = "http://localhost:3000/Craft/pages/1"><img src="~/assets/img/Yakushima.jpg" alt="屋久島"></a>
+            <img src="~/assets/img/Sumigamaato.jpg" alt="寺山炭窯跡">
           </li>
 
           <li class = "WorldHeritage-image">
-            <a href = "http://localhost:3000/Craft/pages/2"><img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子"></a>
-          </li>
-
-          <li class = "WorldHeritage-image">
-            <a href = "http://localhost:3000/Craft/pages/3"><img src="~/assets/img/Tudura.jpg" alt="つづら"></a>
+            <a href = "http://localhost:3000/Craft/pages/2"><img src="~/assets/img/Shoko Shuseikan Museum.jpg" alt="旧集成館機械工場（尚古集成館）"></a>
           </li>
 
         </ul>
@@ -144,6 +125,7 @@
     </body>
     
     <footer class="footer">
+
       <p class="copyright">© 2023 TnT Inc.</p>
       <ul class="md-flex">
         <li><a href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
@@ -152,6 +134,7 @@
         <li><a href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
         <li><a href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
     </ul>
+
     </footer>
 
   </div>
@@ -248,6 +231,10 @@
   ul {
     list-style: none;
     padding: 0;
+  }
+
+  .introduction h1 {
+    text-align: center;
   }
 
 /* 工芸品 */
