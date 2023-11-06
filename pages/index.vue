@@ -48,76 +48,48 @@
       </div>
 
       <div class = "introduction">
+
+        <div class="flex">
+          
+          <figure class="image"><img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子"></figure>
+          <div class="right">
+            <h2 class="title">工芸品</h2>
+            <p class="text">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
+          </div>
+
+          <figure class="image"><img src="~/assets/img/segodon.jpeg" alt="西郷隆盛"></figure>
+          <div class="right">
+            <h2 class="title">歴史</h2>
+            <p class="text">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
+          </div>
+
+        </div>
+
+        <div class="flex">
+          
+          <figure class="image"><img src="~/assets/img/Keihan.jpg" alt="鶏飯"></figure>
+          <div class="right">
+            <h2 class="title">郷土料理</h2>
+            <p class="text">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
+          </div>
+
+          <figure class="image"><img src="~/assets/img/Jingu.jpg" alt="霧島神宮"></figure>
+          <div class="right">
+            <h2 class="title">観光地</h2>
+            <p class="text">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
+          </div>
+
+        </div>
         
-        <h1>工芸品</h1>
-        
-        <ul class = "craft-introduction">
-        
-          <li class = "craft-image">
-            <img src="~/assets/img/SatsumaYaki.jpg" alt="薩摩焼">
-          </li>
+        <div class="flex">
+          
+          <figure class="image"><img src="~/assets/img/Shoko Shuseikan Museum.jpg" alt="旧集成館機械工場（尚古集成館）"></figure>
+          <div class="right">
+            <h2 class="title">世界遺産</h2>
+            <p class="text">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
+          </div>
 
-          <li class = "craft-image">
-            <img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子">
-          </li>
-
-        </ul>
-
-         <h1>歴史</h1>
-
-        <ul class = "history-introduction">
-        
-          <li class = "history-image">
-            <img src="~/assets/img/segodon.jpeg" alt="西郷隆盛">
-          </li>
-
-          <li class = "history-image">
-            <img src="~/assets/img/ookubo.jpg" alt="大久保利通">
-          </li>
-
-        </ul>
-
-         <h1>郷土料理</h1>
-
-        <ul class = "LocalCuisine-introduction">
-        
-          <li class = "LocalCuisine-image">
-            <img src="~/assets/img/Keihan.jpg" alt="鶏飯">
-          </li>
-
-          <li class = "LocalCuisine-image">
-            <img src="~/assets/img/Shirokuma.jpg" alt="白熊">
-          </li>
-
-        </ul>
-
-        <h1>観光地</h1>
-
-        <ul class = "TouristSpot-introduction">
-        
-          <li class = "TouristSpot-image">
-            <img src="~/assets/img/Jingu.jpg" alt="霧島神宮">
-          </li>
-
-          <li class = "TouristSpot-image">
-            <img src="~/assets/img/TenmonKan.jpg" alt="天文館">
-          </li>
-
-        </ul>
-        
-        <h1>世界遺産</h1>
-
-        <ul class = "WorldHeritage-introduction">
-        
-          <li class = "WorldHeritage-image">
-            <img src="~/assets/img/Sumigamaato.jpg" alt="寺山炭窯跡">
-          </li>
-
-          <li class = "WorldHeritage-image">
-            <a href = "http://localhost:3000/Craft/pages/2"><img src="~/assets/img/Shoko Shuseikan Museum.jpg" alt="旧集成館機械工場（尚古集成館）"></a>
-          </li>
-
-        </ul>
+        </div>
 
       </div>
 
@@ -190,6 +162,7 @@
   }
 
   ul {
+    list-style: none;
     padding-left: 24px;
   }
   
@@ -218,6 +191,10 @@
     font-size: 25px;
     margin: 0;
   }
+
+  .image img {
+    width: 15em;
+  }
   
   html {
     font-family: sans-serif;
@@ -228,103 +205,61 @@
     text-decoration: none;
   }
 
-  ul {
-    list-style: none;
+  /* 横並び */
+  .flex {
+    display: flex; /*横並び*/
+    margin-left: 24px;
+    margin-bottom: 64px;
+  }
+
+  .flex .image {
+    width: 15em; /*画像サイズ指定*/
+    height: 15em;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .flex .right {
+    margin: 0 0 0 20px;
     padding: 0;
   }
 
-  .introduction h1 {
-    text-align: center;
+  .flex .title {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
   }
 
-/* 工芸品 */
-  .craft-introduction {
-    display: flex;
-    justify-content: center;
+  .flex .text {
+    margin: 10px 0 0;
+    padding: 0;
+    width: 18em;
   }
 
-  .craft-image {
-    list-style: none;
+  /* 画像を天地中央表示 */
+
+  .flex .image {
+    overflow: hidden;
+    position: relative;
   }
 
-  .craft-image:nth-child(2) {
-    margin: 0 4em;
+  .flex .image::before {
+    content: "";
+    display: block;
+    padding-top: 58%;
   }
 
-  .craft-image img {
-    height: 20em;
-  }
-
-/* 歴史 */
-  .history-introduction {
-    display: flex;
-    justify-content: center;
-  }
-
-  .history-image {
-    list-style: none;
-  }
-
-  .history-image:nth-child(2) {
-    margin: 0 4em;
-  }
-
-  .history-image img {
-    height: 15em;
-  }
-
-  /* 郷土料理 */
-  .LocalCuisine-introduction {
-    display: flex;
-    justify-content: center;
-  }
-
-  .LocalCuisine-image {
-    list-style: none;
-  }
-
-  .LocalCuisine-image:nth-child(2) {
-    margin: 0 4em;
-  }
-
-  .LocalCuisine-image img {
-    height: 15em;
-  }
-
-  /* 観光地 */
-  .TouristSpot-introduction {
-    display: flex;
-    justify-content: center;
-  }
-
-  .TouristSpot-image {
-    list-style: none;
-  }
-
-  .TouristSpot-image:nth-child(2) {
-    margin: 0 4em;
-  }
-
-  .TouristSpot-image img {
-    height: 15em;
-  }
-
-  /* 世界遺産 */
-  .WorldHeritage-introduction {
-    display: flex;
-    justify-content: center;
-  }
-
-  .WorldHeritage-image {
-    list-style: none;
-  }
-
-  .WorldHeritage-image:nth-child(2) {
-    margin: 0 4em;
-  }
-
-  .WorldHeritage-image img {
-    height: 15em;
+  .flex .image img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
   }
 
   /* フッター */
