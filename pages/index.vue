@@ -24,6 +24,14 @@
           </ul>
         </div>
       </nav>
+
+      <div class="serch-box">
+        <form id="form" action="http://localhost:3000" method="get">
+        <input id="sbox" type="search" name="search" placeholder="キーワードを入力">
+        <input id="sbtn" type="submit" name="submit" value="検索">
+        </form>
+      </div>
+
     </header>
 
     <body>
@@ -99,13 +107,14 @@
     <footer class="footer">
 
       <p class="copyright">© 2023 TnT Inc.</p>
+
       <ul class="md-flex">
         <li><a href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
         <li><a href="http://localhost:3000/History/pages/1">歴史</a></li>
         <li><a href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
         <li><a href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
         <li><a href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
-    </ul>
+      </ul>
 
     </footer>
 
@@ -274,5 +283,43 @@
   .footer a:hover {
     color: rgb(2, 243, 252);
   }
+
+  /* 検索フォーム */
+  #form {
+    position: relative; 
+    margin-bottom: 20px;	
+  }
+
+  #sbox {	
+    outline: 0;	
+    height: 40px;
+    padding: 0 10px; 
+    position: absolute; 
+    left: 64px;
+    top: 22px; 
+    max-width: 270px;
+    border-radius: 2px;
+    background: #eee;
+  }
+
+  #sbtn {
+    width: 56px;
+    height: 37px;
+    position: absolute; 
+    left: 255px; 
+    top: 23.5px;
+    border-radius: 2px;
+    background: #7fbfff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+  }
+
+  #sbtn:hover {
+    background: #eee;
+    color: #7fbfff;
+  }
+
 }
 </style>
