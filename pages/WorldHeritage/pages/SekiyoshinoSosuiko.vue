@@ -63,7 +63,7 @@
 
               <dl>
                 <dt>詳しくは</dt>
-                <dd><a href="https://www.kagoshima-kankou.com/industrial-heritage/52606">鹿児島の旅 関吉の疎水溝</a></dd>
+                <dd><a href="https://www.kagoshima-kankou.com/industrial-heritage/52606" target=”_blank”>鹿児島の旅 関吉の疎水溝</a></dd>
               </dl>
 
             </div>

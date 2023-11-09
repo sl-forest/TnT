@@ -63,9 +63,9 @@
 
               <dl>
                 <dt>詳しく</dt>
-                <dd><a href="https://kagoshima-jingu.jp/">鹿児島神宮 公式ページ</a></dd>
+                <dd><a href="https://kagoshima-jingu.jp/" target=”_blank”>鹿児島神宮 公式ページ</a></dd>
               </dl>
-              <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46010643.html" class = "btn">鹿児島神宮 周辺のホテル・旅館</a>
+              <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46010643.html" class = "btn" target=”_blank”>鹿児島神宮 周辺のホテル・旅館</a>
 
 
             </div>

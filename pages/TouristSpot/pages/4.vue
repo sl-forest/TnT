@@ -32,7 +32,7 @@
         <h2 class = spot_headline>仙巌園</h2>
         <div class="spot">
             <div class = spot_img>
-                <img src="~/assets/img/Senganen.jpg" alt="">
+                <img src="~/assets/img/Senganen.jpg" alt="仙厳園">
             </div>
 
             <div class = explanation>
@@ -41,7 +41,7 @@
                 <p>隣接する尚古集成館は幕末に建てられた金属加工の工場跡で、世界遺産「明治日本の産業革命遺産」のひとつ。</p>
                 <p>島津家の歴史や近代化事業を紹介する展示が行われている。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Sengannen">スポット情報</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Sengannen" target=”_blank”>スポット情報</a>
         </div>
 
         
@@ -56,7 +56,7 @@
                 <p>南九州一の繁華街として人気のスポット。</p>
                 <p>江戸時代に、西洋文明を進んで取り入れた島津重豪公が1779年に天文観測や暦の作成などを行う施設「明時館（別名天文館）」を建てたことが名前の由来。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Tenmonkan">スポット情報</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Tenmonkan" target=”_blank”>スポット情報</a>
         </div>
 
         <h2 class = spot_headline>知覧特攻平和会館</h2>
@@ -69,7 +69,7 @@
                 <p>館内では、平和を祈念し、その記録を後世に正しく伝えるべく、陸軍特別攻撃隊員や各地の戦地で</p>
                 <p>戦死した隊員たちの遺品、遺影、関係資料を展示している。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/ChiranPeaceMuseum">スポット情報</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/ChiranPeaceMuseum" target=”_blank”>スポット情報</a>
         </div>
 
         <h2 class = spot_headline>維新ふるさと館</h2>
@@ -81,7 +81,7 @@
             <div class = explanation>
                 <p>西郷隆盛、大久保利通など明治維新に活躍した偉人の出身地加治屋町にある歴史ミュージアム。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Ishinfurusatokan">スポット情報</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Ishinfurusatokan" target=”_blank”>スポット情報</a>
         </div>
         
         <ul class="Pagination">

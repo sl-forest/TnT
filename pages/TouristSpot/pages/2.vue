@@ -39,7 +39,7 @@
                 <p>春は桜やつつじが彩り、夏は水量も多く豪快。</p>
                 <p>秋は紅葉がライトアップされ、冬は雪景色を楽しめる。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Soginotaki">スポット情報</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Soginotaki" target=”_blank”>スポット情報</a>
         </div>
 
         <h2 class = spot_headline>丸尾の滝</h2>
@@ -52,7 +52,7 @@
                 <p>高さ約23メートル、幅約16メートルの滝。</p>
                 <p>ここを流れる水は温泉の湯であり、霧島地区の温泉水を集めて流れる珍しい「湯の滝」。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Maruonotaki">スポット情報</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Maruonotaki" target=”_blank”>スポット情報</a>
         </div>
 
         <h2 class = spot_headline>雄川の滝</h2>
@@ -66,7 +66,7 @@
                 <p>大河ドラマ『西郷どん』のオープニング映像で話題となった。。</p>
                 <p>エメラルドグリーンの美しい滝つぼが特徴で、フォトジェニックな光景が広がる。</p>
             </div>
-            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Ogawanotaki">スポット情報</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Ogawanotaki" target=”_blank”>スポット情報</a>
         </div>
         
         <h2 class = spot_headline>開聞岳</h2>
@@ -79,7 +79,7 @@
             <p>薩摩半島の最南端に位置する標高約924メートルの開聞岳は、「日本百名山」にも数えられている南薩を代表する山。</p>
             <p>別名「薩摩富士」と呼ばれ、指宿のシンボルとして親しまれている。</p>
           </div>
-            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Kaimondake">スポット情報</a>
+            <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Kaimondake" target=”_blank”>スポット情報</a>
         </div>
         
         <ul class="Pagination">

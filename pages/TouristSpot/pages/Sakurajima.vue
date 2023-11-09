@@ -48,7 +48,7 @@
                 </dd>
               </dl>
 
-              <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46010087.html " class = "btn">桜島 周辺のホテル・旅館</a>
+              <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46010087.html " class = "btn" target=”_blank”>桜島 周辺のホテル・旅館</a>
 
             </div>
 

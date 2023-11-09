@@ -79,7 +79,7 @@
 
               <dl>
                 <dt>詳しくは</dt>
-                <dd><a href="https://www.senganen.jp/">仙厳園 公式ホームページ</a></dd>
+                <dd><a href="https://www.senganen.jp/" target=”_blank”>仙厳園 公式ホームページ</a></dd>
               </dl>
 
             </div>

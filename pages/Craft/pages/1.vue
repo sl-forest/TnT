@@ -1,109 +1,83 @@
 <template>
 
   <div>
-    <header>
-      <!-- ロゴ -->
-      <div class="logo">
-        <a href="http://localhost:3000"><img src="~/assets/img/Kagoshima_logo.png" alt="サイトのロゴ"></a>
-      </div>
-
-      <!--  サイトの名前 -->
-      <div class="site-name">
-        <a href="http://localhost:3000"><h1>鹿児島紹介サイト</h1></a>
-      </div>
-
-      <!-- メニュー -->
-      <nav>
-        <div class="menu">
-          <ul class="item">
-            <li><a class="item-link" href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
-            <li><a class="item-link" href="http://localhost:3000/History/pages/1">歴史</a></li>
-            <li><a class="item-link" href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
-            <li><a class="item-link" href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
-            <li><a class="item-link" href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <TheHeader />
 
     <main>
-        <h1>「伝統工芸品」</h1>
-        <h2 class = craft_headline>本場大島紬</h2>
-        <div class="craft">
-            <div class = craft01_img>
-                <img src="~/assets/img/OshimaTsumugi.jpg" alt="本場大島紬">
-            </div>
-            
-            <div class = explanation>
-                <p>1,300年の歴史を持ち、絹織物の最高傑作といわれている。</p>
-                <p>30数工程もある緻密な手作業により、図案から織り上がるまで半年から1年以上もかかる。</p>
-            </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
-        </div>
-
-        <h2 class = craft_headline>川辺仏壇</h2>
-        <div class="craft">
-            <div class = craft01_img>
-                <img src="~/assets/img/Butsudan.jpg" alt="川辺仏壇">
-            </div>
-
-            <div class = explanation>
-                <p>川辺仏壇（かわなべぶつだん）は、鹿児島県南九州市川辺町周辺で作られている仏壇。</p>
-                <p>川辺仏壇の特徴は、「ガマ戸」と呼ばれる川辺仏壇オリジナルの独特な仏壇があることです。</p>
-                <p>”ガマ”とは、鹿児島県の方言で洞窟を表します。</p>
-            </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
-        </div>
-
-        <h2 class = craft_headline>薩摩焼</h2>
-        <div class="craft">
-            <div class = craft03_img>
-                <img src="~/assets/img/SatsumaYaki.jpg" alt="薩摩焼">
-            </div>
-
-            <div class = explanation>
-                <p>薩摩焼（さつまやき）は、鹿児島県内で焼かれる陶磁器です。</p>
-                <p>鉄分が多い土を高温で焼き締めるため、素朴で頑丈な仕上がりが特徴。</p>
-                <p>「白もん」と呼ばれる豪華絢爛な色絵錦手の陶器と「黒もん」と呼ばれる大衆向けの雑器に分かれる。</p>
-            </div>
-            <a class ="explanation-link" href="#">詳細はこちら</a>
+      <h1>「伝統工芸品」</h1>
+      <h2 class = craft_headline>本場大島紬</h2>
+      <div class="craft">
+        <div class = craft01_img>
+          <img src="~/assets/img/OshimaTsumugi.jpg" alt="本場大島紬">
         </div>
         
-        <ul class="Pagination">
-          <li class="Pagination-Item">
-            <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/1">
+        <div class = explanation>
+          <p>1,300年の歴史を持ち、絹織物の最高傑作といわれている。</p>
+          <p>30数工程もある緻密な手作業により、図案から織り上がるまで半年から1年以上もかかる。</p>
+          <p>大島紬村では本場奄美大島紬の製造現場見学や、泥染め・織り体験、着付体験などが楽しめる。</p>
+        </div>
+        <a class ="explanation-link" href="https://www.tumugi.co.jp/" target=”_blank”>詳細はこちら</a>
+      </div>
+
+      <h2 class = craft_headline>川辺仏壇</h2>
+      <div class="craft">
+        <div class = craft01_img>
+          <img src="~/assets/img/Butsudan.jpg" alt="川辺仏壇">
+        </div>
+
+        <div class = explanation>
+          <p>川辺仏壇（かわなべぶつだん）は、鹿児島県南九州市川辺町周辺で作られている仏壇。</p>
+          <p>川辺仏壇の特徴は、「ガマ戸」と呼ばれる川辺仏壇オリジナルの独特な仏壇があることです。</p>
+          <p>”ガマ”とは、鹿児島県の方言で洞窟を表します。</p>
+        </div>
+        <a class ="explanation-link" href="#">詳細はこちら</a>
+      </div>
+
+      <h2 class = craft_headline>薩摩焼</h2>
+      <div class="craft">
+        <div class = craft03_img>
+          <img src="~/assets/img/SatsumaYaki.jpg" alt="薩摩焼">
+        </div>
+
+        <div class = explanation>
+          <p>薩摩焼は、鹿児島県内で焼かれる陶磁器です。</p>
+          <p>鉄分が多い土を高温で焼き締めるため、素朴で頑丈な仕上がりが特徴。</p>
+          <p>「白もん」と呼ばれる豪華絢爛な色絵錦手の陶器と「黒もん」と呼ばれる大衆向けの雑器に分かれる。</p>
+        </div>
+        <a class ="explanation-link" href="#">詳細はこちら</a>
+      </div>
+      
+      <ul class="Pagination">
+        <li class="Pagination-Item">
+          <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
+          </svg>
+          </a>
+        </li>
+
+        <li class="Pagination-Item">
+          <a class="Pagination-Item-Link isActive" href="http://localhost:3000/Craft/pages/1"><span>1</span></a>
+        </li>
+        
+        <li class="Pagination-Item">
+          <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/2"><span>2</span></a>
+        </li>
+
+        <li class="Pagination-Item">
+          <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3"><span>3</span></a>
+        </li>
+
+        <li class="Pagination-Item">
+          <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3">
             <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
             </svg>
-            </a>
-            </li>
-
-              <li class="Pagination-Item">
-                <a class="Pagination-Item-Link isActive" href="http://localhost:3000/Craft/pages/1"><span>1</span></a>
-              </li>
-              
-              <li class="Pagination-Item">
-                <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/2"><span>2</span></a>
-              </li>
-
-              <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3"><span>3</span></a>
-              </li>
-
-              <li class="Pagination-Item">
-                  <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
-                      </svg>
-                      </a>
-                  </li>
-              </ul>
-    </main>
-
-  <fotter>
-
-  </fotter>
-  
+          </a>
+        </li>
+      </ul>
+    </main> 
+    <TheFooter />
   </div>
 
 </template>
@@ -118,66 +92,8 @@
         margin: 0 auto;
       }
       
-      header {
-        flex-wrap: wrap; /*折り返し */
-        display: flex;  /*ヘッダーの下の要素を並列に*/
-        padding: 0; /*ヘッダーの位置調整*/
-        background: #333; /*ヘッダーの背景色*/
-      }
-      
-      .site-name h1 {
-        color: #fff;  /*サイトの名前の色*/
-      }
-
-      .site-name a {
-        text-decoration: none;
-      }
-
-      .logo {
-        margin: 5px 15px;
-      }
-
-      .logo a img {
-        width: 65px;  /*ロゴ画像の幅調整*/
-        height: 65px; /*ロゴ画像の高さ調整*/
-        padding-top: 1.5px; /*ロゴの位置調整*/
-      }
-      
-      nav ul {
-        padding-left: 3em;
-      }
-
-      .item ul {
-        display: inline-block;
-        margin-top: 25px;
-      }
-
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-      
-      .item li {
-        display: inline-block;
-        list-style: none;
-        margin-right: 16px;
-        padding: 10px;
-        border-bottom: 2px solid #2ac5b3;
-      }
-
-      .item li a {
-        color: #fff;  /*メニューの色*/
-        text-decoration: none;  /*メニューの下線を消す*/
-      }
-
       h1 {
         margin-bottom: 0;
-      }
-
-      h2.craft_headline {
-        margin: 0;
-        padding-top: 8px;
-        border-top: 2px solid #d5d4c3;
       }
       
       /* 工芸品一覧説明 */
@@ -187,6 +103,12 @@
 
       .craft p {
         margin: 0;
+      }
+
+      h2.craft_headline {
+        margin: 0;
+        padding-top: 8px;
+        border-top: 2px solid #d5d4c3;
       }
 
       .explanation {
@@ -253,6 +175,6 @@
         margin-left: 8px;
       }
 
-    }
+  }
 
 </style>

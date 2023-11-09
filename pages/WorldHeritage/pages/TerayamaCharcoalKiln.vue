@@ -66,7 +66,7 @@
 
               <dl>
                 <dt>詳しくは</dt>
-                <dd><a href="http://www.japansmeijiindustrialrevolution.com/site/kagoshima/component02.html">寺山炭窯後 ホームページ</a></dd>
+                <dd><a href="http://www.japansmeijiindustrialrevolution.com/site/kagoshima/component02.html" target=”_blank”>寺山炭窯後 ホームページ</a></dd>
               </dl>
 
             </div>

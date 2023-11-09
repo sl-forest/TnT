@@ -42,10 +42,10 @@
 
               <dl>
                 <dt>詳しく</dt>
-                <dd><a href = "https://www.ibusuki.or.jp/tourism/view/kaimondake/">開聞岳（いぶすき観光ネット）</a></dd>
+                <dd><a href = "https://www.ibusuki.or.jp/tourism/view/kaimondake/" target=”_blank”>開聞岳（いぶすき観光ネット）</a></dd>
               </dl>
 
-              <a href="https://travel.rakuten.co.jp/yado/spot/kagoshima/S46000479.html" class = "btn">開聞岳 周辺のホテル・旅館</a>
+              <a href="https://travel.rakuten.co.jp/yado/spot/kagoshima/S46000479.html" class = "btn" target=”_blank”>開聞岳 周辺のホテル・旅館</a>
                     
             </div>
         </div>

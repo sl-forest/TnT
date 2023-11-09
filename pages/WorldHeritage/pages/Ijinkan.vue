@@ -82,7 +82,7 @@
 
               <dl>
                 <dt>詳しくは</dt>
-                <dd><a href="https://www.city.kagoshima.lg.jp/kikakuzaisei/kikaku/sekaiisan/sekaiisann_kagoshimaeria.html">鹿児島市 公式ホームページ</a></dd>
+                <dd><a href="https://www.city.kagoshima.lg.jp/kikakuzaisei/kikaku/sekaiisan/sekaiisann_kagoshimaeria.html" target=”_blank”>鹿児島市 公式ホームページ</a></dd>
               </dl>
 
             </div>

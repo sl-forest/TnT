@@ -88,7 +88,7 @@
 
               <dl>
                 <dt>詳しくは</dt>
-                <dd><a href="https://www.shuseikan.jp/heritage/heritage02.html">尚古集成館 公式ホームページ</a></dd>
+                <dd><a href="https://www.shuseikan.jp/heritage/heritage02.html" target=”_blank”>尚古集成館 公式ホームページ</a></dd>
               </dl>
 
             </div>

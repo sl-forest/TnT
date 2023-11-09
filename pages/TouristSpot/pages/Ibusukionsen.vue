@@ -78,7 +78,7 @@
 
               <dl>
                 <dt>詳しく</dt>
-                <dd><a href="http://ibusuki-saraku.jp/">砂むし会館 砂楽 公式ページ</a></dd>
+                <dd><a href="http://ibusuki-saraku.jp/" target=”_blank”>砂むし会館 砂楽 公式ページ</a></dd>
               </dl>
 
             </div>

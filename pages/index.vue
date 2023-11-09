@@ -1,38 +1,7 @@
 <template>
+
   <div>
-
-    <header>
-      <!-- ロゴ -->
-      <div class="logo">
-        <a href="#"><img src="~/assets/img/Kagoshima_logo.png" alt="サイトのロゴ"></a>
-      </div>
-
-      <!--  サイトの名前 -->
-      <div class="site-name">
-        <h1>鹿児島紹介サイト</h1>
-      </div>
-
-      <!-- メニュー -->
-      <nav>
-        <div class="menu">
-          <ul class="item">
-            <li><a class="item-link" href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
-            <li><a class="item-link" href="http://localhost:3000/History/pages/1">歴史</a></li>
-            <li><a class="item-link" href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
-            <li><a class="item-link" href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
-            <li><a class="item-link" href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
-          </ul>
-        </div>
-      </nav>
-
-      <div class="serch-box">
-        <form id="form" action="http://localhost:3000" method="get">
-        <input id="sbox" type="search" name="search" placeholder="キーワードを入力">
-        <input id="sbtn" type="submit" name="submit" value="検索">
-        </form>
-      </div>
-
-    </header>
+   <TheHeader />
 
     <body>
       <div class="top_img">
@@ -55,142 +24,96 @@
         <p></p>
       </div>
 
+      <div class="headline"><h2>紹介一覧</h2></div>
       <div class = "introduction">
-
-        <div class="flex">
-          
-          <figure class="image"><img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子"></figure>
-          <div class="right">
-            <h2 class="title">工芸品</h2>
-            <p class="text">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
-          </div>
-
-          <figure class="image"><img src="~/assets/img/segodon.jpeg" alt="西郷隆盛"></figure>
-          <div class="right">
-            <h2 class="title">歴史</h2>
-            <p class="text">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
-          </div>
-
-        </div>
-
-        <div class="flex">
-          
-          <figure class="image"><img src="~/assets/img/Keihan.jpg" alt="鶏飯"></figure>
-          <div class="right">
-            <h2 class="title">郷土料理</h2>
-            <p class="text">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
-          </div>
-
-          <figure class="image"><img src="~/assets/img/Jingu.jpg" alt="霧島神宮"></figure>
-          <div class="right">
-            <h2 class="title">観光地</h2>
-            <p class="text">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
-          </div>
-
-        </div>
+        <figure class="image_area01">
+          <a href="http://localhost:3000/Craft/pages/1">
+            <img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子">
+          </a>
+        </figure>
         
-        <div class="flex">
-          
-          <figure class="image"><img src="~/assets/img/Shoko Shuseikan Museum.jpg" alt="旧集成館機械工場（尚古集成館）"></figure>
-          <div class="right">
-            <h2 class="title">世界遺産</h2>
-            <p class="text">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
-          </div>
-
-        </div>
-
+        <h2 class="text_area">工芸品について</h2>
+        
+        <figure class="image_area01">
+          <a href="http://localhost:3000/Craft/pages/1">
+            <img src="~/assets/img/SatsumaYaki.jpg" alt="薩摩焼">
+          </a>
+        </figure>
       </div>
 
+      <div class = "introduction">
+        <figure class="image_area02">
+          <a href="http://localhost:3000/History/pages/1">
+            <img src="~/assets/img/segodon.jpeg" alt="西郷隆盛">
+          </a>
+        </figure>
+        
+        <h2 class="text_area">歴史（偉人）について</h2>
+        
+        <figure class="image_area02">
+          <a href="http://localhost:3000/History/pages/1">
+            <img src="~/assets/img/ookubo.jpg" alt="大久保利通">
+          </a>
+        </figure>
+      </div>
+      
+      <div class = "introduction">
+        <figure class="image_area02">
+          <a href="http://localhost:3000/LocalCuisine/pages/1">
+            <img src="~/assets/img/Keihan.jpg" alt="鶏飯">
+          </a>
+        </figure>
+
+        <h2 class="text_area">郷土料理について</h2>
+        
+        <figure class="image_area02">
+          <a href="http://localhost:3000/LocalCuisine/pages/1">
+            <img src="~/assets/img/Torisashi.jpeg" alt="馬刺し">
+          </a>
+        </figure>
+      </div>
+
+      <div class = "introduction">
+        <figure class="image_area02">
+          <a href="http://localhost:3000/TouristSpot/pages/1">
+            <img src="~/assets/img/Jingu.jpg" alt="霧島神宮">
+          </a>
+        </figure>
+        
+        <h2 class="text_area">観光地について</h2>
+        
+        <figure class="image_area02">
+          <a href="http://localhost:3000/TouristSpot/pages/1">
+            <img src="~/assets/img/Senganen.jpg" alt="仙厳園">
+          </a>
+        </figure>
+      </div>
+
+      <div class = "introduction">
+        <figure class="image_area02">
+          <a href="http://localhost:3000/WorldHeritage/pages/1">
+            <img src="~/assets/img/Shoko Shuseikan Museum.jpg" alt="旧集成館機械工場（尚古集成館）">
+          </a>
+        </figure>
+        
+        <h2 class="text_area">世界遺産について</h2>
+        
+        <figure class="image_area02"><img src="~/assets/img/Ijinkan.jpeg" alt="旧集成館「旧鹿児島紡績所技師館」（異人館）"></figure>
+      </div>
 
     </body>
-    
-    <footer class="footer">
 
-      <p class="copyright">© 2023 TnT Inc.</p>
-
-      <ul class="md-flex">
-        <li><a href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
-        <li><a href="http://localhost:3000/History/pages/1">歴史</a></li>
-        <li><a href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
-        <li><a href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
-        <li><a href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
-      </ul>
-
-    </footer>
+    <TheFooter />
 
   </div>
+  
 </template>
 
 <style>
-  @media (min-width: 768px) {
-  .footer {
-    display: flex;
-    justify-content: space-between;
-  }
+  /* スマホ向けスタイル */
 
-  .md-flex {
-    display: flex;
-  }
-
-  .md-flex li + li {
-    margin-left: 16px;
-  }
-
-/* ヘッダー */
-  header {
-    display: flex;  /*ヘッダーの下の要素を並列に*/
-    height: 80px; /*ヘッダーの高さ*/
-    padding: 0; /*ヘッダーの位置調整*/
-    background: #333; /*ヘッダーの背景色*/
-  }
-
-  .site-name h1 {
-    color: #fff;  /*サイトの名前の色*/
-  }
-
-  .logo {
-    margin-top: 5px;  /*ロゴの位置調整*/
-    margin-bottom: 5px; /*ロゴの位置調整*/
-    margin-left: 15px;  /*ロゴの位置調整*/
-    margin-right: 15px; /*ロゴの位置調整*/
-  }
-
-  .logo a img {
-    width: 65px;  /*ロゴ画像の幅調整*/
-    height: 65px; /*ロゴ画像の高さ調整*/
-    padding-top: 1.5px; /*ロゴの位置調整*/
-  }
-
-  .menu {
-    padding-left: 3em;
-  }
- 
-  .item ul {
-    display: inline-block;
-    margin-top: 25px;
-  }
-
-  ul {
-    list-style: none;
-    padding-left: 24px;
-  }
-  
-  .item li {
-    display: inline-block;
-    list-style: none;
-    margin-right: 16px;
-    padding: 10px;
-    border-bottom: 2px solid #2ac5b3;
-  }
-
-  .item li a {
-    color: #fff;  /*メニューの色*/
-    text-decoration: none;  /*メニューの下線を消す*/
-  }
-
-  .top_img img {
-    width: 100%;
-  }
+  /* PC向けスタイル */
+    @media screen and (min-width: 1024px) {
 
   .Kagoshima_about h1 {
     margin-bottom: 8px;
@@ -209,117 +132,51 @@
     font-family: sans-serif;
   }
 
-  a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+  /* 紹介 */
+  .headline h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 16px;
   }
 
-  /* 横並び */
-  .flex {
-    display: flex; /*横並び*/
-    margin-left: 24px;
-    margin-bottom: 64px;
-  }
-
-  .flex .image {
-    width: 15em; /*画像サイズ指定*/
-    height: 15em;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: relative;
-  }
-
-  .flex .right {
-    margin: 0 0 0 20px;
-    padding: 0;
-  }
-
-  .flex .title {
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-  }
-
-  .flex .text {
-    margin: 10px 0 0;
-    padding: 0;
-    width: 18em;
-  }
-
-  /* 画像を天地中央表示 */
-
-  .flex .image {
-    overflow: hidden;
-    position: relative;
-  }
-
-  .flex .image::before {
-    content: "";
-    display: block;
-    padding-top: 58%;
-  }
-
-  .flex .image img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  figure.image_area {
     margin: auto;
+    margin-top: 0;
+    display: inline-block;
   }
 
-  /* フッター */
-  .footer {
-    padding: 2rem;
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-    background: rgb(0, 0, 0);
-    border-top: 1px solid #e5e7eb;
+  figure.image_area01 img {
+    height: 16em;
+    width: 15em;
   }
 
-  .footer a:hover {
-    color: rgb(2, 243, 252);
+  figure.image_area02 img {
+    height: 13em;
+    width: 15em;
   }
 
-  /* 検索フォーム */
-  #form {
-    position: relative; 
-    margin-bottom: 20px;	
+  h2.text_area {
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    margin-left: 20px;
+    vertical-align: top;
   }
 
-  #sbox {	
-    outline: 0;	
-    height: 40px;
-    padding: 0 10px; 
-    position: absolute; 
-    left: 64px;
-    top: 22px; 
-    max-width: 270px;
-    border-radius: 2px;
-    background: #eee;
+  .introduction {
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #d5d4c3;
+  }
+ 
+  .introduction p {
+    width: 300px;
   }
 
-  #sbtn {
-    width: 56px;
-    height: 37px;
-    position: absolute; 
-    left: 255px; 
-    top: 23.5px;
-    border-radius: 2px;
-    background: #7fbfff;
-    color: #fff;
-    font-weight: bold;
-    font-size: 16px;
-    border: none;
+  .introduction p a {
+    color: blue;
   }
-
-  #sbtn:hover {
-    background: #eee;
-    color: #7fbfff;
-  }
-
 }
 </style>

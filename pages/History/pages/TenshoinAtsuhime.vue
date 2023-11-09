@@ -78,7 +78,10 @@
         </div>
 
     </main>
-</div>
+
+    <TheFooter />
+
+  </div>
 
 </template>
 

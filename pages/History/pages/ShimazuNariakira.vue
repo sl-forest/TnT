@@ -1,105 +1,79 @@
 <template>
 
 <div>
+  <TheHeader />
 
-    <header>
-        <!-- ロゴ -->
-        <div class="logo">
-            <a href="http://localhost:3000"><img src="~/assets/img/Kagoshima_logo.png" alt="サイトのロゴ"></a>
-        </div>
-
-        <!--  サイトの名前 -->
-        <div class="site-name">
-            <a href="http://localhost:3000"><h1>鹿児島紹介サイト</h1></a>
-        </div>
-
-        <!-- メニュー -->
-        <nav>
-            <div class="menu">
-            <ul class="item">
-              <li><a class="item-link" href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
-              <li><a class="item-link" href="http://localhost:3000/History/pages/1">歴史</a></li>
-              <li><a class="item-link" href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
-              <li><a class="item-link" href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
-              <li><a class="item-link" href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
-            </ul>
-            </div>
-        </nav>
-    </header>
-
-    <main>
+  <main>
+    <h1>年表</h1>
+    <div class="box">
+      <ul class="timeline">
+        <li>
+          <p class="timeline-date">1809年（1歳）</p>
+          <div class="timeline-content">
+            <h3>江戸の薩摩藩屋敷にて生まれる。（幼名 : 邦丸）</h3>
+          </div>
+        </li>
         
-        <h1>年表</h1>
+        <li>
+          <p class="timeline-date">1825年（16歳）</p>
+          <div class="timeline-content">
+            <h3>初名であった忠方より斉彬と改名、「斉」は将軍「家斉」より一字を賜った。</h3>
+          </div>
+        </li>
 
-        <div class="box">
-          <ul class="timeline">
-            <li>
-              <p class="timeline-date">1809年（1歳）</p>
-              <div class="timeline-content">
-                <h3>江戸の薩摩藩屋敷にて生まれる。（幼名 : 邦丸）</h3>
-              </div>
-            </li>
-            
-            <li>
-              <p class="timeline-date">1825年（16歳）</p>
-              <div class="timeline-content">
-                <h3>初名であった忠方より斉彬と改名、「斉」は将軍「家斉」より一字を賜った。</h3>
-              </div>
-            </li>
+        <li>
+          <p class="timeline-date">1826年（17歳）</p>
+          <div class="timeline-content">
+            <h3>蘭癖大名として名高い曽祖父、島津重豪にシーボルトに引き合わされる。</h3>
+          </div>
+        </li>
 
-            <li>
-              <p class="timeline-date">1826年（17歳）</p>
-              <div class="timeline-content">
-                <h3>蘭癖大名として名高い曽祖父、島津重豪にシーボルトに引き合わされる。</h3>
-              </div>
-            </li>
+        <li>
+          <p class="timeline-date">1849年（40歳）</p>
+          <div class="timeline-content">
+            <h3>薩摩藩主の父・斉興との対立が激化し、後継問題として「お油羅騒動」が起きる。</h3>
+          </div>
+        </li>
 
-            <li>
-              <p class="timeline-date">1849年（40歳）</p>
-              <div class="timeline-content">
-                <h3>薩摩藩主の父・斉興との対立が激化し、後継問題として「お油羅騒動」が起きる。</h3>
-              </div>
-            </li>
+        <li>
+          <p class="timeline-date">1851年（42歳）</p>
+          <div class="timeline-content">
+            <h3>幕府の介入により斉興は隠居、島津斉彬が薩摩藩主となり、薩摩藩の近代化政策「集成館事業」を開始する。</h3>
+          </div>
+        </li>
 
-            <li>
-              <p class="timeline-date">1851年（42歳）</p>
-              <div class="timeline-content">
-                <h3>幕府の介入により斉興は隠居、島津斉彬が薩摩藩主となり、薩摩藩の近代化政策「集成館事業」を開始する。</h3>
-              </div>
-            </li>
+        <li>
+          <p class="timeline-date">1853年（44歳）</p>
+          <div class="timeline-content">
+            <h3>ペリー来航、島津斉彬は幕府に大船建造の禁の解除を訴える。</h3>
+          </div>
+        </li>
 
-            <li>
-              <p class="timeline-date">1853年（44歳）</p>
-              <div class="timeline-content">
-                <h3>ペリー来航、島津斉彬は幕府に大船建造の禁の解除を訴える。</h3>
-              </div>
-            </li>
+        <li>
+          <p class="timeline-date">1856年（47歳）</p>
+          <div class="timeline-content">
+            <h3>養女とした天璋院篤姫を江戸幕府13代将軍、徳川家定の正室に輿入れさせる。</h3>
+          </div>
+        </li>
 
-            <li>
-              <p class="timeline-date">1856年（47歳）</p>
-              <div class="timeline-content">
-                <h3>養女とした天璋院篤姫を江戸幕府13代将軍、徳川家定の正室に輿入れさせる。</h3>
-              </div>
-            </li>
+        <li>
+          <p class="timeline-date">1858年（48歳）</p>
+          <div class="timeline-content">
+            <h3>将軍後継者問題で井伊直弼を中心とする幕府旧守派と対立する。</h3>
+          </div>
+        </li>
 
-            <li>
-              <p class="timeline-date">1858年（48歳）</p>
-              <div class="timeline-content">
-                <h3>将軍後継者問題で井伊直弼を中心とする幕府旧守派と対立する。</h3>
-              </div>
-            </li>
-
-            <li>
-              <p class="timeline-date">1858年（48歳）</p>
-              <div class="timeline-content">
-                <h3>将軍後継問題で朝廷に圧力をかけるため京に兵を上げる直前8月24日に急死する。</h3>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-    </main>
-</div>
+        <li>
+          <p class="timeline-date">1858年（48歳）</p>
+          <div class="timeline-content">
+            <h3>将軍後継問題で朝廷に圧力をかけるため京に兵を上げる直前8月24日に急死する。</h3>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <TheFooter />
+  </div>
 
 </template>
 
@@ -118,59 +92,6 @@
       main {
         max-width: 1024px;
         margin: 0 auto;
-      }
-      
-      header {
-        flex-wrap: wrap; /*折り返し */
-        display: flex;  /*ヘッダーの下の要素を並列に*/
-        padding: 0; /*ヘッダーの位置調整*/
-        background: #333; /*ヘッダーの背景色*/
-      }
-      
-      .site-name h1 {
-        color: #fff;  /*サイトの名前の色*/
-      }
-
-      .site-name a {
-        text-decoration: none;
-      }
-
-      .logo {
-        margin: 5px 15px;
-      }
-
-      .logo a img {
-        width: 65px;  /*ロゴ画像の幅調整*/
-        height: 65px; /*ロゴ画像の高さ調整*/
-        padding-top: 1.5px; /*ロゴの位置調整*/
-      }
-      
-      nav ul {
-        padding-left: 3em;  
-      }
-
-      .item ul {
-        display: inline-block;
-        margin-top: 25px;
-      }
-
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-      
-      .item li {
-        display: inline-block;
-        list-style: none;
-        margin-right: 16px;
-        padding: 10px;
-        border-bottom: 2px solid #2ac5b3;
-        
-      }
-
-      .item li a {
-        color: #fff;  /*メニューの色*/
-        text-decoration: none;  /*メニューの下線を消す*/
       }
       
     /* 年表 */

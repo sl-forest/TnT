@@ -68,9 +68,9 @@
 
               <dl>
                 <dt>詳しく</dt>
-                <dd><a href="https://fanfun.jaxa.jp/visit/tanegashima/index.html">種子島宇宙センター 施設見学（JAXA公式ページ）</a></dd>
+                <dd><a href="https://fanfun.jaxa.jp/visit/tanegashima/index.html" target=”_blank”>種子島宇宙センター 施設見学（JAXA公式ページ）</a></dd>
               </dl>
-              <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46000121.html" class = "btn">種子島宇宙センター 周辺のホテル・旅館</a>
+              <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46000121.html" class = "btn" target=”_blank”>種子島宇宙センター 周辺のホテル・旅館</a>
 
             </div>
 
