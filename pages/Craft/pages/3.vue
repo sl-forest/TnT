@@ -32,17 +32,17 @@
         <a class ="explanation-link" href="#">詳細はこちら</a>
       </div>        
 
-      <h2 class = craft_headline>つづら工芸</h2>
+      <h2 class = craft_headline>竹製品</h2>
       <div class="craft">
         <div class = craft02_img>
-          <img src="~/assets/img/Tudura.jpg" alt="つづら工芸">
+          <img src="~/assets/img/bambooproducts.jpg" alt="竹製品">
         </div>
 
         <div class = explanation>
-          <p>薩摩郡さつま町で製作されており、山仕事の作業道具を入れる籠として中世から普及した。</p>
-          <p>現在では買い物かごや壁飾りがつくられている。</p>
+          <p>鹿児島は竹林面積日本一の「竹」のふるさと。</p>
+          <p>古くから竹を使って様々な生活道具が作られており、庶民生活には欠かせないもの。</p>
         </div>
-        <a class ="explanation-link" href="#">詳細はこちら</a>
+        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/BambooProducts">詳細はこちら</a>
       </div>
       
       <ul class="Pagination">
