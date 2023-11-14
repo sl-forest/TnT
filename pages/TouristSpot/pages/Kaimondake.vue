@@ -1,60 +1,32 @@
 <template>
 
   <div>
-    <header>
-      <!-- ロゴ -->
-      <div class="logo">
-        <a href="http://localhost:3000"><img src="~/assets/img/Kagoshima_logo.png" alt="サイトのロゴ"></a>
-      </div>
-
-      <!--  サイトの名前 -->
-      <div class="site-name">
-        <a href="http://localhost:3000"><h1>鹿児島紹介サイト</h1></a>
-      </div>
-
-      <!-- メニュー -->
-      <nav>
-        <div class="menu">
-          <ul class="item">
-            <li><a class="item-link" href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
-            <li><a class="item-link" href="http://localhost:3000/History/pages/1">歴史</a></li>
-            <li><a class="item-link" href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
-            <li><a class="item-link" href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
-            <li><a class="item-link" href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <TheHeader />
 
     <main>
       <h1>開聞岳</h1>
         <div class="TouristSpot">
-            <div class = TouristSpot_img>
-                <img src="~/assets/img/KaimonDake.jpg" alt="開聞岳">
-            </div>
-            
-            <div class = TouristSpot_note>
 
-              <dl>
-                <dt>移動方法</dt>
-                <dd>【電車】JR指宿枕崎線「開聞」駅より徒歩約20分で登山口</dd>
-              </dl>
+          <div class = TouristSpot_img>
+            <img src="~/assets/img/KaimonDake.jpg" alt="開聞岳">
+          </div>
+          
+          <div class = TouristSpot_note>
+            <dl>
+              <dt>移動方法</dt>
+              <dd>【電車】JR指宿枕崎線「開聞」駅より徒歩約20分で登山口</dd>
+            </dl>
 
-              <dl>
-                <dt>詳しく</dt>
-                <dd><a href = "https://www.ibusuki.or.jp/tourism/view/kaimondake/" target=”_blank”>開聞岳（いぶすき観光ネット）</a></dd>
-              </dl>
+            <dl>
+              <dt>詳しく</dt>
+              <dd><a href = "https://www.ibusuki.or.jp/tourism/view/kaimondake/" target=”_blank”>開聞岳（いぶすき観光ネット）</a></dd>
+            </dl>
+            <a href="https://travel.rakuten.co.jp/yado/spot/kagoshima/S46000479.html" class = "btn" target=”_blank”>開聞岳 周辺のホテル・旅館</a>
+          </div>
 
-              <a href="https://travel.rakuten.co.jp/yado/spot/kagoshima/S46000479.html" class = "btn" target=”_blank”>開聞岳 周辺のホテル・旅館</a>
-                    
-            </div>
         </div>
     </main>
-
-  <fotter>
-
-  </fotter>
-  
+    <TheFooter />
   </div>
 
 </template>
@@ -153,7 +125,7 @@
       }
 
       .TouristSpot_note {
-        margin-top: 3cm;
+        margin: auto;
         padding-left: 16px;
       }
 
@@ -162,7 +134,7 @@
       }
 
       .TouristSpot_note dl {
-        font-size: 15px;
+        font-size: 18px;
         margin: 3px 0;
         overflow: hidden;
         display: flex;
@@ -178,21 +150,30 @@
       }
 
       .TouristSpot_note dd {
+        width: 13.5cm;
         margin: 0px;
         display: flex;
         background-color: #fff;
         padding-left: 1%;
         flex-grow: 1;
       }
-   
+
+      .TouristSpot_note dd a {
+        text-decoration: none;
+        color: blue;
+      }
+
+      .TouristSpot_note dd a:hover {
+        color: rgb(71, 1, 92);
+      }
+
     /* ボタン */
       a.btn {
         display: block;
         text-align: center;
-        vertical-align: middle;
         text-decoration: none;
         width: 320px;
-        margin-top: 18px;
+        margin: 18px auto;
         padding: 1rem 4rem;
         font-weight: bold;
         border: 2px solid #27acd9;

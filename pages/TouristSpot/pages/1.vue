@@ -136,6 +136,12 @@
       
       .explanation-link {
         align-self: end;
+        text-decoration: none;
+        color: blue;
+      }
+
+      a:hover.explanation-link {
+        color: rgb(71, 1, 92);
       }
 
       /* 観光地画像 */
