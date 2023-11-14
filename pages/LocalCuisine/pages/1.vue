@@ -16,7 +16,7 @@
           <div class = explanation>
             <p>「鶏飯」は、ほぐした鶏肉、干ししいたけ、錦糸卵、パパイヤの味噌漬け、みかんの皮などを、白いごはんの上にのせ、鶏ガラのスープをかけて食べる、奄美地域を代表する郷土料理。</p>
           </div>
-          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Keihan" target=”_blank”>詳細はこちら</a>
+          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Keihan" target=”_blank”><b>詳細はこちら</b></a>
         </div>
 
         <h2 class = LocalCuisine_headline>ぶり大根</h2>
@@ -29,7 +29,7 @@
             <p>鹿児島県の特産品であるブリと大根を使った「ぶり大根」は冬の定番料理として親しまれている。</p>
             <p>ブリの旨味と大根の甘みが一体となった、冬の定番料理。</p>
           </div>
-          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/BuriDaikon" target=”_blank”>詳細はこちら</a>
+          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/BuriDaikon" target=”_blank”><b>詳細はこちら</b></a>
         </div>
 
         <h2 class = LocalCuisine_headline>鶏刺し</h2>
@@ -43,7 +43,7 @@
           <div class = explanation>
             <p>もも肉、むね肉、ささみ、砂肝などの部位を魚のお刺身と同じように醤油をつけて食べる料理。</p>
           </div>
-          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/ChickenSashimi" target=”_blank”>詳細はこちら</a>
+          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/ChickenSashimi" target=”_blank”><b>詳細はこちら</b></a>
         </div>
 
         <h2 class = LocalCuisine_headline>豚汁</h2>
@@ -55,7 +55,7 @@
           <div class = explanation>
             <p>豚肉（主にバラ肉）と好みの野菜（ニンジン、ゴボウ、だいこん）などを煮て、味噌仕立てにした汁物で、味噌汁の一種。</p>
           </div>
-          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Tonjiru" target=”_blank”>詳細はこちら</a>
+          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Tonjiru" target=”_blank”><b>詳細はこちら</b></a>
         </div>
         
         <ul class="Pagination">
@@ -130,9 +130,15 @@
       
       .explanation-link {
         align-self: end;
+        text-decoration: none;
+        color: blue;
       }
 
-      /* 工芸品画像 */
+      a:hover.explanation-link {
+        color: rgb(71, 1, 92);
+      }
+
+      /* 郷土料理画像 */
       .LocalCuisine_img img{
         width: 5cm;
         height: auto;

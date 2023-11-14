@@ -4,43 +4,43 @@
     <TheHeader />
 
     <main>
-      <h1>川辺仏壇</h1>
+      <h1>甲冑</h1>
         <div class="Craft">
             
             <div class = Craft_img>
-                <img src="~/assets/img/kawabebutudan.jpg" alt="川辺仏壇">
+                <img src="~/assets/img/Kattyu.jpeg" alt="甲冑">
             </div>
 
             <div class = Craft_note>
 
               <dl>
                 <dt>読み</dt>
-                <dd>かわなべぶつだん</dd>
+                <dd>かっちゅう</dd>
               </dl>
               
               <dl>
                 <dt>工芸品の分類</dt>
-                <dd>仏壇・仏具</dd>
+                <dd>その他</dd>
               </dl>
 
               <dl>
                 <dt>主な製品</dt>
-                <dd>金仏壇</dd>
+                <dd>甲冑、兜</dd>
               </dl>
 
               <dl>
                 <dt>主要製造地域</dt>
-                <dd>南九州市</dd>
+                <dd>薩摩川内市</dd>
               </dl>
 
               <dl>
                 <dt>指定年月日</dt>
-                <dd>昭和50年（1975年）5月10日</dd>
+                <dd>平成9年（1997年）3月24日</dd>
               </dl>
 
               <dl>
                 <dt>詳しくは</dt>
-                <dd><a href="https://www.kawanabe-butudan.or.jp/" target=”_blank”>鹿児島県川辺仏壇協同組合</a></dd>
+                <dd><a href="http://yoroi.co.jp/" target=”_blank”>甲冑工房 丸武</a></dd>
               </dl>
 
             </div>
@@ -103,7 +103,7 @@
       }
 
       .Craft_note dl {
-        font-size: 18px;
+        font-size: 24px;
         margin: 3px 0;
         overflow: hidden;
         display: flex;
@@ -119,7 +119,7 @@
       }
 
       .Craft_note dd {
-        width: 15cm;
+        width: 18cm;
         margin: 0px;
         display: flex;
         background-color: #fff;
@@ -135,7 +135,7 @@
       .Craft_note dd a:hover {
         color: rgb(71, 1, 92);
       }
-   
+
     /* ボタン */
       a.btn {
         display: block;

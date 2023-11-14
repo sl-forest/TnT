@@ -5,13 +5,13 @@
 
     <main>
       <h1>屋久杉</h1>
-        <div class="WorldHeritage">
+        <div class="Craft">
             
-            <div class = WorldHeritage_img>
+            <div class = Craft_img>
                 <img src="~/assets/img/Yakusugi.jpg" alt="屋久杉">
             </div>
 
-            <div class = WorldHeritage_note>
+            <div class = Craft_note>
 
               <dl>
                 <dt>読み</dt>
@@ -34,6 +34,22 @@
               </dl>
 
               <dl>
+                <dt>指定年月日</dt>
+                <dd>・屋久杉製挽物
+                  <br>
+                  平成6年（1994年）3月14日
+                  <br>
+                  ・屋久杉製無垢家具
+                  <br>
+                  平成7年（1995年）2月22日
+                  <br>
+                  ・屋久杉小工芸品
+                  <br>
+                  平成9年（1997年）3月24日
+                </dd>
+              </dl>
+
+              <dl>
                 <dt>詳しくは</dt>
                 <dd><a href="https://suginoyas.com/" target=”_blank”>杉の舎</a></dd>
               </dl>
@@ -50,17 +66,17 @@
 <style>
     /* スマホ向けスタイル */
     @media screen and (max-width: 767px) {
-      .WorldHeritage_note > dd {
+      .Craft_note > dd {
         border: 1px solid #ddd;
         border-top: none;
       }
 
-      .WorldHeritage_note > dt,
-      .WorldHeritage_note > dd {
+      .Craft_note > dt,
+      .Craft_note > dd {
         text-align: center;
       }
 
-      .WorldHeritage_note > dd > ul {
+      .Craft_note > dd > ul {
         text-align: left;
       }
 }
@@ -71,33 +87,33 @@
         margin: 0 auto;
       }
 
-      .WorldHeritage {
+      .Craft {
         display: flex;
         padding-bottom: 24px;
       }
 
-      .WorldHeritage h1 {
+      .Craft h1 {
         margin: 1.6px auto;
       }
 
-      .WorldHeritage_img img {
+      .Craft_img img {
         height: 9.5cm;
       }
 
-      .WorldHeritage_img p {
+      .Craft_img p {
         margin: 0;
       }
 
-      .WorldHeritage_note {
-        margin-top: 2cm;
+      .Craft_note {
+        margin-top: 8px;
         padding-left: 16px;
       }
 
-      .WorldHeritage_note h2 {
+      .Craft_note h2 {
         margin: 8px auto;
       }
 
-      .WorldHeritage_note dl {
+      .Craft_note dl {
         font-size: 20px;
         margin: 3px 0;
         overflow: hidden;
@@ -106,14 +122,14 @@
         background-color: #e0e2e2;
       }
 
-      .WorldHeritage_note dt {
+      .Craft_note dt {
         vertical-align: middle;
         flex-shrink: 0;
         text-align: center;
         width: 25%;
       }
 
-      .WorldHeritage_note dd {
+      .Craft_note dd {
         width: 15cm;
         margin: 0px;
         display: flex;
@@ -122,12 +138,12 @@
         flex-grow: 1;
       }
 
-      .WorldHeritage_note dd a {
+      .Craft_note dd a {
         text-decoration: none;
         color: blue;
       }
 
-      .WorldHeritage_note dd a:hover {
+      .Craft_note dd a:hover {
         color: rgb(71, 1, 92);
       }
 

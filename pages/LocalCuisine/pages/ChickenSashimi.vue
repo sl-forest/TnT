@@ -1,30 +1,7 @@
 <template>
 
   <div>
-    <header>
-      <!-- ロゴ -->
-      <div class="logo">
-        <a href="http://localhost:3000"><img src="~/assets/img/Kagoshima_logo.png" alt="サイトのロゴ"></a>
-      </div>
-
-      <!--  サイトの名前 -->
-      <div class="site-name">
-        <a href="http://localhost:3000"><h1>鹿児島紹介サイト</h1></a>
-      </div>
-
-      <!-- メニュー -->
-      <nav>
-        <div class="menu">
-          <ul class="item">
-            <li><a class="item-link" href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
-            <li><a class="item-link" href="http://localhost:3000/History/pages/1">歴史</a></li>
-            <li><a class="item-link" href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
-            <li><a class="item-link" href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
-            <li><a class="item-link" href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <TheHeader />
 
     <main>
       <h1>鳥刺し</h1>
@@ -91,52 +68,48 @@
 
           </ul>
 
-              <h3>作り方</h3>
+          <h3>作り方</h3>
 
-              <ul class = "LocalCuisine_make">
-                
-                <li>
-                  <div class = "num">1</div>
-                  <div class = "text">
-                    鶏刺し用の新鮮な鶏肉を用意する。
-                  </div>
-                </li>
-
-                <li>
-                  <div class = "num">2</div>
-                  <div class = "text">
-                    バーナーなどで皮目をあぶり、表面の色が変わったら火を止める。（中は生のまま）
-                  </div>
-                </li>
-
-                <li>
-                  <div class = "num">3</div>
-                  <div class = "text">
-                    	3mm幅に皮目から切る。肉の繊維の方向を見て繊維を断ち切るようにくらいの刺身に切る。
-                  </div>
-                </li>
-
-                <li>
-                  <div class = "num">4</div>
-                  <div class = "text">
-                    青じそを敷き部位ごとに盛り付け玉ねぎはスライス、ネギは小口切り。しょうがニンニクはすりおろして一緒に盛り付け、好みで醤油やポン酢で味わう。
-                  </div>
-                </li>
-
-              </ul>
-
-              <div class = "offer">
-                <p>レシピ提供元名 : 株式会社Table of Smile</p>
-                <p>※レシピは地域・家庭によって違いがあります。</p>
+          <ul class = "LocalCuisine_make">
+            
+            <li>
+              <div class = "num">1</div>
+              <div class = "text">
+                鶏刺し用の新鮮な鶏肉を用意する。
               </div>
+            </li>
+
+            <li>
+              <div class = "num">2</div>
+              <div class = "text">
+                バーナーなどで皮目をあぶり、表面の色が変わったら火を止める。（中は生のまま）
+              </div>
+            </li>
+
+            <li>
+              <div class = "num">3</div>
+              <div class = "text">
+                  3mm幅に皮目から切る。肉の繊維の方向を見て繊維を断ち切るようにくらいの刺身に切る。
+              </div>
+            </li>
+
+            <li>
+              <div class = "num">4</div>
+              <div class = "text">
+                青じそを敷き部位ごとに盛り付け玉ねぎはスライス、ネギは小口切り。しょうがニンニクはすりおろして一緒に盛り付け、好みで醤油やポン酢で味わう。
+              </div>
+            </li>
+
+          </ul>
+
+          <div class = "offer">
+            <p>レシピ提供元名 : 株式会社Table of Smile</p>
+            <p>※レシピは地域・家庭によって違いがあります。</p>
+          </div>
 
         </div>
     </main>
-
-  <fotter>
-
-  </fotter>
-  
+    <TheFooter />
   </div>
 
 </template>
@@ -151,58 +124,6 @@
         margin: 0 auto;
       }
       
-      header {
-        flex-wrap: wrap; /*折り返し */
-        display: flex;  /*ヘッダーの下の要素を並列に*/
-        padding: 0; /*ヘッダーの位置調整*/
-        background: #333; /*ヘッダーの背景色*/
-      }
-      
-      .site-name h1 {
-        color: #fff;  /*サイトの名前の色*/
-      }
-
-      .site-name a {
-        text-decoration: none;
-      }
-
-      .logo {
-        margin: 5px 15px;
-      }
-
-      .logo a img {
-        width: 65px;  /*ロゴ画像の幅調整*/
-        height: 65px; /*ロゴ画像の高さ調整*/
-        padding-top: 1.5px; /*ロゴの位置調整*/
-      }
-      
-      nav ul {
-        padding-left: 3em;
-      }
-
-      .item ul {
-        display: inline-block;
-        margin-top: 25px;
-      }
-
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-      
-      .item li {
-        display: inline-block;
-        list-style: none;
-        margin-right: 16px;
-        padding: 10px;
-        border-bottom: 2px solid #2ac5b3;
-      }
-
-      .item li a {
-        color: #fff;  /*メニューの色*/
-        text-decoration: none;  /*メニューの下線を消す*/
-      }
-
     /*郷土料理説明*/
       .LocalCuisine {
         display: flex;
@@ -234,6 +155,7 @@
       .recipe {
         background: #d2e7f3;
         padding: 24px;
+        margin-bottom: 24px;
       }
 
       .recipe h3 {

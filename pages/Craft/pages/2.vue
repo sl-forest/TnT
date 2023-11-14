@@ -4,10 +4,10 @@
     <TheHeader />
 
     <main>
-      <h1>「伝統工芸品」</h1>
+      <h1>「県指定伝統工芸品」</h1>
       <h2 class = craft_headline>屋久杉</h2>
       <div class="craft">
-        <div class = craft04_img>
+        <div class = craft02_img>
           <img src="~/assets/img/Yakusugi.jpg" alt="屋久杉">
         </div>
 
@@ -16,7 +16,7 @@
           <p> 木目の美しさ、色、かおりの良さなど、まさに銘木というにふさわしく、家具やインテリア用品などに幅広く活用されている。</p>
           <p>現在は自然保護のため、倒木や土埋木だけを工芸品として加工している。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/Yakusugi">基本情報</a>
+        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/Yakusugi" target=”_blank”><b>基本情報はこちら</b></a>
       </div>
 
       <h2 class = craft_headline>薩摩切子</h2>
@@ -29,12 +29,12 @@
           <p>江戸末期に薩摩藩で造られた切子ガラス。</p>
           <p>鉛を24～25%含むクリスタルガラスを使用し、無色のガラス（クリアガラス）の表面に色ガラスを1～2mm程度溶着させた ”色被せガラス”にカットを施し、磨きあげた製品を「薩摩切子」と言う。</p> 
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/SatsumaKiriko">基本情報</a>
+        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/SatsumaKiriko" target=”_blank”><b>基本情報はこちら</b></a>
       </div>
 
       <h2 class = craft_headline>薩摩つげ櫛</h2>
       <div class="craft">
-        <div class = craft04_img>
+        <div class = craft02_img>
           <img src="~/assets/img/Tugegushi.jpg" alt="薩摩つげ櫛">
         </div>
 
@@ -43,7 +43,7 @@
           <p>材質が硬く、色艶が美しいのが特徴。</p>
           <p>なめらかな櫛どおりで、静電気・抜け毛・切れ毛が少ないといわれている。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/KawabeButsudan">基本情報</a>
+        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/SatsumaBoxwoodComb" target=”_blank”><b>基本情報はこちら</b></a>
       </div>
       
       <ul class="Pagination">
@@ -117,6 +117,12 @@
       
       .explanation-link {
         align-self: end;
+        text-decoration: none;
+        color: blue;
+      }
+
+      a:hover.explanation-link {
+        color: rgb(71, 1, 92);
       }
 
       /* 工芸品画像 */
@@ -125,12 +131,7 @@
         height: auto;
       }
 
-      .craft03_img img{
-        width: 5cm;
-        height: auto;
-      }
-
-      .craft04_img img{
+      .craft02_img img{
         width: 5cm;
         height: auto;
       }

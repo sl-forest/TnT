@@ -5,9 +5,9 @@
 
     <main>
       <h1>「郷土料理」</h1>
-      <h2 class = craft_headline>白熊</h2>
-      <div class="craft">
-        <div class = craft_img>
+      <h2 class = localcuisine_headline>白熊</h2>
+      <div class="localcuisine">
+        <div class = localcuisine_img>
           <img src="~/assets/img/Shirokuma.jpg" alt="白熊">
           <p>出典：</p>
           <p>農林水産省「うちの郷土料理」</p>
@@ -16,12 +16,12 @@
         <div class = explanation>
           <p>「白熊」は、削った氷に練乳をかけ、その上にチェリーやレーズン、みかん、パイン、小豆、寒天と、色とりどりのトッピングをのせた氷菓子。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/ShiroKuma" target=”_blank”>詳細はこちら</a>
+        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/ShiroKuma" target=”_blank”><b>詳細はこちら</b></a>
       </div>
 
-      <h2 class = craft_headline>かるかん</h2>
-      <div class="craft">
-        <div class = craft_img>
+      <h2 class = localcuisine_headline>かるかん</h2>
+      <div class="localcuisine">
+        <div class = localcuisine_img>
           <img src="~/assets/img/Karukan02.jpg" alt="かるかん">
           <p>画像提供元 : 鹿児島県</p>
         </div>
@@ -29,12 +29,12 @@
         <div class = explanation>
           <p>「かるかん」は、かるかん粉、山芋、水を使ってつくる鹿児島県の銘菓。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Karukan" target=”_blank”>詳細はこちら</a>
+        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Karukan" target=”_blank”><b>詳細はこちら</b></a>
       </div>
 
-      <h2 class = craft_headline>両棒餅（じゃんぼ餅）</h2>
-      <div class="craft">
-        <div class = craft_img>
+      <h2 class = localcuisine_headline>両棒餅（じゃんぼ餅）</h2>
+      <div class="localcuisine">
+        <div class = localcuisine_img>
           <img src="~/assets/img/Janbomoti.jpg" alt="じゃんぼ餅">
           <p>出典：</p>
           <p>農林水産省「うちの郷土料理」</p>
@@ -43,12 +43,12 @@
         <div class = explanation>
           <p>「じゃんぼ餅」とは、つきたての餅やもち米粉を使っただんご串を2本さして、とろみのある砂糖醤油ダレをかけて食べる、鹿児島県で古くから親しまれている料理である。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/JumboMochi" target=”_blank”>詳細はこちら</a>
+        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/JumboMochi" target=”_blank”><b>詳細はこちら</b></a>
       </div>
 
-      <h2 class = craft_headline>神酒（みき）</h2>
-      <div class="craft">
-        <div class = craft_img>
+      <h2 class = localcuisine_headline>神酒（みき）</h2>
+      <div class="localcuisine">
+        <div class = localcuisine_img>
           <img src="~/assets/img/Miki.jpg" alt="みき">
           <p>出典：</p>
           <p>農林水産省「うちの郷土料理」</p>
@@ -58,7 +58,7 @@
           <p>米とさつまいも、砂糖を使った乳酸菌発酵飲料で、奄美地域の他に沖縄県でも飲まれている。</p>
           <p>沖縄県では、さつまいもではなく麦を使う。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Miki" target=”_blank”>詳細はこちら</a>
+        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Miki" target=”_blank”><b>詳細はこちら</b></a>
       </div>
       
       <ul class="Pagination">
@@ -110,18 +110,18 @@
         margin-bottom: 0;
       }
 
-      h2.craft_headline {
+      h2.localcuisine_headline {
         margin: 0;
         padding-top: 8px;
         border-top: 2px solid #d5d4c3;
       }
       
       /* 工芸品一覧説明 */
-      .craft {
+      .localcuisine {
         display: flex;
       }
 
-      .craft p {
+      .localcuisine p {
         margin: 0;
         font-size: 14px;
       }
@@ -133,10 +133,16 @@
       
       .explanation-link {
         align-self: end;
+        text-decoration: none;
+        color: blue;
       }
 
-      /* 工芸品画像 */
-      .craft_img img{
+      a:hover.explanation-link {
+        color: rgb(71, 1, 92);
+      }
+
+      /* 郷土料理画像 */
+      .localcuisine_img img{
         width: 5cm;
         height: auto;
       }

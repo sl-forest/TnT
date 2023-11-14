@@ -32,7 +32,9 @@
           </a>
         </figure>
         
-        <h2 class="text_area">工芸品について</h2>
+        <a href="http://localhost:3000/Craft/pages/1" class="text_area">
+          <strong>工芸品</strong>
+        </a>
         
         <figure class="image_area01">
           <a href="http://localhost:3000/Craft/pages/1">
@@ -48,7 +50,9 @@
           </a>
         </figure>
         
-        <h2 class="text_area">歴史（偉人）について</h2>
+        <a href="http://localhost:3000/History/pages/1" class="text_area">
+          <strong>歴史（偉人）</strong>
+        </a>
         
         <figure class="image_area02">
           <a href="http://localhost:3000/History/pages/1">
@@ -64,7 +68,9 @@
           </a>
         </figure>
 
-        <h2 class="text_area">郷土料理について</h2>
+        <a href="http://localhost:3000/LocalCuisine/pages/1" class="text_area">
+          <strong>郷土料理</strong>
+        </a>
         
         <figure class="image_area02">
           <a href="http://localhost:3000/LocalCuisine/pages/1">
@@ -80,7 +86,9 @@
           </a>
         </figure>
         
-        <h2 class="text_area">観光地について</h2>
+        <a href="http://localhost:3000/TouristSpot/pages/1" class="text_area">
+          <strong>観光地</strong>
+        </a>
         
         <figure class="image_area02">
           <a href="http://localhost:3000/TouristSpot/pages/1">
@@ -96,9 +104,15 @@
           </a>
         </figure>
         
-        <h2 class="text_area">世界遺産について</h2>
+        <a href="http://localhost:3000/WorldHeritage/pages/1" class="text_area">
+          <strong>世界遺産</strong>
+        </a>
         
-        <figure class="image_area02"><img src="~/assets/img/Ijinkan.jpeg" alt="旧集成館「旧鹿児島紡績所技師館」（異人館）"></figure>
+        <figure class="image_area02">
+          <a href="http://localhost:3000/WorldHeritage/pages/1">
+            <img src="~/assets/img/Ijinkan.jpeg" alt="旧集成館「旧鹿児島紡績所技師館」（異人館）">
+          </a>
+        </figure>
       </div>
 
     </body>
@@ -155,18 +169,21 @@
     width: 15em;
   }
 
-  h2.text_area {
+  a.text_area {
+    font-size: 32px;
     text-align: center;
     display: inline-block;
     width: 300px;
-    margin-left: 20px;
-    vertical-align: top;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
   }
 
   .introduction {
     margin: auto;
     width: 1000px;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     border-top: 2px solid #d5d4c3;
   }

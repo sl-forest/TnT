@@ -4,21 +4,21 @@
     <TheHeader />
 
     <main>
-      <h1>「伝統工芸品」</h1>
-      <h2 class = craft_headline>太鼓（チヂン）</h2>
+      <h1>「県指定伝統工芸品」</h1>
+      <h2 class = craft_headline>加世田鎌・加世田包丁</h2>
       <div class="craft">
         <div class = craft01_img>
-          <img src="~/assets/img/Tijin.jpg" alt="太鼓（チヂン）">
+          <img src="~/assets/img/Kaseda.jpg" alt="加世田鎌・加世田包丁">
         </div>
         
         <div class = explanation>
-          <p>奄美地方の島唄・八月踊りの伴奏に欠かせない太鼓。</p> 
-          <p> 明治時代以前とから製作されてきた。</p>
+          <p>槌の打ち跡が生々しく、荒々しい鋼の黒光りを持つ加世田の刃物。</p> 
+          <p></p>
         </div>
-        <a class ="explanation-link" href="#">詳細はこちら</a>
+        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/Kaseda" target=”_blank”><b>基本情報はこちら</b></a>
       </div>
 
-      <h2 class = craft_headline>甲冑（かっちゅう）</h2>
+      <h2 class = craft_headline>甲冑</h2>
       <div class="craft">
         <div class = craft02_img>
           <img src="~/assets/img/Kattyu.jpeg" alt="甲冑">
@@ -29,7 +29,7 @@
         <div class = explanation>
           <p>昔ながらの製法を守りながら、映画・テレビなどの時代劇に使用される鎧やかぶとの全国シェア９割以上の生産を誇り、全国各地のお祭りの武者行列などでも使用されている。</p>
         </div>
-        <a class ="explanation-link" href="#">詳細はこちら</a>
+        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/Armor" target=”_blank”><b>基本情報はこちら</b></a>
       </div>        
 
       <h2 class = craft_headline>竹製品</h2>
@@ -42,7 +42,7 @@
           <p>鹿児島は竹林面積日本一の「竹」のふるさと。</p>
           <p>古くから竹を使って様々な生活道具が作られており、庶民生活には欠かせないもの。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/BambooProducts">詳細はこちら</a>
+        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/BambooProducts" target=”_blank”><b>基本情報はこちら</b></a>
       </div>
       
       <ul class="Pagination">
@@ -117,17 +117,27 @@
       
       .explanation-link {
         align-self: end;
+        text-decoration: none;
+        color: blue;
+      }
+
+      a:hover.explanation-link {
+        color: rgb(71, 1, 92);
       }
 
       /* 工芸品画像 */
-      .craft01_img img{
+      .craft01_img img {
         width: 4.5cm;
         height: auto;
       }
 
-      .craft02_img img{
+      .craft02_img img {
         width: 4.5cm;
         height: 4cm;
+      }
+
+      .craft02_img p {
+        font-size: 12px
       }
       
       /* ページネーション */

@@ -17,7 +17,7 @@
   .footer {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1.2rem;
     font-size: 15px;
     color: rgb(255, 255, 255);
     background: rgb(0, 0, 0);

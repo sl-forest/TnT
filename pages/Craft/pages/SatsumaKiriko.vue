@@ -5,13 +5,13 @@
 
     <main>
       <h1>薩摩切子</h1>
-        <div class="WorldHeritage">
+        <div class="Craft">
             
-            <div class = WorldHeritage_img>
+            <div class = Craft_img>
                 <img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子">
             </div>
 
-            <div class = WorldHeritage_note>
+            <div class = Craft_note>
 
               <dl>
                 <dt>読み</dt>
@@ -25,7 +25,7 @@
 
               <dl>
                 <dt>主な製品</dt>
-                <dd>食器</dd>
+                <dd>食器、アクセサリー</dd>
               </dl>
 
               <dl>
@@ -55,17 +55,17 @@
 <style>
     /* スマホ向けスタイル */
     @media screen and (max-width: 767px) {
-      .WorldHeritage_note > dd {
+      .Craft_note > dd {
         border: 1px solid #ddd;
         border-top: none;
       }
 
-      .WorldHeritage_note > dt,
-      .WorldHeritage_note > dd {
+      .Craft_note > dt,
+      .Craft_note > dd {
         text-align: center;
       }
 
-      .WorldHeritage_note > dd > ul {
+      .Craft_note > dd > ul {
         text-align: left;
       }
 }
@@ -76,34 +76,34 @@
         margin: 0 auto;
       }
 
-      .WorldHeritage {
+      .Craft {
         display: flex;
         padding-bottom: 24px;
       }
 
-      .WorldHeritage h1 {
+      .Craft h1 {
         margin: 1.6px auto;
       }
 
-      .WorldHeritage_img img {
+      .Craft_img img {
         height: 9.5cm;
       }
 
-      .WorldHeritage_img p {
+      .Craft_img p {
         margin: 0;
       }
 
-      .WorldHeritage_note {
+      .Craft_note {
         margin-top: 1.8cm;
         padding-left: 16px;
       }
 
-      .WorldHeritage_note h2 {
+      .Craft_note h2 {
         margin: 8px auto;
       }
 
-      .WorldHeritage_note dl {
-        font-size: 18px;
+      .Craft_note dl {
+        font-size: 20px;
         margin: 3px 0;
         overflow: hidden;
         display: flex;
@@ -111,14 +111,14 @@
         background-color: #e0e2e2;
       }
 
-      .WorldHeritage_note dt {
+      .Craft_note dt {
         vertical-align: middle;
         flex-shrink: 0;
         text-align: center;
         width: 25%;
       }
 
-      .WorldHeritage_note dd {
+      .Craft_note dd {
         width: 15cm;
         margin: 0px;
         display: flex;
@@ -127,12 +127,12 @@
         flex-grow: 1;
       }
 
-      .WorldHeritage_note dd a {
+      .Craft_note dd a {
         text-decoration: none;
         color: blue;
       }
 
-      .WorldHeritage_note dd a:hover {
+      .Craft_note dd a:hover {
         color: rgb(71, 1, 92);
       }
    

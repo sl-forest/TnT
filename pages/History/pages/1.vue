@@ -19,7 +19,7 @@
             その卓越した識見は、松平春嶽より「英明近世の第一人者」と称された。
           </div>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/History/pages/ShimazuNariakira" target=”_blank”>年表はこちら</a>
+        <a class ="explanation-link" href="http://localhost:3000/History/pages/ShimazuNariakira" target=”_blank”><b>年表はこちら</b></a>
       </div>
 
       <h2 class = history_headline>西郷隆盛（さいごうたかもり）（1827-1877）</h2>
@@ -33,7 +33,7 @@
           <p>故郷鹿児島の盟友・大久保利通と共に薩摩藩をリードして王政復古を実現させ、徳川幕府を倒し、明治政府の成立に大きな貢献をした。</p>
           <p>維新後、封建制度下の特権を失った不平士族（旧武士）の首領となって西南戦争を起こしたが政府軍に敗れ自刃した。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/History/pages/SaigoTakamori" target=”_blank”>年表はこちら</a>
+        <a class ="explanation-link" href="http://localhost:3000/History/pages/SaigoTakamori" target=”_blank”><b>年表はこちら</b></a>
       </div>
 
       <h2 class = history_headline>大久保利通（おおくぼとしみち）（1830-1878）</h2>
@@ -48,7 +48,7 @@
           <p>やがて討幕へと転じ、薩長連合を成立させる一方、岩倉具視らと結んで慶応3(1867)年12月、王政復古のクーデターを敢行。</p>
           <p>版籍奉還や廃藩置県を推進し、新政府の基礎を固める。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/History/pages/OkuboToshimichi" target=”_blank”>年表はこちら</a>
+        <a class ="explanation-link" href="http://localhost:3000/History/pages/OkuboToshimichi" target=”_blank”><b>年表はこちら</b></a>
       </div>
 
       <h2 class = history_headline>小松帯刀（こまつたてわき）（1835-1870）</h2>
@@ -62,7 +62,7 @@
           <p>家老に進んだ後は大久保・西郷隆盛らとともに討幕派公卿・諸藩の間を奔走。</p>
           <p>大政奉還に尽力。明治政府に重用され外国官（外務省の前身）副知事になったが病死。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/History/pages/KomatsuTatewaki" target=”_blank”>年表はこちら</a>
+        <a class ="explanation-link" href="http://localhost:3000/History/pages/KomatsuTatewaki" target=”_blank”><b>年表はこちら</b></a>
       </div>
 
       <h2 class = history_headline>天璋院篤姫（てんしょういんあつひめ）（1836-1883）</h2>
@@ -74,7 +74,7 @@
         <div class = explanation>
           <p>幕府の消滅に立会い、徳川本家廃絶・江戸城武力攻略の回避に力を尽くし、明治期には徳川本家の家格・家名の維持を目ざした。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/History/pages/TenshoinAtsuhime" target=”_blank”>年表はこちら</a>
+        <a class ="explanation-link" href="http://localhost:3000/History/pages/TenshoinAtsuhime" target=”_blank”><b>年表はこちら</b></a>
       </div>
     
     </main>
@@ -119,6 +119,12 @@
       
       .explanation-link {
         align-self: end;
+        text-decoration: none;
+        color: blue;
+      }
+
+      a:hover.explanation-link {
+        color: rgb(71, 1, 92);
       }
 
       /* 工芸品画像 */

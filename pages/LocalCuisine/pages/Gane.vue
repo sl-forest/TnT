@@ -1,30 +1,7 @@
 <template>
 
   <div>
-    <header>
-      <!-- ロゴ -->
-      <div class="logo">
-        <a href="http://localhost:3000"><img src="~/assets/img/Kagoshima_logo.png" alt="サイトのロゴ"></a>
-      </div>
-
-      <!--  サイトの名前 -->
-      <div class="site-name">
-        <a href="http://localhost:3000"><h1>鹿児島紹介サイト</h1></a>
-      </div>
-
-      <!-- メニュー -->
-      <nav>
-        <div class="menu">
-          <ul class="item">
-            <li><a class="item-link" href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
-            <li><a class="item-link" href="http://localhost:3000/History/pages/1">歴史</a></li>
-            <li><a class="item-link" href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
-            <li><a class="item-link" href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
-            <li><a class="item-link" href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <TheHeader />
 
     <main>
       <h1>がね</h1>
@@ -127,56 +104,52 @@
 
           </ul>
 
-              <h3>作り方</h3>
+          <h3>作り方</h3>
 
-              <ul class = "LocalCuisine_make">
-                
-                <li>
-                  <div class = "num">1</div>
-                  <div class = "text">
-                    さつまいもは薄く皮を剥き（ところどころ皮を残す）、5mm角×7～8cmの細切りにする。
-                    ボウルに水を張り、さつまいもが完全に浸るようにさらしてざるに開ける。
-                    人参は薄く皮を剥き、さつまいもより短めの2～3cmに切る。ニラは7～8cmの長さに切る。
-                  </div>
-                </li>
-
-                <li>
-                  <div class = "num">2</div>
-                  <div class = "text">
-                    ボウルに1と水以外の材料を加えながら衣が具にまとわりつく感じになるまで混ぜる。
-                  </div>
-                </li>
-
-                <li>
-                  <div class = "num">3</div>
-                  <div class = "text">
-                    鍋に油を3cm以上の深さになるように入れて、170度になるように熱する。（臭みが取れる）
-                  </div>
-                </li>
-
-                <li>
-                  <div class = "num">4</div>
-                  <div class = "text">
-                    木杓子で具をすくい、横長にカニの姿のようにかたちをととのえる。
-                    菜箸で向こう側に押すように鍋に落とし、2、3分でひっくり返し、さつまいもの甘い匂いがしてきて全体がきつね色になったら揚げ上がり。
-                    バットにキッチンペーパーを敷き、立てて並べると油の切れが良い。
-                  </div>
-                </li>
-
-              </ul>
-
-              <div class = "offer">
-                <p>レシピ提供元名 : NPO法人霧島食育研究会</p>
-                <p>※レシピは地域・家庭によって違いがあります。</p>
+          <ul class = "LocalCuisine_make">
+            
+            <li>
+              <div class = "num">1</div>
+              <div class = "text">
+                さつまいもは薄く皮を剥き（ところどころ皮を残す）、5mm角×7～8cmの細切りにする。
+                ボウルに水を張り、さつまいもが完全に浸るようにさらしてざるに開ける。
+                人参は薄く皮を剥き、さつまいもより短めの2～3cmに切る。ニラは7～8cmの長さに切る。
               </div>
+            </li>
+
+            <li>
+              <div class = "num">2</div>
+              <div class = "text">
+                ボウルに1と水以外の材料を加えながら衣が具にまとわりつく感じになるまで混ぜる。
+              </div>
+            </li>
+
+            <li>
+              <div class = "num">3</div>
+              <div class = "text">
+                鍋に油を3cm以上の深さになるように入れて、170度になるように熱する。（臭みが取れる）
+              </div>
+            </li>
+
+            <li>
+              <div class = "num">4</div>
+              <div class = "text">
+                木杓子で具をすくい、横長にカニの姿のようにかたちをととのえる。
+                菜箸で向こう側に押すように鍋に落とし、2、3分でひっくり返し、さつまいもの甘い匂いがしてきて全体がきつね色になったら揚げ上がり。
+                バットにキッチンペーパーを敷き、立てて並べると油の切れが良い。
+              </div>
+            </li>
+
+          </ul>
+
+          <div class = "offer">
+            <p>レシピ提供元名 : NPO法人霧島食育研究会</p>
+            <p>※レシピは地域・家庭によって違いがあります。</p>
+          </div>
 
         </div>
     </main>
-
-  <fotter>
-
-  </fotter>
-  
+    <TheFooter />
   </div>
 
 </template>
@@ -191,58 +164,6 @@
         margin: 0 auto;
       }
       
-      header {
-        flex-wrap: wrap; /*折り返し */
-        display: flex;  /*ヘッダーの下の要素を並列に*/
-        padding: 0; /*ヘッダーの位置調整*/
-        background: #333; /*ヘッダーの背景色*/
-      }
-      
-      .site-name h1 {
-        color: #fff;  /*サイトの名前の色*/
-      }
-
-      .site-name a {
-        text-decoration: none;
-      }
-
-      .logo {
-        margin: 5px 15px;
-      }
-
-      .logo a img {
-        width: 65px;  /*ロゴ画像の幅調整*/
-        height: 65px; /*ロゴ画像の高さ調整*/
-        padding-top: 1.5px; /*ロゴの位置調整*/
-      }
-      
-      nav ul {
-        padding-left: 3em;
-      }
-
-      .item ul {
-        display: inline-block;
-        margin-top: 25px;
-      }
-
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-      
-      .item li {
-        display: inline-block;
-        list-style: none;
-        margin-right: 16px;
-        padding: 10px;
-        border-bottom: 2px solid #2ac5b3;
-      }
-
-      .item li a {
-        color: #fff;  /*メニューの色*/
-        text-decoration: none;  /*メニューの下線を消す*/
-      }
-
     /*郷土料理説明*/
       .LocalCuisine {
         display: flex;
@@ -278,6 +199,7 @@
       .recipe {
         background: #d2e7f3;
         padding: 24px;
+        margin-bottom: 24px;
       }
 
       .recipe h3 {

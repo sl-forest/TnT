@@ -4,43 +4,44 @@
     <TheHeader />
 
     <main>
-      <h1>川辺仏壇</h1>
+      <h1>薩摩つげ櫛</h1>
         <div class="Craft">
             
             <div class = Craft_img>
-                <img src="~/assets/img/kawabebutudan.jpg" alt="川辺仏壇">
+                <img src="~/assets/img/Tugegushi.jpg" alt="薩摩つげ櫛">
             </div>
 
             <div class = Craft_note>
 
               <dl>
                 <dt>読み</dt>
-                <dd>かわなべぶつだん</dd>
+                <dd>さつまつげくし
+                </dd>
               </dl>
               
               <dl>
                 <dt>工芸品の分類</dt>
-                <dd>仏壇・仏具</dd>
+                <dd>木工品</dd>
               </dl>
 
               <dl>
                 <dt>主な製品</dt>
-                <dd>金仏壇</dd>
+                <dd>櫛</dd>
               </dl>
 
               <dl>
                 <dt>主要製造地域</dt>
-                <dd>南九州市</dd>
+                <dd>薩摩地方</dd>
               </dl>
 
               <dl>
                 <dt>指定年月日</dt>
-                <dd>昭和50年（1975年）5月10日</dd>
+                <dd>平成6年（1994年）3月14日</dd>
               </dl>
 
               <dl>
                 <dt>詳しくは</dt>
-                <dd><a href="https://www.kawanabe-butudan.or.jp/" target=”_blank”>鹿児島県川辺仏壇協同組合</a></dd>
+                <dd><a href="http://kushi.jp/" target=”_blank”>喜多つげ製作所</a></dd>
               </dl>
 
             </div>
@@ -94,7 +95,7 @@
       }
 
       .Craft_note {
-        margin-top: 1.8cm;
+        margin-top: 1.6cm;
         padding-left: 16px;
       }
 
@@ -103,7 +104,7 @@
       }
 
       .Craft_note dl {
-        font-size: 18px;
+        font-size: 24px;
         margin: 3px 0;
         overflow: hidden;
         display: flex;
@@ -119,7 +120,7 @@
       }
 
       .Craft_note dd {
-        width: 15cm;
+        width: 18cm;
         margin: 0px;
         display: flex;
         background-color: #fff;

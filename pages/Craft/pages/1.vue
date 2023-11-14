@@ -4,7 +4,7 @@
     <TheHeader />
 
     <main>
-      <h1>「伝統工芸品」</h1>
+      <h1>「国指定伝統工芸品」</h1>
       <h2 class = craft_headline>本場大島紬</h2>
       <div class="craft">
         <div class = craft01_img>
@@ -16,7 +16,7 @@
           <p>30数工程もある緻密な手作業により、図案から織り上がるまで半年から1年以上もかかる。</p>
           <p>大島紬村では本場大島紬の製造現場見学や、泥染め・織り体験、着付体験などが楽しめる。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/AuthenticOshimaTsumugi">基本情報</a>
+        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/AuthenticOshimaTsumugi" target=”_blank”><b>基本情報はこちら</b></a>
       </div>
 
       <h2 class = craft_headline>川辺仏壇</h2>
@@ -30,12 +30,12 @@
           <p>川辺仏壇の特徴は、「ガマ戸」と呼ばれる川辺仏壇オリジナルの独特な仏壇があることです。</p>
           <p>”ガマ”とは、鹿児島県の方言で洞窟を表します。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/KawabeButsudan">基本情報</a>
+        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/KawabeButsudan" target=”_blank”><b>基本情報はこちら</b></a>
       </div>
 
       <h2 class = craft_headline>薩摩焼</h2>
       <div class="craft">
-        <div class = craft03_img>
+        <div class = craft02_img>
           <img src="~/assets/img/SatsumaYaki.jpg" alt="薩摩焼">
         </div>
 
@@ -44,7 +44,7 @@
           <p>鉄分が多い土を高温で焼き締めるため、素朴で頑丈な仕上がりが特徴。</p>
           <p>「白もん」と呼ばれる豪華絢爛な色絵錦手の陶器と「黒もん」と呼ばれる大衆向けの雑器に分かれる。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/SatsumaPorcelain">基本情報</a>
+        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/SatsumaPorcelain" target=”_blank”><b>基本情報はこちら</b></a>
       </div>
       
       <ul class="Pagination">
@@ -118,6 +118,12 @@
       
       .explanation-link {
         align-self: end;
+        text-decoration: none;
+        color: blue;
+      }
+
+      a:hover.explanation-link {
+        color: rgb(71, 1, 92);
       }
 
       /* 工芸品画像 */
@@ -126,7 +132,7 @@
         height: auto;
       }
 
-      .craft03_img img{
+      .craft02_img img{
         width: 5cm;
         height: auto;
       }

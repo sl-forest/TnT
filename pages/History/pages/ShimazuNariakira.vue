@@ -73,7 +73,7 @@
     </div>
   </main>
   <TheFooter />
-  </div>
+</div>
 
 </template>
 

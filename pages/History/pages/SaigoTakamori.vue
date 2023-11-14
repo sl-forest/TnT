@@ -4,7 +4,6 @@
   <TheHeader />
   
   <main>
-    
     <h1>年表</h1>
     <div class = "box">
       <ul class="timeline">

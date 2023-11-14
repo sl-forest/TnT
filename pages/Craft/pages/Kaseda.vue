@@ -4,43 +4,43 @@
     <TheHeader />
 
     <main>
-      <h1>川辺仏壇</h1>
+      <h1>加世田鎌・加世田包丁</h1>
         <div class="Craft">
             
             <div class = Craft_img>
-                <img src="~/assets/img/kawabebutudan.jpg" alt="川辺仏壇">
+                <img src="~/assets/img/Kaseda.jpg" alt="加世田鎌・加世田包丁">
             </div>
 
             <div class = Craft_note>
 
               <dl>
                 <dt>読み</dt>
-                <dd>かわなべぶつだん</dd>
+                <dd>かせだほうちょう・かせだかま</dd>
               </dl>
               
               <dl>
                 <dt>工芸品の分類</dt>
-                <dd>仏壇・仏具</dd>
+                <dd>刃物</dd>
               </dl>
 
               <dl>
                 <dt>主な製品</dt>
-                <dd>金仏壇</dd>
+                <dd>鎌、包丁</dd>
               </dl>
 
               <dl>
                 <dt>主要製造地域</dt>
-                <dd>南九州市</dd>
+                <dd>屋久島</dd>
               </dl>
 
               <dl>
                 <dt>指定年月日</dt>
-                <dd>昭和50年（1975年）5月10日</dd>
+                <dd>昭和63年（1988年）3月31日</dd>
               </dl>
 
               <dl>
                 <dt>詳しくは</dt>
-                <dd><a href="https://www.kawanabe-butudan.or.jp/" target=”_blank”>鹿児島県川辺仏壇協同組合</a></dd>
+                <dd><a href="https://www.hokazono-kanamono.com/" target=”_blank”>有限会社 外園金物店</a></dd>
               </dl>
 
             </div>
@@ -94,7 +94,7 @@
       }
 
       .Craft_note {
-        margin-top: 1.8cm;
+        margin-top: 2cm;
         padding-left: 16px;
       }
 
@@ -103,7 +103,7 @@
       }
 
       .Craft_note dl {
-        font-size: 18px;
+        font-size: 20px;
         margin: 3px 0;
         overflow: hidden;
         display: flex;
@@ -135,7 +135,7 @@
       .Craft_note dd a:hover {
         color: rgb(71, 1, 92);
       }
-   
+
     /* ボタン */
       a.btn {
         display: block;
