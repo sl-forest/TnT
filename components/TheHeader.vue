@@ -2,7 +2,7 @@
     <header>
       <!-- ロゴ -->
       <div class="logo">
-        <a href="#"><img src="~/assets/img/Kagoshima_logo.png" alt="サイトのロゴ"></a>
+        <a href="http://localhost:3000"><img src="~/assets/img/Kagoshima_logo.png" alt="サイトのロゴ"></a>
       </div>
 
       <!--  サイトの名前 -->
@@ -24,14 +24,34 @@
       </nav>
 
       <div class="serch-box">
-        <form id="form" action="http://localhost:3000" method="get">
-        <input id="sbox" type="search" name="search" placeholder="キーワードを入力">
-        <input id="sbtn" type="submit" name="submit" value="検索">
-        </form>
+        <!-- <form id="form" action="http://localhost:3000" method="get"> -->
+        <input id="sbox" type="search" name="search" placeholder="キーワードを入力" v-model="keyword">
+        <input id="sbtn" type="button" name="submit" value="検索" @click="submitKeyword">
+        <!-- </form> -->
       </div>
 
     </header>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      keyword: '',
+    }
+  },
+  
+  methods: {
+    submitKeyword() {
+      console.log(this.keyword)
+      if (this.keyword != '') {
+        localStorage.setItem('keyword', this.keyword)
+        this.$router.push('/Craft/pages/2')
+      }
+    },
+  }
+}
+</script>
 
 <style>
   /* スマホ向けスタイル */
