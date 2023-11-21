@@ -124,10 +124,10 @@
 </template>
 
 <style>
-  /* スマホ向けスタイル */
-
+  /* スマホ向けスタイル *
+  
   /* PC向けスタイル */
-    @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
 
   .Kagoshima_about h1 {
     margin-bottom: 8px;
