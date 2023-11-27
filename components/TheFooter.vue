@@ -1,5 +1,7 @@
 <template>
+  <div><head><head><meta name="viewport" content="width=device-width,initial-scale=1"></head></head>
     <footer class="footer">
+
       <p class="copyright">© 2023 TnT Inc.</p>
 
       <ul class="md-flex">
@@ -11,9 +13,18 @@
       </ul>
 
     </footer>
+  </div>
 </template>
 
 <style scoped>
+/* スマホ */
+@media screen and (max-width:480px) {
+
+  * {
+	  float: none;
+	  position: static;
+  }
+
   .footer {
     display: flex;
     justify-content: space-between;
@@ -35,16 +46,57 @@
 
   .md-flex {
     display: flex;
-    margin-right: 2cm;
+    margin-right: 18px;
+    padding: 0;
+  }
+
+  .md-flex li {
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    writing-mode: tb-rl;
+    writing-mode: vertical-rl; 
+    -moz-writing-mode: vertical-rl;
+    -o-writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
   }
 
   .md-flex li + li {
     margin-left: 16px;
   }
-
-  /* 検索フォーム */
-  #form {
-    position: relative; 
-    margin-bottom: 20px;	
+}
+/* PC */
+@media screen and (min-width: 1024px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    border-top: 1px solid #e5e7eb;
   }
+
+  .footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    color: rgb(2, 243, 252);
+  }
+
+  .copyright {
+    margin: auto;
+  }
+
+  .md-flex {
+    display: flex;
+    margin-right: 3cm;
+  }
+
+  .md-flex li + li {
+    margin-left: 16px;
+  }
+}
 </style>

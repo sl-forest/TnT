@@ -101,7 +101,6 @@
 
       .craft p {
         margin: 0;
-        font-size: 14px;
       }
 
       h2.craft_headline {
@@ -112,7 +111,7 @@
 
       .explanation {
         margin: auto;
-        width: 44em;
+        width: 40em;
       }
       
       .explanation-link {

@@ -84,6 +84,62 @@
 
 <style>
     /* スマホ向けスタイル */
+    @media screen and (max-width: 480px) {
+     /* 工芸品画像 */
+      .craft01_img img{
+        width: 9cm;
+        height: auto;
+      }
+
+      .craft02_img img{
+        width: 10cm;
+        height: auto;
+      }
+
+       /* ページネーション */
+      .Pagination {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .Pagination-Item-Link {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        flex-wrap: wrap;
+        overflow: hidden;
+        background: #fff;
+        border: solid 2px #111;
+        font-size: 14px;
+        color: #111;
+        font-weight: bold;
+        transition: all 0.15s linear;
+      }
+
+      .Pagination-Item-Link-Icon {
+        width: 20px;
+      }
+
+      .Pagination-Item-Link.isActive {
+        background: #111;
+        color: #fff;
+        pointer-events: none;
+      }
+
+      .Pagination-Item-Link:not(.isActive):hover {
+        background: #111;
+        color: #fff;
+      }
+
+      .Pagination > * + * {
+        margin-left: 8px;
+      }
+    }
 
     /* PC向けスタイル */
     @media screen and (min-width: 1024px) {

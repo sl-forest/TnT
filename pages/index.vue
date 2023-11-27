@@ -1,7 +1,8 @@
 <template>
-
+  
   <div>
-   <TheHeader />
+    <head><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+    <TheHeader />
 
     <body>
       <div class="top_img">
@@ -124,8 +125,72 @@
 </template>
 
 <style>
-  /* スマホ向けスタイル *
+  /* スマホ向けスタイル */
+  @media screen and (max-width:480px) {
+
+  * {
+	  float: none;
+	  position: static;
+  }
+
+  .Kagoshima_about h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .Kagoshima_about p {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .top_img img {
+    max-width: 100%;
+    margin: 0;
+  }
   
+  html {
+    font-family: sans-serif;
+  }
+
+  /* 紹介 */
+  .headline h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  figure.image_area {
+    margin: auto;
+    margin-top: 0;
+    display: inline-block;
+  }
+
+  figure.image_area01 img {
+    height: 8em;
+  }
+
+  figure.image_area02 img {
+    height: 8em;
+  }
+
+  a.text_area {
+    font-size: 32px;
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .introduction {
+    margin: auto;
+    width: 1000px;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid #d5d4c3;
+  }
+}
   /* PC向けスタイル */
   @media screen and (min-width: 1024px) {
 
@@ -138,8 +203,8 @@
     margin: 0;
   }
 
-  .image img {
-    width: 15em;
+  .top_img img {
+    max-width: 100%;
   }
   
   html {
@@ -169,16 +234,6 @@
     width: 15em;
   }
 
-  a.text_area {
-    font-size: 32px;
-    text-align: center;
-    display: inline-block;
-    width: 300px;
-    margin: 0 auto;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-  }
-
   .introduction {
     margin: auto;
     width: 1000px;
@@ -187,13 +242,15 @@
     justify-content: space-around;
     border-top: 2px solid #d5d4c3;
   }
- 
-  .introduction p {
+  
+  a.text_area {
+    font-size: 32px;
+    text-align: center;
+    display: inline-block;
     width: 300px;
-  }
-
-  .introduction p a {
-    color: blue;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
   }
 }
 </style>
