@@ -1,102 +1,132 @@
 <template>
-  <div><head><head><meta name="viewport" content="width=device-width,initial-scale=1"></head></head>
-    <footer class="footer">
 
-      <p class="copyright">© 2023 TnT Inc.</p>
+  <footer id="footer02" class="outer-block">
 
-      <ul class="md-flex">
-        <li><a href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
-        <li><a href="http://localhost:3000/History/pages/1">歴史</a></li>
-        <li><a href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
-        <li><a href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
-        <li><a href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
-      </ul>
+    <div class="inner-block">
+      <div class="wrap">
+        
+        <div class="logo">
+          <a href="http://localhost:3000"><img src="~/assets/img/Kagoshima_logo.png" alt="サイトロゴ"></a>
+        </div>
 
-    </footer>
-  </div>
+        <h1>鹿児島紹介サイト</h1>
+
+        <div class="cont">
+          <ul class="nav">
+            <li><a href="http://localhost:3000/Craft/pages/1">工芸品</a></li>
+            <li><a href="http://localhost:3000/History/pages/1">歴史</a></li>
+            <li><a href="http://localhost:3000/LocalCuisine/pages/1">郷土料理</a></li>
+            <li><a href="http://localhost:3000/TouristSpot/pages/1">観光地</a></li>
+            <li><a href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- /inner-block -->
+    
+    <div class="copyright"
+      style="color: white; text-align: center; height: 32px;">
+      © 2023 TnT Inc
+    </div>
+    
+  </footer>
+
 </template>
 
-<style scoped>
-/* スマホ */
-@media screen and (max-width:480px) {
+<style>
 
-  * {
-	  float: none;
-	  position: static;
+  .wrap h1 {
+    color: white;
+    margin: 0;
+    margin-left: 16px;
   }
 
-  .footer {
+  #footer02 {
+    background: #222;
+  }
+ 
+  #footer02 .nav li a {
+    padding: 15px;
+    color: #ccc;
+  }
+ 
+  #footer02 .c-btn {
+    margin-left: 25px;
+  }
+ 
+@media screen and (min-width: 1024px) {
+  #footer02 .logo {
+    padding: 10px 0;
+  }
+ 
+  #footer02 .wrap {
     display: flex;
-    justify-content: space-between;
-    padding: 1.2rem;
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-    background: rgb(0, 0, 0);
-    border-top: 1px solid #e5e7eb;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  #footer02 .cont {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+ 
+  #footer02 .nav {
+    display: inline-block;
+    list-style: none;
+  }
+ 
+  #footer02 .nav li {
+    display: inline-block;
   }
 
-  .footer a {
-    color: rgb(255, 255, 255);
+  #footer02 .nav li a {
     text-decoration: none;
   }
 
-  .footer a:hover {
-    color: rgb(2, 243, 252);
-  }
-
-  .md-flex {
-    display: flex;
-    margin-right: 18px;
-    padding: 0;
-  }
-
-  .md-flex li {
-    font-size: 18px;
-    font-weight: bold;
-    float: left;
-    writing-mode: tb-rl;
-    writing-mode: vertical-rl; 
-    -moz-writing-mode: vertical-rl;
-    -o-writing-mode: vertical-rl;
-    -webkit-writing-mode: vertical-rl;
-  }
-
-  .md-flex li + li {
-    margin-left: 16px;
+  #footer02 .nav li a:hover {
+    color: #22e5ff;
   }
 }
-/* PC */
-@media screen and (min-width: 1024px) {
-  .footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 1.2rem;
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-    background: rgb(0, 0, 0);
-    border-top: 1px solid #e5e7eb;
+
+@media only screen and (max-width: 480px) {
+  #footer02 {
+    padding: 20px 0 0;
+  }
+ 
+  #footer02 .inner-block {
+    padding: 0;
+  }
+ 
+  .ie #footer02 .logo img,
+  #footer02 .logo {
+    text-align: center;
+    display: block;
   }
 
-  .footer a {
-    color: rgb(255, 255, 255);
+  #footer02 .inner-block h1 {
+    text-align: center;
+  }
+
+  #footer02 .nav {
+    list-style: none;
+  }
+
+  #footer02 .nav li {
+    border-top: 1px solid #555;
+  }
+ 
+  #footer02 .nav li a {
     text-decoration: none;
+    padding: 12px 20px;
+    display: block;
+    background-size: 5px auto;
   }
-
-  .footer a:hover {
-    color: rgb(2, 243, 252);
-  }
-
-  .copyright {
-    margin: auto;
-  }
-
-  .md-flex {
-    display: flex;
-    margin-right: 3cm;
-  }
-
-  .md-flex li + li {
-    margin-left: 16px;
+ 
+  #footer02 .nav li:last-child {
+    border-bottom: 1px solid #555;
   }
 }
 </style>
