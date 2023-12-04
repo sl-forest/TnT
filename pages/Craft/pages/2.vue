@@ -7,7 +7,7 @@
       <h1>「県指定伝統工芸品」</h1>
       <h2 class = craft_headline>屋久杉</h2>
       <div class="craft">
-        <div class = craft02_img>
+        <div class = craft_img>
           <img src="~/assets/img/Yakusugi.jpg" alt="屋久杉">
         </div>
 
@@ -16,12 +16,16 @@
           <p> 木目の美しさ、色、かおりの良さなど、まさに銘木というにふさわしく、家具やインテリア用品などに幅広く活用されている。</p>
           <p>現在は自然保護のため、倒木や土埋木だけを工芸品として加工している。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/Yakusugi" target=”_blank”><b>基本情報はこちら</b></a>
+
+        <div class="link-space">
+          <a class="explanation-link" href="http://localhost:3000/Craft/pages/Yakusugi"><b>基本情報はこちら</b></a>
+        </div>
+
       </div>
 
       <h2 class = craft_headline>薩摩切子</h2>
       <div class="craft">
-        <div class = craft01_img>
+        <div class = craft_img>
           <img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子">
         </div>
 
@@ -29,12 +33,16 @@
           <p>江戸末期に薩摩藩で造られた切子ガラス。</p>
           <p>鉛を24～25%含むクリスタルガラスを使用し、無色のガラス（クリアガラス）の表面に色ガラスを1～2mm程度溶着させた ”色被せガラス”にカットを施し、磨きあげた製品を「薩摩切子」と言う。</p> 
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/SatsumaKiriko" target=”_blank”><b>基本情報はこちら</b></a>
+
+        <div class="link-space">
+          <a class="explanation-link" href="http://localhost:3000/Craft/pages/SatsumaKiriko"><b>基本情報はこちら</b></a>
+        </div>
+
       </div>
 
       <h2 class = craft_headline>薩摩つげ櫛</h2>
       <div class="craft">
-        <div class = craft02_img>
+        <div class = craft_img>
           <img src="~/assets/img/Tugegushi.jpg" alt="薩摩つげ櫛">
         </div>
 
@@ -43,7 +51,11 @@
           <p>材質が硬く、色艶が美しいのが特徴。</p>
           <p>なめらかな櫛どおりで、静電気・抜け毛・切れ毛が少ないといわれている。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/SatsumaBoxwoodComb" target=”_blank”><b>基本情報はこちら</b></a>
+
+        <div class="link-space">
+          <a class="explanation-link" href="http://localhost:3000/Craft/pages/SatsumaBoxwoodComb"><b>基本情報はこちら</b></a>
+        </div>
+
       </div>
       
       <ul class="Pagination">
@@ -82,104 +94,184 @@
 </template>
 
 <style>
-    /* スマホ向けスタイル */
+/* スマホ向けスタイル */
+@media screen and (max-width: 480px) {
 
-    /* PC向けスタイル */
-    @media screen and (min-width: 1024px) {
-      main {
-        max-width: 1024px;
-        margin: 0 auto;
-      }
+  h1 {
+    text-align: center;
+    margin-bottom: 0;
+  }
 
-      h1 {
-        margin-bottom: 0;
-      }
+  .craft {
+    text-align: center;
+  }
 
-      h2.craft_headline {
-        margin: 0;
-        padding-top: 8px;
-        border-top: 2px solid #d5d4c3;
-      }
-      
-      /* 工芸品一覧説明 */
-      .craft {
-        display: flex;
-      }
+  h2.craft_headline {
+    margin: 0;
+    text-align: center;
+    padding-top: 8px;
+    border-top: 2px solid #d5d4c3;
+  }
 
-      .craft p {
-        margin: 0;
-      }
+  .explanation p {
+    margin: 0;
+  }
 
-      .explanation {
-        margin: auto;
-        width: 40em;
-      }
-      
-      .explanation-link {
-        align-self: end;
-        text-decoration: none;
-        color: blue;
-      }
+  .link-space {
+    margin-bottom: 16px;
+  }
+  
+  .explanation-link {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  /* 工芸品画像 */
+  .craft_img img{
+    width: 8cm;
+    height: auto;
+  }
 
-      a:hover.explanation-link {
-        color: rgb(71, 1, 92);
-      }
+    /* ページネーション */
+  .Pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
 
-      /* 工芸品画像 */
-      .craft01_img img{
-        width: 5cm;
-        height: auto;
-      }
+  .Pagination-Item-Link {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background: #fff;
+    border: solid 2px #111;
+    font-size: 14px;
+    color: #111;
+    font-weight: bold;
+    transition: all 0.15s linear;
+  }
 
-      .craft02_img img{
-        width: 5cm;
-        height: auto;
-      }
-      
-      /* ページネーション */
-      .Pagination {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+  .Pagination-Item-Link-Icon {
+    width: 20px;
+  }
 
-      .Pagination-Item-Link {
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        flex-wrap: wrap;
-        overflow: hidden;
-        background: #fff;
-        border: solid 2px #111;
-        font-size: 14px;
-        color: #111;
-        font-weight: bold;
-        transition: all 0.15s linear;
-      }
+  .Pagination-Item-Link.isActive {
+    background: #111;
+    color: #fff;
+    pointer-events: none;
+  }
 
-      .Pagination-Item-Link-Icon {
-        width: 20px;
-      }
+  .Pagination-Item-Link:not(.isActive):hover {
+    background: #111;
+    color: #fff;
+  }
 
-      .Pagination-Item-Link.isActive {
-        background: #111;
-        color: #fff;
-        pointer-events: none;
-      }
+  .Pagination > * + * {
+    margin-left: 8px;
+  }
+}
 
-      .Pagination-Item-Link:not(.isActive):hover {
-        background: #111;
-        color: #fff;
-      }
+/* PC向けスタイル */
+@media screen and (min-width: 1024px) {
+  main {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    margin-bottom: 0;
+  }
+  
+/* 工芸品一覧説明 */
+  .craft {
+    display: flex;
+  }
 
-      .Pagination > * + * {
-        margin-left: 8px;
-      }
+  .craft p {
+    margin: 0;
+  }
 
-    }
+  h2.craft_headline {
+    margin: 0;
+    padding-top: 8px;
+    border-top: 2px solid #d5d4c3;
+  }
 
+  .explanation {
+    margin: auto;
+    width: 18cm;
+  }
+
+  .link-space {
+    align-self: end;
+  }
+  
+  .explanation-link {
+    text-decoration: none;
+    color: blue;
+  }
+
+  a:hover.explanation-link {
+    color: rgb(71, 1, 92);
+  }
+
+/* 工芸品画像 */
+  .craft_img img{
+    width: 5cm;
+    height: auto;
+  }
+
+/* ページネーション */
+  .Pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .Pagination-Item-Link {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background: #fff;
+    border: solid 2px #111;
+    font-size: 14px;
+    color: #111;
+    font-weight: bold;
+    transition: all 0.15s linear;
+  }
+
+  .Pagination-Item-Link-Icon {
+    width: 20px;
+  }
+
+  .Pagination-Item-Link.isActive {
+    background: #111;
+    color: #fff;
+    pointer-events: none;
+  }
+
+  .Pagination-Item-Link:not(.isActive):hover {
+    background: #111;
+    color: #fff;
+  }
+
+  .Pagination > * + * {
+    margin-left: 8px;
+  }
+
+}
 </style>

@@ -37,7 +37,7 @@
           <strong>工芸品</strong>
         </a>
         
-        <figure class="image_area01">
+        <figure class="image_area02">
           <a href="http://localhost:3000/Craft/pages/1">
             <img src="~/assets/img/SatsumaYaki.jpg" alt="薩摩焼">
           </a>
@@ -45,7 +45,7 @@
       </div>
 
       <div class = "introduction">
-        <figure class="image_area02">
+        <figure class="image_area03">
           <a href="http://localhost:3000/History/pages/1">
             <img src="~/assets/img/segodon.jpeg" alt="西郷隆盛">
           </a>
@@ -55,7 +55,7 @@
           <strong>歴史（偉人）</strong>
         </a>
         
-        <figure class="image_area02">
+        <figure class="image_area04">
           <a href="http://localhost:3000/History/pages/1">
             <img src="~/assets/img/ookubo.jpg" alt="大久保利通">
           </a>
@@ -63,7 +63,7 @@
       </div>
       
       <div class = "introduction">
-        <figure class="image_area02">
+        <figure class="image_area05">
           <a href="http://localhost:3000/LocalCuisine/pages/1">
             <img src="~/assets/img/Keihan.jpg" alt="鶏飯">
           </a>
@@ -73,7 +73,7 @@
           <strong>郷土料理</strong>
         </a>
         
-        <figure class="image_area02">
+        <figure class="image_area06">
           <a href="http://localhost:3000/LocalCuisine/pages/1">
             <img src="~/assets/img/Torisashi.jpeg" alt="馬刺し">
           </a>
@@ -81,7 +81,7 @@
       </div>
 
       <div class = "introduction">
-        <figure class="image_area02">
+        <figure class="image_area07">
           <a href="http://localhost:3000/TouristSpot/pages/1">
             <img src="~/assets/img/Jingu.jpg" alt="霧島神宮">
           </a>
@@ -91,7 +91,7 @@
           <strong>観光地</strong>
         </a>
         
-        <figure class="image_area02">
+        <figure class="image_area08">
           <a href="http://localhost:3000/TouristSpot/pages/1">
             <img src="~/assets/img/Senganen.jpg" alt="仙厳園">
           </a>
@@ -99,7 +99,7 @@
       </div>
 
       <div class = "introduction">
-        <figure class="image_area02">
+        <figure class="image_area09">
           <a href="http://localhost:3000/WorldHeritage/pages/1">
             <img src="~/assets/img/Shoko Shuseikan Museum.jpg" alt="旧集成館機械工場（尚古集成館）">
           </a>
@@ -109,7 +109,7 @@
           <strong>世界遺産</strong>
         </a>
         
-        <figure class="image_area02">
+        <figure class="image_area10">
           <a href="http://localhost:3000/WorldHeritage/pages/1">
             <img src="~/assets/img/Ijinkan.jpeg" alt="旧集成館「旧鹿児島紡績所技師館」（異人館）">
           </a>
@@ -125,7 +125,7 @@
 </template>
 
 <style>
-  /* スマホ向けスタイル */
+/* スマホ（ 画面サイズが480px ） */
   @media screen and (max-width:480px) {
 
   * {
@@ -159,18 +159,20 @@
     margin-bottom: 16px;
   }
 
-  figure.image_area {
-    margin: auto;
-    margin-top: 0;
-    display: inline-block;
+  figure.image_area01 img,
+  figure.image_area03 img,
+  figure.image_area05 img,
+  figure.image_area07 img,
+  figure.image_area09 img {
+    display: none;
   }
 
-  figure.image_area01 img {
-    height: 8em;
-  }
-
-  figure.image_area02 img {
-    height: 8em;
+  figure.image_area02 img,
+  figure.image_area04 img,
+  figure.image_area06 img,
+  figure.image_area08 img,
+  figure.image_area10 img {
+    height: 16em;
   }
 
   a.text_area {
@@ -185,13 +187,13 @@
 
   .introduction {
     margin: auto;
-    width: 1000px;
+    text-align: center;
     align-items: center;
     justify-content: space-around;
     border-top: 2px solid #d5d4c3;
   }
 }
-  /* PC向けスタイル */
+/* PC（ 画面サイズが1024px以上 ）*/
   @media screen and (min-width: 1024px) {
 
   .Kagoshima_about h1 {
@@ -230,6 +232,46 @@
   }
 
   figure.image_area02 img {
+    height: 13em;
+    width: 15em;
+  }
+
+  figure.image_area03 img {
+    height: 13em;
+    width: 15em;
+  }
+
+  figure.image_area04 img {
+    height: 13em;
+    width: 15em;
+  }
+
+  figure.image_area05 img {
+    height: 13em;
+    width: 15em;
+  }
+
+  figure.image_area06 img {
+    height: 13em;
+    width: 15em;
+  }
+
+  figure.image_area07 img {
+    height: 13em;
+    width: 15em;
+  }
+
+  figure.image_area08 img {
+    height: 13em;
+    width: 15em;
+  }
+
+  figure.image_area09 img {
+    height: 13em;
+    width: 15em;
+  }
+
+  figure.image_area10 img {
     height: 13em;
     width: 15em;
   }

@@ -15,7 +15,7 @@
             <p>集成館では高炉や鑽開台の動力源として水車を使用しており、水が必要だったため、新たな水路をこの場所に築いた。</p>
             <p>世界文化遺産「明治日本の産業革命遺産」の構成資産。</p>
           </div>
-          <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/SekiyoshinoSosuiko" target=”_blank”>スポット情報</a>
+          <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/SekiyoshinoSosuiko">スポット情報</a>
       </div>
 
       <h2 class = worldheritage_headline>寺山炭窯跡</h2>
@@ -28,7 +28,7 @@
             <p>集成館事業で使用する白炭を増産するために建設した寺山炭窯の跡。</p>
             <p>炭窯は斜面を造成して凝灰岩を積み上げて建設、その大きさは国内最大級。</p>
           </div>
-          <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/TerayamaCharcoalKiln" target=”_blank”>スポット情報</a>
+          <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/TerayamaCharcoalKiln">スポット情報</a>
       </div>
 
       <h2 class = worldheritage_headline>旧集成館「反射炉跡」</h2>
@@ -44,7 +44,7 @@
             <p>集成館事業の中核となったのが、鹿児島市磯に築かれた工場群「集成館」。</p>
             <p>製鉄大砲鋳造、洋式艦船の建造、製鉄や紡績、ガラス製造、活版印刷などがおこなわれた。</p>
           </div>
-          <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/ReverberatoryFurnaceRuins" target=”_blank”>スポット情報</a>
+          <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/ReverberatoryFurnaceRuins">スポット情報</a>
       </div>
 
       <h2 class = worldheritage_headline>旧集成館「旧鹿児島紡績所技師館」（異人館）</h2>
@@ -60,11 +60,11 @@
             <p>西欧人たちがアジアなどの植民地によく建設したコロニアル様式の建物。</p>
             <p></p>
           </div>
-          <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/Ijinkan" target=”_blank”>スポット情報</a>
+          <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/Ijinkan">スポット情報</a>
       </div>
 
       <h2 class = worldheritage_headline>旧集成館機械工場（尚古集成館）</h2>
-      <div class="worldheritage">
+      <div class="worldheritage_last">
           <div class = worldheritage_img>
             <img src="~/assets/img/Shoko Shuseikan Museum.jpg" alt="旧集成館機械工場（尚古集成館）">
           </div>
@@ -74,7 +74,7 @@
             <p>竹下清右衛門は長崎製鉄所などの西洋式の建物を参考に工場を建設。</p>
             <p>現在は博物館（尚古集成館）として島津家や集成館事業の歴史を学ぶことができる。</p>
           </div>
-          <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/ShokoShuseikanMuseum" target=”_blank”>スポット情報</a>
+          <a class ="explanation-link" href="http://localhost:3000/WorldHeritage/pages/ShokoShuseikanMuseum">スポット情報</a>
       
       </div>
       </main>
@@ -108,7 +108,17 @@
         display: flex;
       }
 
+      .worldheritage_last {
+        display: flex;
+        margin-bottom: 16px;
+      }
+
       .worldheritage p {
+        margin: 0;
+        font-size: 14px;
+      }
+
+      .worldheritage_last p {
         margin: 0;
         font-size: 14px;
       }
@@ -133,51 +143,6 @@
         width: 5cm;
         height: auto;
       }
-      
-      /* ページネーション */
-      .Pagination {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .Pagination-Item-Link {
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        flex-wrap: wrap;
-        overflow: hidden;
-        background: #fff;
-        border: solid 2px #111;
-        font-size: 14px;
-        color: #111;
-        font-weight: bold;
-        transition: all 0.15s linear;
-      }
-
-      .Pagination-Item-Link-Icon {
-        width: 20px;
-      }
-
-      .Pagination-Item-Link.isActive {
-        background: #111;
-        color: #fff;
-        pointer-events: none;
-      }
-
-      .Pagination-Item-Link:not(.isActive):hover {
-        background: #111;
-        color: #fff;
-      }
-
-      .Pagination > * + * {
-        margin-left: 8px;
-      }
-
     }
 
 </style>

@@ -40,7 +40,7 @@
 
               <dl>
                 <dt>詳しくは</dt>
-                <dd><a href="https://www.hokazono-kanamono.com/" target=”_blank”>有限会社 外園金物店</a></dd>
+                <dd><a href="https://www.hokazono-kanamono.com/" target="_blank">有限会社 外園金物店</a></dd>
               </dl>
 
             </div>

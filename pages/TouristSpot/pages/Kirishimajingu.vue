@@ -41,9 +41,9 @@
 
           <dl>
             <dt>詳しく</dt>
-            <dd><a href="https://kirishimajingu.or.jp/" target=”_blank”>霧島神宮 公式ページ</a></dd>
+            <dd><a href="https://kirishimajingu.or.jp/" target="_blank">霧島神宮 公式ページ</a></dd>
           </dl>
-          <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46000257.html" class = "btn" target=”_blank”>霧島神宮 周辺のホテル・旅館</a>
+          <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46000257.html" class = "btn" target="_blank">霧島神宮 周辺のホテル・旅館</a>
 
         </div>
 

@@ -7,7 +7,7 @@
       <h1>「国指定伝統工芸品」</h1>
       <h2 class = craft_headline>本場大島紬</h2>
       <div class="craft">
-        <div class = craft01_img>
+        <div class = craft_img>
           <img src="~/assets/img/OshimaTsumugi.jpg" alt="本場大島紬">
         </div>
         
@@ -16,12 +16,16 @@
           <p>30数工程もある緻密な手作業により、図案から織り上がるまで半年から1年以上もかかる。</p>
           <p>大島紬村では本場大島紬の製造現場見学や、泥染め・織り体験、着付体験などが楽しめる。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/AuthenticOshimaTsumugi" target=”_blank”><b>基本情報はこちら</b></a>
+
+        <div class="link-space">
+          <a class="explanation-link" href="http://localhost:3000/Craft/pages/AuthenticOshimaTsumugi"><b>基本情報はこちら</b></a>
+        </div>
+
       </div>
 
       <h2 class = craft_headline>川辺仏壇</h2>
       <div class="craft">
-        <div class = craft01_img>
+        <div class = craft_img>
           <img src="~/assets/img/kawabebutudan.jpg" alt="川辺仏壇">
         </div>
 
@@ -30,12 +34,16 @@
           <p>川辺仏壇の特徴は、「ガマ戸」と呼ばれる川辺仏壇オリジナルの独特な仏壇があることです。</p>
           <p>”ガマ”とは、鹿児島県の方言で洞窟を表します。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/KawabeButsudan" target=”_blank”><b>基本情報はこちら</b></a>
+
+        <div class="link-space">
+          <a class="explanation-link" href="http://localhost:3000/Craft/pages/KawabeButsudan"><b>基本情報はこちら</b></a>
+        </div>
+
       </div>
 
       <h2 class = craft_headline>薩摩焼</h2>
       <div class="craft">
-        <div class = craft02_img>
+        <div class = craft_img>
           <img src="~/assets/img/SatsumaYaki.jpg" alt="薩摩焼">
         </div>
 
@@ -44,7 +52,11 @@
           <p>鉄分が多い土を高温で焼き締めるため、素朴で頑丈な仕上がりが特徴。</p>
           <p>「白もん」と呼ばれる豪華絢爛な色絵錦手の陶器と「黒もん」と呼ばれる大衆向けの雑器に分かれる。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/SatsumaPorcelain" target=”_blank”><b>基本情報はこちら</b></a>
+
+        <div class="link-space">
+          <a class="explanation-link" href="http://localhost:3000/Craft/pages/SatsumaPorcelain"><b>基本情報はこちら</b></a>
+        </div>
+
       </div>
       
       <ul class="Pagination">
@@ -83,160 +95,184 @@
 </template>
 
 <style>
-    /* スマホ向けスタイル */
-    @media screen and (max-width: 480px) {
-     /* 工芸品画像 */
-      .craft01_img img{
-        width: 9cm;
-        height: auto;
-      }
+/* スマホ向けスタイル */
+@media screen and (max-width: 480px) {
 
-      .craft02_img img{
-        width: 10cm;
-        height: auto;
-      }
-
-       /* ページネーション */
-      .Pagination {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .Pagination-Item-Link {
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        flex-wrap: wrap;
-        overflow: hidden;
-        background: #fff;
-        border: solid 2px #111;
-        font-size: 14px;
-        color: #111;
-        font-weight: bold;
-        transition: all 0.15s linear;
-      }
-
-      .Pagination-Item-Link-Icon {
-        width: 20px;
-      }
-
-      .Pagination-Item-Link.isActive {
-        background: #111;
-        color: #fff;
-        pointer-events: none;
-      }
-
-      .Pagination-Item-Link:not(.isActive):hover {
-        background: #111;
-        color: #fff;
-      }
-
-      .Pagination > * + * {
-        margin-left: 8px;
-      }
-    }
-
-    /* PC向けスタイル */
-    @media screen and (min-width: 1024px) {
-      main {
-        max-width: 1024px;
-        margin: 0 auto;
-      }
-      
-      h1 {
-        margin-bottom: 0;
-      }
-      
-      /* 工芸品一覧説明 */
-      .craft {
-        display: flex;
-      }
-
-      .craft p {
-        margin: 0;
-      }
-
-      h2.craft_headline {
-        margin: 0;
-        padding-top: 8px;
-        border-top: 2px solid #d5d4c3;
-      }
-
-      .explanation {
-        margin: auto;
-        width: 18cm;
-      }
-      
-      .explanation-link {
-        align-self: end;
-        text-decoration: none;
-        color: blue;
-      }
-
-      a:hover.explanation-link {
-        color: rgb(71, 1, 92);
-      }
-
-      /* 工芸品画像 */
-      .craft01_img img{
-        width: 5cm;
-        height: auto;
-      }
-
-      .craft02_img img{
-        width: 5cm;
-        height: auto;
-      }
-      
-      /* ページネーション */
-      .Pagination {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .Pagination-Item-Link {
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        flex-wrap: wrap;
-        overflow: hidden;
-        background: #fff;
-        border: solid 2px #111;
-        font-size: 14px;
-        color: #111;
-        font-weight: bold;
-        transition: all 0.15s linear;
-      }
-
-      .Pagination-Item-Link-Icon {
-        width: 20px;
-      }
-
-      .Pagination-Item-Link.isActive {
-        background: #111;
-        color: #fff;
-        pointer-events: none;
-      }
-
-      .Pagination-Item-Link:not(.isActive):hover {
-        background: #111;
-        color: #fff;
-      }
-
-      .Pagination > * + * {
-        margin-left: 8px;
-      }
-
+  h1 {
+    text-align: center;
+    margin-bottom: 0;
   }
 
+  .craft {
+    text-align: center;
+  }
+
+  h2.craft_headline {
+    margin: 0;
+    text-align: center;
+    padding-top: 8px;
+    border-top: 2px solid #d5d4c3;
+  }
+
+  .explanation p {
+    margin: 0;
+  }
+
+  .link-space {
+    margin-bottom: 16px;
+  }
+  
+  .explanation-link {
+    text-decoration: none;
+    color: blue;
+  }
+
+  /* 工芸品画像 */
+  .craft_img img{
+    width: 8cm;
+    height: auto;
+  }
+
+    /* ページネーション */
+  .Pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .Pagination-Item-Link {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background: #fff;
+    border: solid 2px #111;
+    font-size: 14px;
+    color: #111;
+    font-weight: bold;
+    transition: all 0.15s linear;
+  }
+
+  .Pagination-Item-Link-Icon {
+    width: 20px;
+  }
+
+  .Pagination-Item-Link.isActive {
+    background: #111;
+    color: #fff;
+    pointer-events: none;
+  }
+
+  .Pagination-Item-Link:not(.isActive):hover {
+    background: #111;
+    color: #fff;
+  }
+
+  .Pagination > * + * {
+    margin-left: 8px;
+  }
+}
+
+/* PC向けスタイル */
+@media screen and (min-width: 1024px) {
+  main {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    margin-bottom: 0;
+  }
+  
+/* 工芸品一覧説明 */
+  .craft {
+    display: flex;
+  }
+
+  .craft p {
+    margin: 0;
+  }
+
+  h2.craft_headline {
+    margin: 0;
+    padding-top: 8px;
+    border-top: 2px solid #d5d4c3;
+  }
+
+  .explanation {
+    margin: auto;
+    width: 18cm;
+  }
+
+  .link-space {
+    align-self: end;
+  }
+  
+  .explanation-link {
+    text-decoration: none;
+    color: blue;
+  }
+
+  a:hover.explanation-link {
+    color: rgb(71, 1, 92);
+  }
+
+/* 工芸品画像 */
+  .craft_img img{
+    width: 5cm;
+    height: auto;
+  }
+
+/* ページネーション */
+  .Pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .Pagination-Item-Link {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background: #fff;
+    border: solid 2px #111;
+    font-size: 14px;
+    color: #111;
+    font-weight: bold;
+    transition: all 0.15s linear;
+  }
+
+  .Pagination-Item-Link-Icon {
+    width: 20px;
+  }
+
+  .Pagination-Item-Link.isActive {
+    background: #111;
+    color: #fff;
+    pointer-events: none;
+  }
+
+  .Pagination-Item-Link:not(.isActive):hover {
+    background: #111;
+    color: #fff;
+  }
+
+  .Pagination > * + * {
+    margin-left: 8px;
+  }
+
+}
 </style>

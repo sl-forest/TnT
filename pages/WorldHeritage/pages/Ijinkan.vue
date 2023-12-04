@@ -57,7 +57,7 @@
 
           <dl>
             <dt>詳しくは</dt>
-            <dd><a href="https://www.city.kagoshima.lg.jp/kikakuzaisei/kikaku/sekaiisan/sekaiisann_kagoshimaeria.html" target=”_blank”>鹿児島市 公式ホームページ</a></dd>
+            <dd><a href="https://www.city.kagoshima.lg.jp/kikakuzaisei/kikaku/sekaiisan/sekaiisann_kagoshimaeria.html" target="_blank">鹿児島市 公式ホームページ</a></dd>
           </dl>
 
         </div>
@@ -136,7 +136,7 @@
       }
 
       .WorldHeritage_note dd {
-        width: 13.5cm;
+        width: 12.5cm;
         margin: 0px;
         display: flex;
         background-color: #fff;

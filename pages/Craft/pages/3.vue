@@ -15,7 +15,7 @@
           <p>槌の打ち跡が生々しく、荒々しい鋼の黒光りを持つ加世田の刃物。</p> 
           <p></p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/Kaseda" target=”_blank”><b>基本情報はこちら</b></a>
+        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/Kaseda"><b>基本情報はこちら</b></a>
       </div>
 
       <h2 class = craft_headline>甲冑</h2>
@@ -29,7 +29,7 @@
         <div class = explanation>
           <p>昔ながらの製法を守りながら、映画・テレビなどの時代劇に使用される鎧やかぶとの全国シェア９割以上の生産を誇り、全国各地のお祭りの武者行列などでも使用されている。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/Armor" target=”_blank”><b>基本情報はこちら</b></a>
+        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/Armor"><b>基本情報はこちら</b></a>
       </div>        
 
       <h2 class = craft_headline>竹製品</h2>
@@ -42,7 +42,7 @@
           <p>鹿児島は竹林面積日本一の「竹」のふるさと。</p>
           <p>古くから竹を使って様々な生活道具が作られており、庶民生活には欠かせないもの。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/BambooProducts" target=”_blank”><b>基本情報はこちら</b></a>
+        <a class ="explanation-link" href="http://localhost:3000/Craft/pages/BambooProducts"><b>基本情報はこちら</b></a>
       </div>
       
       <ul class="Pagination">
@@ -144,6 +144,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        list-style: none;
       }
 
       .Pagination-Item-Link {

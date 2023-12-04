@@ -41,9 +41,9 @@
 
             <dl>
               <dt>詳しく</dt>
-              <dd><a href="https://soginotaki.kagoshima.jp/soginotaki" target=”_blank”>曽木の滝 観光ガイド</a></dd>
+              <dd><a href="https://soginotaki.kagoshima.jp/soginotaki" target="_blank">曽木の滝 観光ガイド</a></dd>
             </dl>
-            <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46000307.html" class = "btn" target=”_blank”>曾木の滝 周辺のホテル・旅館</a>
+            <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46000307.html" class = "btn" target="_blank">曾木の滝 周辺のホテル・旅館</a>
 
           </div>
 

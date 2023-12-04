@@ -16,7 +16,7 @@
             <p>標高約1,117メートルの御岳（北岳）という活火山が、現在も活発に噴火を続けている。</p>
             <p>散策に適した溶岩遊歩道の途中には、絶景を望める展望所も複数完備。</p>
           </div>
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Sakurajima" target=”_blank”><b>スポット情報</b></a>
+          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Sakurajima"><b>スポット情報</b></a>
       </div>
 
       <h2 class = spot_headline>屋久島</h2>
@@ -30,7 +30,7 @@
             <p>本土最南端・鹿児島県佐多岬の南南西約60キロメートルの海上に位置する島。</p>
             <p>小さな面積ながら、九州最高峰の宮之浦岳（標高約1,936メートル）をはじめ、1,000メートル超の山々が46座もあり、「洋上のアルプス」と呼ばれている。</p>
           </div>
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Yakushima" target=”_blank”><b>スポット情報</b></a>
+          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Yakushima"><b>スポット情報</b></a>
       </div>
 
       <h2 class = spot_headline>奄美大島</h2>
@@ -44,7 +44,7 @@
             <p>鹿児島県と沖縄県の中間に位置し、日本版「天国に一番近い島」と称されている。</p>
             <p>青く澄んだ海や、ここにしか生息していない動植物など、雄大な自然が魅力。</p>
           </div>
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Amami" target=”_blank”><b>スポット情報</b></a>
+          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Amami"><b>スポット情報</b></a>
       </div>
 
       <h2 class = spot_headline>種子島宇宙センター</h2>
@@ -57,7 +57,7 @@
             <p>1969年に造られた種子島宇宙センターは、総面積約970万平米に及ぶ、日本最大のロケット発射場。</p>
             <p>青い海と白い砂浜に囲まれていることから、「世界一美しいロケット発射場」と呼ばれている。</p>
           </div>
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/SpaceCenter" target=”_blank”><b>スポット情報</b></a>
+          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/SpaceCenter"><b>スポット情報</b></a>
       </div>
       
       <ul class="Pagination">
@@ -155,6 +155,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        list-style: none;
       }
 
       .Pagination-Item-Link {

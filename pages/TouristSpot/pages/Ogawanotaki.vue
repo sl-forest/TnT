@@ -38,9 +38,9 @@
 
             <dl>
               <dt>詳しく</dt>
-              <dd><a href="https://www.kagoshima-kankou.com/guide/51100" target=”_blank”>雄川の滝（鹿児島県観光サイト）</a></dd>
+              <dd><a href="https://www.kagoshima-kankou.com/guide/51100" target="_blank">雄川の滝（鹿児島県観光サイト）</a></dd>
             </dl>
-            <a href = "https://travel.rakuten.co.jp/yado/kagoshima/kanoya.html" class = "btn" target=”_blank”>雄川の滝 周辺のホテル・旅館</a>
+            <a href = "https://travel.rakuten.co.jp/yado/kagoshima/kanoya.html" class = "btn" target="_blank">雄川の滝 周辺のホテル・旅館</a>
 
           </div>
 

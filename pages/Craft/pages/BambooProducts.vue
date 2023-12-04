@@ -40,7 +40,7 @@
 
               <dl>
                 <dt>詳しくは</dt>
-                <dd><a href="https://www.pref.kagoshima.jp/ad06/sangyo-rodo/rinsui/tokuyo/gaiyo/tikutan-tikusaku.html" target=”_blank”>鹿児島県竹産業振興会連合会</a></dd>
+                <dd><a href="https://www.pref.kagoshima.jp/ad06/sangyo-rodo/rinsui/tokuyo/gaiyo/tikutan-tikusaku.html" target="_blank">鹿児島県竹産業振興会連合会</a></dd>
               </dl>
 
             </div>

@@ -54,7 +54,7 @@
 
           <dl>
           <dt>詳しくは</dt>
-          <dd><a href="https://www.senganen.jp/" target=”_blank”>仙厳園 公式ホームページ</a></dd>
+          <dd><a href="https://www.senganen.jp/" target="_blank">仙厳園 公式ホームページ</a></dd>
           </dl>
 
         </div>
@@ -132,7 +132,7 @@
       }
 
       .WorldHeritage_note dd {
-        width: 13.5cm;
+        width: 14cm;
         margin: 0px;
         display: flex;
         background-color: #fff;

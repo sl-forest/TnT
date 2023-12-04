@@ -47,9 +47,9 @@
 
             <dl>
               <dt>詳しく</dt>
-              <dd><a href="https://ishinfurusatokan.info/" target=”_blank”>維新ふるさと館 公式ホームページ</a></dd>
+              <dd><a href="https://ishinfurusatokan.info/" target="_blank">維新ふるさと館 公式ホームページ</a></dd>
             </dl>
-            <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46000317.html" class = "btn" target=”_blank”>維新ふるさと館 周辺のホテル・旅館</a>
+            <a href = "https://travel.rakuten.co.jp/yado/spot/kagoshima/S46000317.html" class = "btn" target="_blank">維新ふるさと館 周辺のホテル・旅館</a>
 
           </div>
         </div>

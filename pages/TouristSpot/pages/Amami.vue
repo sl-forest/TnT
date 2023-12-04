@@ -21,8 +21,8 @@
               </dd>
             </dl>
 
-            <a href = "https://search.travel.rakuten.co.jp/ds/hotellist/Japan-Kagoshima-Amami-Amami_Oshima" class = "btn" target=”_blank”>奄美大島 周辺のホテル・旅館</a>
-            <a href = "https://experiences.travel.rakuten.co.jp/destinations/amamioshima-kikaijima-tokunoshima?scid=wi_txp_rakutentravel_travelguide" class = "btn" target=”_blank”>奄美大島でできること</a>
+            <a href = "https://search.travel.rakuten.co.jp/ds/hotellist/Japan-Kagoshima-Amami-Amami_Oshima" class = "btn" target="_blank">奄美大島 周辺のホテル・旅館</a>
+            <a href = "https://experiences.travel.rakuten.co.jp/destinations/amamioshima-kikaijima-tokunoshima?scid=wi_txp_rakutentravel_travelguide" class = "btn" target="_blank">奄美大島でできること</a>
 
           </div>
 

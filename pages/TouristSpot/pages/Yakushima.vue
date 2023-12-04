@@ -21,8 +21,8 @@
               </dd>
             </dl>
             
-            <a href = "https://travel.rakuten.co.jp/yado/kagoshima/yakushima.html" class = "btn" target=”_blank”>屋久島 周辺のホテル・旅館</a>
-            <a href = "https://experiences.travel.rakuten.co.jp/destinations/yakushima?scid=wi_txp_rakutentravel_travelguide" class = "btn" target=”_blank”>屋久島でできること</a>
+            <a href = "https://travel.rakuten.co.jp/yado/kagoshima/yakushima.html" class = "btn" target="_blank">屋久島 周辺のホテル・旅館</a>
+            <a href = "https://experiences.travel.rakuten.co.jp/destinations/yakushima?scid=wi_txp_rakutentravel_travelguide" class = "btn" target="_blank">屋久島でできること</a>
 
           </div>
 

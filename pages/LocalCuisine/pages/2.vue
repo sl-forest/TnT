@@ -14,7 +14,7 @@
         <div class = explanation>
           <p>「豚骨」とは、豚の骨付きあばら肉を焼いて芋焼酎で炒りつけてこんにゃくや大根などの野菜とともに、味噌と黒砂糖で煮こんでつくる郷土料理。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Tonkotsu" target=”_blank”><b>詳細はこちら</b></a>
+        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Tonkotsu"><b>詳細はこちら</b></a>
       </div>
 
       <h2 class = localcuisine_headline>がね</h2>
@@ -26,7 +26,7 @@
         <div class = explanation>
           <p>「がね」は鹿児島県の特産品として全国に知られるさつまいもを食材とした郷土料理。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Gane" target=”_blank”><b>詳細はこちら</b></a>
+        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Gane"><b>詳細はこちら</b></a>
       </div>
 
       <h2 class = localcuisine_headline>油ゾーメン</h2>
@@ -41,7 +41,7 @@
           <p>「油ゾーメン」は、豚肉と野菜、そうめんを炒めた郷土料理。</p>
           <p>沖縄の「そうめんチャンプルー」に似ているが、奄美地域の「油ゾーメン」は、炒める時にだし汁を入れるのが特徴。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/AburaZomen" target=”_blank”><b>詳細はこちら</b></a>
+        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/AburaZomen"><b>詳細はこちら</b></a>
       </div>
 
       <h2 class = localcuisine_headline>黒糖</h2>
@@ -54,7 +54,7 @@
           <p>「黒糖」は、とうきびを細かくカットし、圧搾機にかけて絞り出した汁を煮詰めてつくる砂糖。</p>
           <p>奄美地域および沖縄県の特産品。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Kokutou" target=”_blank”><b>詳細はこちら</b></a>
+        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Kokutou"><b>詳細はこちら</b></a>
       </div>
       
       <ul class="Pagination">
@@ -148,6 +148,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        list-style: none;
       }
 
       .Pagination-Item-Link {

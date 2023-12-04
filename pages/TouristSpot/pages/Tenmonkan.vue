@@ -30,9 +30,9 @@
 
             <dl>
               <dt>詳しく</dt>
-              <dd><a href="https://www.kagoshima-yokanavi.jp/spot?rta%5B%5D=3&rtd=&q=&lat=&lng=&st=acs&vw=tile" target=”_blank”>天文館エリアの観光スポット一覧</a></dd>
+              <dd><a href="https://www.kagoshima-yokanavi.jp/spot?rta%5B%5D=3&rtd=&q=&lat=&lng=&st=acs&vw=tile" target="_blank">天文館エリアの観光スポット一覧</a></dd>
             </dl>
-            <a href = "https://search.travel.rakuten.co.jp/ds/hotellist/Japan-Kagoshima-Kagoshima-Tenmonkan-review?s_kwcid=paidsearch&gclid=EAIaIQobChMIoofh8ICLggMVagp7Bx2LDQVLEAAYAyAAEgIpz_D_BwE&gclsrc=aw.ds" class = "btn" target=”_blank”>天文館 周辺のホテル・旅館</a>
+            <a href = "https://search.travel.rakuten.co.jp/ds/hotellist/Japan-Kagoshima-Kagoshima-Tenmonkan-review?s_kwcid=paidsearch&gclid=EAIaIQobChMIoofh8ICLggMVagp7Bx2LDQVLEAAYAyAAEgIpz_D_BwE&gclsrc=aw.ds" class = "btn" target="_blank">天文館 周辺のホテル・旅館</a>
 
           </div>
 

@@ -16,7 +16,7 @@
         <div class = explanation>
           <p>「白熊」は、削った氷に練乳をかけ、その上にチェリーやレーズン、みかん、パイン、小豆、寒天と、色とりどりのトッピングをのせた氷菓子。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/ShiroKuma" target=”_blank”><b>詳細はこちら</b></a>
+        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/ShiroKuma"><b>詳細はこちら</b></a>
       </div>
 
       <h2 class = localcuisine_headline>かるかん</h2>
@@ -29,7 +29,7 @@
         <div class = explanation>
           <p>「かるかん」は、かるかん粉、山芋、水を使ってつくる鹿児島県の銘菓。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Karukan" target=”_blank”><b>詳細はこちら</b></a>
+        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Karukan"><b>詳細はこちら</b></a>
       </div>
 
       <h2 class = localcuisine_headline>両棒餅（じゃんぼ餅）</h2>
@@ -43,7 +43,7 @@
         <div class = explanation>
           <p>「じゃんぼ餅」とは、つきたての餅やもち米粉を使っただんご串を2本さして、とろみのある砂糖醤油ダレをかけて食べる、鹿児島県で古くから親しまれている料理である。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/JumboMochi" target=”_blank”><b>詳細はこちら</b></a>
+        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/JumboMochi"><b>詳細はこちら</b></a>
       </div>
 
       <h2 class = localcuisine_headline>神酒（みき）</h2>
@@ -58,7 +58,7 @@
           <p>米とさつまいも、砂糖を使った乳酸菌発酵飲料で、奄美地域の他に沖縄県でも飲まれている。</p>
           <p>沖縄県では、さつまいもではなく麦を使う。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Miki" target=”_blank”><b>詳細はこちら</b></a>
+        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Miki"><b>詳細はこちら</b></a>
       </div>
       
       <ul class="Pagination">
@@ -152,6 +152,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        list-style: none;
       }
 
       .Pagination-Item-Link {

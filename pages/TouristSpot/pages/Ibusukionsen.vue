@@ -52,9 +52,9 @@
 
             <dl>
               <dt>詳しく</dt>
-              <dd><a href="http://ibusuki-saraku.jp/" target=”_blank”>砂むし会館 砂楽 公式ページ</a></dd>
+              <dd><a href="http://ibusuki-saraku.jp/" target="_blank">砂むし会館 砂楽 公式ページ</a></dd>
             </dl>
-            <a href = "https://travel.rakuten.co.jp/onsen/kagoshima/OK00906.html" class = "btn">指宿温泉の温泉旅館・ホテル一覧</a>
+            <a href = "https://travel.rakuten.co.jp/onsen/kagoshima/OK00906.html" class = "btn" target="_blank">指宿温泉の温泉旅館・ホテル一覧</a>
           
           </div>
 
@@ -100,7 +100,8 @@
       }
 
       .TouristSpot_img img {
-        height: 10cm;
+        height: 11.5cm;
+        width: 15cm;
       }
 
       .TouristSpot_img p {

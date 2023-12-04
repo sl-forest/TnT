@@ -42,9 +42,9 @@
 
             <dl>
               <dt>詳しく</dt>
-              <dd><a href="https://kirishima-marche.com/" target=”_blank”>霧島温泉市場 公式ページ</a></dd>
+              <dd><a href="https://kirishima-marche.com/" target="_blank">霧島温泉市場 公式ページ</a></dd>
             </dl>
-            <a href = "https://travel.rakuten.co.jp/onsen/kagoshima/OK00896.html" class = "btn" target=”_blank”>霧島温泉の温泉旅館・ホテル一覧</a>
+            <a href = "https://travel.rakuten.co.jp/onsen/kagoshima/OK00896.html" class = "btn" target="_blank">霧島温泉の温泉旅館・ホテル一覧</a>
 
           </div>
 

@@ -40,7 +40,7 @@
 
               <dl>
                 <dt>詳しくは</dt>
-                <dd><a href="http://yoroi.co.jp/" target=”_blank”>甲冑工房 丸武</a></dd>
+                <dd><a href="http://yoroi.co.jp/" target="_blank">甲冑工房 丸武</a></dd>
               </dl>
 
             </div>
