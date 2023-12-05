@@ -165,7 +165,7 @@
   }
 
   #footer02 .nav li a:hover {
-    color: #22e5ff;
+    color: #4eeaff;
   }
 }
 /* スマホ */

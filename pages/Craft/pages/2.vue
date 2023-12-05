@@ -12,9 +12,11 @@
         </div>
 
         <div class = explanation>
-          <p>世界自然遺産に登録されている「屋久島」は1,000メートル以上の高峰が連なっており、この大自然の中で育った樹齢1,000年以上のものを「屋久杉」と呼んでいる。</p>
-          <p> 木目の美しさ、色、かおりの良さなど、まさに銘木というにふさわしく、家具やインテリア用品などに幅広く活用されている。</p>
-          <p>現在は自然保護のため、倒木や土埋木だけを工芸品として加工している。</p>
+          <p>
+            世界自然遺産に登録されている「屋久島」は1,000メートル以上の高峰が連なっており、<br class="pc">
+            この大自然の中で育った樹齢1,000年以上のものを「屋久杉」と呼んでいる。<br class="pc">
+            現在は自然保護のため、倒木や土埋木だけを工芸品として加工している。
+          </p>
         </div>
 
         <div class="link-space">
@@ -30,8 +32,11 @@
         </div>
 
         <div class = explanation>
-          <p>江戸末期に薩摩藩で造られた切子ガラス。</p>
-          <p>鉛を24～25%含むクリスタルガラスを使用し、無色のガラス（クリアガラス）の表面に色ガラスを1～2mm程度溶着させた ”色被せガラス”にカットを施し、磨きあげた製品を「薩摩切子」と言う。</p> 
+          <p>
+            江戸末期に薩摩藩で造られた切子ガラス。鉛を24～25%含むクリスタルガラスを使用。<br class="pc">
+            無色のガラス（クリアガラス）の表面に色ガラスを1～2mm程度溶着させた <br class="pc">
+            ”色被せガラス”にカットを施し、磨きあげた製品を「薩摩切子」と言う。
+          </p> 
         </div>
 
         <div class="link-space">
@@ -47,9 +52,11 @@
         </div>
 
         <div class = explanation>
-          <p>江戸時代から「櫛になりたや薩摩の櫛に、諸国娘の手に渡ろ」とうたわれ、全国に名を馳せていた。</p>
-          <p>材質が硬く、色艶が美しいのが特徴。</p>
-          <p>なめらかな櫛どおりで、静電気・抜け毛・切れ毛が少ないといわれている。</p>
+          <p>
+            江戸時代から「櫛になりたや薩摩の櫛に、諸国娘の手に渡ろ」とうたわれ、<br class="pc">全国に名を馳せていた。
+            材質が硬く、色艶が美しいのが特徴。<br class="pc">
+            なめらかな櫛どおりで、静電気・抜け毛・切れ毛が少ないといわれている。
+          </p>
         </div>
 
         <div class="link-space">
@@ -96,6 +103,9 @@
 <style>
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
+  .pc {
+    display: none;  /* スマホではこのスタイルは起動しない */
+  }
 
   h1 {
     text-align: center;
@@ -109,16 +119,17 @@
   h2.craft_headline {
     margin: 0;
     text-align: center;
-    padding-top: 8px;
+    padding: 8px 0;
     border-top: 2px solid #d5d4c3;
-  }
-
-  .explanation p {
-    margin: 0;
   }
 
   .link-space {
     margin-bottom: 16px;
+  }
+
+  .explanation p {
+    font-size: 15px;
+    text-align: left; /* 左寄せ */
   }
   
   .explanation-link {
@@ -126,13 +137,19 @@
     color: blue;
   }
   
-  /* 工芸品画像 */
+/* 工芸品画像 */
   .craft_img img{
     width: 8cm;
     height: auto;
   }
 
-    /* ページネーション */
+/* 提供 */
+  .teikyou p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+/* ページネーション */
   .Pagination {
     display: flex;
     align-items: center;
@@ -196,6 +213,7 @@
 
   .craft p {
     margin: 0;
+    font-size: 15px;
   }
 
   h2.craft_headline {
@@ -206,11 +224,16 @@
 
   .explanation {
     margin: auto;
-    width: 18cm;
+    width: 17cm;
   }
 
   .link-space {
     align-self: end;
+  }
+
+  .link-space a {
+    margin: 0;
+    font-size: 14px;
   }
   
   .explanation-link {
@@ -226,6 +249,11 @@
   .craft_img img{
     width: 5cm;
     height: auto;
+  }
+
+/* 提供 */
+  .teikyou p {
+    font-size: 13px;
   }
 
 /* ページネーション */

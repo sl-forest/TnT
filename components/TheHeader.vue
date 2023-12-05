@@ -30,6 +30,13 @@
 </template>
 
 <style lang="scss" scoped>
+// PC
+@media screen and (min-width: 1024px) {
+    a:hover.menu_item {
+        color: #4eeaff;
+    }
+}
+
 // 共通
 @mixin burgerSpan {
     display: inline-block;

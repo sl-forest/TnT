@@ -12,9 +12,11 @@
         </div>
         
         <div class = explanation>
-          <p>1,300年の歴史を持ち、絹織物の最高傑作といわれている。</p>
-          <p>30数工程もある緻密な手作業により、図案から織り上がるまで半年から1年以上もかかる。</p>
-          <p>大島紬村では本場大島紬の製造現場見学や、泥染め・織り体験、着付体験などが楽しめる。</p>
+          <p>
+            1,300年の歴史を持ち、絹織物の最高傑作といわれている。<br class="pc">
+            30数工程もある緻密な手作業により、図案から織り上がるまで半年から1年以上もかかる。<br class="pc">
+            大島紬村では本場大島紬の製造現場見学や、泥染め・織り体験、着付体験などが楽しめる。
+          </p>
         </div>
 
         <div class="link-space">
@@ -30,9 +32,11 @@
         </div>
 
         <div class = explanation>
-          <p>川辺仏壇（かわなべぶつだん）は、鹿児島県南九州市川辺町周辺で作られている仏壇。</p>
-          <p>川辺仏壇の特徴は、「ガマ戸」と呼ばれる川辺仏壇オリジナルの独特な仏壇があることです。</p>
-          <p>”ガマ”とは、鹿児島県の方言で洞窟を表します。</p>
+          <p>
+            川辺仏壇（かわなべぶつだん）は、鹿児島県南九州市川辺町周辺で作られている仏壇。<br class="pc">
+            川辺仏壇の特徴は、「ガマ戸」と呼ばれる川辺仏壇オリジナルの独特な仏壇があること。<br class="pc">
+            ”ガマ”とは、鹿児島県の方言で洞窟を表す。
+          </p>
         </div>
 
         <div class="link-space">
@@ -48,9 +52,11 @@
         </div>
 
         <div class = explanation>
-          <p>薩摩焼は、鹿児島県内で焼かれる陶磁器です。</p>
-          <p>鉄分が多い土を高温で焼き締めるため、素朴で頑丈な仕上がりが特徴。</p>
-          <p>「白もん」と呼ばれる豪華絢爛な色絵錦手の陶器と「黒もん」と呼ばれる大衆向けの雑器に分かれる。</p>
+          <p>
+            薩摩焼は、鹿児島県内で焼かれる陶磁器。<br class="pc">
+            鉄分が多い土を高温で焼き締めるため、素朴で頑丈な仕上がりが特徴。<br class="pc">
+           「白もん」と呼ばれる豪華絢爛な色絵錦手の陶器と<br class="pc">「黒もん」と呼ばれる大衆向けの雑器に分かれる。
+          </p>
         </div>
 
         <div class="link-space">
@@ -97,6 +103,9 @@
 <style>
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
+  .pc {
+    display: none;  /* スマホではこのスタイルは起動しない */
+  }
 
   h1 {
     text-align: center;
@@ -110,30 +119,37 @@
   h2.craft_headline {
     margin: 0;
     text-align: center;
-    padding-top: 8px;
+    padding: 8px 0;
     border-top: 2px solid #d5d4c3;
-  }
-
-  .explanation p {
-    margin: 0;
   }
 
   .link-space {
     margin-bottom: 16px;
+  }
+
+  .explanation p {
+    font-size: 15px;
+    text-align: left; /* 左寄せ */
   }
   
   .explanation-link {
     text-decoration: none;
     color: blue;
   }
-
-  /* 工芸品画像 */
+  
+/* 工芸品画像 */
   .craft_img img{
     width: 8cm;
     height: auto;
   }
 
-    /* ページネーション */
+/* 提供 */
+  .teikyou p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+/* ページネーション */
   .Pagination {
     display: flex;
     align-items: center;
@@ -197,6 +213,7 @@
 
   .craft p {
     margin: 0;
+    font-size: 15px;
   }
 
   h2.craft_headline {
@@ -207,11 +224,16 @@
 
   .explanation {
     margin: auto;
-    width: 18cm;
+    width: 17cm;
   }
 
   .link-space {
     align-self: end;
+  }
+
+  .link-space a {
+    margin: 0;
+    font-size: 14px;
   }
   
   .explanation-link {
@@ -227,6 +249,11 @@
   .craft_img img{
     width: 5cm;
     height: auto;
+  }
+
+/* 提供 */
+  .teikyou p {
+    font-size: 13px;
   }
 
 /* ページネーション */

@@ -4,7 +4,7 @@
   <TheHeader />
 
   <main>
-    <h1>年表</h1>
+    <h1>島津斉彬の年表</h1>
     <div class="box">
       <ul class="timeline">
         <li>
@@ -78,52 +78,99 @@
 </template>
 
 <style>
-    /* スマホ向けスタイル */
-    .timeline {
-        list-style: none;
-      }
-      
-      .timeline > li {
-        margin-bottom: 60px;
-      }
+/* スマホ向けスタイル */
+@media screen and (max-width: 480px) {
+  main {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
 
-    /* PC向けスタイル */
-    @media screen and (min-width: 1024px) {
-      main {
-        max-width: 1024px;
-        margin: 0 auto;
-      }
-      
-    /* 年表 */
-      .timeline > li {
-        overflow: hidden;
-        margin: 0;
-        position: relative;
-      }
-      
-      .timeline-date {
-        width: 135px;
-        float: left;
-        margin-top: 20px;
-      }
-      
-      .timeline-content {
-        width: 75%;
-        float: left;
-        border-left: 3px #e5e5d1 solid;
-        padding-left: 30px;
-      }
-      
-      .timeline-content:before {
-        content: '';
-        width: 12px;
-        height: 12px;
-        background: #6fc173;
-        position: absolute;
-        left: 130px;
-        top: 24px;
-        border-radius: 100%;
-      }
-    }
+  h1 {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+  
+/* 年表 */
+  .timeline > li {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+  }
+  
+  .timeline-date {
+    width: 135px;
+    float: left;
+    margin-top: 20px;
+  }
+  
+  .timeline-content {
+    width: 75%;
+    float: left;
+    border-left: 3px #e5e5d1 solid;
+    padding-left: 30px;
+  }
+  
+  .timeline-content:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #6fc173;
+    position: absolute;
+    left: 130px;
+    top: 24px;
+    border-radius: 100%;
+  }
+  
+  .timeline {
+    list-style: none;
+  }
+  
+  .timeline > li {
+    margin-bottom: 40px;
+  }
+}
+/* PC向けスタイル */
+@media screen and (min-width: 1024px) {
+  main {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
 
+  h1 {
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+  
+/* 年表 */
+  .timeline > li {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+  }
+  
+  .timeline-date {
+    width: 135px;
+    float: left;
+    margin-top: 20px;
+  }
+  
+  .timeline-content {
+    width: 75%;
+    float: left;
+    border-left: 3px #e5e5d1 solid;
+    padding-left: 30px;
+  }
+  
+  .timeline-content:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #6fc173;
+    position: absolute;
+    left: 130px;
+    top: 24px;
+    border-radius: 100%;
+  }
+}
 </style>
