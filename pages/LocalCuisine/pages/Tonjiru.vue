@@ -5,100 +5,111 @@
 
     <main>
       <h1>豚汁</h1>
-        <div class="LocalCuisine">
-            <div class = LocalCuisine_img>
-                <img src="~/assets/img/Tonjiru02.jpg" alt="豚汁">
-                <p>写真協力：公益社団法人 鹿児島県観光連盟</p>
+        <div class="localcuisine">
+          <div class = localcuisine_img>
+            <img src="~/assets/img/Tonjiru02.jpg" alt="豚汁">
+            <div class="teikyou">
+              <p><b>写真協力：公益社団法人 鹿児島県観光連盟</b></p>
             </div>
+          </div>
             
-            <div class = LocalCuisine_note>
-                <h2>伝承地域</h2>
-                <p>鹿児島県全域</p>
-                <h2>食材</h2>
-                <p>豚肉、大根、人参、里芋、こんにゃく、厚揚げ、味噌</p>
-                <h2>歴史</h2>
-                <p>諸説あり定かではないが薩摩汁の豚を使うものが独立した説がある。日本全国で獣肉食が広まったのは明治時代以降であるが、琉球と薩摩地方だけは例外的に豚を含めた獣肉食の習慣があり、地方料理に肉入りの味噌汁があった。</p>
-            </div>
+          <div class = localcuisine_note>
+            
+            <dl>
+              <dt>伝承地域</dt>
+              <dd>鹿児島全域</dd>
+            </dl>
+
+            <dl>
+              <dt>食材</dt>
+              <dd>豚肉、大根、人参、里芋、こんにゃく、厚揚げ、味噌</dd>
+            </dl>
+
+            <dl>
+              <dt>歴史</dt>
+              <dd>諸説あり定かではないが薩摩汁の豚を使うものが独立した説がある。日本全国で獣肉食が広まったのは明治時代以降であるが、琉球と薩摩地方だけは例外的に豚を含めた獣肉食の習慣があり、地方料理に肉入りの味噌汁があった。</dd>
+            </dl>
+          </div>
         </div>
 
         <div class = "recipe">
           <h3>材料</h3>
-          <ul class = "LocalCuisine_memu">
+          <ul class = "localcuisine_memu">
 
             <li>
               <ul class = "list">
                 <li>豚肉薄切り</li>
-                <li>80g</li>
+                <li class="quantity">80g</li>
               </ul>
             </li>
 
             <li>
               <ul class = "list">
                 <li>大根</li>
-                <li>100g</li>
+                <li class="quantity">100g</li>
               </ul>
             </li>
 
             <li>
               <ul class = "list">
                 <li>人参</li>
-                <li>50g</li>
+                <li class="quantity">50g</li>
               </ul>
             </li>
 
             <li>
               <ul class = "list">
                 <li>里芋</li>
-                <li>100g</li>
+                <li class="quantity">100g</li>
               </ul>
             </li>
 
             <li>
               <ul class = "list">
                 <li>こんにゃく</li>
-                <li>50g</li>
+                <li class="quantity">50g</li>
               </ul>
             </li>
 
             <li>
               <ul class = "list">
                 <li>油揚げ</li>
-                <li>50g</li>
+                <li class="quantity">50g</li>
               </ul>
             </li>
 
             <li>
               <ul class = "list">
                 <li>【薬味】小ねぎ、しょうが</li>
-                <li>適量</li>
+                <li class="quantity">適量</li>
               </ul>
             </li>
 
             <li>
               <ul class = "list">
                 <li>【汁】いりこ</li>
-                <li>20g</li>
+                <li class="quantity">20g</li>
               </ul>
             </li>
 
             <li>
               <ul class = "list">
                 <li>【汁】水</li>
-                <li>3カップ</li>
+                <li class="quantity">3カップ</li>
               </ul>
             </li>
 
             <li>
               <ul class = "list">
                 <li>【汁】麦味噌</li>
-                <li>50g</li>
+                <li class="quantity">50g</li>
               </ul>
             </li>
 
             <li>
               <ul class = "list_last">
                 <li>油</li>
-                <li>適宜</li>
+                <li class="quantity">適宜</li>
               </ul>
             </li>
 
@@ -106,7 +117,7 @@
 
           <h3>作り方</h3>
 
-          <ul class = "LocalCuisine_make">
+          <ul class = "localcuisine_make">
             
             <li>
               <div class = "num">1</div>
@@ -145,111 +156,288 @@
 </template>
 
 <style>
-    /* スマホ向けスタイル */
+/* 共通 */
+.quantity {
+  list-style-type: none;
+}
+/* スマホ向けスタイル */
+@media screen and (max-width: 480px) {
+  main {
+    margin: 0 auto;
+  }
 
-    /* PC向けスタイル */
-    @media screen and (min-width: 1024px) {
-      main {
-        max-width: 1024px;
-        margin: 0 auto;
-      }
-      
-    /*郷土料理説明*/
-      .LocalCuisine {
-        display: flex;
-        padding-bottom: 24px;
-      }
+  h1 {
+    text-align: center;
+  }
 
-      .LocalCuisine h1 {
-        margin: 1.6px auto;
-      }
+/*郷土料理説明*/
+  .localcuisine {
+    padding-bottom: 24px;
+  }
 
-      .LocalCuisine_img img {
-        height: 10cm;
-      }
+  .localcuisine h1 {
+    margin: 1.6px auto;
+  }
 
-      .LocalCuisine_img p {
-        margin: 0;
-      }
+  .localcuisine_img {
+    text-align: center;
+  }
 
-    /*材料*/
-      .LocalCuisine_note {
-        margin-top: 1cm;
-        margin-left: 16px;
-      }
+  .localcuisine_img img {
+    height: 8cm;
+    width: auto;
+  }
+/* 写真提供 */
+  .teikyou p {
+    margin: 8px 0;
+  }
 
-      .LocalCuisine_note h2 {
-        margin: 8px auto;
-      }
+/*材料*/
+  .localcuisine_note {
+    margin-top: 16px;
+    margin-left: 16px;
+  }
 
-      .LocalCuisine_note p {
-        margin: 8px auto;
-      }
+  .localcuisine_note dl {
+    font-size: 16px;
+    margin: 3px 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: #e0e2e2;
+  }
 
-      .recipe {
-        background: #d2e7f3;
-        padding: 24px;
-        margin-bottom: 24px;
-      }
+  .localcuisine_note dt {
+    vertical-align: middle;
+    flex-shrink: 0;
+    text-align: center;
+    width: 30%;
+  }
 
-      .recipe h3 {
-        margin: 0;
-        padding: 0;
-        border-bottom: 1px solid #1b1b1b;
-      }
+  .localcuisine_note dd {
+    width: 12cm;
+    margin: 0px;
+    display: flex;
+    background-color: #fff;
+    padding-left: 1%;
+    flex-grow: 1;
+  }
 
-      .list {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        padding: 8px 0 6px;
-        border-bottom: 1px solid #9e9595;
-      }
+  .localcuisine_note dd a {
+    text-decoration: none;
+    color: blue;
+  }
 
-      .list_last {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        padding: 8px 0 64px;
-      }
+  .localcuisine_note > dd {
+    border: 1px solid #ddd;
+    border-top: none;
+  }
 
-    /*作り方*/
-      .LocalCuisine_make {
-        list-style: none;
-        margin: 0;
-        font-size: 1em;
-        padding: 0;
-      }
+  .localcuisine_note > dt,
+  .localcuisine_note > dd {
+    text-align: center;
+  }
 
-      .LocalCuisine_make li {
-        display: table;
-        padding: 16px 0;
-        border-bottom: 1px solid #9e9595;
-      }
+  .localcuisine_note > dd > ul {
+    text-align: left;
+  }
 
-      .num {
-        display: inline-block;
-        font-size: 1.714em;
-        width: 40px;
-        margin-top: -5px;
-        padding-right: 10px;
-      }
+  .recipe {
+    background: #d2e7f3;
+    padding: 24px;
+    margin-bottom: 24px;
+  }
 
-      .text {
-        display: table-cell;
-        vertical-align: top;
-        width: 100%;
-      }
+  .recipe h3 {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #1b1b1b;
+  }
 
-    /*提供*/
-      .offer {
-        margin: 16px 0px 0px 0px;
-        text-align: right;
-      }
+  .list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 8px 0 6px;
+    border-bottom: 1px solid #9e9595;
+  }
 
-      .offer p {
-        margin: 4px 0px 0px 0px;
-        font-size: 80%;
-      }
-    }
+  .list_last {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 8px 0 64px;
+  }
+
+/*作り方*/
+  .localcuisine_make {
+    list-style: none;
+    margin: 0;
+    font-size: 1em;
+    padding: 0;
+  }
+
+  .localcuisine_make li {
+    display: table;
+    padding: 16px 0;
+    border-bottom: 1px solid #9e9595;
+  }
+
+  .num {
+    display: inline-block;
+    font-size: 1.714em;
+    width: 40px;
+    margin-top: -5px;
+    padding-right: 10px;
+  }
+
+  .text {
+    display: table-cell;
+    vertical-align: top;
+    width: 100%;
+  }
+
+/*レシピ提供*/
+  .offer {
+    margin: 16px 0px 0px 0px;
+    text-align: right;
+  }
+
+  .offer p {
+    margin: 4px 0px 0px 0px;
+    font-size: 80%;
+  }
+}
+/* PC向けスタイル */
+@media screen and (min-width: 1024px) {
+  main {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+/*郷土料理説明*/
+  .localcuisine {
+    display: flex;
+    padding-bottom: 24px;
+  }
+
+  .localcuisine h1 {
+    margin: 1.6px auto;
+  }
+
+  .localcuisine_img img {
+    height: 8cm;
+  }
+
+/* 写真提供 */
+  .teikyou p {
+    margin: 0;
+  }
+
+/*材料*/
+  .localcuisine_note {
+    margin: auto;
+    margin-left: 16px;
+  }
+
+  .localcuisine_note dl {
+    font-size: 18px;
+    margin: 3px 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: #e0e2e2;
+  }
+
+  .localcuisine_note dt {
+    vertical-align: middle;
+    flex-shrink: 0;
+    text-align: center;
+    width: 25%;
+  }
+
+  .localcuisine_note dd {
+    width: 14cm;
+    margin: 0px;
+    display: flex;
+    background-color: #fff;
+    padding-left: 1%;
+    flex-grow: 1;
+  }
+
+  .localcuisine_note dd a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  .localcuisine_note dd a:hover {
+    color: rgb(71, 1, 92);
+  }
+
+  .recipe {
+    background: #d2e7f3;
+    padding: 24px;
+    margin-bottom: 24px;
+  }
+
+  .recipe h3 {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #1b1b1b;
+  }
+
+  .list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 8px 0 6px;
+    border-bottom: 1px solid #9e9595;
+  }
+
+  .list_last {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 8px 0 64px;
+  }
+
+/*作り方*/
+  .localcuisine_make {
+    list-style: none;
+    margin: 0;
+    font-size: 1em;
+    padding: 0;
+  }
+
+  .localcuisine_make li {
+    display: table;
+    padding: 16px 0;
+    border-bottom: 1px solid #9e9595;
+  }
+
+  .num {
+    display: inline-block;
+    font-size: 1.714em;
+    width: 40px;
+    margin-top: -5px;
+    padding-right: 10px;
+  }
+
+  .text {
+    display: table-cell;
+    vertical-align: top;
+    width: 100%;
+  }
+
+/*レシピ提供*/
+  .offer {
+    margin: 16px 0px 0px 0px;
+    text-align: right;
+  }
+
+  .offer p {
+    margin: 4px 0px 0px 0px;
+    font-size: 80%;
+  }
+}
 </style>

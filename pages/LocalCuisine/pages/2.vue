@@ -14,7 +14,9 @@
         <div class = explanation>
           <p>「豚骨」とは、豚の骨付きあばら肉を焼いて芋焼酎で炒りつけてこんにゃくや大根などの野菜とともに、味噌と黒砂糖で煮こんでつくる郷土料理。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Tonkotsu"><b>詳細はこちら</b></a>
+        <div class="link-space">
+          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Tonkotsu"><b>詳細はこちら</b></a>
+        </div>
       </div>
 
       <h2 class = localcuisine_headline>がね</h2>
@@ -26,22 +28,30 @@
         <div class = explanation>
           <p>「がね」は鹿児島県の特産品として全国に知られるさつまいもを食材とした郷土料理。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Gane"><b>詳細はこちら</b></a>
+        <div class="link-space">
+          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Gane"><b>詳細はこちら</b></a>
+        </div>
       </div>
 
       <h2 class = localcuisine_headline>油ゾーメン</h2>
       <div class="localcuisine">
         <div class = localcuisine_img>
           <img src="~/assets/img/Zomen.jpg" alt="油ゾーメン">
-          <p>出典：</p>
-          <p>農林水産省「うちの郷土料理」</p>
+          <div class="teikyou">
+            <p><b>出典</b></p>
+            <p><b>農林水産省「うちの郷土料理」</b></p>
+          </div>
         </div>
 
         <div class = explanation>
-          <p>「油ゾーメン」は、豚肉と野菜、そうめんを炒めた郷土料理。</p>
-          <p>沖縄の「そうめんチャンプルー」に似ているが、奄美地域の「油ゾーメン」は、炒める時にだし汁を入れるのが特徴。</p>
+          <p>
+            「油ゾーメン」は、豚肉と野菜、そうめんを炒めた郷土料理。
+            沖縄の「そうめんチャンプルー」に似ているが、奄美地域の「油ゾーメン」は、炒める時にだし汁を入れるのが特徴。
+          </p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/AburaZomen"><b>詳細はこちら</b></a>
+        <div class="link-space">
+          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/AburaZomen"><b>詳細はこちら</b></a>
+        </div>  
       </div>
 
       <h2 class = localcuisine_headline>黒糖</h2>
@@ -51,10 +61,14 @@
         </div>
 
         <div class = explanation>
-          <p>「黒糖」は、とうきびを細かくカットし、圧搾機にかけて絞り出した汁を煮詰めてつくる砂糖。</p>
-          <p>奄美地域および沖縄県の特産品。</p>
+          <p>
+            「黒糖」は、とうきびを細かくカットし、圧搾機にかけて絞り出した汁を煮詰めてつくる砂糖。
+            奄美地域および沖縄県の特産品。
+          </p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Kokutou"><b>詳細はこちら</b></a>
+        <div class="link-space">
+          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Kokutou"><b>詳細はこちら</b></a>
+        </div>
       </div>
       
       <ul class="Pagination">
@@ -93,101 +107,162 @@
 </template>
 
 <style>
-    /* スマホ向けスタイル */
+/* 共通 */
+/* ページネーション */
+.Pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
 
-    /* PC向けスタイル */
-    @media screen and (min-width: 1024px) {
-      main {
-        max-width: 1024px;
-        margin: 0 auto;
-      }
+.Pagination-Item-Link {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: #fff;
+  border: solid 2px #111;
+  font-size: 14px;
+  color: #111;
+  font-weight: bold;
+  transition: all 0.15s linear;
+}
 
-      h1 {
-        margin-bottom: 0;
-      }
-      
-      /* 工芸品一覧説明 */
-      .localcuisine {
-        display: flex;
-      }
+.Pagination-Item-Link-Icon {
+  width: 20px;
+}
 
-      .localcuisine p {
-        margin: 0;
-        font-size: 14px;
-      }
+.Pagination-Item-Link.isActive {
+  background: #111;
+  color: #fff;
+  pointer-events: none;
+}
 
-      h2.localcuisine_headline {
-        margin: 0;
-        padding-top: 8px;
-        border-top: 2px solid #d5d4c3;
-      }
-      
-      .explanation {
-        margin: auto;
-        width: 40em;
-      }
-      
-      .explanation-link {
-        align-self: end;
-        text-decoration: none;
-        color: blue;
-      }
+.Pagination-Item-Link:not(.isActive):hover {
+  background: #111;
+  color: #fff;
+}
 
-      a:hover.explanation-link {
-        color: rgb(71, 1, 92);
-      }
+.Pagination > * + * {
+  margin-left: 8px;
+}
+/* スマホ向けスタイル */
+@media screen and (max-width: 480px) {
+  main {
+    max-width: 480px;
+    margin: 0 auto;
+  }
 
-      /* 郷土料理画像 */
-      .localcuisine_img img{
-        width: 5cm;
-        height: auto;
-      }
-      
-      /* ページネーション */
-      .Pagination {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        list-style: none;
-      }
+  h1 {
+    text-align: center;
+    margin-bottom: 0;
+  }
 
-      .Pagination-Item-Link {
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        flex-wrap: wrap;
-        overflow: hidden;
-        background: #fff;
-        border: solid 2px #111;
-        font-size: 14px;
-        color: #111;
-        font-weight: bold;
-        transition: all 0.15s linear;
-      }
+  .localcuisine {
+    text-align: center;
+  }
 
-      .Pagination-Item-Link-Icon {
-        width: 20px;
-      }
+  h2.localcuisine_headline {
+    margin: 0;
+    text-align: center;
+    padding: 8px 0;
+    border-top: 2px solid #d5d4c3;
+  }
 
-      .Pagination-Item-Link.isActive {
-        background: #111;
-        color: #fff;
-        pointer-events: none;
-      }
+  .link-space {
+    margin: 8px 0;
+  }
 
-      .Pagination-Item-Link:not(.isActive):hover {
-        background: #111;
-        color: #fff;
-      }
+  .explanation p {
+    font-size: 15px;
+    text-align: left; /* 左寄せ */
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+  
+  .explanation-link {
+    text-decoration: none;
+    color: blue;
+  }
 
-      .Pagination > * + * {
-        margin-left: 8px;
-      }
+/* 提供 */
+  .teikyou p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+/* 郷土料理画像 */
+  .localcuisine_img img{
+    width: 8cm;
+    height: auto;
+  }
+}
+/* PC向けスタイル */
+@media screen and (min-width: 1024px) {
+  main {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
 
-    }
+  h1 {
+    margin-bottom: 0;
+  }
+  
+/* 郷土料理一覧説明 */
+  .localcuisine {
+    display: flex;
+  }
 
+  .localcuisine p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  h2.localcuisine_headline {
+    margin: 0;
+    padding-top: 8px;
+    border-top: 2px solid #d5d4c3;
+  }
+  
+  .explanation {
+    margin: auto;
+    width: 40em;
+  }
+
+  .link-space {
+    align-self: end;
+  }
+
+  .link-space a {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .explanation-link {
+    align-self: end;
+    text-decoration: none;
+    color: blue;
+  }
+
+  a:hover.explanation-link {
+    color: rgb(71, 1, 92);
+  }
+
+/* 郷土料理画像 */
+  .localcuisine_img img{
+    width: 5cm;
+    height: auto;
+  }
+
+/* 提供 */
+  .teikyou p {
+    font-size: 13px;
+  }
+}
 </style>

@@ -19,7 +19,9 @@
             その卓越した識見は、松平春嶽より「英明近世の第一人者」と称された。
           </p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/History/pages/ShimazuNariakira" target="_blank"><b>年表はこちら</b></a>
+        <div class="link-space">
+          <a class ="explanation-link" href="http://localhost:3000/History/pages/ShimazuNariakira" target="_blank"><b>年表はこちら</b></a>
+        </div>
       </div>
 
       <h2 class = history_headline>西郷隆盛（さいごうたかもり）（1827-1877）</h2>
@@ -35,7 +37,9 @@
             維新後、封建制度下の特権を失った不平士族（旧武士）の首領となって西南戦争を起こしたが政府軍に敗れ自刃した。
           </p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/History/pages/SaigoTakamori" target="_blank"><b>年表はこちら</b></a>
+        <div class="link-space">
+          <a class ="explanation-link" href="http://localhost:3000/History/pages/SaigoTakamori" target="_blank"><b>年表はこちら</b></a>
+        </div> 
       </div>
 
       <h2 class = history_headline>大久保利通（おおくぼとしみち）（1830-1878）</h2>
@@ -52,7 +56,9 @@
             版籍奉還や廃藩置県を推進し、新政府の基礎を固める。
           </p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/History/pages/OkuboToshimichi" target="_blank"><b>年表はこちら</b></a>
+        <div class="link-space">
+          <a class ="explanation-link" href="http://localhost:3000/History/pages/OkuboToshimichi" target="_blank"><b>年表はこちら</b></a>
+        </div>
       </div>
 
       <h2 class = history_headline>小松帯刀（こまつたてわき）（1835-1870）</h2>
@@ -69,7 +75,9 @@
             明治政府に重用され外国官（外務省の前身）副知事になったが病死。
           </p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/History/pages/KomatsuTatewaki" target="_blank"><b>年表はこちら</b></a>
+        <div class="link-space">
+          <a class ="explanation-link" href="http://localhost:3000/History/pages/KomatsuTatewaki" target="_blank"><b>年表はこちら</b></a>
+        </div>
       </div>
 
       <h2 class = history_headline_last>天璋院篤姫（てんしょういんあつひめ）（1836-1883）</h2>
@@ -81,7 +89,9 @@
         <div class = explanation>
           <p>幕府の消滅に立会い、徳川本家廃絶・江戸城武力攻略の回避に力を尽くし、明治期には徳川本家の家格・家名の維持を目ざした。</p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/History/pages/TenshoinAtsuhime" target="_blank"><b>年表はこちら</b></a>
+        <div class="link-space">
+          <a class ="explanation-link" href="http://localhost:3000/History/pages/TenshoinAtsuhime" target="_blank"><b>年表はこちら</b></a>
+        </div>
       </div>
     
     </main>
@@ -95,6 +105,11 @@
 @media screen and (max-width: 480px) {
   .pc {
     display: none;  /* スマホではこのスタイルは起動しない */
+  }
+
+  main {
+    max-width: 480px;
+    margin: 0 auto;
   }
 
   h1 {
@@ -123,12 +138,14 @@
   }
 
   .link-space {
-    margin-bottom: 16px;
+    margin: 8px 0;
   }
-  
+
   .explanation p {
     font-size: 15px;
     text-align: left; /* 左寄せ */
+    margin-top: 16px;
+    margin-bottom: 0;
   }
   
   .explanation-link {
@@ -156,6 +173,7 @@
 /* 工芸品一覧説明 */
   .history {
     display: flex;
+    margin-bottom: 16px;
   }
 
   .history p {
@@ -165,7 +183,7 @@
 
   h2.history_headline {
     margin: 0;
-    padding-top: 8px;
+    padding: 8px 0;
     border-top: 2px solid #d5d4c3;
   }
 

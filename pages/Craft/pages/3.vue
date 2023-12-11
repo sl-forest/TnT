@@ -95,54 +95,7 @@
 </template>
 
 <style>
-/* スマホ向けスタイル */
-@media screen and (max-width: 480px) {
-  .pc {
-    display: none;  /* スマホではこのスタイルは起動しない */
-  }
-
-  h1 {
-    text-align: center;
-    margin-bottom: 0;
-  }
-
-  .craft {
-    text-align: center;
-  }
-
-  h2.craft_headline {
-    margin: 0;
-    text-align: center;
-    padding: 8px 0;
-    border-top: 2px solid #d5d4c3;
-  }
-
-  .link-space {
-    margin-bottom: 16px;
-  }
-
-  .explanation p {
-    font-size: 15px;
-    text-align: left; /* 左寄せ */
-  }
-  
-  .explanation-link {
-    text-decoration: none;
-    color: blue;
-  }
-  
-/* 工芸品画像 */
-  .craft_img img{
-    width: 8cm;
-    height: auto;
-  }
-
-/* 提供 */
-  .teikyou p {
-    margin: 0;
-    font-size: 14px;
-  }
-
+/* 共通 */
 /* ページネーション */
   .Pagination {
     display: flex;
@@ -186,6 +139,123 @@
 
   .Pagination > * + * {
     margin-left: 8px;
+  }
+/* スマホ向けスタイル */
+@media screen and (max-width: 480px) {
+  .pc {
+    display: none;  /* スマホではこのスタイルは起動しない */
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .craft {
+    text-align: center;
+  }
+
+  h2.craft_headline {
+    margin: 0;
+    text-align: center;
+    padding: 8px 0;
+    border-top: 2px solid #d5d4c3;
+  }
+
+  .link-space {
+    margin: 8px 0;
+  }
+
+  .explanation p {
+    font-size: 15px;
+    text-align: left; /* 左寄せ */
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+  
+  .explanation-link {
+    text-decoration: none;
+    color: blue;
+  }
+  
+/* 工芸品画像 */
+  .craft_img img{
+    width: 8cm;
+    height: auto;
+  }
+
+/* 提供 */
+  .teikyou p {
+    margin: 0;
+    font-size: 14px;
+  }
+}
+
+/* PC向けスタイル */
+@media screen and (min-width: 1024px) {
+  main {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  main {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    margin-bottom: 0;
+  }
+  
+/* 工芸品一覧説明 */
+  .craft {
+    display: flex;
+    margin-bottom: 16px;
+  }
+
+  .craft p {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  h2.craft_headline {
+    margin: 0;
+    padding: 8px 0;
+    border-top: 2px solid #d5d4c3;
+  }
+
+  .explanation {
+    margin: auto;
+    width: 17cm;
+  }
+
+  .link-space {
+    align-self: end;
+  }
+
+  .link-space a {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .explanation-link {
+    text-decoration: none;
+    color: blue;
+  }
+
+  a:hover.explanation-link {
+    color: rgb(71, 1, 92);
+  }
+
+/* 工芸品画像 */
+  .craft_img img{
+    width: 5cm;
+    height: auto;
+  }
+
+/* 提供 */
+  .teikyou p {
+    font-size: 13px;
   }
 }
 
@@ -248,51 +318,6 @@
 /* 提供 */
   .teikyou p {
     font-size: 13px;
-  }
-
-/* ページネーション */
-  .Pagination {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-  }
-
-  .Pagination-Item-Link {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    flex-wrap: wrap;
-    overflow: hidden;
-    background: #fff;
-    border: solid 2px #111;
-    font-size: 14px;
-    color: #111;
-    font-weight: bold;
-    transition: all 0.15s linear;
-  }
-
-  .Pagination-Item-Link-Icon {
-    width: 20px;
-  }
-
-  .Pagination-Item-Link.isActive {
-    background: #111;
-    color: #fff;
-    pointer-events: none;
-  }
-
-  .Pagination-Item-Link:not(.isActive):hover {
-    background: #111;
-    color: #fff;
-  }
-
-  .Pagination > * + * {
-    margin-left: 8px;
   }
 }
 </style>

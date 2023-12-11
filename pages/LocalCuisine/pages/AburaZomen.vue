@@ -5,24 +5,33 @@
 
     <main>
       <h1>油ゾーメン</h1>
-        <div class="LocalCuisine">
-            <div class = LocalCuisine_img>
-                <img src="~/assets/img/Zomen.jpg" alt="油ゾーメン">
-            </div>
-            
-            <div class = LocalCuisine_note>
-                <h2>伝承地域</h2>
-                <p>奄美地域</p>
-                <h2>食材</h2>
-                <p>豚肉、そうめん、ニラ、いりこ、だし汁</p>
-                <h2>歴史</h2>
-                <p>薩摩藩統治時代に薩摩から持ち込まれ、乾麺で保存がきくことから奄美地域でよく食べられるようになったのではないかという説があるが、定かではない。</p>
-            </div>
+      <div class="localcuisine">
+        <div class = localcuisine_img>
+            <img src="~/assets/img/Zomen.jpg" alt="油ゾーメン">
         </div>
+        
+        <div class = localcuisine_note>
+
+          <dl>
+            <dt>伝承地域</dt>
+            <dd>奄美地域</dd>
+          </dl>
+
+          <dl>
+            <dt>材料</dt>
+            <dd>豚肉、そうめん、ニラ、いりこ、だし汁</dd>
+          </dl>
+
+          <dl>
+            <dt>歴史</dt>
+            <dd>薩摩藩統治時代に薩摩から持ち込まれ、乾麺で保存がきくことから奄美地域でよく食べられるようになったのではないかという説があるが、定かではない。</dd>
+          </dl>
+        </div>
+      </div>
 
         <div class = "recipe">
           <h3>材料（4人分）</h3>
-          <ul class = "LocalCuisine_memu">
+          <ul class = "localcuisine_memu">
 
             <li>
               <ul class = "list">
