@@ -3,7 +3,7 @@
   <div>
     <TheHeader />
 
-    <body>
+    <main>
       <div class="top_img">
         <img src="~/assets/img/Top_img1.png" alt="トップ画像">
       </div>
@@ -109,11 +109,8 @@
           </a>
         </figure>
       </div>
-
-    </body>
-
+    </main>
     <TheFooter />
-
   </div>
   
 </template>

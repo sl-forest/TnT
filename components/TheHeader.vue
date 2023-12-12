@@ -11,7 +11,6 @@
 
         </div>
 
-        <!--The hamburger appears, when the screen resolution becomes 760px-->
         <nav>
             <input id="menu_toggle" type="checkbox" />
             <label class="menu_btn" for="menu_toggle">
