@@ -5,98 +5,112 @@
 
     <main>
       <h1>神酒（みき）</h1>
-        <div class="LocalCuisine">
-            <div class = LocalCuisine_img>
-                <img src="~/assets/img/Miki.jpg" alt="みき">
-                <p>出典：農林水産省「うちの郷土料理」</p>
-            </div>
-            
-            <div class = LocalCuisine_note>
-                <h2>伝承地域</h2>
-                <p>奄美地域</p>
-                <h2>食材</h2>
-                <p>米粉、白砂糖、さつまいも、水</p>
-                <h2>歴史</h2>
-                <p>祭り事の際に神に捧げられた口噛み酒がルーツであるという。
-                   口噛み酒は、若い女性が口に含み、2噛みから3噛みほどした米を混ぜてつくった酒のこと。</p>
-            </div>
-        </div>
-
-        <div class = "recipe">
-          <h3>材料（パック1本分）</h3>
-          <ul class = "LocalCuisine_memu">
-
-            <li>
-              <ul class = "list">
-                <li>米粉</li>
-                <li>500g</li>
-              </ul>
-            </li>
-
-            <li>
-              <ul class = "list">
-                <li>水</li>
-                <li>1.4L</li>
-              </ul>
-            </li>
-
-            <li>
-              <ul class = "list">
-                <li>さつまいも</li>
-                <li>100g（なるべく色が薄いもの）</li>
-              </ul>
-            </li>
-
-            <li>
-              <ul class = "list_last">
-                <li>白砂糖</li>
-                <li>100g</li>
-              </ul>
-            </li>
-
-          </ul>
-
-          <h3>作り方</h3>
-
-          <ul class = "LocalCuisine_make">
-            
-            <li>
-              <div class = "num">1</div>
-              <div class = "text">
-                大きな鍋に湯を沸かし、その中に米粉を少しずつ入れてよくかき混ぜていく。
-                米粉が溶けたら砂糖を入れて15～20分間、加熱しながらかき混ぜる。
-              </div>
-            </li>
-
-            <li>
-              <div class = "num">2</div>
-              <div class = "text">
-                さつまいもをすり下ろし、絞り汁をとっておく。
-              </div>
-            </li>
-
-            <li>
-              <div class = "num">3</div>
-              <div class = "text">
-                【1】の鍋を30℃くらいに冷まし、さつまいもの絞り汁を入れて混ぜる。
-              </div>
-            </li>
-
-            <li>
-              <div class = "num">4</div>
-              <div class = "text">
-                壺やパックなどに入れ、ふたをして冷暗所におく。夏は一晩、冬は二～三晩おく。途中、木べらなどでかき混ぜる。
-              </div>
-            </li>
-
-          </ul>
-
-          <div class = "offer">
-            <p>レシピ提供元名 : 「奄美の食と文化」（久留ひろみ著）</p>
-            <p>※レシピは地域・家庭によって違いがあります。</p>
+      <div class="localcuisine">
+        <div class = localcuisine_img>
+          <img src="~/assets/img/Miki.jpg" alt="みき">
+          <div class="teikyou">
+            <p><b>出典：農林水産省「うちの郷土料理」</b></p>
           </div>
+        </div>
+        
+        <div class = localcuisine_note>
+
+          <dl>
+            <dt>伝承地域</dt>
+            <dd>奄美地域</dd>
+          </dl>
+
+          <dl>
+            <dt>材料</dt>
+            <dd>米粉、白砂糖、さつまいも、水</dd>
+          </dl>
+
+          <dl>
+            <dt>歴史</dt>
+            <dd>
+              祭り事の際に神に捧げられた口噛み酒がルーツであるという。
+              口噛み酒は、若い女性が口に含み、2噛みから3噛みほどした米を混ぜてつくった酒のこと。
+            </dd>
+          </dl>
 
         </div>
+      </div>
+
+      <div class = "recipe">
+        <h3>材料（パック1本分）</h3>
+        <ul class = "localcuisine_memu">
+
+          <li>
+            <ul class = "list">
+              <li>米粉</li>
+              <li class="quantity">500g</li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class = "list">
+              <li>水</li>
+              <li class="quantity">1.4L</li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class = "list">
+              <li>さつまいも</li>
+              <li class="quantity">100g（なるべく色が薄いもの）</li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class = "list_last">
+              <li>白砂糖</li>
+              <li class="quantity">100g</li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <h3>作り方</h3>
+
+        <ul class = "localcuisine_make">
+          
+          <li>
+            <div class = "num">1</div>
+            <div class = "text">
+              大きな鍋に湯を沸かし、その中に米粉を少しずつ入れてよくかき混ぜていく。
+              米粉が溶けたら砂糖を入れて15～20分間、加熱しながらかき混ぜる。
+            </div>
+          </li>
+
+          <li>
+            <div class = "num">2</div>
+            <div class = "text">
+              さつまいもをすり下ろし、絞り汁をとっておく。
+            </div>
+          </li>
+
+          <li>
+            <div class = "num">3</div>
+            <div class = "text">
+              【1】の鍋を30℃くらいに冷まし、さつまいもの絞り汁を入れて混ぜる。
+            </div>
+          </li>
+
+          <li>
+            <div class = "num">4</div>
+            <div class = "text">
+              壺やパックなどに入れ、ふたをして冷暗所におく。夏は一晩、冬は二～三晩おく。途中、木べらなどでかき混ぜる。
+            </div>
+          </li>
+
+        </ul>
+
+        <div class = "offer">
+          <p>レシピ提供元名 : 「奄美の食と文化」（久留ひろみ著）</p>
+          <p>※レシピは地域・家庭によって違いがあります。</p>
+        </div>
+
+      </div>
     </main>
     <TheFooter />
   </div>
@@ -104,111 +118,287 @@
 </template>
 
 <style>
-    /* スマホ向けスタイル */
+/* 共通 */
+.quantity {
+  list-style-type: none;
+}
+/* スマホ向けスタイル */
+@media screen and (max-width: 480px) {
+  main {
+    margin: 0 auto;
+  }
 
-    /* PC向けスタイル */
-    @media screen and (min-width: 1024px) {
-      main {
-        max-width: 1024px;
-        margin: 0 auto;
-      }
-      
-    /*郷土料理説明*/
-      .LocalCuisine {
-        display: flex;
-        padding-bottom: 24px;
-      }
+  h1 {
+    text-align: center;
+  }
 
-      .LocalCuisine h1 {
-        margin: 1.6px auto;
-      }
+/*郷土料理説明*/
+  .localcuisine {
+    padding-bottom: 24px;
+  }
 
-      .LocalCuisine_img img {
-        height: 10cm;
-      }
+  .localcuisine h1 {
+    margin: 1.6px auto;
+  }
 
-      .LocalCuisine_img p {
-        margin: 0;
-      }
+  .localcuisine_img {
+    text-align: center;
+  }
 
-      .LocalCuisine_note {
-        margin-top: 1.2cm;
-        margin-left: 16px;
-      }
+  .localcuisine_img img {
+    height: 8cm;
+    width: auto;
+  }
+/* 写真提供 */
+  .teikyou p {
+    margin: 8px 0;
+  }
 
-      .LocalCuisine_note h2 {
-        margin: 8px auto;
-      }
+/*材料*/
+  .localcuisine_note {
+    margin-top: 16px;
+  }
 
-      .LocalCuisine_note p {
-        margin: 0 auto;
-      }
+  .localcuisine_note dl {
+    font-size: 16px;
+    margin: 3px 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: #e0e2e2;
+  }
 
-    /*材料*/
-      .recipe {
-        background: #d2e7f3;
-        padding: 24px;
-        margin-bottom: 24px;
-      }
+  .localcuisine_note dt {
+    vertical-align: middle;
+    flex-shrink: 0;
+    text-align: center;
+    width: 30%;
+  }
 
-      .recipe h3 {
-        margin: 0;
-        padding: 0;
-        border-bottom: 1px solid #1b1b1b;
-      }
+  .localcuisine_note dd {
+    width: 12cm;
+    margin: 0px;
+    display: flex;
+    background-color: #fff;
+    padding-left: 1%;
+    flex-grow: 1;
+  }
 
-      .list {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        padding: 8px 0 6px;
-        border-bottom: 1px solid #9e9595;
-      }
+  .localcuisine_note dd a {
+    text-decoration: none;
+    color: blue;
+  }
 
-      .list_last {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        padding: 8px 0 64px;
-      }
+  .localcuisine_note > dd {
+    border: 1px solid #ddd;
+    border-top: none;
+  }
 
-    /*作り方*/
-      .LocalCuisine_make {
-        list-style: none;
-        margin: 0;
-        font-size: 1em;
-        padding: 0;
-      }
+  .localcuisine_note > dt,
+  .localcuisine_note > dd {
+    text-align: center;
+  }
 
-      .LocalCuisine_make li {
-        display: table;
-        padding: 16px 0;
-        border-bottom: 1px solid #9e9595;
-      }
+  .localcuisine_note > dd > ul {
+    text-align: left;
+  }
 
-      .num {
-        display: inline-block;
-        font-size: 1.714em;
-        width: 40px;
-        margin-top: -5px;
-        padding-right: 10px;
-      }
+  .recipe {
+    background: #d2e7f3;
+    padding: 24px;
+    margin-bottom: 24px;
+  }
 
-      .text {
-        display: table-cell;
-        vertical-align: top;
-        width: 100%;
-      }
+  .recipe h3 {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #1b1b1b;
+  }
 
-    /*提供*/
-      .offer {
-        margin: 16px 0px 0px 0px;
-        text-align: right;
-      }
+  .list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 8px 0 6px;
+    border-bottom: 1px solid #9e9595;
+  }
 
-      .offer p {
-        margin: 4px 0px 0px 0px;
-        font-size: 80%;
-      }
-    }
+  .list_last {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 8px 0 64px;
+  }
+
+/*作り方*/
+  .localcuisine_make {
+    list-style: none;
+    margin: 0;
+    font-size: 1em;
+    padding: 0;
+  }
+
+  .localcuisine_make li {
+    display: table;
+    padding: 16px 0;
+    border-bottom: 1px solid #9e9595;
+  }
+
+  .num {
+    display: inline-block;
+    font-size: 1.714em;
+    width: 40px;
+    margin-top: -5px;
+    padding-right: 10px;
+  }
+
+  .text {
+    display: table-cell;
+    vertical-align: top;
+    width: 100%;
+  }
+
+/*レシピ提供*/
+  .offer {
+    margin: 16px 0px 0px 0px;
+    text-align: right;
+  }
+
+  .offer p {
+    margin: 4px 0px 0px 0px;
+    font-size: 80%;
+  }
+}
+/* PC向けスタイル */
+@media screen and (min-width: 1024px) {
+  main {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+/*郷土料理説明*/
+  .localcuisine {
+    display: flex;
+    padding-bottom: 24px;
+  }
+
+  .localcuisine h1 {
+    margin: 1.6px auto;
+  }
+
+  .localcuisine_img img {
+    height: 8cm;
+  }
+
+/* 写真提供 */
+  .teikyou p {
+    margin: 0;
+  }
+
+/*材料*/
+  .localcuisine_note {
+    margin: auto;
+    margin-left: 16px;
+  }
+
+  .localcuisine_note dl {
+    font-size: 18px;
+    margin: 3px 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: #e0e2e2;
+  }
+
+  .localcuisine_note dt {
+    vertical-align: middle;
+    flex-shrink: 0;
+    text-align: center;
+    width: 25%;
+  }
+
+  .localcuisine_note dd {
+    width: 14cm;
+    margin: 0px;
+    display: flex;
+    background-color: #fff;
+    padding-left: 1%;
+    flex-grow: 1;
+  }
+
+  .localcuisine_note dd a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  .localcuisine_note dd a:hover {
+    color: rgb(71, 1, 92);
+  }
+
+  .recipe {
+    background: #d2e7f3;
+    padding: 24px;
+    margin-bottom: 24px;
+  }
+
+  .recipe h3 {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #1b1b1b;
+  }
+
+  .list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 8px 0 6px;
+    border-bottom: 1px solid #9e9595;
+  }
+
+  .list_last {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 8px 0 64px;
+  }
+
+/*作り方*/
+  .localcuisine_make {
+    list-style: none;
+    margin: 0;
+    font-size: 1em;
+    padding: 0;
+  }
+
+  .localcuisine_make li {
+    display: table;
+    padding: 16px 0;
+    border-bottom: 1px solid #9e9595;
+  }
+
+  .num {
+    display: inline-block;
+    font-size: 1.714em;
+    width: 40px;
+    margin-top: -5px;
+    padding-right: 10px;
+  }
+
+  .text {
+    display: table-cell;
+    vertical-align: top;
+    width: 100%;
+  }
+
+/*レシピ提供*/
+  .offer {
+    margin: 16px 0px 0px 0px;
+    text-align: right;
+  }
+
+  .offer p {
+    margin: 4px 0px 0px 0px;
+    font-size: 80%;
+  }
+}
 </style>

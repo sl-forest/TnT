@@ -188,7 +188,6 @@
 /*材料*/
   .localcuisine_note {
     margin-top: 16px;
-    margin-left: 16px;
   }
 
   .localcuisine_note dl {

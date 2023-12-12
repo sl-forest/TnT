@@ -12,11 +12,15 @@
         </div>
           
         <div class = explanation>
-          <p>幅約210メートル、高さ約12メートルのスケールを誇り、「東洋のナイアガラ」とも呼ばれる滝。</p>
-          <p>春は桜やつつじが彩り、夏は水量も多く豪快。</p>
-          <p>秋は紅葉がライトアップされ、冬は雪景色を楽しめる。</p>
+          <p>
+            幅約210メートル、高さ約12メートルのスケールを誇り、「東洋のナイアガラ」とも呼ばれる滝。<br class="pc">
+            春は桜やつつじが彩り、夏は水量も多く豪快。<br class="pc">
+            秋は紅葉がライトアップされ、冬は雪景色を楽しめる。
+          </p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Soginotaki"><b>スポット情報</b></a>
+        <div class="link-space">
+          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Soginotaki"><b>スポット情報</b></a>
+        </div>
       </div>
 
       <h2 class = spot_headline>丸尾の滝</h2>
@@ -26,10 +30,14 @@
         </div>
 
         <div class = explanation>
-          <p>高さ約23メートル、幅約16メートルの滝。</p>
-          <p>ここを流れる水は温泉の湯であり、霧島地区の温泉水を集めて流れる珍しい「湯の滝」。</p>
+          <p>
+            高さ約23メートル、幅約16メートルの滝。<br class="pc">
+            ここを流れる水は温泉の湯であり、霧島地区の温泉水を集めて流れる珍しい「湯の滝」。
+          </p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Maruonotaki"><b>スポット情報</b></a>
+        <div class="link-space">
+          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Maruonotaki"><b>スポット情報</b></a>
+        </div>
       </div>
 
       <h2 class = spot_headline>雄川の滝</h2>
@@ -39,11 +47,15 @@
         </div>
 
         <div class = explanation>
-          <p>落差約46メートル、幅約60メートルの滝。</p>
-          <p>大河ドラマ『西郷どん』のオープニング映像で話題となった。</p>
-          <p>エメラルドグリーンの美しい滝つぼが特徴で、フォトジェニックな光景が広がる。</p>
+          <p>
+            落差約46メートル、幅約60メートルの滝。<br class="pc">
+            大河ドラマ『西郷どん』のオープニング映像で話題となった。<br class="pc">
+            エメラルドグリーンの美しい滝つぼが特徴で、フォトジェニックな光景が広がる。
+          </p>
         </div>
-        <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Ogawanotaki"><b>スポット情報</b></a>
+        <div class="link-space">
+          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Ogawanotaki"><b>スポット情報</b></a>
+        </div>
       </div>
       
       <h2 class = spot_headline>開聞岳</h2>
@@ -53,10 +65,14 @@
         </div>
 
         <div class = explanation>
-          <p>薩摩半島の最南端に位置する標高約924メートルの開聞岳は、「日本百名山」にも数えられている南薩摩を代表する山。</p>
-          <p>別名「薩摩富士」と呼ばれ、指宿のシンボルとして親しまれている。</p>
+          <p>
+            薩摩半島の最南端に位置する標高約924メートルの開聞岳は、「日本百名山」にも数えられている南薩摩を代表する山。<br class="pc">
+            別名「薩摩富士」と呼ばれ、指宿のシンボルとして親しまれている。
+          </p>
         </div>
+        <div class="link-space">
           <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Kaimondake"><b>スポット情報</b></a>
+        </div>
       </div>
       
       <ul class="Pagination">
@@ -99,101 +115,154 @@
 </template>
 
 <style>
-    /* スマホ向けスタイル */
+/* 共通 */
+/* ページネーション */
+.Pagination {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
 
-    /* PC向けスタイル */
-    @media screen and (min-width: 1024px) {
-      main {
-        max-width: 1024px;
-        margin: 0 auto;
-      }
+.Pagination-Item-Link {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: #fff;
+  border: solid 2px #111;
+  font-size: 14px;
+  color: #111;
+  font-weight: bold;
+  transition: all 0.15s linear;
+}
 
-      h1 {
-        margin-bottom: 0;
-      }
+.Pagination-Item-Link-Icon {
+  width: 20px;
+}
 
-      h2.spot_headline {
-        margin: 0;
-        padding-top: 8px;
-        border-top: 2px solid #d5d4c3;
-      }
-      
-      /* 観光地一覧説明 */
-      .spot {
-        display: flex;
-      }
+.Pagination-Item-Link.isActive {
+  background: #111;
+  color: #fff;
+  pointer-events: none;
+}
 
-      .spot p {
-        margin: 0;
-        font-size: 14px;
-      }
+.Pagination-Item-Link:not(.isActive):hover {
+  background: #111;
+  color: #fff;
+}
 
-      .explanation {
-        margin: auto;
-        width: 40em;
-      }
-      
-      .explanation-link {
-        align-self: end;
-        text-decoration: none;
-        color: blue;
-      }
+.Pagination > * + * {
+  margin-left: 8px;
+}
+/* スマホ向けスタイル */
+@media screen and (max-width: 480px) {
+  .pc {display: none;}
 
-      a:hover.explanation-link {
-        color: rgb(71, 1, 92);
-      }
+  main {
+    max-width: 480px;
+    margin: 0 auto;
+  }
 
-      /* 観光地画像 */
-      .spot_img img{
-        width: 5cm;
-        height: auto;
-      }
-      
-      /* ページネーション */
-      .Pagination {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        list-style: none;
-      }
+  h1 {
+    text-align: center;
+    margin-bottom: 0;
+  }
 
-      .Pagination-Item-Link {
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        flex-wrap: wrap;
-        overflow: hidden;
-        background: #fff;
-        border: solid 2px #111;
-        font-size: 14px;
-        color: #111;
-        font-weight: bold;
-        transition: all 0.15s linear;
-      }
+  .spot {
+    text-align: center;
+  }
 
-      .Pagination-Item-Link-Icon {
-        width: 20px;
-      }
+  h2.spot_headline {
+    margin: 0;
+    text-align: center;
+    padding: 8px 0;
+    border-top: 2px solid #d5d4c3;
+  }
 
-      .Pagination-Item-Link.isActive {
-        background: #111;
-        color: #fff;
-        pointer-events: none;
-      }
+  .link-space {
+    margin: 8px 0;
+  }
 
-      .Pagination-Item-Link:not(.isActive):hover {
-        background: #111;
-        color: #fff;
-      }
+  .explanation p {
+    font-size: 15px;
+    text-align: left; /* 左寄せ */
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+  
+  .explanation-link {
+    text-decoration: none;
+    color: blue;
+  }
+  
+/* 観光地理画像 */
+  .spot_img img{
+    width: 8cm;
+    height: auto;
+  }
+}
+/* PC向けスタイル */
+@media screen and (min-width: 1024px) {
+  main {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
 
-      .Pagination > * + * {
-        margin-left: 8px;
-      }
+  h1 {
+    margin-bottom: 0;
+  }
+  
+/* 観光地一覧説明 */
+  .spot {
+    display: flex;
+  }
 
-    }
+  .spot p {
+    margin: 0;
+    font-size: 14px;
+  }
 
+  h2.spot_headline {
+    margin: 0;
+    padding-top: 8px;
+    border-top: 2px solid #d5d4c3;
+  }
+  
+  .explanation {
+    margin: auto;
+    width: 40em;
+  }
+
+  .link-space {
+    align-self: end;
+  }
+
+  .link-space a {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .explanation-link {
+    align-self: end;
+    text-decoration: none;
+    color: blue;
+  }
+
+  a:hover.explanation-link {
+    color: rgb(71, 1, 92);
+  }
+
+/* 観光地画像 */
+  .spot_img img{
+    width: 5cm;
+    height: auto;
+  }
+}
 </style>

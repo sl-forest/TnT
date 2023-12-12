@@ -14,7 +14,7 @@
         <div class="serach">
           <form method="get" action="http://www.google.co.jp/search" class="search-form" target="_blank">
           <label>  
-            <input type="text" name="q" placeholder="キーワードを入力">
+            <input type="text" name="q" placeholder="Google検索">
           </label>
             <button type="submit" name="btng" value="検索"></button>
           </form>

@@ -1,7 +1,6 @@
 <template>
   
   <div>
-    <head><meta name="viewport" content="width=device-width,initial-scale=1"></head>
     <TheHeader />
 
     <body>
@@ -12,17 +11,12 @@
       <div class="Kagoshima_about">
         <center>
           <h1>～鹿児島について～</h1>
-          <p>多くの観光名所や豊かな自然があり、その土地に根付いた伝統と人の温もり溢れる地方。</p>
-          <p>時代の流れに揉まれ戦乱の歴史をその身に刻みながらも発展してきた鹿児島。</p>
-          <p>そんな魅力溢れる鹿児島を体験してみてください。</p>
+          <p>
+            多くの観光名所や豊かな自然があり、その土地に根付いた伝統と人の温もり溢れる地方。<br class="pc">
+            時代の流れに揉まれ戦乱の歴史をその身に刻みながらも発展してきた鹿児島。<br class="pc">
+            そんな魅力溢れる鹿児島を体験してみてください。
+          </p>
         </center>
-      </div>
-
-      <div class= "talk">
-        <div class = human01><img src ="" alt="ジジイ"></div>
-        <p></p>
-        <div class = human02><img src ="" alt="息子"></div>
-        <p></p>
       </div>
 
       <div class="headline"><h2>紹介一覧</h2></div>
@@ -126,20 +120,21 @@
 
 <style>
 /* スマホ（ 画面サイズが480px ） */
-  @media screen and (max-width:480px) {
-
+@media screen and (max-width:480px) {
   * {
 	  float: none;
 	  position: static;
   }
 
+  .pc {display: none;}
+
   .Kagoshima_about h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 32px;
   }
 
   .Kagoshima_about p {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
   }
 

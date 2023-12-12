@@ -64,27 +64,58 @@
 </template>
 
 <style>
+/* 共通 */
+  .Craft_note dd a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  .Craft_note dd a:hover {
+    color: rgb(71, 1, 92);
+  }
+  
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
+  main {
+    margin: 0 auto;
+  }
+
   h1 {
+    margin: 16px 0;
     text-align: center;
-    margin: 12px 0;
+  }
+  
+  .Craft {
+    padding-bottom: 16px;
+  }
+
+  .Craft h1 {
+    margin: 1.6px auto;
   }
 
   .Craft_img {
     text-align: center;
-    margin-bottom: 24px;
   }
 
   .Craft_img img {
     width: 72%;
   }
 
+  .Craft_img p {
+    margin: 0;
+  }
+
   .Craft_note {
-    margin-bottom: 24px;
+    margin-top: 16px;
+  }
+
+  .Craft_note h2 {
+    margin: 8px auto;
   }
 
   .Craft_note dl {
+    display: table;
+    width: 100%;
     font-size: 16px;
     margin: 3px 0;
     overflow: hidden;
@@ -97,35 +128,17 @@
     vertical-align: middle;
     flex-shrink: 0;
     text-align: center;
-    width: 30%;
+    width: 24%;
   }
 
   .Craft_note dd {
-    width: 12cm;
     margin: 0px;
+    padding: 2%;
+    font-size: 16px;
     display: flex;
     background-color: #fff;
     padding-left: 1%;
     flex-grow: 1;
-  }
-
-  .Craft_note dd a {
-    text-decoration: none;
-    color: blue;
-  }
-
-  .Craft_note > dd {
-    border: 1px solid #ddd;
-    border-top: none;
-  }
-
-  .Craft_note > dt,
-  .Craft_note > dd {
-    text-align: center;
-  }
-
-  .Craft_note > dd > ul {
-    text-align: left;
   }
 }
 /* PC向けスタイル */
@@ -134,14 +147,22 @@
     max-width: 1024px;
     margin: 0 auto;
   }
-
+  
   .Craft {
     display: flex;
     padding-bottom: 24px;
   }
 
+  .Craft h1 {
+    margin: 1.6px auto;
+  }
+
+  .Craft_img {
+    margin: auto;
+  }
+
   .Craft_img img {
-    height: 9.5cm;
+    height: 8cm;
   }
 
   .Craft_img p {
@@ -149,7 +170,7 @@
   }
 
   .Craft_note {
-    margin-top: 0.6cm;
+    margin: auto;
     padding-left: 16px;
   }
 
@@ -158,7 +179,7 @@
   }
 
   .Craft_note dl {
-    font-size: 16px;
+    font-size: 18px;
     margin: 3px 0;
     overflow: hidden;
     display: flex;
@@ -170,25 +191,16 @@
     vertical-align: middle;
     flex-shrink: 0;
     text-align: center;
-    width: 28%;
+    width: 20%;
   }
 
   .Craft_note dd {
-    width: 15cm;
+    width: 14cm;
     margin: 0px;
     display: flex;
     background-color: #fff;
     padding-left: 1%;
     flex-grow: 1;
-  }
-
-  .Craft_note dd a {
-    text-decoration: none;
-    color: blue;
-  }
-
-  .Craft_note dd a:hover {
-    color: rgb(71, 1, 92);
   }
 }
 </style>
