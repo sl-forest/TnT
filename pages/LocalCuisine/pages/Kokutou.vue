@@ -36,26 +36,16 @@
 <style>
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  main {
-    margin: 0 auto;
-  }
+  main {margin: 0 auto;}
 
-  h1 {
-    text-align: center;
-  }
+  h1 {text-align: center;}
 
 /*郷土料理説明*/
-  .localcuisine {
-    padding-bottom: 24px;
-  }
+  .localcuisine {padding-bottom: 24px;}
 
-  .localcuisine h1 {
-    margin: 1.6px auto;
-  }
+  .localcuisine h1 {margin: 1.6px auto;}
 
-  .localcuisine_img {
-    text-align: center;
-  }
+  .localcuisine_img {text-align: center;}
 
   .localcuisine_img img {
     height: 8cm;
@@ -63,9 +53,7 @@
   }
 
 /*材料*/
-  .localcuisine_note {
-    margin-top: 16px;
-  }
+  .localcuisine_note {margin-top: 16px;}
 
   .localcuisine_note dl {
     font-size: 16px;
@@ -92,24 +80,15 @@
     flex-grow: 1;
   }
 
-  .localcuisine_note dd a {
-    text-decoration: none;
-    color: blue;
-  }
-
   .localcuisine_note > dd {
     border: 1px solid #ddd;
     border-top: none;
   }
 
   .localcuisine_note > dt,
-  .localcuisine_note > dd {
-    text-align: center;
-  }
+  .localcuisine_note > dd {text-align: center;}
 
-  .localcuisine_note > dd > ul {
-    text-align: left;
-  }
+  .localcuisine_note > dd > ul {text-align: left;}
 
   .recipe {
     background: #d2e7f3;
@@ -177,6 +156,7 @@
     font-size: 80%;
   }
 }
+
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
   main {
@@ -190,13 +170,9 @@
     padding-bottom: 24px;
   }
 
-  .localcuisine h1 {
-    margin: 1.6px auto;
-  }
+  .localcuisine h1 {margin: 1.6px auto;}
 
-  .localcuisine_img img {
-    height: 8cm;
-  }
+  .localcuisine_img img {height: 8cm;}
 
 /*材料*/
   .localcuisine_note {
@@ -227,15 +203,6 @@
     background-color: #fff;
     padding-left: 1%;
     flex-grow: 1;
-  }
-
-  .localcuisine_note dd a {
-    text-decoration: none;
-    color: blue;
-  }
-
-  .localcuisine_note dd a:hover {
-    color: rgb(71, 1, 92);
   }
 
   .recipe {

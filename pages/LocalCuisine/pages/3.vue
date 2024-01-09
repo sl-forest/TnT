@@ -116,6 +116,8 @@
 
 <style>
 /* 共通 */
+h1 {font-family: 'New Tegomin', serif;}
+
 /* ページネーション */
 .Pagination {
   padding: 0;
@@ -143,9 +145,7 @@
   transition: all 0.15s linear;
 }
 
-.Pagination-Item-Link-Icon {
-  width: 20px;
-}
+.Pagination-Item-Link-Icon {width: 20px;}
 
 .Pagination-Item-Link.isActive {
   background: #111;
@@ -158,9 +158,8 @@
   color: #fff;
 }
 
-.Pagination > * + * {
-  margin-left: 8px;
-}
+.Pagination > * + * {margin-left: 8px;}
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
   main {
@@ -169,13 +168,12 @@
   }
 
   h1 {
+    margin: 8px;
     text-align: center;
     margin-bottom: 0;
   }
 
-  .localcuisine {
-    text-align: center;
-  }
+  .localcuisine {text-align: center;}
 
   h2.localcuisine_headline {
     margin: 0;
@@ -184,9 +182,7 @@
     border-top: 2px solid #d5d4c3;
   }
 
-  .link-space {
-    margin: 8px 0;
-  }
+  .link-space {margin: 8px 0;}
 
   .explanation p {
     font-size: 15px;
@@ -212,6 +208,7 @@
     height: auto;
   }
 }
+
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
   main {
@@ -219,14 +216,10 @@
     margin: 0 auto;
   }
 
-  h1 {
-    margin-bottom: 0;
-  }
+  h1 {margin-bottom: 0;}
   
 /* 郷土料理一覧説明 */
-  .localcuisine {
-    display: flex;
-  }
+  .localcuisine {display: flex;}
 
   .localcuisine p {
     margin: 0;
@@ -244,9 +237,7 @@
     width: 40em;
   }
 
-  .link-space {
-    align-self: end;
-  }
+  .link-space {align-self: end;}
 
   .link-space a {
     margin: 0;
@@ -259,9 +250,7 @@
     color: blue;
   }
 
-  a:hover.explanation-link {
-    color: rgb(71, 1, 92);
-  }
+  a:hover.explanation-link {color: rgb(71, 1, 92);}
 
 /* 郷土料理画像 */
   .localcuisine_img img{
@@ -270,8 +259,6 @@
   }
 
 /* 提供 */
-  .teikyou p {
-    font-size: 13px;
-  }
+  .teikyou p {font-size: 13px;}
 }
 </style>

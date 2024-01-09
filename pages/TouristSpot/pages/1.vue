@@ -13,8 +13,8 @@
         
         <div class = explanation>
           <p>
-            鹿児島のシンボルである「桜島」は、錦江湾にある陸続きの島。<br class="pc">
-            標高約1,117メートルの御岳（北岳）という活火山が、現在も活発に噴火を続けている。<br class="pc">
+            鹿児島のシンボルである「桜島」は、錦江湾にある陸続きの島。<br>
+            標高約1,117メートルの御岳（北岳）という活火山が、現在も活発に噴火を続けている。<br>
             散策に適した溶岩遊歩道の途中には、絶景を望める展望所も複数完備。
           </p>
         </div>
@@ -31,8 +31,8 @@
 
         <div class = explanation>
           <p>
-            日本で初めて世界自然遺産に登録された。<br class="pc">
-            本土最南端・鹿児島県佐多岬の南南西約60キロメートルの海上に位置する島。<br class="pc">
+            日本で初めて世界自然遺産に登録された。<br>
+            本土最南端・鹿児島県佐多岬の南南西約60キロメートルの海上に位置する島。<br>
             小さな面積ながら、九州最高峰の宮之浦岳（標高約1,936メートル）をはじめ、1,000メートル超の山々が46座もあり、「洋上のアルプス」と呼ばれている。
           </p>
         </div>
@@ -49,8 +49,8 @@
 
         <div class = explanation>
           <p>
-            世界自然遺産に登録されている。<br class="pc">
-            鹿児島県と沖縄県の中間に位置し、日本版「天国に一番近い島」と称されている。<br class="pc">
+            世界自然遺産に登録されている。<br>
+            鹿児島県と沖縄県の中間に位置し、日本版「天国に一番近い島」と称されている。<br>
             青く澄んだ海や、ここにしか生息していない動植物など、雄大な自然が魅力。
           </p>
         </div>
@@ -67,7 +67,7 @@
 
         <div class = explanation>
           <p>
-            1969年に造られた種子島宇宙センターは、総面積約970万平米に及ぶ、日本最大のロケット発射場。<br class="pc">
+            1969年に造られた種子島宇宙センターは、総面積約970万平米に及ぶ、日本最大のロケット発射場。<br>
             青い海と白い砂浜に囲まれていることから、「世界一美しいロケット発射場」と呼ばれている。
           </p>
         </div>
@@ -117,6 +117,8 @@
 
 <style>
 /* 共通 */
+h1 {font-family: 'New Tegomin', serif;}
+
 /* ページネーション */
 .Pagination {
   padding: 0;
@@ -144,9 +146,7 @@
   transition: all 0.15s linear;
 }
 
-.Pagination-Item-Link-Icon {
-  width: 20px;
-}
+.Pagination-Item-Link-Icon {width: 20px;}
 
 .Pagination-Item-Link.isActive {
   background: #111;
@@ -159,22 +159,21 @@
   color: #fff;
 }
 
-.Pagination > * + * {
-  margin-left: 8px;
-}
+.Pagination > * + * {margin-left: 8px;}
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  .pc {display: none;}
-
   main {
-    max-width: 480px;
     margin: 0 auto;
   }
 
   h1 {
+    margin: 8px;
     text-align: center;
     margin-bottom: 0;
   }
+
+  br {display: none;}
 
   .spot {
     text-align: center;
@@ -209,6 +208,7 @@
     height: auto;
   }
 }
+
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
   main {
@@ -216,14 +216,10 @@
     margin: 0 auto;
   }
 
-  h1 {
-    margin-bottom: 0;
-  }
+  h1 {margin-bottom: 0;}
   
 /* 観光地一覧説明 */
-  .spot {
-    display: flex;
-  }
+  .spot {display: flex;}
 
   .spot p {
     margin: 0;
@@ -241,9 +237,7 @@
     width: 40em;
   }
 
-  .link-space {
-    align-self: end;
-  }
+  .link-space {align-self: end;}
 
   .link-space a {
     margin: 0;
@@ -256,9 +250,7 @@
     color: blue;
   }
 
-  a:hover.explanation-link {
-    color: rgb(71, 1, 92);
-  }
+  a:hover.explanation-link {color: rgb(71, 1, 92);}
 
 /* 観光地画像 */
   .spot_img img{

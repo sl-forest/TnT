@@ -5,29 +5,29 @@
 
     <main>
       <h1>鶏飯（けいはん）</h1>
-        <div class="localcuisine">
-          <div class = localcuisine_img>
-            <img src="~/assets/img/Keihan.jpeg" alt="鶏飯">
-          </div>
-            
-          <div class = localcuisine_note>
+      <div class="localcuisine">
+        <div class = localcuisine_img>
+          <img src="~/assets/img/Keihan.jpeg" alt="鶏飯">
+        </div>
+          
+        <div class = localcuisine_note>
 
-            <dl>
-              <dt>伝承地域</dt>
-              <dd>奄美地域</dd>
-            </dl>
+          <dl>
+            <dt>伝承地域</dt>
+            <dd>奄美地域</dd>
+          </dl>
 
-            <dl>
-              <dt>食材</dt>
-              <dd>米、鶏肉、干ししいたけ、卵、パパイヤの味噌漬け、ねぎ、みかんの皮、のり</dd>
-            </dl>
+          <dl>
+            <dt>食材</dt>
+            <dd>米、鶏肉、干ししいたけ、卵、パパイヤの味噌漬け、ねぎ、みかんの皮、のり</dd>
+          </dl>
 
-            <dl>
-              <dt>歴史</dt>
-              <dd>奄美群島が薩摩藩の支配下に置かれていた時代、鹿児島本土からやってくる役人たちの威圧的な態度を少しでも和らげるためにつくられたのがはじまりだといわれてる。</dd>
-            </dl>
+          <dl>
+            <dt>歴史</dt>
+            <dd>奄美群島が薩摩藩の支配下に置かれていた時代、鹿児島本土からやってくる役人たちの威圧的な態度を少しでも和らげるためにつくられたのがはじまりだといわれてる。</dd>
+          </dl>
 
-          </div>
+        </div>
       </div>
 
       <div class = "recipe">
@@ -283,38 +283,27 @@
 
       </div>
     </main>
-  <TheFooter />
+    <TheFooter />
   </div>
 
 </template>
 
 <style>
 /* 共通 */
-.quantity {
-  list-style-type: none;
-}
+.quantity {list-style-type: none;}
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  main {
-    margin: 0 auto;
-  }
+  main {margin: 0 auto;}
 
-  h1 {
-    text-align: center;
-  }
+  h1 {text-align: center;}
 
 /*郷土料理説明*/
-  .localcuisine {
-    padding-bottom: 24px;
-  }
+  .localcuisine {padding-bottom: 24px;}
 
-  .localcuisine h1 {
-    margin: 1.6px auto;
-  }
+  .localcuisine h1 {margin: 1.6px auto;}
 
-  .localcuisine_img {
-    text-align: center;
-  }
+  .localcuisine_img {text-align: center;}
 
   .localcuisine_img img {
     height: 8cm;
@@ -322,9 +311,7 @@
   }
 
 /*材料*/
-  .localcuisine_note {
-    margin-top: 16px;
-  }
+  .localcuisine_note {margin-top: 16px;}
 
   .localcuisine_note dl {
     font-size: 16px;
@@ -351,24 +338,15 @@
     flex-grow: 1;
   }
 
-  .localcuisine_note dd a {
-    text-decoration: none;
-    color: blue;
-  }
-
   .localcuisine_note > dd {
     border: 1px solid #ddd;
     border-top: none;
   }
 
   .localcuisine_note > dt,
-  .localcuisine_note > dd {
-    text-align: center;
-  }
+  .localcuisine_note > dd {text-align: center;}
 
-  .localcuisine_note > dd > ul {
-    text-align: left;
-  }
+  .localcuisine_note > dd > ul {text-align: left;}
 
   .recipe {
     background: #d2e7f3;
@@ -436,6 +414,7 @@
     font-size: 80%;
   }
 }
+
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
   main {
@@ -449,13 +428,9 @@
     padding-bottom: 24px;
   }
 
-  .localcuisine h1 {
-    margin: 1.6px auto;
-  }
+  .localcuisine h1 {margin: 1.6px auto;}
 
-  .localcuisine_img img {
-    height: 12cm;
-  }
+  .localcuisine_img img {height: 12cm;}
 
 /*材料*/
   .localcuisine_note {
@@ -486,15 +461,6 @@
     background-color: #fff;
     padding-left: 1%;
     flex-grow: 1;
-  }
-
-  .localcuisine_note dd a {
-    text-decoration: none;
-    color: blue;
-  }
-
-  .localcuisine_note dd a:hover {
-    color: rgb(71, 1, 92);
   }
 
   .recipe {

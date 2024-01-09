@@ -31,9 +31,7 @@
 <style lang="scss" scoped>
 // PC
 @media screen and (min-width: 1024px) {
-    a:hover.menu_item {
-        color: #4eeaff;
-    }
+    a:hover.menu_item {color: #ffd700;}
 }
 
 // 共通
@@ -54,7 +52,7 @@ header {
     display: flex;
     align-items: center;
     padding: 1.4em;
-    background: #2d303a;
+    background: #242428;
     border-bottom: 2px solid #3c4356;
     justify-content: space-evenly;
 }
@@ -71,7 +69,7 @@ header {
 }
 
 .logo-space .site-name h1 {
-  font-family: sans-serif;
+  font-family: 'New Tegomin', serif;
   color: #fff;  /*サイトの名前の色*/
   margin-top: 13px;
   margin-left: 16px;
@@ -82,6 +80,7 @@ header {
 nav {
   display: flex;
   align-items: center;
+  margin-top: 8px;
   
 // スマホ
   @media screen and (max-width: 480px) {
@@ -120,8 +119,8 @@ nav {
     flex-direction: column;
     padding: 0 1em 0 1.9em;
     color: #ffffff;
-    font-family: sans-serif;
-    font-size: 14px;
+    font-family: 'New Tegomin', serif;
+    font-size: 15px;
     font-weight: 400;
     text-decoration: none;
     text-transform: uppercase;

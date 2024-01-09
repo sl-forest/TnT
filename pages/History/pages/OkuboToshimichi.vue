@@ -129,14 +129,11 @@
     border-radius: 100%;
   }
   
-  .timeline {
-    list-style: none;
-  }
+  .timeline {list-style: none;}
   
-  .timeline > li {
-    margin-bottom: 40px;
-  }
+  .timeline > li {margin-bottom: 40px;}
 }
+
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
   main {

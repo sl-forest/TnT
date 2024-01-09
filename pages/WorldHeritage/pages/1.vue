@@ -107,6 +107,7 @@
 
 <style>
 /* 共通 */
+h1 {font-family: 'New Tegomin', serif;}
 /* ページネーション */
 .Pagination {
   padding: 0;
@@ -162,6 +163,7 @@
   }
 
   h1 {
+    margin: 8px;
     text-align: center;
     margin-bottom: 0;
   }

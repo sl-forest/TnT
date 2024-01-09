@@ -5,119 +5,119 @@
 
     <main>
       <h1>鳥刺し</h1>
-        <div class="localcuisine">
-          <div class = localcuisine_img>
-              <img src="~/assets/img/Torisashi02.jpeg" alt="鳥刺し">
-          </div>
-            
-          <div class = localcuisine_note>
-
-            <dl>
-              <dt>伝承地域</dt>
-              <dd>鹿児島県全域</dd>
-            </dl>
-            
-            <dl>
-              <dt>食材</dt>
-              <dd>鶏肉</dd>
-            </dl>
-            
-            <dl>
-              <dt>歴史</dt>
-              <dd>鹿児島県では、江戸時代から薩摩武士たちが士風高揚のため、盛んに闘鶏をおこなっており、その際に負けた鶏をその場でしめて食べる習慣があった。闘鶏が禁止された後も、各家庭で鶏が飼われ、来客がある時や祝いの席のために鶏をしめて調理し食べていたという。このように鹿児島県においては、古くから鶏肉を使った料理が身近でにあったことから、鶏肉を刺身で食べる「鶏刺し」が根づいたと考えられてる。</dd>
-            </dl>
-
-          </div>
+      <div class="localcuisine">
+        <div class = localcuisine_img>
+          <img src="~/assets/img/Torisashi02.jpeg" alt="鳥刺し">
         </div>
+          
+        <div class = localcuisine_note>
 
-        <div class = "recipe">
-          <h3>材料</h3>
-          <ul class = "localcuisine_memu">
-
-            <li>
-              <ul class = "list">
-                <li>鶏刺し用鶏肉（もも・ささみ・むね肉）</li>
-                <li class="quantity">150g</li>
-              </ul>
-            </li>
-
-            <li>
-              <ul class = "list">
-                <li>玉ねぎ</li>
-                <li class="quantity">30g</li>
-              </ul>
-            </li>
-
-            <li>
-              <ul class = "list">
-                <li>ねぎ</li>
-                <li class="quantity">5g</li>
-              </ul>
-            </li>
-
-            <li>
-              <ul class = "list">
-                <li>しょうが</li>
-                <li class="quantity">お好みで</li>
-              </ul>
-            </li>
-
-            <li>
-              <ul class = "list">
-                <li>にんにく</li>
-                <li class="quantity">お好みで</li>
-              </ul>
-            </li>
-
-            <li>
-              <ul class = "list_last">
-                <li>青じそ</li>
-                <li class="quantity">お好みで</li>
-              </ul>
-            </li>
-
-          </ul>
-
-          <h3>作り方</h3>
-
-          <ul class = "localcuisine_make">
-            
-            <li>
-              <div class = "num">1</div>
-              <div class = "text">
-                鶏刺し用の新鮮な鶏肉を用意する。
-              </div>
-            </li>
-
-            <li>
-              <div class = "num">2</div>
-              <div class = "text">
-                バーナーなどで皮目をあぶり、表面の色が変わったら火を止める。（中は生のまま）
-              </div>
-            </li>
-
-            <li>
-              <div class = "num">3</div>
-              <div class = "text">
-                  3mm幅に皮目から切る。肉の繊維の方向を見て繊維を断ち切るようにくらいの刺身に切る。
-              </div>
-            </li>
-
-            <li>
-              <div class = "num">4</div>
-              <div class = "text">
-                青じそを敷き部位ごとに盛り付け玉ねぎはスライス、ネギは小口切り。しょうがニンニクはすりおろして一緒に盛り付け、好みで醤油やポン酢で味わう。
-              </div>
-            </li>
-
-          </ul>
-
-          <div class = "offer">
-            <p>レシピ提供元名 : 株式会社Table of Smile</p>
-            <p>※レシピは地域・家庭によって違いがあります。</p>
-          </div>
+          <dl>
+            <dt>伝承地域</dt>
+            <dd>鹿児島県全域</dd>
+          </dl>
+          
+          <dl>
+            <dt>食材</dt>
+            <dd>鶏肉</dd>
+          </dl>
+          
+          <dl>
+            <dt>歴史</dt>
+            <dd>鹿児島県では、江戸時代から薩摩武士たちが士風高揚のため、盛んに闘鶏をおこなっており、その際に負けた鶏をその場でしめて食べる習慣があった。闘鶏が禁止された後も、各家庭で鶏が飼われ、来客がある時や祝いの席のために鶏をしめて調理し食べていたという。このように鹿児島県においては、古くから鶏肉を使った料理が身近でにあったことから、鶏肉を刺身で食べる「鶏刺し」が根づいたと考えられてる。</dd>
+          </dl>
 
         </div>
+      </div>
+
+      <div class = "recipe">
+        <h3>材料</h3>
+        <ul class = "localcuisine_memu">
+
+          <li>
+            <ul class = "list">
+              <li>鶏刺し用鶏肉（もも・ささみ・むね肉）</li>
+              <li class="quantity">150g</li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class = "list">
+              <li>玉ねぎ</li>
+              <li class="quantity">30g</li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class = "list">
+              <li>ねぎ</li>
+              <li class="quantity">5g</li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class = "list">
+              <li>しょうが</li>
+              <li class="quantity">お好みで</li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class = "list">
+              <li>にんにく</li>
+              <li class="quantity">お好みで</li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class = "list_last">
+              <li>青じそ</li>
+              <li class="quantity">お好みで</li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <h3>作り方</h3>
+
+        <ul class = "localcuisine_make">
+          
+          <li>
+            <div class = "num">1</div>
+            <div class = "text">
+              鶏刺し用の新鮮な鶏肉を用意する。
+            </div>
+          </li>
+
+          <li>
+            <div class = "num">2</div>
+            <div class = "text">
+              バーナーなどで皮目をあぶり、表面の色が変わったら火を止める。（中は生のまま）
+            </div>
+          </li>
+
+          <li>
+            <div class = "num">3</div>
+            <div class = "text">
+                3mm幅に皮目から切る。肉の繊維の方向を見て繊維を断ち切るようにくらいの刺身に切る。
+            </div>
+          </li>
+
+          <li>
+            <div class = "num">4</div>
+            <div class = "text">
+              青じそを敷き部位ごとに盛り付け玉ねぎはスライス、ネギは小口切り。しょうがニンニクはすりおろして一緒に盛り付け、好みで醤油やポン酢で味わう。
+            </div>
+          </li>
+
+        </ul>
+
+        <div class = "offer">
+          <p>レシピ提供元名 : 株式会社Table of Smile</p>
+          <p>※レシピは地域・家庭によって違いがあります。</p>
+        </div>
+
+      </div>
     </main>
     <TheFooter />
   </div>
@@ -126,31 +126,20 @@
 
 <style>
 /* 共通 */
-.quantity {
-  list-style-type: none;
-}
+.quantity {list-style-type: none;}
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  main {
-    margin: 0 auto;
-  }
+  main {margin: 0 auto;}
 
-  h1 {
-    text-align: center;
-  }
+  h1 {text-align: center;}
 
 /*郷土料理説明*/
-  .localcuisine {
-    padding-bottom: 24px;
-  }
+  .localcuisine {padding-bottom: 24px;}
 
-  .localcuisine h1 {
-    margin: 1.6px auto;
-  }
+  .localcuisine h1 {margin: 1.6px auto;}
 
-  .localcuisine_img {
-    text-align: center;
-  }
+  .localcuisine_img {text-align: center;}
 
   .localcuisine_img img {
     height: 8cm;
@@ -158,9 +147,7 @@
   }
 
 /*材料*/
-  .localcuisine_note {
-    margin-top: 16px;
-  }
+  .localcuisine_note {margin-top: 16px;}
 
   .localcuisine_note dl {
     font-size: 16px;
@@ -187,24 +174,15 @@
     flex-grow: 1;
   }
 
-  .localcuisine_note dd a {
-    text-decoration: none;
-    color: blue;
-  }
-
   .localcuisine_note > dd {
     border: 1px solid #ddd;
     border-top: none;
   }
 
   .localcuisine_note > dt,
-  .localcuisine_note > dd {
-    text-align: center;
-  }
+  .localcuisine_note > dd {text-align: center;}
 
-  .localcuisine_note > dd > ul {
-    text-align: left;
-  }
+  .localcuisine_note > dd > ul {text-align: left;}
 
   .recipe {
     background: #d2e7f3;
@@ -272,6 +250,7 @@
     font-size: 80%;
   }
 }
+
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
   main {
@@ -285,13 +264,9 @@
     padding-bottom: 24px;
   }
 
-  .localcuisine h1 {
-    margin: 1.6px auto;
-  }
+  .localcuisine h1 {margin: 1.6px auto;}
 
-  .localcuisine_img img {
-    height: 8cm;
-  }
+  .localcuisine_img img {height: 8cm;}
 
 /*材料*/
   .localcuisine_note {
@@ -322,15 +297,6 @@
     background-color: #fff;
     padding-left: 1%;
     flex-grow: 1;
-  }
-
-  .localcuisine_note dd a {
-    text-decoration: none;
-    color: blue;
-  }
-
-  .localcuisine_note dd a:hover {
-    color: rgb(71, 1, 92);
   }
 
   .recipe {

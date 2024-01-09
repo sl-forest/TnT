@@ -13,7 +13,7 @@
         
         <div class = explanation>
           <p>
-            槌の打ち跡が生々しく、荒々しい鋼の黒光りを持つ加世田の刃物。<br class="pc">
+            槌の打ち跡が生々しく、荒々しい鋼の黒光りを持つ加世田の刃物。<br>
             加世田包丁は日本刀と似た手法でつくられており、加世田鎌も両刃の丈夫さに刀鍛冶の技術がいかされている。
           </p>
         </div>
@@ -34,7 +34,7 @@
 
         <div class = explanation>
           <p>
-            昔ながらの製法を守りながら、映画・テレビなどの時代劇に使用される鎧やかぶとの<br class="pc">
+            昔ながらの製法を守りながら、映画・テレビなどの時代劇に使用される鎧やかぶとの<br>
             全国シェア９割以上の生産を誇り、全国各地のお祭りの武者行列などでも使用されている。
           </p>
         </div>
@@ -51,7 +51,7 @@
 
         <div class = explanation>
           <p>
-            鹿児島は竹林面積日本一の「竹」のふるさと。<br class="pc">
+            鹿児島は竹林面積日本一の「竹」のふるさと。<br>
             古くから竹を使って様々な生活道具が作られており、庶民生活には欠かせないもの。
           </p>
         </div>
@@ -97,65 +97,63 @@
 
 <style>
 /* 共通 */
+h1 {font-family: 'New Tegomin', serif;}
+
 /* ページネーション */
-  .Pagination {
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-  }
+.Pagination {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
 
-  .Pagination-Item-Link {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    flex-wrap: wrap;
-    overflow: hidden;
-    background: #fff;
-    border: solid 2px #111;
-    font-size: 14px;
-    color: #111;
-    font-weight: bold;
-    transition: all 0.15s linear;
-  }
+.Pagination-Item-Link {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: #fff;
+  border: solid 2px #111;
+  font-size: 14px;
+  color: #111;
+  font-weight: bold;
+  transition: all 0.15s linear;
+}
 
-  .Pagination-Item-Link-Icon {
-    width: 20px;
-  }
+.Pagination-Item-Link-Icon {width: 20px;}
 
-  .Pagination-Item-Link.isActive {
-    background: #111;
-    color: #fff;
-    pointer-events: none;
-  }
+.Pagination-Item-Link.isActive {
+  background: #111;
+  color: #fff;
+  pointer-events: none;
+}
 
-  .Pagination-Item-Link:not(.isActive):hover {
-    background: #111;
-    color: #fff;
-  }
+.Pagination-Item-Link:not(.isActive):hover {
+  background: #111;
+  color: #fff;
+}
 
-  .Pagination > * + * {
-    margin-left: 8px;
-  }
+.Pagination > * + * {margin-left: 8px;}
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  .pc {
-    display: none;  /* スマホではこのスタイルは起動しない */
-  }
+  main {margin: 0 auto;}
 
   h1 {
+    margin: 8px;
     text-align: center;
     margin-bottom: 0;
   }
 
-  .craft {
-    text-align: center;
-  }
+  br {display: none;}   /* スマホではこのスタイルは起動しない */
+
+  .craft {text-align: center;}
 
   h2.craft_headline {
     margin: 0;
@@ -164,9 +162,7 @@
     border-top: 2px solid #d5d4c3;
   }
 
-  .link-space {
-    margin: 8px 0;
-  }
+  .link-space {margin: 8px 0;}
 
   .explanation p {
     font-size: 15px;
@@ -199,83 +195,11 @@
     max-width: 1024px;
     margin: 0 auto;
   }
-
-  main {
-    max-width: 480px;
-    margin: 0 auto;
-  }
   
-  h1 {
-    margin-bottom: 0;
-  }
+  h1 {margin-bottom: 0;}
   
 /* 工芸品一覧説明 */
-  .craft {
-    display: flex;
-    margin-bottom: 16px;
-  }
-
-  .craft p {
-    margin: 0;
-    font-size: 15px;
-  }
-
-  h2.craft_headline {
-    margin: 0;
-    padding: 8px 0;
-    border-top: 2px solid #d5d4c3;
-  }
-
-  .explanation {
-    margin: auto;
-    width: 17cm;
-  }
-
-  .link-space {
-    align-self: end;
-  }
-
-  .link-space a {
-    margin: 0;
-    font-size: 14px;
-  }
-  
-  .explanation-link {
-    text-decoration: none;
-    color: blue;
-  }
-
-  a:hover.explanation-link {
-    color: rgb(71, 1, 92);
-  }
-
-/* 工芸品画像 */
-  .craft_img img{
-    width: 5cm;
-    height: auto;
-  }
-
-/* 提供 */
-  .teikyou p {
-    font-size: 13px;
-  }
-}
-
-/* PC向けスタイル */
-@media screen and (min-width: 1024px) {
-  main {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
-  
-  h1 {
-    margin-bottom: 0;
-  }
-  
-/* 工芸品一覧説明 */
-  .craft {
-    display: flex;
-  }
+  .craft {display: flex;}
 
   .craft p {
     margin: 0;
@@ -293,9 +217,7 @@
     width: 17cm;
   }
 
-  .link-space {
-    align-self: end;
-  }
+  .link-space {align-self: end;}
 
   .link-space a {
     margin: 0;
@@ -307,9 +229,7 @@
     color: blue;
   }
 
-  a:hover.explanation-link {
-    color: rgb(71, 1, 92);
-  }
+  a:hover.explanation-link {color: rgb(71, 1, 92);}
 
 /* 工芸品画像 */
   .craft_img img{

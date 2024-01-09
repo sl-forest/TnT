@@ -9,14 +9,12 @@
       </div>
 
       <div class="Kagoshima_about">
-        <center>
           <h1>～鹿児島について～</h1>
           <p>
             多くの観光名所や豊かな自然があり、その土地に根付いた伝統と人の温もり溢れる地方。<br class="pc">
             時代の流れに揉まれ戦乱の歴史をその身に刻みながらも発展してきた鹿児島。<br class="pc">
             そんな魅力溢れる鹿児島を体験してみてください。
           </p>
-        </center>
       </div>
 
       <div class="headline"><h2>紹介一覧</h2></div>
@@ -116,6 +114,15 @@
 </template>
 
 <style>
+/* 共通 */
+.Kagoshima_about h1 {
+  font-family: 'New Tegomin', serif;
+}
+
+.headline h2 {
+  font-family: 'New Tegomin', serif;
+}
+
 /* スマホ（ 画面サイズが480px ） */
 @media screen and (max-width:480px) {
   * {
@@ -124,6 +131,8 @@
   }
 
   .pc {display: none;}
+
+  .Kagoshima_about {text-align: center;}
 
   .Kagoshima_about h1 {
     margin: 0;
@@ -187,8 +196,10 @@
 }
 /* PC（ 画面サイズが1024px以上 ）*/
   @media screen and (min-width: 1024px) {
+  .Kagoshima_about {text-align: center;}
 
   .Kagoshima_about h1 {
+    font-size: 40px;
     margin-bottom: 8px;
   }
 
@@ -224,7 +235,7 @@
   }
 
   figure.image_area02 img {
-    height: 13em;
+    height: 16em;
     width: 15em;
   }
 

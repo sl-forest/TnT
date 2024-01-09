@@ -13,8 +13,8 @@
           
         <div class = explanation>
           <p>
-            幅約210メートル、高さ約12メートルのスケールを誇り、「東洋のナイアガラ」とも呼ばれる滝。<br class="pc">
-            春は桜やつつじが彩り、夏は水量も多く豪快。<br class="pc">
+            幅約210メートル、高さ約12メートルのスケールを誇り、「東洋のナイアガラ」とも呼ばれる滝。<br>
+            春は桜やつつじが彩り、夏は水量も多く豪快。<br>
             秋は紅葉がライトアップされ、冬は雪景色を楽しめる。
           </p>
         </div>
@@ -31,7 +31,7 @@
 
         <div class = explanation>
           <p>
-            高さ約23メートル、幅約16メートルの滝。<br class="pc">
+            高さ約23メートル、幅約16メートルの滝。<br>
             ここを流れる水は温泉の湯であり、霧島地区の温泉水を集めて流れる珍しい「湯の滝」。
           </p>
         </div>
@@ -48,7 +48,7 @@
 
         <div class = explanation>
           <p>
-            落差約46メートル、幅約60メートルの滝。<br class="pc">
+            落差約46メートル、幅約60メートルの滝。<br>
             大河ドラマ『西郷どん』のオープニング映像で話題となった。<br class="pc">
             エメラルドグリーンの美しい滝つぼが特徴で、フォトジェニックな光景が広がる。
           </p>
@@ -66,7 +66,7 @@
 
         <div class = explanation>
           <p>
-            薩摩半島の最南端に位置する標高約924メートルの開聞岳は、「日本百名山」にも数えられている南薩摩を代表する山。<br class="pc">
+            薩摩半島の最南端に位置する標高約924メートルの開聞岳は、「日本百名山」にも数えられている<br>南薩摩を代表する山。<br>
             別名「薩摩富士」と呼ばれ、指宿のシンボルとして親しまれている。
           </p>
         </div>
@@ -116,6 +116,8 @@
 
 <style>
 /* 共通 */
+h1 {font-family: 'New Tegomin', serif;}
+
 /* ページネーション */
 .Pagination {
   padding: 0;
@@ -143,9 +145,7 @@
   transition: all 0.15s linear;
 }
 
-.Pagination-Item-Link-Icon {
-  width: 20px;
-}
+.Pagination-Item-Link-Icon {width: 20px;}
 
 .Pagination-Item-Link.isActive {
   background: #111;
@@ -158,26 +158,22 @@
   color: #fff;
 }
 
-.Pagination > * + * {
-  margin-left: 8px;
-}
+.Pagination > * + * {margin-left: 8px;}
+
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  .pc {display: none;}
-
-  main {
-    max-width: 480px;
-    margin: 0 auto;
-  }
+  main {margin: 0 auto;}
 
   h1 {
+    margin: 8px;
     text-align: center;
     margin-bottom: 0;
   }
 
-  .spot {
-    text-align: center;
-  }
+  br {display: none;}
+
+  .spot {text-align: center;}
 
   h2.spot_headline {
     margin: 0;
@@ -186,9 +182,7 @@
     border-top: 2px solid #d5d4c3;
   }
 
-  .link-space {
-    margin: 8px 0;
-  }
+  .link-space {margin: 8px 0;}
 
   .explanation p {
     font-size: 15px;
@@ -208,6 +202,7 @@
     height: auto;
   }
 }
+
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
   main {
@@ -215,14 +210,10 @@
     margin: 0 auto;
   }
 
-  h1 {
-    margin-bottom: 0;
-  }
+  h1 {margin-bottom: 0;}
   
 /* 観光地一覧説明 */
-  .spot {
-    display: flex;
-  }
+  .spot {display: flex;}
 
   .spot p {
     margin: 0;
@@ -240,9 +231,7 @@
     width: 40em;
   }
 
-  .link-space {
-    align-self: end;
-  }
+  .link-space {align-self: end;}
 
   .link-space a {
     margin: 0;

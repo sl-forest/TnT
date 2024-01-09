@@ -13,8 +13,8 @@
 
         <div class = explanation>
           <p>
-            世界自然遺産に登録されている「屋久島」は1,000メートル以上の高峰が連なっており、<br class="pc">
-            この大自然の中で育った樹齢1,000年以上のものを「屋久杉」と呼んでいる。<br class="pc">
+            世界自然遺産に登録されている「屋久島」は1,000メートル以上の高峰が連なっており、<br>
+            この大自然の中で育った樹齢1,000年以上のものを「屋久杉」と呼んでいる。<br>
             現在は自然保護のため、倒木や土埋木だけを工芸品として加工している。
           </p>
         </div>
@@ -33,8 +33,8 @@
 
         <div class = explanation>
           <p>
-            江戸末期に薩摩藩で造られた切子ガラス。鉛を24～25%含むクリスタルガラスを使用。<br class="pc">
-            無色のガラス（クリアガラス）の表面に色ガラスを1～2mm程度溶着させた <br class="pc">
+            江戸末期に薩摩藩で造られた切子ガラス。鉛を24～25%含むクリスタルガラスを使用。<br>
+            無色のガラス（クリアガラス）の表面に色ガラスを1～2mm程度溶着させた <br>
             ”色被せガラス”にカットを施し、磨きあげた製品を「薩摩切子」と言う。
           </p> 
         </div>
@@ -53,8 +53,8 @@
 
         <div class = explanation>
           <p>
-            江戸時代から「櫛になりたや薩摩の櫛に、諸国娘の手に渡ろ」とうたわれ、<br class="pc">全国に名を馳せていた。
-            材質が硬く、色艶が美しいのが特徴。<br class="pc">
+            江戸時代から「櫛になりたや薩摩の櫛に、諸国娘の手に渡ろ」とうたわれ、<br>全国に名を馳せていた。
+            材質が硬く、色艶が美しいのが特徴。<br>
             なめらかな櫛どおりで、静電気・抜け毛・切れ毛が少ないといわれている。
           </p>
         </div>
@@ -102,70 +102,63 @@
 
 <style>
 /* 共通 */
+h1 {font-family: 'New Tegomin', serif;}
+
 /* ページネーション */
-  .Pagination {
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-  }
+.Pagination {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
 
-  .Pagination-Item-Link {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    flex-wrap: wrap;
-    overflow: hidden;
-    background: #fff;
-    border: solid 2px #111;
-    font-size: 14px;
-    color: #111;
-    font-weight: bold;
-    transition: all 0.15s linear;
-  }
+.Pagination-Item-Link {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: #fff;
+  border: solid 2px #111;
+  font-size: 14px;
+  color: #111;
+  font-weight: bold;
+  transition: all 0.15s linear;
+}
 
-  .Pagination-Item-Link-Icon {
-    width: 20px;
-  }
+.Pagination-Item-Link-Icon {width: 20px;}
 
-  .Pagination-Item-Link.isActive {
-    background: #111;
-    color: #fff;
-    pointer-events: none;
-  }
+.Pagination-Item-Link.isActive {
+  background: #111;
+  color: #fff;
+  pointer-events: none;
+}
 
-  .Pagination-Item-Link:not(.isActive):hover {
-    background: #111;
-    color: #fff;
-  }
+.Pagination-Item-Link:not(.isActive):hover {
+  background: #111;
+  color: #fff;
+}
 
-  .Pagination > * + * {
-    margin-left: 8px;
-  }
+.Pagination > * + * {margin-left: 8px;}
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  .pc {
-    display: none;  /* スマホではこのスタイルは起動しない */
-  }
-
-  main {
-    max-width: 480px;
-    margin: 0 auto;
-  }
+  main {margin: 0 auto;}
   
   h1 {
+    margin: 8px;
     text-align: center;
     margin-bottom: 0;
   }
 
-  .craft {
-    text-align: center;
-  }
+  br {display: none;}   /* スマホではこのスタイルは起動しない */
+
+  .craft {text-align: center;}
 
   h2.craft_headline {
     margin: 0;
@@ -174,9 +167,7 @@
     border-top: 2px solid #d5d4c3;
   }
 
-  .link-space {
-    margin: 8px 0;
-  }
+  .link-space {margin: 8px 0;}
 
   .explanation p {
     font-size: 15px;
@@ -204,9 +195,7 @@
     margin: 0 auto;
   }
   
-  h1 {
-    margin-bottom: 0;
-  }
+  h1 {margin-bottom: 0;}
   
 /* 工芸品一覧説明 */
   .craft {
@@ -230,9 +219,7 @@
     width: 17cm;
   }
 
-  .link-space {
-    align-self: end;
-  }
+  .link-space {align-self: end;}
 
   .link-space a {
     margin: 0;
@@ -244,9 +231,7 @@
     color: blue;
   }
 
-  a:hover.explanation-link {
-    color: rgb(71, 1, 92);
-  }
+  a:hover.explanation-link {color: rgb(71, 1, 92);}
 
 /* 工芸品画像 */
   .craft_img img{

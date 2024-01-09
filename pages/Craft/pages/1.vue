@@ -2,7 +2,6 @@
 
   <div>
     <TheHeader />
-
     <main>
       <h1>「国指定伝統工芸品」</h1>
       <h2 class = craft_headline>本場大島紬</h2>
@@ -13,8 +12,8 @@
         
         <div class = explanation>
           <p>
-            1,300年の歴史を持ち、絹織物の最高傑作といわれている。<br class="pc">
-            30数工程もある緻密な手作業により、図案から織り上がるまで半年から1年以上もかかる。<br class="pc">
+            1,300年の歴史を持ち、絹織物の最高傑作といわれている。<br>
+            30数工程もある緻密な手作業により、図案から織り上がるまで半年から1年以上もかかる。<br>
             大島紬村では本場大島紬の製造現場見学や、泥染め・織り体験、着付体験などが楽しめる。
           </p>
         </div>
@@ -33,8 +32,8 @@
 
         <div class = explanation>
           <p>
-            川辺仏壇（かわなべぶつだん）は、鹿児島県南九州市川辺町周辺で作られている仏壇。<br class="pc">
-            川辺仏壇の特徴は、「ガマ戸」と呼ばれる川辺仏壇オリジナルの独特な仏壇があること。<br class="pc">
+            川辺仏壇（かわなべぶつだん）は、鹿児島県南九州市川辺町周辺で作られている仏壇。<br>
+            川辺仏壇の特徴は、「ガマ戸」と呼ばれる川辺仏壇オリジナルの独特な仏壇がある。<br>
             ”ガマ”とは、鹿児島県の方言で洞窟を表す。
           </p>
         </div>
@@ -53,9 +52,9 @@
 
         <div class = explanation>
           <p>
-            薩摩焼は、鹿児島県内で焼かれる陶磁器。<br class="pc">
-            鉄分が多い土を高温で焼き締めるため、素朴で頑丈な仕上がりが特徴。<br class="pc">
-           「白もん」と呼ばれる豪華絢爛な色絵錦手の陶器と<br class="pc">「黒もん」と呼ばれる大衆向けの雑器に分かれる。
+            薩摩焼は、鹿児島県内で焼かれる陶磁器。<br>
+            鉄分が多い土を高温で焼き締めるため、素朴で頑丈な仕上がりが特徴。<br>
+           「白もん」と呼ばれる豪華絢爛な色絵錦手の陶器と<br>「黒もん」と呼ばれる大衆向けの雑器に分かれる。
           </p>
         </div>
 
@@ -102,70 +101,63 @@
 
 <style>
 /* 共通 */
+h1 {font-family: 'New Tegomin', serif;}
+
 /* ページネーション */
-  .Pagination {
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-  }
+.Pagination {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
 
-  .Pagination-Item-Link {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    flex-wrap: wrap;
-    overflow: hidden;
-    background: #fff;
-    border: solid 2px #111;
-    font-size: 14px;
-    color: #111;
-    font-weight: bold;
-    transition: all 0.15s linear;
-  }
+.Pagination-Item-Link {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: #fff;
+  border: solid 2px #111;
+  font-size: 14px;
+  color: #111;
+  font-weight: bold;
+  transition: all 0.15s linear;
+}
 
-  .Pagination-Item-Link-Icon {
-    width: 20px;
-  }
+.Pagination-Item-Link-Icon {width: 20px;}
 
-  .Pagination-Item-Link.isActive {
-    background: #111;
-    color: #fff;
-    pointer-events: none;
-  }
+.Pagination-Item-Link.isActive {
+  background: #111;
+  color: #fff;
+  pointer-events: none;
+}
 
-  .Pagination-Item-Link:not(.isActive):hover {
-    background: #111;
-    color: #fff;
-  }
+.Pagination-Item-Link:not(.isActive):hover {
+  background: #111;
+  color: #fff;
+}
 
-  .Pagination > * + * {
-    margin-left: 8px;
-  }
+.Pagination > * + * {margin-left: 8px;}
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  .pc {
-    display: none;  /* スマホではこのスタイルは起動しない */
-  }
-
-  main {
-    max-width: 480px;
-    margin: 0 auto;
-  }
+  main {margin: 0 auto;}
 
   h1 {
+    margin: 8px;
     text-align: center;
     margin-bottom: 0;
   }
 
-  .craft {
-    text-align: center;
-  }
+  br {display: none;}   /* スマホではこのスタイルは起動しない */
+
+  .craft {text-align: center;}
 
   h2.craft_headline {
     margin: 0;
@@ -174,9 +166,7 @@
     border-top: 2px solid #d5d4c3;
   }
 
-  .link-space {
-    margin: 8px 0;
-  }
+  .link-space {margin: 8px 0;}
 
   .explanation p {
     font-size: 15px;
@@ -204,9 +194,7 @@
     margin: 0 auto;
   }
   
-  h1 {
-    margin-bottom: 0;
-  }
+  h1 {margin-bottom: 0;}
   
 /* 工芸品一覧説明 */
   .craft {
@@ -230,9 +218,7 @@
     width: 17cm;
   }
 
-  .link-space {
-    align-self: end;
-  }
+  .link-space {align-self: end;}
 
   .link-space a {
     margin: 0;
@@ -244,9 +230,7 @@
     color: blue;
   }
 
-  a:hover.explanation-link {
-    color: rgb(71, 1, 92);
-  }
+  a:hover.explanation-link {color: rgb(71, 1, 92);}
 
 /* 工芸品画像 */
   .craft_img img{
