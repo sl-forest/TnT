@@ -115,12 +115,25 @@
 
 <style>
 /* 共通 */
-.Kagoshima_about h1 {
-  font-family: 'New Tegomin', serif;
-}
+.Kagoshima_about h1 {font-family: 'New Tegomin', serif;}
 
-.headline h2 {
-  font-family: 'New Tegomin', serif;
+.headline h2 {font-family: 'New Tegomin', serif;}
+
+.Kagoshima_about {text-align: center;}
+
+.Kagoshima_about p {font-family: serif;}
+
+html {font-family: sans-serif;}
+
+a.text_area {
+  font-size: 32px;
+  font-family: serif;
+  text-align: center;
+  display: inline-block;
+  width: 300px;
+  margin: 0 auto;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 /* スマホ（ 画面サイズが480px ） */
@@ -131,8 +144,6 @@
   }
 
   .pc {display: none;}
-
-  .Kagoshima_about {text-align: center;}
 
   .Kagoshima_about h1 {
     margin: 0;
@@ -147,10 +158,6 @@
   .top_img img {
     max-width: 100%;
     margin: 0;
-  }
-  
-  html {
-    font-family: sans-serif;
   }
 
   /* 紹介 */
@@ -176,16 +183,6 @@
     height: 16em;
   }
 
-  a.text_area {
-    font-size: 32px;
-    text-align: center;
-    display: inline-block;
-    width: 300px;
-    margin: 0 auto;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-  }
-
   .introduction {
     margin: auto;
     text-align: center;
@@ -194,10 +191,9 @@
     border-top: 2px solid #d5d4c3;
   }
 }
-/* PC（ 画面サイズが1024px以上 ）*/
-  @media screen and (min-width: 1024px) {
-  .Kagoshima_about {text-align: center;}
 
+/* PC（ 画面サイズが1024px以上 ）*/
+@media screen and (min-width: 1024px) {
   .Kagoshima_about h1 {
     font-size: 40px;
     margin-bottom: 8px;
@@ -210,10 +206,6 @@
 
   .top_img img {
     max-width: 100%;
-  }
-  
-  html {
-    font-family: sans-serif;
   }
 
   /* 紹介 */
@@ -286,16 +278,6 @@
     align-items: center;
     justify-content: space-around;
     border-top: 2px solid #d5d4c3;
-  }
-  
-  a.text_area {
-    font-size: 32px;
-    text-align: center;
-    display: inline-block;
-    width: 300px;
-    margin: 0 auto;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
   }
 }
 </style>

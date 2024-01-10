@@ -65,17 +65,17 @@
 
 <style>
 /* 共通 */
-  .Craft_note dd a {
-    text-decoration: none;
-    color: blue;
-  }
+main {margin: 0 auto;}
 
-  .Craft_note dd a:hover {color: rgb(71, 1, 92);}
+.Craft_note dd a {
+  text-decoration: none;
+  color: blue;
+}
+
+.Craft_note dd a:hover {color: rgb(71, 1, 92);}
   
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  main {margin: 0 auto;}
-
   h1 {
     margin: 16px 0;
     text-align: center;
@@ -126,10 +126,7 @@
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
+  main {max-width: 1024px;}
   
   .Craft {
     display: flex;

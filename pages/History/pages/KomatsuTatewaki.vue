@@ -106,12 +106,12 @@
 </template>
 
 <style>
+/* 共通 */
+main {margin: 0 auto;}
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  main {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
+  main {max-width: 1024px;}
 
   h1 {
     text-align: center;
@@ -157,10 +157,7 @@
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
+  main {max-width: 1024px;}
 
   h1 {
     margin-top: 16px;

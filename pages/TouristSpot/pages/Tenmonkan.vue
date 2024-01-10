@@ -45,73 +45,52 @@
 
 <style>
 /* 共通 */
-  .TouristSpot_note dd a {
-    text-decoration: none;
-    color: blue;
-  }
+main {margin: 0 auto;}
 
-  .TouristSpot_note dd a:hover {
-    color: rgb(71, 1, 92);
-  }
-  
+.TouristSpot_note dd a {
+  text-decoration: none;
+  color: blue;
+}
+
 /* ボタン */
-  a.btn {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    width: 320px;
-    margin: 24px auto;
-    padding: 1rem 4rem;
-    font-weight: bold;
-    border: 2px solid #27acd9;
-    background: #27acd9;
-    color: #fff;
-    border-radius: 100vh;
-    transition: 0.5s;
-  }
-  
-  a.btn:hover {
-    color: #27acd9;
-    background: #fff;
-  }
+a.btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 320px;
+  margin: 24px auto;
+  padding: 1rem 4rem;
+  font-weight: bold;
+  border: 2px solid #27acd9;
+  background: #27acd9;
+  color: #fff;
+  border-radius: 100vh;
+  transition: 0.5s;
+}
+
+a.btn:hover {
+  color: #27acd9;
+  background: #fff;
+}
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  main {
-    margin: 0 auto;
-  }
-
   h1 {
     margin: 16px 0;
     text-align: center;
   }
   
-  .TouristSpot {
-    padding-bottom: 16px;
-  }
+  .TouristSpot {padding-bottom: 16px;}
 
-  .TouristSpot h1 {
-    margin: 1.6px auto;
-  }
+  .TouristSpot h1 {margin: 1.6px auto;}
 
-  .TouristSpot_img {
-    text-align: center;
-  }
+  .TouristSpot_img {text-align: center;}
 
-  .TouristSpot_img img {
-    height: 6cm;
-  }
+  .TouristSpot_img img {height: 6cm;}
 
-  .TouristSpot_img p {
-    margin: 0;
-  }
+  .TouristSpot_note {margin-top: 16px;}
 
-  .TouristSpot_note {
-    margin-top: 16px;
-  }
-
-  .TouristSpot_note h2 {
-    margin: 8px auto;
-  }
+  .TouristSpot_note h2 {margin: 8px auto;}
 
   .TouristSpot_note dl {
     display: table;
@@ -141,38 +120,26 @@
     flex-grow: 1;
   }
 }
+
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
+  main {max-width: 1024px;}
   
   .TouristSpot {
     display: flex;
     padding-bottom: 24px;
   }
 
-  .TouristSpot h1 {
-    margin: 1.6px auto;
-  }
+  .TouristSpot h1 {Margin: 1.6px auto;}
 
-  .TouristSpot_img img {
-    height: 8cm;
-  }
-
-  .TouristSpot_img p {
-    margin: 0;
-  }
+  .TouristSpot_img img {height: 8cm;}
 
   .TouristSpot_note {
     margin: auto;
     padding-left: 16px;
   }
 
-  .TouristSpot_note h2 {
-    margin: 8px auto;
-  }
+  .TouristSpot_note h2 {margin: 8px auto;}
 
   .TouristSpot_note dl {
     font-size: 18px;
@@ -198,5 +165,7 @@
     padding-left: 1%;
     flex-grow: 1;
   }
+
+  .TouristSpot_note dd a:hover {color: rgb(71, 1, 92);}
 }
 </style>

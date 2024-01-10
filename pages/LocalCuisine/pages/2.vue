@@ -111,6 +111,8 @@
 
 <style>
 /* 共通 */
+main {margin: 0 auto;}
+
 h1 {font-family: 'New Tegomin', serif;}
 
 /* ページネーション */
@@ -157,10 +159,6 @@ h1 {font-family: 'New Tegomin', serif;}
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  main {
-    margin: 0 auto;
-  }
-
   h1 {
     margin: 8px;
     text-align: center;
@@ -207,10 +205,7 @@ h1 {font-family: 'New Tegomin', serif;}
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
+  main {max-width: 1024px;}
 
   h1 {margin-bottom: 0;}
   

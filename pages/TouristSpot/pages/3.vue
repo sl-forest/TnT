@@ -111,7 +111,10 @@
 
 <style>
 /* 共通 */
+main {margin: 0 auto;}
+
 h1 {font-family: 'New Tegomin', serif;}
+
 /* ページネーション */
 .Pagination {
   padding: 0;
@@ -139,9 +142,7 @@ h1 {font-family: 'New Tegomin', serif;}
   transition: all 0.15s linear;
 }
 
-.Pagination-Item-Link-Icon {
-  width: 20px;
-}
+.Pagination-Item-Link-Icon {width: 20px;}
 
 .Pagination-Item-Link.isActive {
   background: #111;
@@ -154,17 +155,11 @@ h1 {font-family: 'New Tegomin', serif;}
   color: #fff;
 }
 
-.Pagination > * + * {
-  margin-left: 8px;
-}
+.Pagination > * + * {margin-left: 8px;}
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
   .pc {display: none;}
-
-  main {
-    max-width: 480px;
-    margin: 0 auto;
-  }
 
   h1 {
     margin: 8px;
@@ -183,9 +178,7 @@ h1 {font-family: 'New Tegomin', serif;}
     border-top: 2px solid #d5d4c3;
   }
 
-  .link-space {
-    margin: 8px 0;
-  }
+  .link-space {margin: 8px 0;}
 
   .explanation p {
     font-size: 15px;
@@ -205,6 +198,7 @@ h1 {font-family: 'New Tegomin', serif;}
     height: auto;
   }
 }
+
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
   main {
@@ -212,14 +206,10 @@ h1 {font-family: 'New Tegomin', serif;}
     margin: 0 auto;
   }
 
-  h1 {
-    margin-bottom: 0;
-  }
+  h1 {margin-bottom: 0;}
   
 /* 観光地一覧説明 */
-  .spot {
-    display: flex;
-  }
+  .spot {display: flex;}
 
   .spot p {
     margin: 0;
@@ -237,9 +227,7 @@ h1 {font-family: 'New Tegomin', serif;}
     width: 40em;
   }
 
-  .link-space {
-    align-self: end;
-  }
+  .link-space {align-self: end;}
 
   .link-space a {
     margin: 0;
@@ -252,9 +240,7 @@ h1 {font-family: 'New Tegomin', serif;}
     color: blue;
   }
 
-  a:hover.explanation-link {
-    color: rgb(71, 1, 92);
-  }
+  a:hover.explanation-link {color: rgb(71, 1, 92);}
 
 /* 観光地画像 */
   .spot_img img{

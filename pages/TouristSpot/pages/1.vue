@@ -117,6 +117,8 @@
 
 <style>
 /* 共通 */
+main {margin: 0 auto;}
+
 h1 {font-family: 'New Tegomin', serif;}
 
 /* ページネーション */
@@ -163,10 +165,6 @@ h1 {font-family: 'New Tegomin', serif;}
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  main {
-    margin: 0 auto;
-  }
-
   h1 {
     margin: 8px;
     text-align: center;
@@ -175,9 +173,7 @@ h1 {font-family: 'New Tegomin', serif;}
 
   br {display: none;}
 
-  .spot {
-    text-align: center;
-  }
+  .spot {text-align: center;}
 
   h2.spot_headline {
     margin: 0;
@@ -186,9 +182,7 @@ h1 {font-family: 'New Tegomin', serif;}
     border-top: 2px solid #d5d4c3;
   }
 
-  .link-space {
-    margin: 8px 0;
-  }
+  .link-space {margin: 8px 0;}
 
   .explanation p {
     font-size: 15px;
@@ -211,10 +205,7 @@ h1 {font-family: 'New Tegomin', serif;}
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
+  main {max-width: 1024px;}
 
   h1 {margin-bottom: 0;}
   

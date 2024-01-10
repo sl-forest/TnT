@@ -119,12 +119,12 @@
 
 <style>
 /* 共通 */
+main {margin: 0 auto;}
+
 .quantity {list-style-type: none;}
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  main {margin: 0 auto;}
-
   h1 {text-align: center;}
 
 /*郷土料理説明*/
@@ -249,10 +249,7 @@
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
+  main {max-width: 1024px;}
 
 /*郷土料理説明*/
   .localcuisine {

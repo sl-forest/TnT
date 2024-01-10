@@ -161,12 +161,12 @@
 
 <style>
 /* 共通 */
+main {margin: 0 auto;}
+
 .quantity {list-style-type: none;}
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  main {margin: 0 auto;}
-
   h1 {text-align: center;}
 
 /*郷土料理説明*/
@@ -180,6 +180,7 @@
     height: 8cm;
     width: auto;
   }
+
 /* 写真提供 */
   .teikyou p {margin: 8px 0;}
 
@@ -290,10 +291,7 @@
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
+  main {max-width: 1024px;}
 
 /*郷土料理説明*/
   .localcuisine {
@@ -306,9 +304,7 @@
   .localcuisine_img img {height: 8cm;}
 
 /* 写真提供 */
-  .teikyou p {
-    margin: 0;
-  }
+  .teikyou p {margin: 0;}
 
 /*材料*/
   .localcuisine_note {

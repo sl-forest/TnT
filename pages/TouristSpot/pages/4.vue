@@ -115,6 +115,10 @@
 
 <style>
 /* 共通 */
+main {margin: 0 auto;}
+
+h1 {font-family: 'New Tegomin', serif;}
+
 /* ページネーション */
 .Pagination {
   padding: 0;
@@ -142,9 +146,7 @@
   transition: all 0.15s linear;
 }
 
-.Pagination-Item-Link-Icon {
-  width: 20px;
-}
+.Pagination-Item-Link-Icon {width: 20px;}
 
 .Pagination-Item-Link.isActive {
   background: #111;
@@ -157,26 +159,18 @@
   color: #fff;
 }
 
-.Pagination > * + * {
-  margin-left: 8px;
-}
+.Pagination > * + * {margin-left: 8px;}
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
   .pc {display: none;}
-
-  main {
-    max-width: 480px;
-    margin: 0 auto;
-  }
 
   h1 {
     text-align: center;
     margin-bottom: 0;
   }
 
-  .spot {
-    text-align: center;
-  }
+  .spot {text-align: center;}
 
   h2.spot_headline {
     margin: 0;
@@ -185,9 +179,7 @@
     border-top: 2px solid #d5d4c3;
   }
 
-  .link-space {
-    margin: 8px 0;
-  }
+  .link-space {margin: 8px 0;}
 
   .explanation p {
     font-size: 15px;
@@ -207,21 +199,15 @@
     height: auto;
   }
 }
+
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
+  main {max-width: 1024px;}
 
-  h1 {
-    margin-bottom: 0;
-  }
+  h1 {margin-bottom: 0;}
   
 /* 観光地一覧説明 */
-  .spot {
-    display: flex;
-  }
+  .spot {display: flex;}
 
   .spot p {
     margin: 0;

@@ -70,74 +70,53 @@
 
 <style>
 /* 共通 */
-  .WorldHeritage_note dd a {
-    text-decoration: none;
-    color: blue;
-  }
+main {margin: 0 auto;}
 
-  .WorldHeritage_note dd a:hover {
-    color: rgb(71, 1, 92);
-  }
+.WorldHeritage_note dd a {
+  color: blue;
+  text-decoration: none;
+}
   
 /* ボタン */
-  a.btn {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    width: 320px;
-    margin: 24px auto;
-    padding: 1rem 4rem;
-    font-weight: bold;
-    border: 2px solid #27acd9;
-    background: #27acd9;
-    color: #fff;
-    border-radius: 100vh;
-    transition: 0.5s;
-  }
-  
-  a.btn:hover {
-    color: #27acd9;
-    background: #fff;
-  }
+a.btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 320px;
+  margin: 24px auto;
+  padding: 1rem 4rem;
+  font-weight: bold;
+  border: 2px solid #27acd9;
+  background: #27acd9;
+  color: #fff;
+  border-radius: 100vh;
+  transition: 0.5s;
+}
+
+a.btn:hover {
+  color: #27acd9;
+  background: #fff;
+}
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  main {
-    margin: 0 auto;
-  }
-
   h1 {
     margin: 16px 0;
     text-align: center;
     font-size: 26px;
   }
   
-  .WorldHeritage {
-    padding-bottom: 16px;
-  }
+  .WorldHeritage {padding-bottom: 16px;}
 
-  .WorldHeritage h1 {
-    margin: 1.6px auto;
-  }
+  .WorldHeritage h1 {margin: 1.6px auto;}
 
-  .WorldHeritage_img {
-    text-align: center;
-  }
+  .WorldHeritage_img {text-align: center;}
 
-  .WorldHeritage_img img {
-    height: 6cm;
-  }
+  .WorldHeritage_img img {height: 6cm;}
 
-  .WorldHeritage_img p {
-    margin: 0;
-  }
+  .WorldHeritage_note {margin-top: 16px;}
 
-  .WorldHeritage_note {
-    margin-top: 16px;
-  }
-
-  .WorldHeritage_note h2 {
-    margin: 8px auto;
-  }
+  .WorldHeritage_note h2 {margin: 8px auto;}
 
   .WorldHeritage_note dl {
     display: table;
@@ -167,42 +146,28 @@
     flex-grow: 1;
   }
 }
+
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
+  main {max-width: 1024px;}
   
   .WorldHeritage {
     display: flex;
     padding-bottom: 24px;
   }
 
-  .WorldHeritage h1 {
-    margin: 1.6px auto;
-  }
+  .WorldHeritage h1 {margin: 1.6px auto;}
 
-  .WorldHeritage_img {
-    margin: auto;
-  }
+  .WorldHeritage_img {margin: auto;}
 
-  .WorldHeritage_img img {
-    height: 8cm;
-  }
-
-  .WorldHeritage_img p {
-    margin: 0;
-  }
+  .WorldHeritage_img img {height: 8cm;}
 
   .WorldHeritage_note {
     margin: auto;
     padding-left: 16px;
   }
 
-  .WorldHeritage_note h2 {
-    margin: 8px auto;
-  }
+  .WorldHeritage_note h2 {margin: 8px auto;}
 
   .WorldHeritage_note dl {
     font-size: 18px;
@@ -228,5 +193,7 @@
     padding-left: 1%;
     flex-grow: 1;
   }
+
+  .WorldHeritage_note dd a:hover {color: rgb(71, 1, 92);}
 }
 </style>

@@ -107,7 +107,15 @@
 
 <style>
 /* 共通 */
+main {margin: 0 auto;}
+
 h1 {font-family: 'New Tegomin', serif;}
+
+.explanation-link {
+  color: blue;
+  text-decoration: none;
+}
+
 /* ページネーション */
 .Pagination {
   padding: 0;
@@ -135,9 +143,7 @@ h1 {font-family: 'New Tegomin', serif;}
   transition: all 0.15s linear;
 }
 
-.Pagination-Item-Link-Icon {
-  width: 20px;
-}
+.Pagination-Item-Link-Icon {width: 20px;}
 
 .Pagination-Item-Link.isActive {
   background: #111;
@@ -150,17 +156,11 @@ h1 {font-family: 'New Tegomin', serif;}
   color: #fff;
 }
 
-.Pagination > * + * {
-  margin-left: 8px;
-}
+.Pagination > * + * {margin-left: 8px;}
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
   .pc {display: none;}
-
-  main {
-    max-width: 480px;
-    margin: 0 auto;
-  }
 
   h1 {
     margin: 8px;
@@ -168,13 +168,9 @@ h1 {font-family: 'New Tegomin', serif;}
     margin-bottom: 0;
   }
 
-  .worldheritage {
-    text-align: center;
-  }
+  .worldheritage {text-align: center;}
 
-  .worldheritage_last {
-    text-align: center;
-  }
+  .worldheritage_last {text-align: center;}
 
   h2.worldheritage_headline {
     margin: 0;
@@ -184,20 +180,13 @@ h1 {font-family: 'New Tegomin', serif;}
     border-top: 2px solid #d5d4c3;
   }
 
-  .link-space {
-    margin: 8px 0;
-  }
+  .link-space {margin: 8px 0;}
 
   .explanation p {
     font-size: 15px;
     text-align: left; /* 左寄せ */
     margin-top: 16px;
     margin-bottom: 0;
-  }
-  
-  .explanation-link {
-    text-decoration: none;
-    color: blue;
   }
   
 /* 世界遺産画像 */
@@ -211,21 +200,15 @@ h1 {font-family: 'New Tegomin', serif;}
     font-size: 14px;
   }
 }
+
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
+  main {max-width: 1024px;}
 
-  h1 {
-    margin-bottom: 0;
-  }
+  h1 {margin-bottom: 0;}
   
 /* 世界遺産一覧説明 */
-  .worldheritage {
-    display: flex;
-  }
+  .worldheritage {display: flex;}
 
   .worldheritage_last {
     display: flex;
@@ -253,24 +236,16 @@ h1 {font-family: 'New Tegomin', serif;}
     width: 40em;
   }
 
-  .link-space {
-    align-self: end;
-  }
+  .link-space {align-self: end;}
 
   .link-space a {
     margin: 0;
     font-size: 14px;
   }
 
-  .explanation-link {
-    align-self: end;
-    text-decoration: none;
-    color: blue;
-  }
+  .explanation-link {align-self: end;}
 
-  a:hover.explanation-link {
-    color: rgb(71, 1, 92);
-  }
+  a:hover.explanation-link {color: rgb(71, 1, 92);}
 
 /* 世界遺産画像 */
   .worldheritage_img img{
@@ -279,8 +254,6 @@ h1 {font-family: 'New Tegomin', serif;}
   }
 
 /* 提供 */
-  .teikyou p {
-    font-size: 13px;
-  }
+  .teikyou p {font-size: 13px;}
 }
 </style>
