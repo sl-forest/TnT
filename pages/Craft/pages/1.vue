@@ -105,6 +105,17 @@ main {margin: 0 auto;}
 
 h1 {font-family: 'New Tegomin', serif;}
 
+.craft p {
+  font-family: serif;
+  font-weight: bold;
+}
+
+.link-space a {
+  margin: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
 /* ページネーション */
 .Pagination {
   padding: 0;
@@ -216,11 +227,6 @@ h1 {font-family: 'New Tegomin', serif;}
   }
 
   .link-space {align-self: end;}
-
-  .link-space a {
-    margin: 0;
-    font-size: 14px;
-  }
   
   .explanation-link {
     text-decoration: none;

@@ -106,6 +106,11 @@ main {margin: 0 auto;}
 
 h1 {font-family: 'New Tegomin', serif;}
 
+.history p {
+  font-family: serif;
+  font-weight: bold;
+}
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
   h1 {

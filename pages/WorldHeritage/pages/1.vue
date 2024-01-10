@@ -111,6 +111,22 @@ main {margin: 0 auto;}
 
 h1 {font-family: 'New Tegomin', serif;}
 
+.worldheritage p {
+  font-family: serif;
+  font-weight: bold;
+}
+
+.worldheritage_last p {
+  font-family: serif;
+  font-weight: bold;
+}
+
+.link-space a {
+  margin: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
 .explanation-link {
   color: blue;
   text-decoration: none;
@@ -217,7 +233,7 @@ h1 {font-family: 'New Tegomin', serif;}
 
   .worldheritage p {
     margin: 0;
-    font-size: 14px;
+    font-size: 14.5px;
   }
 
   .worldheritage_last p {
@@ -237,11 +253,6 @@ h1 {font-family: 'New Tegomin', serif;}
   }
 
   .link-space {align-self: end;}
-
-  .link-space a {
-    margin: 0;
-    font-size: 14px;
-  }
 
   .explanation-link {align-self: end;}
 

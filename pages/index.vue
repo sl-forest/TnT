@@ -115,25 +115,26 @@
 
 <style>
 /* 共通 */
-.Kagoshima_about h1 {font-family: 'New Tegomin', serif;}
+.top_img img {max-width: 100%;}      /* 最大幅の指定 */
 
-.headline h2 {font-family: 'New Tegomin', serif;}
+.Kagoshima_about h1 {font-family: 'New Tegomin', serif;}  /* フォントの変更 */
 
-.Kagoshima_about {text-align: center;}
+.headline h2 {font-family: 'New Tegomin', serif;}  /* フォントの変更 */
 
-.Kagoshima_about p {font-family: serif;}
+.Kagoshima_about {text-align: center;}  /* 左右の中央揃え */
 
-html {font-family: sans-serif;}
+.Kagoshima_about p {
+  font-family: serif;  /* フォントの変更 */
+  font-weight: bold;   /* 文字の太さ */
+}
 
 a.text_area {
-  font-size: 32px;
-  font-family: serif;
-  text-align: center;
-  display: inline-block;
-  width: 300px;
-  margin: 0 auto;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
+  font-size: 32px;      /* 文字の大きさ */
+  font-family: serif;   /* フォントの変更 */
+  text-align: center;   /* 左右の中央揃え */
+  margin: 0 auto;       /* 全余白の指定 */
+  color: rgb(0, 0, 0);  /* 文字の色指定 */
+  text-decoration: none;  /* 下線を消す */
 }
 
 /* スマホ（ 画面サイズが480px ） */
@@ -143,28 +144,23 @@ a.text_area {
 	  position: static;
   }
 
-  .pc {display: none;}
+  .pc {display: none;}    /* 表示しない */
 
   .Kagoshima_about h1 {
-    margin: 0;
-    font-size: 32px;
+    margin: 0;            /* 全余白の指定 */
+    font-size: 32px;      /* 文字の大きさ */
   }
 
   .Kagoshima_about p {
-    font-size: 16px;
-    margin: 0;
-  }
-
-  .top_img img {
-    max-width: 100%;
-    margin: 0;
+    margin: 0;            /* 全余白の指定 */
+    font-size: 16px;      /* 文字の大きさ */
   }
 
   /* 紹介 */
   .headline h2 {
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 16px;
+    font-size: 40px;      /* 文字の大きさ */
+    text-align: center;   /* 左右の中央揃え */
+    margin-bottom: 16px;  /* 下の余白の指定 */
   }
 
   figure.image_area01 img,
@@ -172,7 +168,7 @@ a.text_area {
   figure.image_area05 img,
   figure.image_area07 img,
   figure.image_area09 img {
-    display: none;
+    display: none;          /* 表示しない */
   }
 
   figure.image_area02 img,
@@ -180,45 +176,39 @@ a.text_area {
   figure.image_area06 img,
   figure.image_area08 img,
   figure.image_area10 img {
-    height: 16em;
+    height: 16em;           /* 高さの指定 */
   }
 
   .introduction {
-    margin: auto;
-    text-align: center;
-    align-items: center;
-    justify-content: space-around;
-    border-top: 2px solid #d5d4c3;
+    margin: auto;           /* 全余白の指定 */
+    text-align: center;     /* 左右の中央揃え */
+    border-top: 2px solid #d5d4c3;  /* 下線表示 */
   }
 }
 
 /* PC（ 画面サイズが1024px以上 ）*/
 @media screen and (min-width: 1024px) {
   .Kagoshima_about h1 {
-    font-size: 40px;
-    margin-bottom: 8px;
+    font-size: 40px;      /* 文字の大きさ */
+    margin-bottom: 8px;   /* 下の余白の指定 */
   }
 
   .Kagoshima_about p {
-    font-size: 25px;
-    margin: 0;
-  }
-
-  .top_img img {
-    max-width: 100%;
+    font-size: 25px;      /* 文字の大きさ */
+    margin: 0;            /* 全余白の指定 */
   }
 
   /* 紹介 */
   .headline h2 {
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 16px;
+    font-size: 40px;      /* 文字の大きさ */
+    text-align: center;   /* 左右の中央揃え */
+    margin-bottom: 16px;  /* 下の余白の指定 */
   }
 
   figure.image_area {
-    margin: auto;
-    margin-top: 0;
-    display: inline-block;
+    margin: auto;         /* 全余白の指定 */
+    margin-top: 0;        /* 上余白の指定 */
+    display: inline-block;  
   }
 
   figure.image_area01 img {
