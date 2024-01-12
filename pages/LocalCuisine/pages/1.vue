@@ -10,19 +10,22 @@
         <div class = localcuisine_img>
           <img src="~/assets/img/Keihan.jpg" alt="鶏飯">
           <div class="teikyou">
-            <p><b>写真協力</b></p>
-            <p><b>公益社団法人 鹿児島県観光連盟</b></p>
+            <p>
+              写真協力：<br>
+              公益社団法人 鹿児島県観光連盟
+            </p>
           </div>
         </div>
         
         <div class = explanation>
           <p>
-            「鶏飯」は、ほぐした鶏肉、干ししいたけ、錦糸卵、パパイヤの味噌漬け、みかんの皮などを、<br>
-            白いごはんの上にのせ、鶏ガラのスープをかけて食べる、奄美地域を代表する郷土料理。
+            「鶏飯」は、ほぐした鶏肉、干ししいたけ、錦糸卵、パパイヤの味噌漬け、<br>
+            みかんの皮などを、白いごはんの上にのせ、鶏ガラのスープをかけて食べる、<br>
+            奄美地域を代表する郷土料理。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Keihan"><b>詳細はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/LocalCuisine/pages/Keihan">詳細はこちら</a>
         </div>
       </div>
 
@@ -34,12 +37,13 @@
 
         <div class = explanation>
           <p>
-            鹿児島県の特産品であるブリと大根を使った「ぶり大根」は冬の定番料理として親しまれている。<br>
+            鹿児島県の特産品であるブリと大根を使った「ぶり大根」は冬の定番料理<br>
+            として親しまれている。<br>
             ブリの旨味と大根の甘みが一体となった、冬の定番料理。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/BuriDaikon"><b>詳細はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/LocalCuisine/pages/BuriDaikon">詳細はこちら</a>
         </div>
       </div>
 
@@ -48,16 +52,21 @@
         <div class = localcuisine_img>
           <img src="~/assets/img/Torisashi.jpeg" alt="鶏刺し">
           <div class="teikyou">
-            <p><b>写真協力</b></p>
-            <p><b>公益社団法人 鹿児島県観光連盟</b></p>
+            <p>
+              写真協力：<br>
+              公益社団法人 鹿児島県観光連盟
+            </p>
           </div>
         </div>
 
         <div class = explanation>
-          <p>もも肉、むね肉、ささみ、砂肝などの部位を魚のお刺身と同じように醤油をつけて食べる料理。</p>
+          <p>
+            もも肉、むね肉、ささみ、砂肝などの部位を魚のお刺身と同じように醤油をつけて<br>
+            食べる料理。
+          </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/ChickenSashimi"><b>詳細はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/LocalCuisine/pages/ChickenSashimi">詳細はこちら</a>
         </div>
       </div>
 
@@ -69,12 +78,12 @@
         
         <div class = explanation>
           <p>
-            豚肉（主にバラ肉）と好みの野菜（ニンジン、ゴボウ、だいこん）などを煮て、
-            味噌仕立てにした<br>汁物で、味噌汁の一種。
+            豚肉（主にバラ肉）と好みの野菜（ニンジン、ゴボウ、だいこん）などを煮て、<br>
+            味噌仕立てにした汁物で、味噌汁の一種。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Tonjiru"><b>詳細はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/LocalCuisine/pages/Tonjiru">詳細はこちら</a>
         </div>
       </div>
       
@@ -115,19 +124,40 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}
+main {margin: 0 auto;}  /* 全余白の指定 */
 
-h1 {font-family: 'New Tegomin', serif;}
+h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
 
-.LocalCuisine p {
-  font-family: serif;
-  font-weight: bold;
+h2.localcuisine_headline {
+  margin: 0px;                       /* 全余白の指定 */
+  padding: 8px 0px;                  /* 全余白の指定 */
+  border-top: 2px solid #d5d4c3;   /* 上線 */
+}
+
+/* 提供 */
+.teikyou {font-weight: bold;  /* 文字の太さ */}
+
+.teikyou p {
+  margin: 0px;        /* 全余白の指定 */
+  font-size: 13px;    /* 文字の大きさ */
+}
+
+.explanation p {
+  margin: 0px;          /* 全余白の指定 */
+  font-family: serif;   /* フォントの変更 */
+  font-weight: bold;    /* 文字の太さ */
+  font-size: 15px;      /* 文字の大きさ */
 }
 
 .link-space a {
-  margin: 0;
-  font-weight: bold;
-  font-size: 15px;
+  margin: 0;          /* 全余白の指定 */
+  font-weight: bold;  /* 文字の太さ */
+  font-size: 15px;    /* 文字の大きさ */
+}
+
+.link {
+  color: blue;          /* 文字の色 */
+  text-decoration: none;  /* 下線の削除 */
 }
 
 /* ページネーション */
@@ -184,33 +214,15 @@ h1 {font-family: 'New Tegomin', serif;}
 
   .localcuisine {text-align: center;}
 
-  h2.localcuisine_headline {
-    margin: 0;
-    text-align: center;
-    padding: 8px 0;
-    border-top: 2px solid #d5d4c3;
+  h2.localcuisine_headline {text-align: center;}
+
+  .explanation p {
+    text-align: left; /* 左寄せ */
+    margin-top: 16px;
   }
 
   .link-space {margin: 8px 0;}
 
-  .explanation p {
-    font-size: 15px;
-    text-align: left; /* 左寄せ */
-    margin-top: 16px;
-    margin-bottom: 0;
-  }
-  
-  .explanation-link {
-    text-decoration: none;
-    color: blue;
-  }
-
-/* 提供 */
-  .teikyou p {
-    margin: 0;
-    font-size: 14px;
-  }
-  
 /* 郷土料理画像 */
   .localcuisine_img img{
     width: 8cm;
@@ -225,17 +237,9 @@ h1 {font-family: 'New Tegomin', serif;}
   h1 {margin-bottom: 0;}
   
 /* 郷土料理一覧説明 */
-  .localcuisine {display: flex;}
-
-  .localcuisine p {
-    margin: 0;
-    font-size: 14px;
-  }
-
-  h2.localcuisine_headline {
-    margin: 0;
-    padding-top: 8px;
-    border-top: 2px solid #d5d4c3;
+  .localcuisine {
+    display: flex;
+    margin-bottom: 16px;
   }
   
   .explanation {
@@ -245,21 +249,12 @@ h1 {font-family: 'New Tegomin', serif;}
 
   .link-space {align-self: end;}
 
-  .explanation-link {
-    align-self: end;
-    text-decoration: none;
-    color: blue;
-  }
-
-  a:hover.explanation-link {color: rgb(71, 1, 92);}
+  a:hover.link {color: rgb(71, 1, 92);}
 
 /* 郷土料理画像 */
   .localcuisine_img img{
     width: 5cm;
     height: auto;
   }
-
-/* 提供 */
-  .teikyou p {font-size: 13px;}
 }
 </style>

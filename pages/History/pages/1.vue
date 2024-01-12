@@ -13,14 +13,15 @@
 
         <div class = explanation>
           <p>
-            幕末の鹿児島藩主。<br>号は惟敬・麟洲、謚号を順聖院。斉興の子。
-            藩政改革・富国強兵策を推進。<br>反射炉や機械制工業を他藩にさきがけて経営し、それらを一括して集成館を設立した。<br>
+            幕末の鹿児島藩主。<br>
+            号は惟敬・麟洲、謚号を順聖院。斉興の子。藩政改革・富国強兵策を推進。<br>
+            反射炉や機械制工業を他藩にさきがけて経営し、それらを一括して集成館を設立した。<br>
             また開国の意見を抱き西郷隆盛・大久保利通等の英才を抜擢し、明治維新の先駆をなした。<br>
             その卓越した識見は、松平春嶽より「英明近世の第一人者」と称された。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/History/pages/ShimazuNariakira" target="_blank"><b>年表はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/History/pages/ShimazuNariakira" target="_blank"><b>年表はこちら</b></a>
         </div>
       </div>
 
@@ -33,12 +34,13 @@
         <div class = explanation>
           <p>
             西郷隆盛は幕末期の薩摩藩の武士。<br>
-            故郷鹿児島の盟友・大久保利通と共に薩摩藩をリードして王政復古を実現させ、<br>徳川幕府を倒し、明治政府の成立に大きな貢献をした。<br>
+            故郷鹿児島の盟友・大久保利通と共に薩摩藩をリードして王政復古を実現させ、<br>
+            徳川幕府を倒し、明治政府の成立に大きな貢献をした。<br>
             維新後、封建制度下の特権を失った不平士族（旧武士）の首領となって西南戦争を起こしたが政府軍に敗れ自刃した。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/History/pages/SaigoTakamori" target="_blank"><b>年表はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/History/pages/SaigoTakamori" target="_blank"><b>年表はこちら</b></a>
         </div> 
       </div>
 
@@ -50,14 +52,14 @@
 
         <div class = explanation>
           <p>
-            明治維新の指導者。
-            島津久光のもとで公武合体運動を推進。
-            やがて討幕へと転じ、薩長連合を成立させる一方、岩倉具視らと結んで慶応3(1867)年12月、王政復古のクーデターを敢行。<br>
+            明治維新の指導者。島津久光のもとで公武合体運動を推進。<br>
+            やがて討幕へと転じ、薩長連合を成立させる一方、岩倉具視らと結んで<br>
+            慶応3(1867)年12月、王政復古のクーデターを敢行。<br>
             版籍奉還や廃藩置県を推進し、新政府の基礎を固める。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/History/pages/OkuboToshimichi" target="_blank"><b>年表はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/History/pages/OkuboToshimichi" target="_blank"><b>年表はこちら</b></a>
         </div>
       </div>
 
@@ -69,28 +71,30 @@
 
         <div class = explanation>
           <p>
-            島津久光の側近として大久保利通らの藩内下級武士を多く要職につかせ，
-            家老に進んだ後は<br>大久保・西郷隆盛らとともに討幕派公卿・諸藩の間を奔走。
-            大政奉還に尽力。<br>
-            明治政府に重用され外国官（外務省の前身）副知事になったが病死。
+            島津久光の側近として大久保利通らの藩内下級武士を多く要職につかせ，<br>
+            家老に進んだ後は大久保・西郷隆盛らとともに討幕派公卿・諸藩の間を奔走。<br>
+            大政奉還に尽力。明治政府に重用され外国官（外務省の前身）副知事になったが病死。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/History/pages/KomatsuTatewaki" target="_blank"><b>年表はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/History/pages/KomatsuTatewaki" target="_blank"><b>年表はこちら</b></a>
         </div>
       </div>
 
-      <h2 class = history_headline_last>天璋院篤姫（てんしょういんあつひめ）（1836-1883）</h2>
+      <h2 class = history_headline>天璋院篤姫（てんしょういんあつひめ）（1836-1883）</h2>
       <div class="history">
         <div class = history_img>
           <img src="~/assets/img/Atsuhime.jpg" alt="天璋院篤姫">
         </div>
 
         <div class = explanation>
-          <p>幕府の消滅に立会い、徳川本家廃絶・江戸城武力攻略の回避に力を尽くし、明治期には<br>徳川本家の家格・家名の維持を目ざした。</p>
+          <p>
+            幕府の消滅に立会い、徳川本家廃絶・江戸城武力攻略の回避に力を尽くし、<br>
+            明治期には徳川本家の家格・家名の維持を目ざした。
+          </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/History/pages/TenshoinAtsuhime" target="_blank"><b>年表はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/History/pages/TenshoinAtsuhime" target="_blank"><b>年表はこちら</b></a>
         </div>
       </div>
     
@@ -102,13 +106,32 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}
+main {margin: 0 auto;}  /* 全余白の指定 */
 
-h1 {font-family: 'New Tegomin', serif;}
+h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
 
-.history p {
-  font-family: serif;
-  font-weight: bold;
+h2.history_headline {
+  margin: 0px;                       /* 全余白の指定 */
+  padding: 8px 0px;                  /* 全余白の指定 */
+  border-top: 2px solid #d5d4c3;   /* 上線 */
+}
+
+.explanation p {
+  margin: 0px;          /* 全余白の指定 */
+  font-family: serif;   /* フォントの変更 */
+  font-weight: bold;    /* 文字の太さ */
+  font-size: 15px;      /* 文字の大きさ */
+}
+
+.link-space a {
+  margin: 0;          /* 全余白の指定 */
+  font-weight: bold;  /* 文字の太さ */
+  font-size: 15px;    /* 文字の大きさ */
+}
+
+.link {
+  color: blue;          /* 文字の色 */
+  text-decoration: none;  /* 下線の削除 */
 }
 
 /* スマホ向けスタイル */
@@ -119,38 +142,20 @@ h1 {font-family: 'New Tegomin', serif;}
     margin-bottom: 0;
   }
 
-  br {display: none;}
+  br {display: none;}   /* 表示しない */
 
-  .history {text-align: center;}
+  .history {text-align: center;}  /* 左右の中央揃え */
 
   h2.history_headline {
-    margin: 0;
     text-align: center;
     font-size: 28px;
-    padding: 8px 0;
-    border-top: 2px solid #d5d4c3;
-  }
-
-  h2.history_headline_last {
-    margin: 0;
-    text-align: center;
-    font-size: 25px;
-    padding: 8px 0;
-    border-top: 2px solid #d5d4c3;
   }
 
   .link-space {margin: 8px 0;}
 
   .explanation p {
-    font-size: 15px;
     text-align: left; /* 左寄せ */
     margin-top: 16px;
-    margin-bottom: 0;
-  }
-  
-  .explanation-link {
-    text-decoration: none;
-    color: blue;
   }
   
 /* 工芸品画像 */
@@ -172,23 +177,6 @@ h1 {font-family: 'New Tegomin', serif;}
     margin-bottom: 16px;
   }
 
-  .history p {
-    margin: 0;
-    font-size: 15px;
-  }
-
-  h2.history_headline {
-    margin: 0;
-    padding: 8px 0;
-    border-top: 2px solid #d5d4c3;
-  }
-
-  h2.history_headline_last {
-    margin: 0;
-    padding-top: 8px;
-    border-top: 2px solid #d5d4c3;
-  }
-
   .explanation {
     margin: auto;
     width: 17cm;
@@ -196,27 +184,12 @@ h1 {font-family: 'New Tegomin', serif;}
 
   .link-space {align-self: end;}
 
-  .link-space a {
-    margin: 0;
-    font-size: 14px;
-  }
-  
-  .explanation-link {
-    text-decoration: none;
-    color: blue;
-    display: flex;
-    align-items: flex-end;
-  }
-
-  a:hover.explanation-link {color: rgb(71, 1, 92);}
+  a:hover.link {color: rgb(71, 1, 92);}
 
 /* 工芸品画像 */
   .history_img img{
     width: 5cm;
     height: auto;
   }
-
-/* 提供 */
-  .teikyou p {font-size: 13px;}
 }
 </style>

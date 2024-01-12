@@ -13,12 +13,12 @@
           
         <div class = explanation>
           <p>
-            「豚骨」とは、豚の骨付きあばら肉を焼いて芋焼酎で炒りつけてこんにゃくや大根などの野菜と<br>
-            ともに、味噌と黒砂糖で煮こんでつくる郷土料理。
+            「豚骨」とは、豚の骨付きあばら肉を焼いて芋焼酎で炒りつけてこんにゃくや大根などの<br>
+            野菜とともに、味噌と黒砂糖で煮こんでつくる郷土料理。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Tonkotsu"><b>詳細はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/LocalCuisine/pages/Tonkotsu">詳細はこちら</a>
         </div>
       </div>
 
@@ -32,7 +32,7 @@
           <p>「がね」は鹿児島県の特産品として全国に知られるさつまいもを食材とした郷土料理。</p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Gane"><b>詳細はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/LocalCuisine/pages/Gane">詳細はこちら</a>
         </div>
       </div>
 
@@ -41,19 +41,22 @@
         <div class = localcuisine_img>
           <img src="~/assets/img/Zomen.jpg" alt="油ゾーメン">
           <div class="teikyou">
-            <p><b>出典</b></p>
-            <p><b>農林水産省「うちの郷土料理」</b></p>
+            <p>
+              出典：<br>
+              農林水産省「うちの郷土料理」
+            </p>
           </div>
         </div>
 
         <div class = explanation>
           <p>
-            「油ゾーメン」は、豚肉と野菜、そうめんを炒めた郷土料理。
-            沖縄の「そうめんチャンプルー」に<br>似ているが、奄美地域の「油ゾーメン」は、炒める時にだし汁を入れるのが特徴。
+            「油ゾーメン」は、豚肉と野菜、そうめんを炒めた郷土料理。<br>
+            沖縄の「そうめんチャンプルー」に似ているが、奄美地域の「油ゾーメン」は、<br>
+            炒める時にだし汁を入れるのが特徴。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/AburaZomen"><b>詳細はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/LocalCuisine/pages/AburaZomen">詳細はこちら</a>
         </div>  
       </div>
 
@@ -65,12 +68,13 @@
 
         <div class = explanation>
           <p>
-            「黒糖」は、とうきびを細かくカットし、圧搾機にかけて絞り出した汁を煮詰めてつくる砂糖。<br>
+            「黒糖」は、とうきびを細かくカットし、圧搾機にかけて絞り出した汁を<br>
+            煮詰めてつくる砂糖。<br>
             奄美地域および沖縄県の特産品。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Kokutou"><b>詳細はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/LocalCuisine/pages/Kokutou">詳細はこちら</a>
         </div>
       </div>
       
@@ -111,19 +115,40 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}
+main {margin: 0 auto;}  /* 全余白の指定 */
 
-h1 {font-family: 'New Tegomin', serif;}
+h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
 
-.LocalCuisine p {
-  font-family: serif;
-  font-weight: bold;
+h2.localcuisine_headline {
+  margin: 0px;                       /* 全余白の指定 */
+  padding: 8px 0px;                  /* 全余白の指定 */
+  border-top: 2px solid #d5d4c3;   /* 上線 */
+}
+
+/* 提供 */
+.teikyou {font-weight: bold;  /* 文字の太さ */}
+
+.teikyou p {
+  margin: 0px;        /* 全余白の指定 */
+  font-size: 13px;    /* 文字の大きさ */
+}
+
+.explanation p {
+  margin: 0px;          /* 全余白の指定 */
+  font-family: serif;   /* フォントの変更 */
+  font-weight: bold;    /* 文字の太さ */
+  font-size: 15px;      /* 文字の大きさ */
 }
 
 .link-space a {
-  margin: 0;
-  font-weight: bold;
-  font-size: 15px;
+  margin: 0;          /* 全余白の指定 */
+  font-weight: bold;  /* 文字の太さ */
+  font-size: 15px;    /* 文字の大きさ */
+}
+
+.link {
+  color: blue;          /* 文字の色 */
+  text-decoration: none;  /* 下線の削除 */
 }
 
 /* ページネーション */
@@ -180,33 +205,15 @@ h1 {font-family: 'New Tegomin', serif;}
 
   .localcuisine {text-align: center;}
 
-  h2.localcuisine_headline {
-    margin: 0;
-    text-align: center;
-    padding: 8px 0;
-    border-top: 2px solid #d5d4c3;
+  h2.localcuisine_headline {text-align: center;}
+
+  .explanation p {
+    text-align: left; /* 左寄せ */
+    margin-top: 16px;
   }
 
   .link-space {margin: 8px 0;}
 
-  .explanation p {
-    font-size: 15px;
-    text-align: left; /* 左寄せ */
-    margin-top: 16px;
-    margin-bottom: 0;
-  }
-  
-  .explanation-link {
-    text-decoration: none;
-    color: blue;
-  }
-
-/* 提供 */
-  .teikyou p {
-    margin: 0;
-    font-size: 14px;
-  }
-  
 /* 郷土料理画像 */
   .localcuisine_img img{
     width: 8cm;
@@ -221,17 +228,9 @@ h1 {font-family: 'New Tegomin', serif;}
   h1 {margin-bottom: 0;}
   
 /* 郷土料理一覧説明 */
-  .localcuisine {display: flex;}
-
-  .localcuisine p {
-    margin: 0;
-    font-size: 14px;
-  }
-
-  h2.localcuisine_headline {
-    margin: 0;
-    padding-top: 8px;
-    border-top: 2px solid #d5d4c3;
+  .localcuisine {
+    display: flex;
+    margin-bottom: 16px;
   }
   
   .explanation {
@@ -241,21 +240,12 @@ h1 {font-family: 'New Tegomin', serif;}
 
   .link-space {align-self: end;}
 
-  .explanation-link {
-    align-self: end;
-    text-decoration: none;
-    color: blue;
-  }
-
-  a:hover.explanation-link {color: rgb(71, 1, 92);}
+  a:hover.link {color: rgb(71, 1, 92);}
 
 /* 郷土料理画像 */
   .localcuisine_img img{
     width: 5cm;
     height: auto;
   }
-
-/* 提供 */
-  .teikyou p {font-size: 13px;}
 }
 </style>

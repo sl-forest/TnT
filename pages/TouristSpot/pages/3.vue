@@ -12,10 +12,13 @@
         </div>
         
         <div class = explanation>
-          <p>海岸に天然砂むし温泉、屋内には大浴場や休憩所を完備した、指宿温泉を代表する日帰り入浴施設。</p>
+          <p>
+            海岸に天然砂むし温泉、屋内には大浴場や休憩所を完備した、<br>
+            指宿温泉を代表する日帰り入浴施設。
+          </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Ibusukionsen"><b>スポット情報</b></a>
+          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Ibusukionsen">スポット情報</a>
         </div>
       </div>
 
@@ -27,12 +30,13 @@
         
         <div class = explanation>
           <p>
-            霧島温泉郷の中心に位置する「霧島温泉市場」は、観光案内所・土産店・食事処が集まる施設。<br class="pc">
+            霧島温泉郷の中心に位置する「霧島温泉市場」は、観光案内所・土産店・食事処が<br>
+            集まる施設。<br>
             鹿児島・霧島の特産品を多数取り揃えたお店があり、お土産探しにぴったり。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Kirishimaonsenitiba"><b>スポット情報</b></a>
+          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Kirishimaonsenitiba">スポット情報</a>
         </div>
       </div>
       
@@ -44,12 +48,12 @@
 
         <div class = explanation>
           <p>
-            鹿児島県屈指のパワースポットで、6世紀に建立された歴史ある神社。<br class="pc">
+            鹿児島県屈指のパワースポットで、6世紀に建立された歴史ある神社。<br>
             御主神は、建国神話の主人公である瓊々杵尊（ににぎのみこと）。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Kirishimajingu"><b>スポット情報</b></a>
+          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Kirishimajingu">スポット情報</a>
         </div>
       </div>
 
@@ -61,12 +65,12 @@
 
         <div class = explanation>
           <p>
-            天津日高日子穂穂出見尊（山幸彦）と豊玉比売命を主祭神として祀る。<br class="pc">
+            天津日高日子穂穂出見尊（山幸彦）と豊玉比売命を主祭神として祀る。<br>
             旧暦1月18日を過ぎた最初の日曜には初午祭がある。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Kagoshimajingu"><b>スポット情報</b></a>
+          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Kagoshimajingu">スポット情報</a>
         </div>
       </div>
       
@@ -111,19 +115,33 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}
+main {margin: 0 auto;}  /* 全余白の指定 */
 
-h1 {font-family: 'New Tegomin', serif;}
+h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
 
-.spot p {
-  font-family: serif;
-  font-weight: bold;
+h2.spot_headline {
+  margin: 0px;                       /* 全余白の指定 */
+  padding: 8px 0px;                  /* 全余白の指定 */
+  border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
+.explanation p {
+  margin: 0px;          /* 全余白の指定 */
+  font-family: serif;   /* フォントの変更 */
+  font-weight: bold;    /* 文字の太さ */
+  font-size: 15px;      /* 文字の大きさ */
+}
+
+
 .link-space a {
-  margin: 0;
-  font-weight: bold;
-  font-size: 15px;
+  margin: 0;          /* 全余白の指定 */
+  font-weight: bold;  /* 文字の太さ */
+  font-size: 15px;    /* 文字の大きさ */
+}
+
+.link {
+  color: blue;          /* 文字の色 */
+  text-decoration: none;  /* 下線の削除 */
 }
 
 /* ページネーション */
@@ -170,37 +188,22 @@ h1 {font-family: 'New Tegomin', serif;}
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  .pc {display: none;}
+  br {display: none;}
 
   h1 {
-    margin: 8px;
     text-align: center;
     margin-bottom: 0;
   }
 
-  .spot {
-    text-align: center;
-  }
+  .spot {text-align: center;}
 
-  h2.spot_headline {
-    margin: 0;
-    text-align: center;
-    padding: 8px 0;
-    border-top: 2px solid #d5d4c3;
-  }
+  h2.spot_headline {text-align: center;}
 
   .link-space {margin: 8px 0;}
 
   .explanation p {
-    font-size: 15px;
     text-align: left; /* 左寄せ */
     margin-top: 16px;
-    margin-bottom: 0;
-  }
-  
-  .explanation-link {
-    text-decoration: none;
-    color: blue;
   }
   
 /* 観光地理画像 */
@@ -212,25 +215,14 @@ h1 {font-family: 'New Tegomin', serif;}
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
+  main {max-width: 1024px;}
 
   h1 {margin-bottom: 0;}
   
 /* 観光地一覧説明 */
-  .spot {display: flex;}
-
-  .spot p {
-    margin: 0;
-    font-size: 14px;
-  }
-
-  h2.spot_headline {
-    margin: 0;
-    padding-top: 8px;
-    border-top: 2px solid #d5d4c3;
+  .spot {
+    display: flex;
+    margin-bottom: 16px;
   }
   
   .explanation {
@@ -240,13 +232,9 @@ h1 {font-family: 'New Tegomin', serif;}
 
   .link-space {align-self: end;}
 
-  .explanation-link {
-    align-self: end;
-    text-decoration: none;
-    color: blue;
+  a:hover.link {
+    color: rgb(71, 1, 92);
   }
-
-  a:hover.explanation-link {color: rgb(71, 1, 92);}
 
 /* 観光地画像 */
   .spot_img img{

@@ -4,46 +4,6 @@
     <TheHeader />
     <main>
       <h1>「国指定伝統工芸品」</h1>
-      <h2 class = craft_headline>本場大島紬</h2>
-      <div class="craft">
-        <div class = craft_img>
-          <img src="~/assets/img/OshimaTsumugi.jpg" alt="本場大島紬">
-        </div>
-        
-        <div class = explanation>
-          <p>
-            1,300年の歴史を持ち、絹織物の最高傑作といわれている。<br>
-            30数工程もある緻密な手作業により、図案から織り上がるまで半年から1年以上もかかる。<br>
-            大島紬村では本場大島紬の製造現場見学や、泥染め・織り体験、着付体験などが楽しめる。
-          </p>
-        </div>
-
-        <div class="link-space">
-          <a class="explanation-link" href="http://localhost:3000/Craft/pages/AuthenticOshimaTsumugi"><b>基本情報はこちら</b></a>
-        </div>
-
-      </div>
-
-      <h2 class = craft_headline>川辺仏壇</h2>
-      <div class="craft">
-        <div class = craft_img>
-          <img src="~/assets/img/kawabebutudan.jpg" alt="川辺仏壇">
-        </div>
-
-        <div class = explanation>
-          <p>
-            川辺仏壇（かわなべぶつだん）は、鹿児島県南九州市川辺町周辺で作られている仏壇。<br>
-            川辺仏壇の特徴は、「ガマ戸」と呼ばれる川辺仏壇オリジナルの独特な仏壇がある。<br>
-            ”ガマ”とは、鹿児島県の方言で洞窟を表す。
-          </p>
-        </div>
-
-        <div class="link-space">
-          <a class="explanation-link" href="http://localhost:3000/Craft/pages/KawabeButsudan"><b>基本情報はこちら</b></a>
-        </div>
-
-      </div>
-
       <h2 class = craft_headline>薩摩焼</h2>
       <div class="craft">
         <div class = craft_img>
@@ -59,7 +19,48 @@
         </div>
 
         <div class="link-space">
-          <a class="explanation-link" href="http://localhost:3000/Craft/pages/SatsumaPorcelain"><b>基本情報はこちら</b></a>
+          <a class="link" href="http://localhost:3000/Craft/pages/SatsumaPorcelain">基本情報はこちら</a>
+        </div>
+
+      </div>
+
+      <h2 class = craft_headline>白薩摩</h2>
+      <div class="craft">
+        <div class = craft_img>
+          <img src="~/assets/img/ShiroSatsuma.jpg" alt="白薩摩">
+        </div>
+
+        <div class = explanation>
+          <p>
+            淡い黄色の地に無色の釉薬が掛かった陶器で表面を貫入という細かいヒビが覆っており<br>
+            「白もん」と呼ばれている。<br>
+            白土を使った「白もん」は珍重され、藩主のみに使用が許されたもので、幕末のパリ万博に<br>
+            出品し、多くの人々の注目と賞賛を得た。
+          </p>
+        </div>
+
+        <div class="link-space">
+          <a class="link" href="http://localhost:3000/Craft/pages/WhiteSatsuma">基本情報はこちら</a>
+        </div>
+
+      </div>
+
+      <h2 class = craft_headline>黒薩摩</h2>
+      <div class="craft">
+        <div class = craft_img>
+          <img src="~/assets/img/KuroSatsuma.jpg" alt="黒薩摩">
+        </div>
+
+        <div class = explanation>
+          <p>
+            「黒薩摩」は鉄分の多い鹿児島の土とシラス層や凝塊岩などに雑木灰を調合したうわ薬を<br>
+            使い、素朴で剛健な焼物で「黒もん」と呼ばれている。<br>
+            「黒もん」は庶民生活道具として鹿児島の人々に愛されている。
+          </p>
+        </div>
+
+        <div class="link-space">
+          <a class="link" href="http://localhost:3000/Craft/pages/BlackSatsuma">基本情報はこちら</a>
         </div>
 
       </div>
@@ -86,7 +87,11 @@
         </li>
 
         <li class="Pagination-Item">
-          <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3">
+          <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/4"><span>4</span></a>
+        </li>
+
+        <li class="Pagination-Item">
+          <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/4">
             <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
             </svg>
@@ -101,19 +106,33 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}
+main {margin: 0 auto;}  /* 全余白の指定 */
 
-h1 {font-family: 'New Tegomin', serif;}
+h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
 
-.craft p {
-  font-family: serif;
-  font-weight: bold;
+h2.craft_headline {
+  margin: 0px;                       /* 全余白の指定 */
+  padding: 8px 0px;                  /* 全余白の指定 */
+  border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
+.explanation p {
+  margin: 0px;          /* 全余白の指定 */
+  font-family: serif;   /* フォントの変更 */
+  font-weight: bold;    /* 文字の太さ */
+  font-size: 15px;      /* 文字の大きさ */
+}
+
+
 .link-space a {
-  margin: 0;
-  font-weight: bold;
-  font-size: 15px;
+  margin: 0;          /* 全余白の指定 */
+  font-weight: bold;  /* 文字の太さ */
+  font-size: 15px;    /* 文字の大きさ */
+}
+
+.link {
+  color: blue;          /* 文字の色 */
+  text-decoration: none;  /* 下線の削除 */
 }
 
 /* ページネーション */
@@ -160,38 +179,25 @@ h1 {font-family: 'New Tegomin', serif;}
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
+  br {display: none;}
+
   h1 {
-    margin: 8px;
     text-align: center;
     margin-bottom: 0;
   }
 
-  br {display: none;}   /* スマホではこのスタイルは起動しない */
-
   .craft {text-align: center;}
 
-  h2.craft_headline {
-    margin: 0;
-    text-align: center;
-    padding: 8px 0;
-    border-top: 2px solid #d5d4c3;
-  }
+  h2.craft_headline {text-align: center;}
 
   .link-space {margin: 8px 0;}
 
   .explanation p {
-    font-size: 15px;
     text-align: left; /* 左寄せ */
     margin-top: 16px;
-    margin-bottom: 0;
   }
   
-  .explanation-link {
-    text-decoration: none;
-    color: blue;
-  }
-  
-/* 工芸品画像 */
+/* 観光地理画像 */
   .craft_img img{
     width: 8cm;
     height: auto;
@@ -201,41 +207,27 @@ h1 {font-family: 'New Tegomin', serif;}
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
   main {max-width: 1024px;}
-  
+
   h1 {margin-bottom: 0;}
   
-/* 工芸品一覧説明 */
+/* 観光地一覧説明 */
   .craft {
     display: flex;
     margin-bottom: 16px;
   }
-
-  .craft p {
-    margin: 0;
-    font-size: 15px;
-  }
-
-  h2.craft_headline {
-    margin: 0;
-    padding: 8px 0;
-    border-top: 2px solid #d5d4c3;
-  }
-
+  
   .explanation {
     margin: auto;
-    width: 17cm;
+    width: 40em;
   }
 
   .link-space {align-self: end;}
-  
-  .explanation-link {
-    text-decoration: none;
-    color: blue;
+
+  a:hover.link {
+    color: rgb(71, 1, 92);
   }
 
-  a:hover.explanation-link {color: rgb(71, 1, 92);}
-
-/* 工芸品画像 */
+/* 観光地画像 */
   .craft_img img{
     width: 5cm;
     height: auto;

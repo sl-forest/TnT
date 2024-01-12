@@ -5,59 +5,64 @@
 
     <main>
       <h1>「県指定伝統工芸品」</h1>
-      <h2 class = craft_headline>加世田鎌・加世田包丁</h2>
+      <h2 class = craft_headline>屋久杉</h2>
       <div class="craft">
         <div class = craft_img>
-          <img src="~/assets/img/Kaseda.jpg" alt="加世田鎌・加世田包丁">
+          <img src="~/assets/img/Yakusugi.jpg" alt="屋久杉">
         </div>
-        
+
         <div class = explanation>
           <p>
-            槌の打ち跡が生々しく、荒々しい鋼の黒光りを持つ加世田の刃物。<br>
-            加世田包丁は日本刀と似た手法でつくられており、加世田鎌も両刃の丈夫さに刀鍛冶の技術がいかされている。
+            世界自然遺産に登録されている「屋久島」は1,000メートル以上の高峰が連なっており、<br>
+            この大自然の中で育った樹齢1,000年以上のものを「屋久杉」と呼んでいる。<br>
+            現在は自然保護のため、倒木や土埋木だけを工芸品として加工している。
           </p>
         </div>
+
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/Craft/pages/Kaseda"><b>基本情報はこちら</b></a>
+          <a class="link" href="http://localhost:3000/Craft/pages/Yakusugi">基本情報はこちら</a>
         </div>
+
       </div>
 
-      <h2 class = craft_headline>甲冑</h2>
+      <h2 class = craft_headline>薩摩切子</h2>
       <div class="craft">
         <div class = craft_img>
-          <img src="~/assets/img/Kattyu.jpeg" alt="甲冑">        
-          <div class="teikyou">
-            <p><b>写真協力</b></p>
-            <p><b>公益社団法人 鹿児島県観光連盟</b></p>
-          </div>
+          <img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子">
         </div>
 
         <div class = explanation>
           <p>
-            昔ながらの製法を守りながら、映画・テレビなどの時代劇に使用される鎧やかぶとの<br>
-            全国シェア９割以上の生産を誇り、全国各地のお祭りの武者行列などでも使用されている。
-          </p>
+            江戸末期に薩摩藩で造られた切子ガラス。鉛を24～25%含むクリスタルガラスを使用。<br>
+            無色のガラス（クリアガラス）の表面に色ガラスを1～2mm程度溶着させた <br>
+            ”色被せガラス”にカットを施し、磨きあげた製品を「薩摩切子」と言う。
+          </p> 
         </div>
-        <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/Craft/pages/Armor"><b>基本情報はこちら</b></a>
-        </div>
-      </div>        
 
-      <h2 class = craft_headline>竹製品</h2>
+        <div class="link-space">
+          <a class="link" href="http://localhost:3000/Craft/pages/SatsumaKiriko">基本情報はこちら</a>
+        </div>
+
+      </div>
+
+      <h2 class = craft_headline>薩摩つげ櫛</h2>
       <div class="craft">
         <div class = craft_img>
-          <img src="~/assets/img/bambooproducts.jpg" alt="竹製品">
+          <img src="~/assets/img/Tugegushi.jpg" alt="薩摩つげ櫛">
         </div>
 
         <div class = explanation>
           <p>
-            鹿児島は竹林面積日本一の「竹」のふるさと。<br>
-            古くから竹を使って様々な生活道具が作られており、庶民生活には欠かせないもの。
+            江戸時代から「櫛になりたや薩摩の櫛に、諸国娘の手に渡ろ」とうたわれ、<br>全国に名を馳せていた。
+            材質が硬く、色艶が美しいのが特徴。<br>
+            なめらかな櫛どおりで、静電気・抜け毛・切れ毛が少ないといわれている。
           </p>
         </div>
+
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/Craft/pages/BambooProducts"><b>基本情報はこちら</b></a>
+          <a class="link" href="http://localhost:3000/Craft/pages/SatsumaBoxwoodComb">基本情報はこちら</a>
         </div>
+
       </div>
       
       <ul class="Pagination">
@@ -82,7 +87,11 @@
         </li>
 
         <li class="Pagination-Item">
-          <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/3">
+          <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/4"><span>4</span></a>
+        </li>           
+
+        <li class="Pagination-Item">
+          <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/4">
             <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
             </svg>
@@ -97,19 +106,33 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}
+main {margin: 0 auto;}  /* 全余白の指定 */
 
-h1 {font-family: 'New Tegomin', serif;}
+h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
 
-.craft p {
-  font-family: serif;
-  font-weight: bold;
+h2.craft_headline {
+  margin: 0px;                       /* 全余白の指定 */
+  padding: 8px 0px;                  /* 全余白の指定 */
+  border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
+.explanation p {
+  margin: 0px;          /* 全余白の指定 */
+  font-family: serif;   /* フォントの変更 */
+  font-weight: bold;    /* 文字の太さ */
+  font-size: 15px;      /* 文字の大きさ */
+}
+
+
 .link-space a {
-  margin: 0;
-  font-weight: bold;
-  font-size: 15px;
+  margin: 0;          /* 全余白の指定 */
+  font-weight: bold;  /* 文字の太さ */
+  font-size: 15px;    /* 文字の大きさ */
+}
+
+.link {
+  color: blue;          /* 文字の色 */
+  text-decoration: none;  /* 下線の削除 */
 }
 
 /* ページネーション */
@@ -156,93 +179,58 @@ h1 {font-family: 'New Tegomin', serif;}
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
+  br {display: none;}
+
   h1 {
-    margin: 8px;
     text-align: center;
     margin-bottom: 0;
   }
 
-  br {display: none;}   /* スマホではこのスタイルは起動しない */
-
   .craft {text-align: center;}
 
-  h2.craft_headline {
-    margin: 0;
-    text-align: center;
-    padding: 8px 0;
-    border-top: 2px solid #d5d4c3;
-  }
+  h2.craft_headline {text-align: center;}
 
   .link-space {margin: 8px 0;}
 
   .explanation p {
-    font-size: 15px;
     text-align: left; /* 左寄せ */
     margin-top: 16px;
-    margin-bottom: 0;
   }
   
-  .explanation-link {
-    text-decoration: none;
-    color: blue;
-  }
-  
-/* 工芸品画像 */
+/* 観光地理画像 */
   .craft_img img{
     width: 8cm;
     height: auto;
-  }
-
-/* 提供 */
-  .teikyou p {
-    margin: 0;
-    font-size: 14px;
   }
 }
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
   main {max-width: 1024px;}
-  
+
   h1 {margin-bottom: 0;}
   
-/* 工芸品一覧説明 */
-  .craft {display: flex;}
-
-  .craft p {
-    margin: 0;
-    font-size: 15px;
+/* 観光地一覧説明 */
+  .craft {
+    display: flex;
+    margin-bottom: 16px;
   }
-
-  h2.craft_headline {
-    margin: 0;
-    padding-top: 8px;
-    border-top: 2px solid #d5d4c3;
-  }
-
+  
   .explanation {
     margin: auto;
-    width: 17cm;
+    width: 40em;
   }
 
   .link-space {align-self: end;}
 
-  .explanation-link {
-    text-decoration: none;
-    color: blue;
+  a:hover.link {
+    color: rgb(71, 1, 92);
   }
 
-  a:hover.explanation-link {color: rgb(71, 1, 92);}
-
-/* 工芸品画像 */
+/* 観光地画像 */
   .craft_img img{
     width: 5cm;
     height: auto;
-  }
-
-/* 提供 */
-  .teikyou p {
-    font-size: 13px;
   }
 }
 </style>

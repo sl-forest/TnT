@@ -13,14 +13,15 @@
 
         <div class = explanation>
           <p>
-            江戸時代初期に薩摩藩主・島津氏によって造られた、別邸跡とその庭園。<br class="pc">
-            錦江湾や桜島の景観を取り入れた設計で、雄大な景色が楽しめる。<br class="pc">
-            隣接する尚古集成館は幕末に建てられた金属加工の工場跡で、世界遺産「明治日本の産業革命遺産」のひとつ。<br class="pc">
+            江戸時代初期に薩摩藩主・島津氏によって造られた、別邸跡とその庭園。<br>
+            錦江湾や桜島の景観を取り入れた設計で、雄大な景色が楽しめる。<br>
+            隣接する尚古集成館は幕末に建てられた金属加工の工場跡で、<br>
+            世界遺産「明治日本の産業革命遺産」のひとつ。<br>
             島津家の歴史や近代化事業を紹介する展示が行われている。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Sengannen"><b>スポット情報</b></a>
+          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Sengannen">スポット情報</a>
         </div>
       </div>
 
@@ -34,12 +35,13 @@
 
         <div class = explanation>
           <p>
-            南九州一の繁華街として人気のスポット。<br class="pc">
-            江戸時代に、西洋文明を進んで取り入れた島津重豪公が1779年に天文観測や暦の作成などを行う施設「明時館（別名天文館）」を建てたことが名前の由来。
+            南九州一の繁華街として人気のスポット。<br>
+            江戸時代に、西洋文明を進んで取り入れた島津重豪公が1779年に天文観測や暦の作成<br>
+            などを行う施設「明時館（別名天文館）」を建てたことが名前の由来。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Tenmonkan"><b>スポット情報</b></a>
+          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Tenmonkan">スポット情報</a>
         </div>
       </div>
 
@@ -51,12 +53,12 @@
         
         <div class = explanation>
           <p>
-            館内では、平和を祈念し、その記録を後世に正しく伝えるべく、陸軍特別攻撃隊員や各地の戦地で<br class="pc">
-            戦死した隊員たちの遺品、遺影、関係資料を展示している。
+            館内では、平和を祈念し、その記録を後世に正しく伝えるべく、陸軍特別攻撃隊員や<br>
+            各地の戦地で戦死した隊員たちの遺品、遺影、関係資料を展示している。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/ChiranPeaceMuseum"><b>スポット情報</b></a>
+          <a class ="link" href="http://localhost:3000/TouristSpot/pages/ChiranPeaceMuseum">スポット情報</a>
         </div>
       </div>
 
@@ -67,10 +69,13 @@
         </div>
         
         <div class = explanation>
-          <p>西郷隆盛、大久保利通など明治維新に活躍した偉人の出身地加治屋町にある歴史ミュージアム。</p>
+          <p>
+            西郷隆盛、大久保利通など明治維新に活躍した偉人の出身地加治屋町に<br>
+            ある歴史ミュージアム。
+          </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Ishinfurusatokan"><b>スポット情報</b></a>
+          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Ishinfurusatokan">スポット情報</a>
         </div>
       </div>
       
@@ -115,19 +120,33 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}
+main {margin: 0 auto;}  /* 全余白の指定 */
 
-h1 {font-family: 'New Tegomin', serif;}
+h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
 
-.spot p {
-  font-family: serif;
-  font-weight: bold;
+h2.spot_headline {
+  margin: 0px;                       /* 全余白の指定 */
+  padding: 8px 0px;                  /* 全余白の指定 */
+  border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
+.explanation p {
+  margin: 0px;          /* 全余白の指定 */
+  font-family: serif;   /* フォントの変更 */
+  font-weight: bold;    /* 文字の太さ */
+  font-size: 15px;      /* 文字の大きさ */
+}
+
+
 .link-space a {
-  margin: 0;
-  font-weight: bold;
-  font-size: 15px;
+  margin: 0;          /* 全余白の指定 */
+  font-weight: bold;  /* 文字の太さ */
+  font-size: 15px;    /* 文字の大きさ */
+}
+
+.link {
+  color: blue;          /* 文字の色 */
+  text-decoration: none;  /* 下線の削除 */
 }
 
 /* ページネーション */
@@ -174,7 +193,7 @@ h1 {font-family: 'New Tegomin', serif;}
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  .pc {display: none;}
+  br {display: none;}
 
   h1 {
     text-align: center;
@@ -183,25 +202,13 @@ h1 {font-family: 'New Tegomin', serif;}
 
   .spot {text-align: center;}
 
-  h2.spot_headline {
-    margin: 0;
-    text-align: center;
-    padding: 8px 0;
-    border-top: 2px solid #d5d4c3;
-  }
+  h2.spot_headline {text-align: center;}
 
   .link-space {margin: 8px 0;}
 
   .explanation p {
-    font-size: 15px;
     text-align: left; /* 左寄せ */
     margin-top: 16px;
-    margin-bottom: 0;
-  }
-  
-  .explanation-link {
-    text-decoration: none;
-    color: blue;
   }
   
 /* 観光地理画像 */
@@ -218,17 +225,9 @@ h1 {font-family: 'New Tegomin', serif;}
   h1 {margin-bottom: 0;}
   
 /* 観光地一覧説明 */
-  .spot {display: flex;}
-
-  .spot p {
-    margin: 0;
-    font-size: 14px;
-  }
-
-  h2.spot_headline {
-    margin: 0;
-    padding-top: 8px;
-    border-top: 2px solid #d5d4c3;
+  .spot {
+    display: flex;
+    margin-bottom: 16px;
   }
   
   .explanation {
@@ -238,13 +237,7 @@ h1 {font-family: 'New Tegomin', serif;}
 
   .link-space {align-self: end;}
 
-  .explanation-link {
-    align-self: end;
-    text-decoration: none;
-    color: blue;
-  }
-
-  a:hover.explanation-link {
+  a:hover.link {
     color: rgb(71, 1, 92);
   }
 

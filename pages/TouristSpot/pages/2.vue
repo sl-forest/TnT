@@ -13,13 +13,14 @@
           
         <div class = explanation>
           <p>
-            幅約210メートル、高さ約12メートルのスケールを誇り、「東洋のナイアガラ」とも呼ばれる滝。<br>
+            幅約210メートル、高さ約12メートルのスケールを誇り、<br>
+            「東洋のナイアガラ」とも呼ばれる滝。<br>
             春は桜やつつじが彩り、夏は水量も多く豪快。<br>
             秋は紅葉がライトアップされ、冬は雪景色を楽しめる。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Soginotaki"><b>スポット情報</b></a>
+          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Soginotaki">スポット情報</a>
         </div>
       </div>
 
@@ -36,7 +37,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Maruonotaki"><b>スポット情報</b></a>
+          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Maruonotaki">スポット情報</a>
         </div>
       </div>
 
@@ -49,12 +50,12 @@
         <div class = explanation>
           <p>
             落差約46メートル、幅約60メートルの滝。<br>
-            大河ドラマ『西郷どん』のオープニング映像で話題となった。<br class="pc">
+            大河ドラマ『西郷どん』のオープニング映像で話題となった。<br>
             エメラルドグリーンの美しい滝つぼが特徴で、フォトジェニックな光景が広がる。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Ogawanotaki"><b>スポット情報</b></a>
+          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Ogawanotaki">スポット情報</a>
         </div>
       </div>
       
@@ -66,12 +67,13 @@
 
         <div class = explanation>
           <p>
-            薩摩半島の最南端に位置する標高約924メートルの開聞岳は、「日本百名山」にも数えられている<br>南薩摩を代表する山。<br>
+            薩摩半島の最南端に位置する標高約924メートルの開聞岳は、「日本百名山」<br>
+            にも数えられている南薩摩を代表する山。<br>
             別名「薩摩富士」と呼ばれ、指宿のシンボルとして親しまれている。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Kaimondake"><b>スポット情報</b></a>
+          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Kaimondake">スポット情報</a>
         </div>
       </div>
       
@@ -116,19 +118,33 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}
+main {margin: 0 auto;}  /* 全余白の指定 */
 
-h1 {font-family: 'New Tegomin', serif;}
+h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
 
-.spot p {
-  font-family: serif;
-  font-weight: bold;
+h2.spot_headline {
+  margin: 0px;                       /* 全余白の指定 */
+  padding: 8px 0px;                  /* 全余白の指定 */
+  border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
+.explanation p {
+  margin: 0px;          /* 全余白の指定 */
+  font-family: serif;   /* フォントの変更 */
+  font-weight: bold;    /* 文字の太さ */
+  font-size: 15px;      /* 文字の大きさ */
+}
+
+
 .link-space a {
-  margin: 0;
-  font-weight: bold;
-  font-size: 15px;
+  margin: 0;          /* 全余白の指定 */
+  font-weight: bold;  /* 文字の太さ */
+  font-size: 15px;    /* 文字の大きさ */
+}
+
+.link {
+  color: blue;          /* 文字の色 */
+  text-decoration: none;  /* 下線の削除 */
 }
 
 /* ページネーション */
@@ -173,38 +189,24 @@ h1 {font-family: 'New Tegomin', serif;}
 
 .Pagination > * + * {margin-left: 8px;}
 
-
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
+  br {display: none;}
+
   h1 {
-    margin: 8px;
     text-align: center;
     margin-bottom: 0;
   }
 
-  br {display: none;}
-
   .spot {text-align: center;}
 
-  h2.spot_headline {
-    margin: 0;
-    text-align: center;
-    padding: 8px 0;
-    border-top: 2px solid #d5d4c3;
-  }
+  h2.spot_headline {text-align: center;}
 
   .link-space {margin: 8px 0;}
 
   .explanation p {
-    font-size: 15px;
     text-align: left; /* 左寄せ */
     margin-top: 16px;
-    margin-bottom: 0;
-  }
-  
-  .explanation-link {
-    text-decoration: none;
-    color: blue;
   }
   
 /* 観光地理画像 */
@@ -221,17 +223,9 @@ h1 {font-family: 'New Tegomin', serif;}
   h1 {margin-bottom: 0;}
   
 /* 観光地一覧説明 */
-  .spot {display: flex;}
-
-  .spot p {
-    margin: 0;
-    font-size: 14px;
-  }
-
-  h2.spot_headline {
-    margin: 0;
-    padding-top: 8px;
-    border-top: 2px solid #d5d4c3;
+  .spot {
+    display: flex;
+    margin-bottom: 16px;
   }
   
   .explanation {
@@ -241,13 +235,9 @@ h1 {font-family: 'New Tegomin', serif;}
 
   .link-space {align-self: end;}
 
-  .explanation-link {
-    align-self: end;
-    text-decoration: none;
-    color: blue;
+  a:hover.link {
+    color: rgb(71, 1, 92);
   }
-
-  a:hover.explanation-link {color: rgb(71, 1, 92);}
 
 /* 観光地画像 */
   .spot_img img{

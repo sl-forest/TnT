@@ -10,8 +10,10 @@
         <div class = localcuisine_img>
           <img src="~/assets/img/Shirokuma.jpg" alt="白熊">
           <div class="teikyou">
-            <p><b>出典</b></p>
-            <p><b>農林水産省「うちの郷土料理」</b></p>
+            <p>
+              出典：<br>
+              農林水産省「うちの郷土料理」
+            </p>
           </div>
         </div>
         
@@ -19,7 +21,7 @@
           <p>「白熊」は、削った氷に練乳をかけ、その上にチェリーやレーズン、みかん、パイン、小豆、寒天と、色とりどりのトッピングをのせた氷菓子。</p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/ShiroKuma"><b>詳細はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/LocalCuisine/pages/ShiroKuma">詳細はこちら</a>
         </div>
       </div>
 
@@ -28,7 +30,7 @@
         <div class = localcuisine_img>
           <img src="~/assets/img/Karukan02.jpg" alt="かるかん">
           <div class="teikyou">
-            <p><b>画像提供元：鹿児島県</b></p>
+            <p>画像提供元：鹿児島県</p>
           </div>
         </div>
 
@@ -36,7 +38,7 @@
           <p>「かるかん」は、かるかん粉、山芋、水を使ってつくる鹿児島県の銘菓。</p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Karukan"><b>詳細はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/LocalCuisine/pages/Karukan">詳細はこちら</a>
         </div>
       </div>
 
@@ -45,16 +47,21 @@
         <div class = localcuisine_img>
           <img src="~/assets/img/Janbomoti.jpg" alt="じゃんぼ餅">
           <div class="teikyou">
-            <p><b>出典</b></p>
-            <p><b>農林水産省「うちの郷土料理」</b></p>
+            <p>
+              出典：<br>
+              農林水産省「うちの郷土料理」
+            </p>
           </div>
         </div>
 
         <div class = explanation>
-          <p>「じゃんぼ餅」とは、つきたての餅やもち米粉を使っただんご串を2本さして、とろみのある砂糖醤油ダレをかけて食べる、鹿児島県で古くから親しまれている料理である。</p>
+          <p>
+            「じゃんぼ餅」とは、つきたての餅やもち米粉を使っただんご串を2本さして、とろみのある<br>
+            砂糖醤油ダレをかけて食べる、鹿児島県で古くから親しまれている料理である。
+          </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/JumboMochi"><b>詳細はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/LocalCuisine/pages/JumboMochi">詳細はこちら</a>
         </div>
       </div>
 
@@ -63,8 +70,10 @@
         <div class = localcuisine_img>
           <img src="~/assets/img/Miki.jpg" alt="みき">
           <div class="teikyou">
-            <p><b>出典</b></p>
-            <p><b>農林水産省「うちの郷土料理」</b></p>
+            <p>
+              出典：<br>
+              農林水産省「うちの郷土料理」
+            </p>
           </div>
         </div>
 
@@ -75,7 +84,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/LocalCuisine/pages/Miki"><b>詳細はこちら</b></a>
+          <a class ="link" href="http://localhost:3000/LocalCuisine/pages/Miki">詳細はこちら</a>
         </div>
       </div>
       
@@ -116,19 +125,40 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}
+main {margin: 0 auto;}  /* 全余白の指定 */
 
-h1 {font-family: 'New Tegomin', serif;}
+h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
 
-.LocalCuisine p {
-  font-family: serif;
-  font-weight: bold;
+h2.localcuisine_headline {
+  margin: 0px;                       /* 全余白の指定 */
+  padding: 8px 0px;                  /* 全余白の指定 */
+  border-top: 2px solid #d5d4c3;   /* 上線 */
+}
+
+/* 提供 */
+.teikyou {font-weight: bold;  /* 文字の太さ */}
+
+.teikyou p {
+  margin: 0px;        /* 全余白の指定 */
+  font-size: 13px;    /* 文字の大きさ */
+}
+
+.explanation p {
+  margin: 0px;          /* 全余白の指定 */
+  font-family: serif;   /* フォントの変更 */
+  font-weight: bold;    /* 文字の太さ */
+  font-size: 15px;      /* 文字の大きさ */
 }
 
 .link-space a {
-  margin: 0;
-  font-weight: bold;
-  font-size: 15px;
+  margin: 0;          /* 全余白の指定 */
+  font-weight: bold;  /* 文字の太さ */
+  font-size: 15px;    /* 文字の大きさ */
+}
+
+.link {
+  color: blue;          /* 文字の色 */
+  text-decoration: none;  /* 下線の削除 */
 }
 
 /* ページネーション */
@@ -175,43 +205,25 @@ h1 {font-family: 'New Tegomin', serif;}
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  main {max-width: 480px;}
-
   h1 {
     margin: 8px;
     text-align: center;
     margin-bottom: 0;
   }
 
+  br {display: none;}
+
   .localcuisine {text-align: center;}
 
-  h2.localcuisine_headline {
-    margin: 0;
-    text-align: center;
-    padding: 8px 0;
-    border-top: 2px solid #d5d4c3;
+  h2.localcuisine_headline {text-align: center;}
+
+  .explanation p {
+    text-align: left; /* 左寄せ */
+    margin-top: 16px;
   }
 
   .link-space {margin: 8px 0;}
 
-  .explanation p {
-    font-size: 15px;
-    text-align: left; /* 左寄せ */
-    margin-top: 16px;
-    margin-bottom: 0;
-  }
-  
-  .explanation-link {
-    text-decoration: none;
-    color: blue;
-  }
-
-/* 提供 */
-  .teikyou p {
-    margin: 0;
-    font-size: 14px;
-  }
-  
 /* 郷土料理画像 */
   .localcuisine_img img{
     width: 8cm;
@@ -226,17 +238,9 @@ h1 {font-family: 'New Tegomin', serif;}
   h1 {margin-bottom: 0;}
   
 /* 郷土料理一覧説明 */
-  .localcuisine {display: flex;}
-
-  .localcuisine p {
-    margin: 0;
-    font-size: 14px;
-  }
-
-  h2.localcuisine_headline {
-    margin: 0;
-    padding-top: 8px;
-    border-top: 2px solid #d5d4c3;
+  .localcuisine {
+    display: flex;
+    margin-bottom: 16px;
   }
   
   .explanation {
@@ -246,21 +250,12 @@ h1 {font-family: 'New Tegomin', serif;}
 
   .link-space {align-self: end;}
 
-  .explanation-link {
-    align-self: end;
-    text-decoration: none;
-    color: blue;
-  }
-
-  a:hover.explanation-link {color: rgb(71, 1, 92);}
+  a:hover.link {color: rgb(71, 1, 92);}
 
 /* 郷土料理画像 */
   .localcuisine_img img{
     width: 5cm;
     height: auto;
   }
-
-/* 提供 */
-  .teikyou p {font-size: 13px;}
 }
 </style>

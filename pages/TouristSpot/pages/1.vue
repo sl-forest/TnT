@@ -19,7 +19,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Sakurajima"><b>スポット情報</b></a>
+          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Sakurajima">スポット情報</a>
         </div>
       </div>
 
@@ -33,11 +33,12 @@
           <p>
             日本で初めて世界自然遺産に登録された。<br>
             本土最南端・鹿児島県佐多岬の南南西約60キロメートルの海上に位置する島。<br>
-            小さな面積ながら、九州最高峰の宮之浦岳（標高約1,936メートル）をはじめ、1,000メートル超の山々が46座もあり、「洋上のアルプス」と呼ばれている。
+            小さな面積ながら、九州最高峰の宮之浦岳（標高約1,936メートル）をはじめ、<br>
+            1,000メートル超の山々が46座もあり、「洋上のアルプス」と呼ばれている。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Yakushima"><b>スポット情報</b></a>
+          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Yakushima">スポット情報</a>
         </div>
       </div>
 
@@ -55,7 +56,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/Amami"><b>スポット情報</b></a>
+          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Amami">スポット情報</a>
         </div>
       </div>
 
@@ -67,12 +68,14 @@
 
         <div class = explanation>
           <p>
-            1969年に造られた種子島宇宙センターは、総面積約970万平米に及ぶ、日本最大のロケット発射場。<br>
-            青い海と白い砂浜に囲まれていることから、「世界一美しいロケット発射場」と呼ばれている。
+            1969年に造られた種子島宇宙センターは、総面積約970万平米に及ぶ、<br>
+            日本最大のロケット発射場。<br>
+            青い海と白い砂浜に囲まれていることから、「世界一美しいロケット発射場」<br>
+            と呼ばれている。
           </p>
         </div>
         <div class="link-space">
-          <a class ="explanation-link" href="http://localhost:3000/TouristSpot/pages/SpaceCenter"><b>スポット情報</b></a>
+          <a class ="link" href="http://localhost:3000/TouristSpot/pages/SpaceCenter">スポット情報</a>
         </div>
       </div>
       
@@ -117,19 +120,33 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}
+main {margin: 0 auto;}  /* 全余白の指定 */
 
-h1 {font-family: 'New Tegomin', serif;}
+h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
 
-.spot p {
-  font-family: serif;
-  font-weight: bold;
+h2.spot_headline {
+  margin: 0px;                       /* 全余白の指定 */
+  padding: 8px 0px;                  /* 全余白の指定 */
+  border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
+.explanation p {
+  margin: 0px;          /* 全余白の指定 */
+  font-family: serif;   /* フォントの変更 */
+  font-weight: bold;    /* 文字の太さ */
+  font-size: 15px;      /* 文字の大きさ */
+}
+
+
 .link-space a {
-  margin: 0;
-  font-weight: bold;
-  font-size: 15px;
+  margin: 0;          /* 全余白の指定 */
+  font-weight: bold;  /* 文字の太さ */
+  font-size: 15px;    /* 文字の大きさ */
+}
+
+.link {
+  color: blue;          /* 文字の色 */
+  text-decoration: none;  /* 下線の削除 */
 }
 
 /* ページネーション */
@@ -176,35 +193,22 @@ h1 {font-family: 'New Tegomin', serif;}
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
+  br {display: none;}
+
   h1 {
-    margin: 8px;
     text-align: center;
     margin-bottom: 0;
   }
 
-  br {display: none;}
-
   .spot {text-align: center;}
 
-  h2.spot_headline {
-    margin: 0;
-    text-align: center;
-    padding: 8px 0;
-    border-top: 2px solid #d5d4c3;
-  }
+  h2.spot_headline {text-align: center;}
 
   .link-space {margin: 8px 0;}
 
   .explanation p {
-    font-size: 15px;
     text-align: left; /* 左寄せ */
     margin-top: 16px;
-    margin-bottom: 0;
-  }
-  
-  .explanation-link {
-    text-decoration: none;
-    color: blue;
   }
   
 /* 観光地理画像 */
@@ -221,17 +225,9 @@ h1 {font-family: 'New Tegomin', serif;}
   h1 {margin-bottom: 0;}
   
 /* 観光地一覧説明 */
-  .spot {display: flex;}
-
-  .spot p {
-    margin: 0;
-    font-size: 14px;
-  }
-
-  h2.spot_headline {
-    margin: 0;
-    padding-top: 8px;
-    border-top: 2px solid #d5d4c3;
+  .spot {
+    display: flex;
+    margin-bottom: 16px;
   }
   
   .explanation {
@@ -241,13 +237,9 @@ h1 {font-family: 'New Tegomin', serif;}
 
   .link-space {align-self: end;}
 
-  .explanation-link {
-    align-self: end;
-    text-decoration: none;
-    color: blue;
+  a:hover.link {
+    color: rgb(71, 1, 92);
   }
-
-  a:hover.explanation-link {color: rgb(71, 1, 92);}
 
 /* 観光地画像 */
   .spot_img img{

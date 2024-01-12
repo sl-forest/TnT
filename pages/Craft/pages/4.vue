@@ -2,46 +2,64 @@
 
   <div>
     <TheHeader />
+
     <main>
-      <h1>「国指定伝統工芸品」</h1>
-      <h2 class = craft_headline>本場大島紬</h2>
+      <h1>「県指定伝統工芸品」</h1>
+      <h2 class = craft_headline>加世田鎌・加世田包丁</h2>
       <div class="craft">
         <div class = craft_img>
-          <img src="~/assets/img/OshimaTsumugi.jpg" alt="本場大島紬">
+          <img src="~/assets/img/Kaseda.jpg" alt="加世田鎌・加世田包丁">
         </div>
         
         <div class = explanation>
           <p>
-            1,300年の歴史を持ち、絹織物の最高傑作といわれている。<br>
-            30数工程もある緻密な手作業により、図案から織り上がるまで半年から1年以上もかかる。<br>
-            大島紬村では本場大島紬の製造現場見学や、泥染め・織り体験、着付体験などが楽しめる。
+            槌の打ち跡が生々しく、荒々しい鋼の黒光りを持つ加世田の刃物。<br>
+            加世田包丁は日本刀と似た手法でつくられており、加世田鎌も両刃の丈夫さに刀鍛冶の技術がいかされている。
           </p>
         </div>
-
         <div class="link-space">
-          <a class="link" href="http://localhost:3000/Craft/pages/AuthenticOshimaTsumugi">基本情報はこちら</a>
+          <a class ="link" href="http://localhost:3000/Craft/pages/Kaseda">基本情報はこちら</a>
         </div>
-
       </div>
 
-      <h2 class = craft_headline>川辺仏壇</h2>
+      <h2 class = craft_headline>甲冑</h2>
       <div class="craft">
         <div class = craft_img>
-          <img src="~/assets/img/kawabebutudan.jpg" alt="川辺仏壇">
+          <img src="~/assets/img/Kattyu.jpeg" alt="甲冑">        
+          <div class="teikyou">
+            <p>
+              写真協力<br>
+              公益社団法人 鹿児島県観光連盟
+            </p>
+          </div>
         </div>
 
         <div class = explanation>
           <p>
-            川辺仏壇（かわなべぶつだん）は、鹿児島県南九州市川辺町周辺で作られている仏壇。<br>
-            川辺仏壇の特徴は、「ガマ戸」と呼ばれる川辺仏壇オリジナルの独特な仏壇がある。<br>
-            ”ガマ”とは、鹿児島県の方言で洞窟を表す。
+            昔ながらの製法を守りながら、映画・テレビなどの時代劇に使用される鎧やかぶとの<br>
+            全国シェア９割以上の生産を誇り、全国各地のお祭りの武者行列などでも使用されている。
           </p>
         </div>
-
         <div class="link-space">
-          <a class="link" href="http://localhost:3000/Craft/pages/KawabeButsudan">基本情報はこちら</a>
+          <a class ="link" href="http://localhost:3000/Craft/pages/Armor">基本情報はこちら</a>
+        </div>
+      </div>        
+
+      <h2 class = craft_headline>竹製品</h2>
+      <div class="craft">
+        <div class = craft_img>
+          <img src="~/assets/img/bambooproducts.jpg" alt="竹製品">
         </div>
 
+        <div class = explanation>
+          <p>
+            鹿児島は竹林面積日本一の「竹」のふるさと。<br>
+            古くから竹を使って様々な生活道具が作られており、庶民生活には欠かせないもの。
+          </p>
+        </div>
+        <div class="link-space">
+          <a class ="link" href="http://localhost:3000/Craft/pages/BambooProducts">基本情報はこちら</a>
+        </div>
       </div>
       
       <ul class="Pagination">
@@ -58,7 +76,7 @@
         </li>
         
         <li class="Pagination-Item">
-          <a class="Pagination-Item-Link isActive" href="http://localhost:3000/Craft/pages/2"><span>2</span></a>
+          <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/2"><span>2</span></a>
         </li>
 
         <li class="Pagination-Item">
@@ -66,7 +84,7 @@
         </li>
 
         <li class="Pagination-Item">
-          <a class="Pagination-Item-Link" href="http://localhost:3000/Craft/pages/4"><span>4</span></a>
+          <a class="Pagination-Item-Link isActive" href="http://localhost:3000/Craft/pages/4"><span>4</span></a>
         </li>
 
         <li class="Pagination-Item">
@@ -77,7 +95,7 @@
           </a>
         </li>
       </ul>
-    </main> 
+    </main>
     <TheFooter />
   </div>
 
@@ -95,6 +113,14 @@ h2.craft_headline {
   border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
+/* 提供 */
+.teikyou {font-weight: bold;} /* 文字の太さ */
+
+.teikyou p {
+  margin: 0px;        /* 全余白の指定 */
+  font-size: 13px;    /* 文字の大きさ */
+}
+
 .explanation p {
   margin: 0px;          /* 全余白の指定 */
   font-family: serif;   /* フォントの変更 */
@@ -102,11 +128,10 @@ h2.craft_headline {
   font-size: 15px;      /* 文字の大きさ */
 }
 
-
 .link-space a {
-  margin: 0;          /* 全余白の指定 */
-  font-weight: bold;  /* 文字の太さ */
-  font-size: 15px;    /* 文字の大きさ */
+  margin: 0;            /* 全余白の指定 */
+  font-weight: bold;    /* 文字の太さ */
+  font-size: 15px;      /* 文字の大きさ */
 }
 
 .link {
@@ -161,6 +186,7 @@ h2.craft_headline {
   br {display: none;}
 
   h1 {
+    margin: 8px;
     text-align: center;
     margin-bottom: 0;
   }
@@ -176,7 +202,7 @@ h2.craft_headline {
     margin-top: 16px;
   }
   
-/* 観光地理画像 */
+/* 世界遺産画像 */
   .craft_img img{
     width: 8cm;
     height: auto;
@@ -189,7 +215,7 @@ h2.craft_headline {
 
   h1 {margin-bottom: 0;}
   
-/* 観光地一覧説明 */
+/* 世界遺産一覧説明 */
   .craft {
     display: flex;
     margin-bottom: 16px;
@@ -202,13 +228,11 @@ h2.craft_headline {
 
   .link-space {align-self: end;}
 
-  a:hover.link {
-    color: rgb(71, 1, 92);
-  }
+  a:hover.link {color: rgb(71, 1, 92);}
 
-/* 観光地画像 */
+/* 世界遺産画像 */
   .craft_img img{
-    width: 5cm;
+    width: 6cm;
     height: auto;
   }
 }

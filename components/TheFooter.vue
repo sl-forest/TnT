@@ -11,7 +11,7 @@
 
         <h1>鹿児島紹介サイト</h1>
 
-        <div class="serach">
+        <div class="serach-sm">
           <form method="get" action="http://www.google.co.jp/search" class="search-form" target="_blank">
           <label>  
             <input type="text" name="q" placeholder="Google検索">
@@ -29,6 +29,16 @@
             <li><a href="http://localhost:3000/WorldHeritage/pages/1">世界遺産</a></li>
           </ul>
         </div>
+
+        <div class="serach-pc">
+          <form method="get" action="http://www.google.co.jp/search" class="search-form" target="_blank">
+          <label>  
+            <input type="text" name="q" placeholder="Google検索">
+          </label>
+            <button type="submit" name="btng" value="検索"></button>
+          </form>
+        </div>
+
       </div>
     </div><!-- /inner-block -->
     
@@ -62,12 +72,6 @@
 
   /* 検索 */
   #footer form {margin: auto;}
-
-  #footer .serach {
-    margin-left: 88px;
-    margin-top: 12px;
-    margin-bottom: 32px;
-  }
 
   #footer .search-form {
     display: flex;
@@ -142,16 +146,18 @@
     height: 80px;
   }
 
-  #footer .serach {
-    margin-top: 20px;
+  #footer .serach-sm {display: none;}
+
+  #footer .serach-pc {
+    margin-top: 28px;
     margin-left: 24px;
     margin-bottom: 0;
   }
  
   #footer .nav {
     display: inline-block;
-    list-style: none;
     margin-top: 30px;
+    margin-bottom: 0;
   }
  
   #footer .nav li {display: inline-block;}
@@ -160,6 +166,7 @@
 
   #footer .nav li a:hover {color: #ffd700;}
 }
+
 /* スマホ */
 @media only screen and (max-width: 480px) {
   #footer {padding: 20px 0 0;}
@@ -180,7 +187,18 @@
 
   #footer .inner-block h1 {text-align: center;}
 
-  #footer .nav {list-style: none;}
+  #footer .serach-pc {display: none;}
+
+  #footer .serach-sm {
+    margin-left: 88px;
+    margin-top: 12px;
+    margin-bottom: 32px;
+  }
+
+  #footer .nav {
+    padding: 0px 40px;
+    list-style: none;
+  }
 
   #footer .nav li {border-top: 1px solid #555;}
  
