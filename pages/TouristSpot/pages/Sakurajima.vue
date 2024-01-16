@@ -8,7 +8,7 @@
       <div class="TouristSpot">
 
         <div class = TouristSpot_img>
-          <img src="~/assets/img/sakurajima02.jpg" alt="桜島">
+          <img src="~/assets/img/sakurajima.jpg" alt="桜島">
         </div>
         
         <div class = TouristSpot_note>

@@ -202,11 +202,8 @@ h2.craft_headline {
     margin-top: 16px;
   }
   
-/* 世界遺産画像 */
-  .craft_img img{
-    width: 8cm;
-    height: auto;
-  }
+/* 画像 */
+  .craft_img img {width: 8cm;}
 }
 
 /* PC向けスタイル */
@@ -231,9 +228,6 @@ h2.craft_headline {
   a:hover.link {color: rgb(71, 1, 92);}
 
 /* 世界遺産画像 */
-  .craft_img img{
-    width: 6cm;
-    height: auto;
-  }
+  .craft_img img {width: 6cm;}
 }
 </style>

@@ -210,10 +210,7 @@ h2.spot_headline {
   }
   
 /* 観光地理画像 */
-  .spot_img img{
-    width: 8cm;
-    height: auto;
-  }
+  .spot_img img{height: 7cm;}
 }
 
 /* PC向けスタイル */
@@ -240,9 +237,6 @@ h2.spot_headline {
   }
 
 /* 観光地画像 */
-  .spot_img img{
-    width: 5cm;
-    height: auto;
-  }
+  .spot_img img{width: 6cm;}
 }
 </style>

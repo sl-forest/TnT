@@ -202,12 +202,10 @@ h1 {font-family: 'New Tegomin', serif;}
 
   .localcuisine h1 {margin: 1.6px auto;}
 
+/* 画像 */
   .localcuisine_img {text-align: center;}
 
-  .localcuisine_img img {
-    height: 8cm;
-    width: auto;
-  }
+  .localcuisine_img img {height: 7cm;}
 
 /*材料*/
   .localcuisine_note {margin-top: 16px;}
@@ -326,6 +324,7 @@ h1 {font-family: 'New Tegomin', serif;}
 
   .localcuisine h1 {margin: 1.6px auto;}
 
+/* 画像 */
   .localcuisine_img img {height: 8cm;}
 
 /*材料*/

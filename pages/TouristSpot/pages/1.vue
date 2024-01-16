@@ -8,7 +8,7 @@
       <h2 class = spot_headline>桜島</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/sakurajima02.jpg" alt="桜島">
+          <img src="~/assets/img/sakurajima.jpg" alt="桜島">
         </div>
         
         <div class = explanation>
@@ -211,11 +211,8 @@ h2.spot_headline {
     margin-top: 16px;
   }
   
-/* 観光地理画像 */
-  .spot_img img{
-    width: 8cm;
-    height: auto;
-  }
+/* 画像 */
+  .spot_img img{height: 7cm;}
 }
 
 /* PC向けスタイル */
@@ -224,7 +221,7 @@ h2.spot_headline {
 
   h1 {margin-bottom: 0;}
   
-/* 観光地一覧説明 */
+/* 一覧説明 */
   .spot {
     display: flex;
     margin-bottom: 16px;
@@ -242,9 +239,6 @@ h2.spot_headline {
   }
 
 /* 観光地画像 */
-  .spot_img img{
-    width: 5cm;
-    height: auto;
-  }
+  .spot_img img{width: 6cm;}
 }
 </style>

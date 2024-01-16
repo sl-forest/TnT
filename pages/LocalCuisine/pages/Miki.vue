@@ -9,7 +9,7 @@
         <div class = localcuisine_img>
           <img src="~/assets/img/Miki.jpg" alt="みき">
           <div class="teikyou">
-            <p><b>出典：農林水産省「うちの郷土料理」</b></p>
+            <p>出典：農林水産省「うちの郷土料理」</p>
           </div>
         </div>
         
@@ -123,6 +123,9 @@ main {margin: 0 auto;}
 
 .quantity {list-style-type: none;}
 
+/* 提供文字 */
+.teikyou {font-weight: bold;}
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
   h1 {text-align: center;}
@@ -132,14 +135,12 @@ main {margin: 0 auto;}
 
   .localcuisine h1 {margin: 1.6px auto;}
 
+/* 画像 */
   .localcuisine_img {text-align: center;}
 
-  .localcuisine_img img {
-    height: 8cm;
-    width: auto;
-  }
+  .localcuisine_img img {height: 7cm;}
 
-/* 写真提供 */
+/* 提供文字 */
   .teikyou p {margin: 8px 0;}
 
 /*材料*/
@@ -259,9 +260,10 @@ main {margin: 0 auto;}
 
   .localcuisine h1 {margin: 1.6px auto;}
 
+/* 画像 */
   .localcuisine_img img {height: 8cm;}
 
-/* 写真提供 */
+/* 提供文字 */
   .teikyou p {margin: 0;}
 
 /*材料*/

@@ -7,7 +7,7 @@
       <h1>鳥刺し</h1>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Torisashi02.jpeg" alt="鳥刺し">
+          <img src="~/assets/img/Torisashi.jpeg" alt="鳥刺し">
         </div>
           
         <div class = localcuisine_note>
@@ -24,7 +24,11 @@
           
           <dl>
             <dt>歴史</dt>
-            <dd>鹿児島県では、江戸時代から薩摩武士たちが士風高揚のため、盛んに闘鶏をおこなっており、その際に負けた鶏をその場でしめて食べる習慣があった。闘鶏が禁止された後も、各家庭で鶏が飼われ、来客がある時や祝いの席のために鶏をしめて調理し食べていたという。このように鹿児島県においては、古くから鶏肉を使った料理が身近でにあったことから、鶏肉を刺身で食べる「鶏刺し」が根づいたと考えられてる。</dd>
+            <dd>
+              鹿児島県では、江戸時代から薩摩武士たちが士風高揚のため、盛んに闘鶏をおこなっており、
+              その際に負けた鶏をその場でしめて食べる習慣があった。闘鶏が禁止された後も、各家庭で鶏が飼われ、
+              来客がある時や祝いの席のために鶏をしめて調理し食べていたという。
+            </dd>
           </dl>
 
         </div>
@@ -139,12 +143,10 @@ main {margin: 0 auto;}
 
   .localcuisine h1 {margin: 1.6px auto;}
 
+/* 画像 */
   .localcuisine_img {text-align: center;}
 
-  .localcuisine_img img {
-    height: 8cm;
-    width: auto;
-  }
+  .localcuisine_img img {height: 7cm;}
 
 /*材料*/
   .localcuisine_note {margin-top: 16px;}
@@ -263,6 +265,7 @@ main {margin: 0 auto;}
 
   .localcuisine h1 {margin: 1.6px auto;}
 
+/* 画像 */
   .localcuisine_img img {height: 8cm;}
 
 /*材料*/
@@ -288,7 +291,7 @@ main {margin: 0 auto;}
   }
 
   .localcuisine_note dd {
-    width: 20cm;
+    width: 14cm;
     margin: 0px;
     display: flex;
     background-color: #fff;

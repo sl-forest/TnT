@@ -24,7 +24,11 @@
 
           <dl>
             <dt>歴史</dt>
-            <dd>内湾が多く、ブリの稚魚のモジャコがとれる鹿児島県はブリの養殖生産量で全国1位。なかでも養殖ブリの生産量日本一を誇る長島町では、厳しい管理基準を設け育った養殖ブリを「鰤王」と名付け、国内のみならず、海外への輸出もおこなっている。また、垂水（たるみず）市や鹿屋（かのや）市、南大隅町などでもブリの養殖は盛んにおこなわれている。</dd>
+            <dd>
+              内湾が多く、ブリの稚魚のモジャコがとれる鹿児島県はブリの養殖生産量で全国1位。
+              なかでも養殖ブリの生産量日本一を誇る長島町では、厳しい管理基準を設け育った養殖ブリを「鰤王」と名付け、
+              国内のみならず、海外への輸出もおこなっている。
+            </dd>
           </dl>
 
         </div>
@@ -167,12 +171,10 @@ main {margin: 0 auto;}
 
   .localcuisine h1 {margin: 1.6px auto;}
 
+/* 画像 */
   .localcuisine_img {text-align: center;}
 
-  .localcuisine_img img {
-    height: 7cm;
-    width: auto;
-  }
+  .localcuisine_img img {height: 7cm;}
 
 /*材料*/
   .localcuisine_note {margin-top: 16px;}
@@ -291,6 +293,7 @@ main {margin: 0 auto;}
 
   .localcuisine h1 {margin: 1.6px auto;}
 
+/* 画像 */
   .localcuisine_img img {height: 8cm;}
 
 /*材料*/

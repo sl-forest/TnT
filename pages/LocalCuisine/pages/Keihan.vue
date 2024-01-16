@@ -7,7 +7,7 @@
       <h1>鶏飯（けいはん）</h1>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Keihan.jpeg" alt="鶏飯">
+          <img src="~/assets/img/Keihan.jpg" alt="鶏飯">
         </div>
           
         <div class = localcuisine_note>
@@ -303,12 +303,10 @@ main {margin: 0 auto;}
 
   .localcuisine h1 {margin: 1.6px auto;}
 
+/* 画像 */
   .localcuisine_img {text-align: center;}
 
-  .localcuisine_img img {
-    height: 8cm;
-    width: 6cm;
-  }
+  .localcuisine_img img {height: 7cm;}
 
 /*材料*/
   .localcuisine_note {margin-top: 16px;}
@@ -427,7 +425,8 @@ main {margin: 0 auto;}
 
   .localcuisine h1 {margin: 1.6px auto;}
 
-  .localcuisine_img img {height: 12cm;}
+/* 画像 */
+  .localcuisine_img img {height: 8cm;}
 
 /*材料*/
   .localcuisine_note {
@@ -452,7 +451,7 @@ main {margin: 0 auto;}
   }
 
   .localcuisine_note dd {
-    width: 18cm;
+    width: 14cm;
     margin: 0px;
     display: flex;
     background-color: #fff;

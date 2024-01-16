@@ -66,7 +66,7 @@
         </div>
       </div>
 
-      <h2 class = worldheritage_headline>旧集成館「旧鹿児島紡績所技師館」（異人館）</h2>
+      <h2 class = worldheritage_headline_small>旧集成館「旧鹿児島紡績所技師館」（異人館）</h2>
       <div class="worldheritage">
         <div class = worldheritage_img>
           <img src="~/assets/img/Ijinkan.jpeg" alt="旧集成館「旧鹿児島紡績所技師館」（異人館）">
@@ -119,6 +119,12 @@ main {margin: 0 auto;}  /* 全余白の指定 */
 h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
 
 h2.worldheritage_headline {
+  margin: 0px;                       /* 全余白の指定 */
+  padding: 8px 0px;                  /* 全余白の指定 */
+  border-top: 2px solid #d5d4c3;   /* 上線 */
+}
+
+h2.worldheritage_headline_small {
   margin: 0px;                       /* 全余白の指定 */
   padding: 8px 0px;                  /* 全余白の指定 */
   border-top: 2px solid #d5d4c3;   /* 上線 */
@@ -206,6 +212,11 @@ h2.worldheritage_headline {
 
   h2.worldheritage_headline {text-align: center;}
 
+  h2.worldheritage_headline_small {
+    text-align: center;
+    font-size: 22px;
+  }
+
   .link-space {margin: 8px 0;}
 
   .explanation p {
@@ -213,11 +224,8 @@ h2.worldheritage_headline {
     margin-top: 16px;
   }
   
-/* 世界遺産画像 */
-  .worldheritage_img img{
-    width: 8cm;
-    height: auto;
-  }
+/* 画像 */
+  .worldheritage_img img {height: 6cm;}
 }
 
 /* PC向けスタイル */
@@ -226,7 +234,7 @@ h2.worldheritage_headline {
 
   h1 {margin-bottom: 0;}
   
-/* 世界遺産一覧説明 */
+/* 一覧説明 */
   .worldheritage {
     display: flex;
     margin-bottom: 16px;
@@ -241,10 +249,7 @@ h2.worldheritage_headline {
 
   a:hover.link {color: rgb(71, 1, 92);}
 
-/* 世界遺産画像 */
-  .worldheritage_img img{
-    width: 6cm;
-    height: auto;
-  }
+/* 画像 */
+  .worldheritage_img img {width: 6cm;}
 }
 </style>

@@ -51,7 +51,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    padding: 1.4em;
+    padding: 0.8em;
     background: #242428;
     border-bottom: 2px solid #3c4356;
     justify-content: space-evenly;

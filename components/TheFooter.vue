@@ -116,7 +116,6 @@
   }
 
   #footer .copyright {
-    padding-bottom: 16px;
     text-align: center; 
     height: 32px;
     color: white;
@@ -128,7 +127,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 16px;
   }
  
   #footer .cont {

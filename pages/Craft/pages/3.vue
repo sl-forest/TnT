@@ -198,10 +198,7 @@ h2.craft_headline {
   }
   
 /* 観光地理画像 */
-  .craft_img img{
-    width: 8cm;
-    height: auto;
-  }
+  .craft_img img {width: 8cm;}
 }
 
 /* PC向けスタイル */
@@ -228,9 +225,6 @@ h2.craft_headline {
   }
 
 /* 観光地画像 */
-  .craft_img img{
-    width: 5cm;
-    height: auto;
-  }
+  .craft_img img {width: 6cm;}
 }
 </style>

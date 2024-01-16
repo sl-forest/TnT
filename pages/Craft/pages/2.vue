@@ -176,11 +176,8 @@ h2.craft_headline {
     margin-top: 16px;
   }
   
-/* 観光地理画像 */
-  .craft_img img{
-    width: 8cm;
-    height: auto;
-  }
+/* 画像 */
+  .craft_img img {width: 8cm;}
 }
 
 /* PC向けスタイル */
@@ -206,10 +203,7 @@ h2.craft_headline {
     color: rgb(71, 1, 92);
   }
 
-/* 観光地画像 */
-  .craft_img img{
-    width: 5cm;
-    height: auto;
-  }
+/* 画像 */
+  .craft_img img{width: 6cm;}
 }
 </style>

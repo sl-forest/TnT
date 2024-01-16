@@ -135,7 +135,7 @@ h2.localcuisine_headline {
   border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
-/* 提供 */
+/* 提供文字 */
 .teikyou {font-weight: bold;  /* 文字の太さ */}
 
 .teikyou p {
@@ -225,10 +225,7 @@ h2.localcuisine_headline {
   .link-space {margin: 8px 0;}
 
 /* 郷土料理画像 */
-  .localcuisine_img img{
-    width: 8cm;
-    height: auto;
-  }
+  .localcuisine_img img {height: 7cm;}
 }
 
 /* PC向けスタイル */
@@ -253,9 +250,6 @@ h2.localcuisine_headline {
   a:hover.link {color: rgb(71, 1, 92);}
 
 /* 郷土料理画像 */
-  .localcuisine_img img{
-    width: 5cm;
-    height: auto;
-  }
+  .localcuisine_img img{width: 6cm;}
 }
 </style>

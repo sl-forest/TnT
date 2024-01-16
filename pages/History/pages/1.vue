@@ -81,7 +81,7 @@
         </div>
       </div>
 
-      <h2 class = history_headline>天璋院篤姫（てんしょういんあつひめ）（1836-1883）</h2>
+      <h2 class = history_headline_last>天璋院篤姫（てんしょういんあつひめ）（1836-1883）</h2>
       <div class="history">
         <div class = history_img>
           <img src="~/assets/img/Atsuhime.jpg" alt="天璋院篤姫">
@@ -111,6 +111,12 @@ main {margin: 0 auto;}  /* 全余白の指定 */
 h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
 
 h2.history_headline {
+  margin: 0px;                       /* 全余白の指定 */
+  padding: 8px 0px;                  /* 全余白の指定 */
+  border-top: 2px solid #d5d4c3;   /* 上線 */
+}
+
+h2.history_headline_last {
   margin: 0px;                       /* 全余白の指定 */
   padding: 8px 0px;                  /* 全余白の指定 */
   border-top: 2px solid #d5d4c3;   /* 上線 */
@@ -151,6 +157,11 @@ h2.history_headline {
     font-size: 28px;
   }
 
+  h2.history_headline_last {
+    text-align: center;
+    font-size: 25px;
+  }
+
   .link-space {margin: 8px 0;}
 
   .explanation p {
@@ -158,11 +169,8 @@ h2.history_headline {
     margin-top: 16px;
   }
   
-/* 工芸品画像 */
-  .history_img img {
-    width: 8cm;
-    height: auto;
-  }
+/* 画像 */
+  .history_img img {height: 7cm;}
 }
 
 /* PC向けスタイル */
@@ -186,10 +194,7 @@ h2.history_headline {
 
   a:hover.link {color: rgb(71, 1, 92);}
 
-/* 工芸品画像 */
-  .history_img img{
-    width: 5cm;
-    height: auto;
-  }
+/* 画像 */
+  .history_img img{width: 6cm;}
 }
 </style>

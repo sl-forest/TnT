@@ -5,8 +5,11 @@
 
     <main>
       <div class="top_img">
-        <img src="~/assets/img/Top_img1.png" alt="トップ画像">
+        <img class="item1" src="~/assets/img/Top01.jpg" alt="トップ画像">
+        <img class="item1" src="~/assets/img/Top02.jpg" alt="トップ画像">
+        <img class="item1" src="~/assets/img/Top03.jpg" alt="トップ画像">
       </div>
+
 
       <div class="Kagoshima_about">
           <h1>～鹿児島について～</h1>
@@ -115,11 +118,90 @@
 
 <style>
 /* 共通 */
-.top_img img {max-width: 100%;}  /* 最大幅の指定 */
+/* トップ画像 */
+.top_img {
+  overflow: hidden;
+  position: relative;
+}
 
-.Kagoshima_about h1 {font-family: 'New Tegomin', serif;}  /* フォントの変更 */
+/* imgのみ */
+.item1 {
+  opacity: 0;
+  object-fit: cover;
+  position: absolute;
+  -webkit-animation: anime 30s 0s infinite;
+  animation: anime 30s 0s infinite;
+}
 
-.headline h2 {font-family: 'New Tegomin', serif;}  /* フォントの変更 */
+.item1:nth-of-type(2) {
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+}
+
+.item1:nth-of-type(3) {
+  -webkit-animation-delay: 20s;
+  animation-delay: 20s;
+}
+
+/* ふわっとアニメーション */
+@keyframes anime {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    z-index: 9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes anime {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    z-index: 9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.top_img p {
+  margin: 0;                    /* 全余白の指定 */
+  font-family: 'New Tegomin';   /* フォントの変更 */
+  writing-mode: vertical-rl;    /* 縦書き */
+  position: absolute;
+  color: #fff;                /* 色変更 */
+  transform: translate(-50%,-50%);  
+}
+
+.Kagoshima_about h1 {
+  margin: 8px 0px;                    /* 全余白の指定 */
+  font-family: 'New Tegomin', serif;  /* フォントの変更 */
+}  
+
+.headline h2 {
+  margin: 8px 0px;                    /* 全余白の指定 */
+  font-size: 40px;                    /* 文字の大きさ */
+  font-family: 'New Tegomin', serif;  /* フォントの変更 */
+  text-align: center;                 /* 左右の中央揃え */
+}
 
 .Kagoshima_about {text-align: center;}  /* 左右の中央揃え */
 
@@ -142,27 +224,29 @@ a.text_area {
   * {
 	  float: none;
 	  position: static;
+    max-width: 100%;
   }
 
   .pc {display: none;}    /* 表示しない */
 
-  .Kagoshima_about h1 {
-    margin: 0;            /* 全余白の指定 */
-    font-size: 32px;      /* 文字の大きさ */
+  .top_img {
+    height: 240px;
+    width: 480px;
   }
+
+  .top_img img {
+    height: 240px;
+    width: 480px;
+  }
+
+  .Kagoshima_about h1 {font-size: 32px;}
 
   .Kagoshima_about p {
     margin: 0;            /* 全余白の指定 */
     font-size: 16px;      /* 文字の大きさ */
   }
 
-  /* 紹介 */
-  .headline h2 {
-    font-size: 40px;      /* 文字の大きさ */
-    text-align: center;   /* 左右の中央揃え */
-    margin-bottom: 16px;  /* 下の余白の指定 */
-  }
-
+/* 画像 */
   figure.image_area01 img,
   figure.image_area03 img,
   figure.image_area05 img,
@@ -188,21 +272,21 @@ a.text_area {
 
 /* PC（ 画面サイズが1024px以上 ）*/
 @media screen and (min-width: 1024px) {
-  .Kagoshima_about h1 {
-    font-size: 40px;      /* 文字の大きさ */
-    margin-bottom: 8px;   /* 下の余白の指定 */
+  .top_img {
+    height: 550px;
+    width: 1324px;
   }
+
+  .top_img img {
+    height: 550px;
+    width: 1324px;
+  } 
+
+  .Kagoshima_about h1 {font-size: 40px;}  /* 文字の大きさ */
 
   .Kagoshima_about p {
     font-size: 25px;      /* 文字の大きさ */
     margin: 0;            /* 全余白の指定 */
-  }
-
-/* 紹介 */
-  .headline h2 {
-    font-size: 40px;      /* 文字の大きさ */
-    text-align: center;   /* 左右の中央揃え */
-    margin-bottom: 16px;  /* 下の余白の指定 */
   }
 
   figure.image_area {
@@ -264,9 +348,10 @@ a.text_area {
 
   .introduction {
     margin: auto;          /*全余白の指定 */
-    width: 1000px;         /* 幅の指定 */ 
+    padding: 8px 0px;      /*全余白の指定 */
+    width: 1000px;         /* 幅の指定 */
     display: flex;         /* 横並び */
-    align-items: center;   /* 上下の中央揃え */  
+    align-items: center;   /* 上下の中央揃え */
     border-top: 2px solid #d5d4c3;    /* 上線 */
   }
 }
