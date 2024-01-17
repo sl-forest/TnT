@@ -21,7 +21,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="link" href="http://localhost:3000/History/pages/ShimazuNariakira" target="_blank"><b>年表はこちら</b></a>
+          <a class ="btn" href="http://localhost:3000/History/pages/ShimazuNariakira" target="_blank"><b>年表</b></a>
         </div>
       </div>
 
@@ -40,7 +40,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="link" href="http://localhost:3000/History/pages/SaigoTakamori" target="_blank"><b>年表はこちら</b></a>
+          <a class ="btn" href="http://localhost:3000/History/pages/SaigoTakamori" target="_blank"><b>年表</b></a>
         </div> 
       </div>
 
@@ -59,7 +59,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="link" href="http://localhost:3000/History/pages/OkuboToshimichi" target="_blank"><b>年表はこちら</b></a>
+          <a class ="btn" href="http://localhost:3000/History/pages/OkuboToshimichi" target="_blank"><b>年表</b></a>
         </div>
       </div>
 
@@ -77,7 +77,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="link" href="http://localhost:3000/History/pages/KomatsuTatewaki" target="_blank"><b>年表はこちら</b></a>
+          <a class ="btn" href="http://localhost:3000/History/pages/KomatsuTatewaki" target="_blank"><b>年表</b></a>
         </div>
       </div>
 
@@ -94,7 +94,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="link" href="http://localhost:3000/History/pages/TenshoinAtsuhime" target="_blank"><b>年表はこちら</b></a>
+          <a class ="btn" href="http://localhost:3000/History/pages/TenshoinAtsuhime" target="_blank"><b>年表</b></a>
         </div>
       </div>
     
@@ -129,15 +129,22 @@ h2.history_headline_last {
   font-size: 15px;      /* 文字の大きさ */
 }
 
-.link-space a {
-  margin: 0;          /* 全余白の指定 */
-  font-weight: bold;  /* 文字の太さ */
-  font-size: 15px;    /* 文字の大きさ */
+/* ボタン */
+a.btn {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	margin: auto;
+	padding: 5px 40px;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	color: #27acd9;
+	transition: 0.5s;
 }
 
-.link {
-  color: blue;          /* 文字の色 */
-  text-decoration: none;  /* 下線の削除 */
+a.btn:hover {
+	color: #fff;
+	background: #27acd9;
 }
 
 /* スマホ向けスタイル */
@@ -179,7 +186,7 @@ h2.history_headline_last {
   
   h1 {margin-bottom: 0;}
   
-/* 工芸品一覧説明 */
+/* 一覧説明 */
   .history {
     display: flex;
     margin-bottom: 16px;
@@ -192,9 +199,7 @@ h2.history_headline_last {
 
   .link-space {align-self: end;}
 
-  a:hover.link {color: rgb(71, 1, 92);}
-
 /* 画像 */
-  .history_img img{width: 6cm;}
+  .history_img img {width: 5cm;}
 }
 </style>

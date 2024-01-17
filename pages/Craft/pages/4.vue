@@ -18,7 +18,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="link" href="http://localhost:3000/Craft/pages/Kaseda">基本情報はこちら</a>
+          <a class="btn" href="http://localhost:3000/Craft/pages/Kaseda">基本情報</a>
         </div>
       </div>
 
@@ -41,7 +41,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="link" href="http://localhost:3000/Craft/pages/Armor">基本情報はこちら</a>
+          <a class="btn" href="http://localhost:3000/Craft/pages/Armor">基本情報</a>
         </div>
       </div>        
 
@@ -58,7 +58,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="link" href="http://localhost:3000/Craft/pages/BambooProducts">基本情報はこちら</a>
+          <a class="btn" href="http://localhost:3000/Craft/pages/BambooProducts">基本情報</a>
         </div>
       </div>
       
@@ -128,15 +128,23 @@ h2.craft_headline {
   font-size: 15px;      /* 文字の大きさ */
 }
 
-.link-space a {
-  margin: 0;            /* 全余白の指定 */
-  font-weight: bold;    /* 文字の太さ */
-  font-size: 15px;      /* 文字の大きさ */
+/* ボタン */
+a.btn {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 64px;
+	margin: auto;
+	padding: 8px 32px;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	color: #27acd9;
+	transition: 0.5s;
 }
 
-.link {
-  color: blue;          /* 文字の色 */
-  text-decoration: none;  /* 下線の削除 */
+a.btn:hover {
+	color: #fff;
+	background: #27acd9;
 }
 
 /* ページネーション */
@@ -212,7 +220,7 @@ h2.craft_headline {
 
   h1 {margin-bottom: 0;}
   
-/* 世界遺産一覧説明 */
+/* 一覧説明 */
   .craft {
     display: flex;
     margin-bottom: 16px;
@@ -225,9 +233,7 @@ h2.craft_headline {
 
   .link-space {align-self: end;}
 
-  a:hover.link {color: rgb(71, 1, 92);}
-
-/* 世界遺産画像 */
-  .craft_img img {width: 6cm;}
+/* 画像 */
+  .craft_img img {width: 5cm;}
 }
 </style>
