@@ -124,22 +124,20 @@ h2.craft_headline {
 }
 
 /* ボタン */
-a.btn {
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	width: 64px;
-	margin: auto;
-	padding: 8px 32px;
-	font-weight: bold;
-	border: 2px solid #27acd9;
-	color: #27acd9;
-	transition: 0.5s;
+/* ボタン */
+.btn {
+  display: inline-block;
+  padding: 0.3em 1.6em;
+  text-decoration: none;
+  color: black;
+  border: solid 2px black;
+  border-radius: 3px;
+  transition: .4s;
 }
 
-a.btn:hover {
-	color: #fff;
-	background: #27acd9;
+.btn:hover {
+  background: black;
+  color: white;
 }
 
 /* ページネーション */

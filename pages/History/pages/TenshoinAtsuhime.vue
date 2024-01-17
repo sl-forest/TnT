@@ -60,6 +60,8 @@
 /* 共通 */
 main {margin: 0 auto;}
 
+h1 {font-family: 'New Tegomin', serif;}  /* フォントの変更 */
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
   main {max-width: 1024px;}

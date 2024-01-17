@@ -130,21 +130,19 @@ h2.history_headline_last {
 }
 
 /* ボタン */
-a.btn {
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	margin: auto;
-	padding: 5px 40px;
-	font-weight: bold;
-	border: 2px solid #27acd9;
-	color: #27acd9;
-	transition: 0.5s;
+.btn {
+  display: inline-block;
+  padding: 0.3em 2.4em;
+  text-decoration: none;
+  color: black;
+  border: solid 2px black;
+  border-radius: 3px;
+  transition: .4s;
 }
 
-a.btn:hover {
-	color: #fff;
-	background: #27acd9;
+.btn:hover {
+  background: black;
+  color: white;
 }
 
 /* スマホ向けスタイル */
@@ -169,7 +167,7 @@ a.btn:hover {
     font-size: 25px;
   }
 
-  .link-space {margin: 8px 0;}
+  .link-space {margin: 16px 0;}
 
   .explanation p {
     text-align: left; /* 左寄せ */

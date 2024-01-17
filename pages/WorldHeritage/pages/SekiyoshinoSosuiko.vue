@@ -54,6 +54,8 @@
 /* 共通 */
 main {margin: 0 auto;}
 
+h1 {font-family: 'New Tegomin', serif;}  /* フォントの変更 */
+
 .WorldHeritage_note dd a {
   text-decoration: none;
   color: blue;
