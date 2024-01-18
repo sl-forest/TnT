@@ -1,22 +1,22 @@
 <template>
   
   <div>
+    <Loding />
     <TheHeader />
 
-    <main>
+    <body>
       <div class="top_img">
 
         <img class="item1" src="~/assets/img/Top01.jpg" alt="トップ画像">
         <img class="item1" src="~/assets/img/Top02.jpg" alt="トップ画像">
         <img class="item1" src="~/assets/img/Top03.jpg" alt="トップ画像">
 
-        <p>
+        <div class="fuchidori">
           鹿児島へ<br>
-           &emsp; ようこそ
-        </p>
+          &emsp; ようこそ
+        </div>
 
       </div>
-
 
       <div class="Kagoshima_about">
         <h1>～鹿児島について～</h1>
@@ -117,7 +117,7 @@
           </a>
         </figure>
       </div>
-    </main>
+    </body>
     <TheFooter />
   </div>
   
@@ -129,6 +129,18 @@
 .top_img {
   overflow: hidden;
   position: relative;
+  background-color: #000;
+}
+
+.fuchidori {
+  margin: 0;
+  font-family: 'New Tegomin';
+  writing-mode: vertical-rl;
+  z-index: 11;
+  top: 16%;
+  left: 72%;
+  position: absolute;
+  color: #fff;
 }
 
 /* imgのみ */
@@ -189,17 +201,6 @@
   }
 }
 
-.top_img p {
-  margin: 0;
-  font-family: 'New Tegomin';
-  writing-mode: vertical-rl;
-  z-index: 90;
-  top: 16%;
-  left: 72%;
-  position: absolute;
-  color: #fff;
-}
-
 .Kagoshima_about h1 {
   margin: 8px 0px;                    /* 全余白の指定 */
   font-family: 'New Tegomin', serif;  /* フォントの変更 */
@@ -250,7 +251,7 @@ a.text_area {
     width: 480px;
   }
 
-  .top_img p {font-size: 32px;}
+  .fuchidori {font-size: 32px;}
 
   .Kagoshima_about h1 {font-size: 32px;}
 
@@ -296,7 +297,7 @@ a.text_area {
     width: 1324px;
   }
 
-  .top_img p {font-size: 64px;}
+  .fuchidori {font-size: 64px;}
 
   .Kagoshima_about h1 {font-size: 40px;}  /* 文字の大きさ */
 

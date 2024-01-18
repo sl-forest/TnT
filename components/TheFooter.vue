@@ -43,7 +43,7 @@
     </div><!-- /inner-block -->
     
     <div class="copyright">
-      © 2023 TnT Corp.
+      © 2023 TnT.
     </div>
     
   </footer>

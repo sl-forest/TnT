@@ -54,13 +54,19 @@ body {
 
 header {
     position: fixed;
-    top: 6.4px;
+    top: 8.8px;
     left: 0;
     width: 100%;
     background: #242428;
-    z-index: 100;
+    z-index: 12;
     display: flex;
     justify-content: space-evenly;
+
+// スマホ
+    @media screen and (max-width: 480px) {
+        top: 0;
+    }
+  
 }
 
 .logo-space {
@@ -90,7 +96,7 @@ nav {
   
 // スマホ
   @media screen and (max-width: 480px) {
-    nav {display: inline;}
+    display: inline;
   }
   
 }
