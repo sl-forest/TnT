@@ -1,5 +1,6 @@
 <template>
-
+    <!-- ヘッダー高さ分の余白   -->
+    <div class="header-box">
     <header>
         <div class="logo-space">
   
@@ -26,12 +27,15 @@
             </ul>
         </nav>
     </header>
+    </div>
 </template>
 
 <style lang="scss" scoped>
 // PC
 @media screen and (min-width: 1024px) {
     a:hover.menu_item {color: #ffd700;}
+
+    .header-box {height: 80px;}
 }
 
 // 共通
@@ -49,11 +53,13 @@ body {
 }
 
 header {
-    display: flex;
-    align-items: center;
-    padding: 0.8em;
+    position: fixed;
+    top: 6.4px;
+    left: 0;
+    width: 100%;
     background: #242428;
-    border-bottom: 2px solid #3c4356;
+    z-index: 100;
+    display: flex;
     justify-content: space-evenly;
 }
 
@@ -69,12 +75,12 @@ header {
 }
 
 .logo-space .site-name h1 {
-  font-family: 'New Tegomin', serif;
-  color: #fff;  /*サイトの名前の色*/
-  margin-top: 13px;
-  margin-left: 16px;
-  margin-bottom: 0;
-  font-size: 35px;
+    font-family: 'New Tegomin', serif;
+    color: #fff;  /*サイトの名前の色*/
+    margin: 0;
+    padding-top: 13px;
+    padding-left: 16px;
+    font-size: 35px;
 }
 
 nav {

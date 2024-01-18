@@ -5,19 +5,26 @@
 
     <main>
       <div class="top_img">
+
         <img class="item1" src="~/assets/img/Top01.jpg" alt="トップ画像">
         <img class="item1" src="~/assets/img/Top02.jpg" alt="トップ画像">
         <img class="item1" src="~/assets/img/Top03.jpg" alt="トップ画像">
+
+        <p>
+          鹿児島へ<br>
+           &emsp; ようこそ
+        </p>
+
       </div>
 
 
       <div class="Kagoshima_about">
-          <h1>～鹿児島について～</h1>
-          <p>
-            多くの観光名所や豊かな自然があり、その土地に根付いた伝統と人の温もり溢れる地方。<br class="pc">
-            時代の流れに揉まれ戦乱の歴史をその身に刻みながらも発展してきた鹿児島。<br class="pc">
-            そんな魅力溢れる鹿児島を体験してみてください。
-          </p>
+        <h1>～鹿児島について～</h1>
+        <p>
+          多くの観光名所や豊かな自然があり、その土地に根付いた伝統と人の温もり溢れる地方。<br class="pc">
+          時代の流れに揉まれ戦乱の歴史をその身に刻みながらも発展してきた鹿児島。<br class="pc">
+          そんな魅力溢れる鹿児島を体験してみてください。
+        </p>
       </div>
 
       <div class="headline"><h2>紹介一覧</h2></div>
@@ -183,12 +190,14 @@
 }
 
 .top_img p {
-  margin: 0;                    /* 全余白の指定 */
-  font-family: 'New Tegomin';   /* フォントの変更 */
-  writing-mode: vertical-rl;    /* 縦書き */
+  margin: 0;
+  font-family: 'New Tegomin';
+  writing-mode: vertical-rl;
+  z-index: 90;
+  top: 16%;
+  left: 72%;
   position: absolute;
-  color: #fff;                /* 色変更 */
-  transform: translate(-50%,-50%);  
+  color: #fff;
 }
 
 .Kagoshima_about h1 {
@@ -229,7 +238,9 @@ a.text_area {
 
   .pc {display: none;}    /* 表示しない */
 
+/* トップ画像 */
   .top_img {
+    margin-top: 90px;
     height: 240px;
     width: 480px;
   }
@@ -238,6 +249,8 @@ a.text_area {
     height: 240px;
     width: 480px;
   }
+
+  .top_img p {font-size: 32px;}
 
   .Kagoshima_about h1 {font-size: 32px;}
 
@@ -272,6 +285,7 @@ a.text_area {
 
 /* PC（ 画面サイズが1024px以上 ）*/
 @media screen and (min-width: 1024px) {
+/* トップ画像 */
   .top_img {
     height: 550px;
     width: 1324px;
@@ -280,7 +294,9 @@ a.text_area {
   .top_img img {
     height: 550px;
     width: 1324px;
-  } 
+  }
+
+  .top_img p {font-size: 64px;}
 
   .Kagoshima_about h1 {font-size: 40px;}  /* 文字の大きさ */
 
