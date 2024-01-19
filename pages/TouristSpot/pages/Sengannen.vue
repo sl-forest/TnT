@@ -94,8 +94,6 @@ a.btn:hover {
     margin: 16px 0;
     text-align: center;
   }
-  
-  .TouristSpot {padding-bottom: 16px;}
 
   .TouristSpot h1 { margin: 1.6px auto;}
 

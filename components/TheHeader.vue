@@ -54,7 +54,8 @@ body {
 
 header {
     position: fixed;
-    top: 8.8px;
+    padding: 8px 0;
+    top: 0.8px;
     left: 0;
     width: 100%;
     background: #242428;
@@ -64,6 +65,7 @@ header {
 
 // スマホ
     @media screen and (max-width: 480px) {
+        padding: 5.6px 0;
         top: 0;
     }
   

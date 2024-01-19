@@ -96,10 +96,6 @@ a.btn:hover {
     text-align: center;
   }
 
-  .pc {display: none;}
-  
-  .TouristSpot {padding-bottom: 16px;}
-
   .TouristSpot h1 {margin: 1.6px auto;}
 
   .TouristSpot_img {text-align: center;}

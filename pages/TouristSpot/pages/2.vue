@@ -20,7 +20,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Soginotaki">スポット情報</a>
+          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Soginotaki">スポット情報</a>
         </div>
       </div>
 
@@ -37,7 +37,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Maruonotaki">スポット情報</a>
+          <a class ="ntn" href="http://localhost:3000/TouristSpot/pages/Maruonotaki">スポット情報</a>
         </div>
       </div>
 
@@ -55,7 +55,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Ogawanotaki">スポット情報</a>
+          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Ogawanotaki">スポット情報</a>
         </div>
       </div>
       
@@ -73,7 +73,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="link" href="http://localhost:3000/TouristSpot/pages/Kaimondake">スポット情報</a>
+          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Kaimondake">スポット情報</a>
         </div>
       </div>
       
@@ -135,16 +135,20 @@ h2.spot_headline {
   font-size: 15px;      /* 文字の大きさ */
 }
 
-
-.link-space a {
-  margin: 0;          /* 全余白の指定 */
-  font-weight: bold;  /* 文字の太さ */
-  font-size: 15px;    /* 文字の大きさ */
+/* ボタン */
+.btn {
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  text-decoration: none;
+  color: black;
+  border: solid 2px black;
+  border-radius: 3px;
+  transition: .4s;
 }
 
-.link {
-  color: blue;          /* 文字の色 */
-  text-decoration: none;  /* 下線の削除 */
+.btn:hover {
+  background: black;
+  color: white;
 }
 
 /* ページネーション */
@@ -202,7 +206,7 @@ h2.spot_headline {
 
   h2.spot_headline {text-align: center;}
 
-  .link-space {margin: 8px 0;}
+  .link-space {margin: 16px 0;}
 
   .explanation p {
     text-align: left; /* 左寄せ */
@@ -232,11 +236,7 @@ h2.spot_headline {
 
   .link-space {align-self: end;}
 
-  a:hover.link {
-    color: rgb(71, 1, 92);
-  }
-
 /* 観光地画像 */
-  .spot_img img{width: 6cm;}
+  .spot_img img {width: 5cm;}
 }
 </style>

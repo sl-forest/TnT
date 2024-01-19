@@ -11,7 +11,7 @@
         <img class="item1" src="~/assets/img/Top02.jpg" alt="トップ画像">
         <img class="item1" src="~/assets/img/Top03.jpg" alt="トップ画像">
 
-        <div class="fuchidori">
+        <div class="img_font">
           鹿児島へ<br>
           &emsp; ようこそ
         </div>
@@ -129,18 +129,19 @@
 .top_img {
   overflow: hidden;
   position: relative;
-  background-color: #000;
 }
 
-.fuchidori {
+.img_font {
   margin: 0;
+  font-size: 64px;
+  text-shadow: 1px 1px 3px #444;
   font-family: 'New Tegomin';
   writing-mode: vertical-rl;
   z-index: 11;
   top: 16%;
   left: 72%;
   position: absolute;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 /* imgのみ */
@@ -202,12 +203,12 @@
 }
 
 .Kagoshima_about h1 {
-  margin: 8px 0px;                    /* 全余白の指定 */
+  margin: 16px 0px;                    /* 全余白の指定 */
   font-family: 'New Tegomin', serif;  /* フォントの変更 */
 }  
 
 .headline h2 {
-  margin: 8px 0px;                    /* 全余白の指定 */
+  margin: 16px 0px;                    /* 全余白の指定 */
   font-size: 40px;                    /* 文字の大きさ */
   font-family: 'New Tegomin', serif;  /* フォントの変更 */
   text-align: center;                 /* 左右の中央揃え */
@@ -242,16 +243,15 @@ a.text_area {
 /* トップ画像 */
   .top_img {
     margin-top: 90px;
-    height: 240px;
-    width: 480px;
+    height: 14rem;
   }
 
   .top_img img {
-    height: 240px;
-    width: 480px;
+    width: 100%;
+    height: 100%;
   }
 
-  .fuchidori {font-size: 32px;}
+  .img_font {font-size: 32px;}
 
   .Kagoshima_about h1 {font-size: 32px;}
 
@@ -287,14 +287,11 @@ a.text_area {
 /* PC（ 画面サイズが1024px以上 ）*/
 @media screen and (min-width: 1024px) {
 /* トップ画像 */
-  .top_img {
-    height: 550px;
-    width: 1324px;
-  }
+  .top_img {height: 40rem;}
 
   .top_img img {
-    height: 550px;
-    width: 1324px;
+    width: 100%;
+    height: 100%;
   }
 
   .fuchidori {font-size: 64px;}
