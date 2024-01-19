@@ -54,8 +54,8 @@ body {
 
 header {
     position: fixed;
-    padding: 8px 0;
-    top: 0.8px;
+    padding: 1px 0;
+    top: 0;
     left: 0;
     width: 100%;
     background: #242428;

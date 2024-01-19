@@ -10,7 +10,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 13;
+  z-index: 100;
   background-color: #fff;
   display: flex;
   align-items: center;

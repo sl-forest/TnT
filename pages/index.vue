@@ -125,10 +125,21 @@
 
 <style>
 /* 共通 */
+* {
+  margin: 0;        /* 全余白の指定 */
+  max-width: 100%;  /* 最大幅の指定 */
+}
+
 /* トップ画像 */
 .top_img {
   overflow: hidden;
   position: relative;
+}
+
+/* 幅・高さの指定 */
+.top_img img {
+  width: 100%;
+  height: 100%;
 }
 
 .img_font {
@@ -232,28 +243,17 @@ a.text_area {
 
 /* スマホ（ 画面サイズが480px ） */
 @media screen and (max-width:480px) {
-  * {
-	  float: none;
-	  position: static;
-    max-width: 100%;
-  }
-
   .pc {display: none;}    /* 表示しない */
 
 /* トップ画像 */
   .top_img {
-    margin-top: 90px;
-    height: 14rem;
+    margin-top: 90px;   /* 全余白の指定 */
+    height: 16rem;      /* 高さの指定 */
   }
 
-  .top_img img {
-    width: 100%;
-    height: 100%;
-  }
+  .img_font {font-size: 32px;}  /* 文字の大きさ */
 
-  .img_font {font-size: 32px;}
-
-  .Kagoshima_about h1 {font-size: 32px;}
+  .Kagoshima_about h1 {font-size: 32px;}  /* 文字の大きさ */
 
   .Kagoshima_about p {
     margin: 0;            /* 全余白の指定 */
@@ -261,21 +261,23 @@ a.text_area {
   }
 
 /* 画像 */
+  figure.image_area02,
+  figure.image_area04,
+  figure.image_area06,
+  figure.image_area08,
+  figure.image_area10 {margin: 8px 0;}  /* 全余白の指定 */
+
   figure.image_area01 img,
   figure.image_area03 img,
   figure.image_area05 img,
   figure.image_area07 img,
-  figure.image_area09 img {
-    display: none;          /* 表示しない */
-  }
+  figure.image_area09 img {display: none;}  /* 表示しない */
 
   figure.image_area02 img,
   figure.image_area04 img,
   figure.image_area06 img,
   figure.image_area08 img,
-  figure.image_area10 img {
-    height: 16em;           /* 高さの指定 */
-  }
+  figure.image_area10 img {height: 16em;}  /* 高さの指定 */
 
   .introduction {
     margin: auto;           /* 全余白の指定 */
@@ -287,12 +289,7 @@ a.text_area {
 /* PC（ 画面サイズが1024px以上 ）*/
 @media screen and (min-width: 1024px) {
 /* トップ画像 */
-  .top_img {height: 40rem;}
-
-  .top_img img {
-    width: 100%;
-    height: 100%;
-  }
+  .top_img {height: 36rem;}
 
   .fuchidori {font-size: 64px;}
 
