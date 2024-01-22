@@ -55,9 +55,9 @@
   .wrap h1 {
     font-family: 'New Tegomin', serif;
     color: white;
-    margin: 0;
-    margin-top: 16px;
-    margin-left: 16px;
+    margin: 0;          /* 要素の外側余白 */
+    margin-top: 16px;   /* 要素の外側上余白 */
+    margin-left: 16px;  /* 要素の外側下余白 */
   }
 
   #footer {background: #242428;}
@@ -68,35 +68,35 @@
     padding: 15px;
   }
  
-  #footer .c-btn {margin-left: 25px;}
+  #footer .c-btn {margin-left: 25px;} /* 要素の外側左余白 */
 
   /* 検索 */
-  #footer form {margin: auto;}
+  #footer form {margin: auto;}  /* 要素の外側余白 */
 
   #footer .search-form {
-    display: flex;
-    align-items: center;
-    overflow: hidden;
+    display: flex;        /* 親要素に対して子要素を横並びにする  */
+    align-items: center;  /* 左右の中央揃え */
+    overflow: hidden;     /* 要素からはみ出た部分を非表示 */
     border-radius: 3px;
-    margin: 0;
+    margin: 0;            /* 要素の外側余白 */
   }
 
   #footer .search-form input {
-    width: 250px;
-    height: 45px;
-    padding: 5px 15px;
+    width: 250px;       /* 横幅 */
+    height: 45px;       /* 高さ */
+    padding: 5px 15px;  /* 要素の内側余白 */
     border: none;
     border-radius: 3px 0 0 3px;
     box-sizing: border-box;
-    background-color: #e6edf3;
-    font-size: 1em;
+    background-color: #e6edf3;  /* 背景 */
+    font-size: 1em;               /* 文字の大きさ */
     outline: none;
   }
 
   #footer .search-form input::placeholder {color: #767d83;}
 
   #footer .search-form button {
-    display: flex;
+    display: flex;            /* 親要素に対して子要素を横並びにする  */
     justify-content: center;
     align-items: center;
     width: 50px;
@@ -124,7 +124,7 @@
 /* PC */
 @media screen and (min-width: 1024px) {
   #footer .wrap {
-    display: flex;
+    display: flex;            /* 親要素に対して子要素を横並びにする  */
     justify-content: center;
     align-items: center;
   }
@@ -133,32 +133,32 @@
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: flex;                /* 親要素に対して子要素を横並びにする  */
     flex-direction: row-reverse;
     align-items: center;
   }
 
   #footer .logo img {
-    padding: 0;
-    margin-top: 16px;
-    height: 80px;
+    padding: 0;       /* 要素の内側余白 */
+    margin-top: 16px; /* 要素の外側上余白 */
+    height: 80px;     /* 高さ */
   }
 
-  #footer .serach-sm {display: none;}
+  #footer .serach-sm {display: none;} /* 表示しない */
 
   #footer .serach-pc {
-    margin-top: 28px;
-    margin-left: 24px;
-    margin-bottom: 0;
+    margin-top: 28px;   /* 要素の外側上余白 */
+    margin-left: 24px;  /* 要素の外側左余白 */
+    margin-bottom: 0;   /* 要素の外側下余白 */
   }
  
   #footer .nav {
     display: inline-block;
-    margin-top: 30px;
-    margin-bottom: 0;
+    margin-top: 30px;       /* 要素の外側上余白 */
+    margin-bottom: 0;       /* 要素の外側下余白 */
   }
  
-  #footer .nav li {display: inline-block;}
+  #footer .nav li {display: inline-block;}    /* インラインブロック要素へ変更 */
 
   #footer .nav li a {text-decoration: none;}
 
@@ -172,9 +172,9 @@
   #footer .inner-block {padding: 0;}
 
    #footer .logo img {
-    padding: 0;
-    margin-top: 16px;
-    width: 25%;
+    padding: 0;       /* 要素の内側余白 */
+    margin-top: 16px; /* 要素の外側上余白 */
+    width: 25%;       /* 横幅 */
   }
  
   .ie #footer .logo img,
@@ -188,13 +188,13 @@
   #footer .serach-pc {display: none;}
 
   #footer .serach-sm {
-    margin-left: 88px;
-    margin-top: 12px;
-    margin-bottom: 32px;
+    margin-left: 88px;    /* 要素の外側左余白 */
+    margin-top: 12px;     /* 要素の外側上余白 */
+    margin-bottom: 32px;  /* 要素の外側下余白 */
   }
 
   #footer .nav {
-    padding: 0px 40px;
+    padding: 0px 40px;    /* 要素の内側余白 */
     list-style: none;
   }
 
@@ -202,7 +202,7 @@
  
   #footer .nav li a {
     text-decoration: none;
-    padding: 12px 20px;
+    padding: 12px 20px;         /* 要素の内側余白 */
     display: block;
     background-size: 5px auto;
   }

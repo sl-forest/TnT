@@ -141,8 +141,8 @@ h2.craft_headline {
 
 /* ページネーション */
 .Pagination {
-  padding: 0;
-  display: flex;
+  padding: 0;               /* 要素の内側余白 */
+  display: flex;            /* 親要素に対して子要素を横並びにする  */
   align-items: center;
   justify-content: center;
   list-style: none;
@@ -152,13 +152,13 @@ h2.craft_headline {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  display: flex;
+  display: flex;            /* 親要素に対して子要素を横並びにする  */
   justify-content: center;
   align-items: center;
   text-decoration: none;
   flex-wrap: wrap;
-  overflow: hidden;
-  background: #fff;
+  overflow: hidden;         /* 要素からはみ出た部分を非表示 */
+  background: #fff;       /* 背景 */
   border: solid 2px #111;
   font-size: 14px;
   color: #111;
@@ -213,7 +213,7 @@ h2.craft_headline {
   
 /* 一覧説明 */
   .craft {
-    display: flex;
+    display: flex;        /* 親要素に対して子要素を横並びにする  */
     margin-bottom: 16px;
   }
   

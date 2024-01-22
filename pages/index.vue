@@ -132,32 +132,32 @@
 
 /* トップ画像 */
 .top_img {
-  overflow: hidden;
-  position: relative;
+  overflow: hidden;   /* 要素からはみ出た部分を非表示 */
+  position: relative; /* 要素を元々の位置から相対的に移動 */
 }
 
-/* 幅・高さの指定 */
+/* 横幅・高さの指定 */
 .top_img img {
   width: 100%;
   height: 100%;
 }
 
 .img_font {
-  margin: 0;
-  font-size: 64px;
-  text-shadow: 1px 1px 3px #444;
-  font-family: 'New Tegomin';
-  writing-mode: vertical-rl;
-  z-index: 11;
-  top: 16%;
-  left: 72%;
+  margin: 0;                        /* 要素の外側余白 */
+  font-size: 64px;                  /* 文字の大きさ */
+  text-shadow: 1px 1px 3px #444;  /* 背景 */
+  font-family: 'New Tegomin';       /* フォント変更 */
+  writing-mode: vertical-rl;        /* 縦書き */
+  z-index: 11;                      /* 要素を重ねる順序の指定 */
+  top: 16%;                         /* 位置調整 */
+  left: 72%;                        /* 位置調整 */
   position: absolute;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);      /* 文字の色 */
 }
 
 /* imgのみ */
 .item1 {
-  opacity: 0;
+  opacity: 0;         /* 不透明度 */
   object-fit: cover;
   position: absolute;
   -webkit-animation: anime 30s 0s infinite;
@@ -165,90 +165,90 @@
 }
 
 .item1:nth-of-type(2) {
-  -webkit-animation-delay: 10s;
-  animation-delay: 10s;
+  -webkit-animation-delay: 10s; /* アニメーション開始までの指定 */
+  animation-delay: 10s;         /* アニメーション開始までの指定 */
 }
 
 .item1:nth-of-type(3) {
-  -webkit-animation-delay: 20s;
-  animation-delay: 20s;
+  -webkit-animation-delay: 20s; /* アニメーション開始までの指定 */
+  animation-delay: 20s;         /* アニメーション開始までの指定 */
 }
 
 /* ふわっとアニメーション */
 @keyframes anime {
   0% {
-    opacity: 0;
+    opacity: 0; /* 不透明度 */
   }
   30% {
-    opacity: 1;
+    opacity: 1; /* 不透明度 */
   }
   35% {
-    opacity: 1;
+    opacity: 1; /* 不透明度 */
   }
   50% {
-    opacity: 0;
-    z-index: 9;
+    opacity: 0; /* 不透明度 */
+    z-index: 9; /* 要素を重ねる順序の指定 */
   }
   100% {
-    opacity: 0;
+    opacity: 0; /* 不透明度 */
   }
 }
 
 @-webkit-keyframes anime {
   0% {
-    opacity: 0;
+    opacity: 0; /* 不透明度 */
   }
   30% {
-    opacity: 1;
+    opacity: 1; /* 不透明度 */
   }
   35% {
-    opacity: 1;
+    opacity: 1; /* 不透明度 */
   }
   50% {
-    opacity: 0;
-    z-index: 9;
+    opacity: 0; /* 不透明度 */
+    z-index: 9; /* 要素を重ねる順序の指定 */
   }
   100% {
-    opacity: 0;
+    opacity: 0; /* 不透明度 */
   }
 }
 
 .Kagoshima_about h1 {
-  margin: 16px 0px;                    /* 全余白の指定 */
-  font-family: 'New Tegomin', serif;  /* フォントの変更 */
+  margin: 16px 0px;                   /* 要素の外側余白 */
+  font-family: 'New Tegomin', serif;  /* フォント変更 */
 }  
 
 .headline h2 {
-  margin: 16px 0px;                    /* 全余白の指定 */
+  margin: 16px 0px;                   /* 要素の外側余白*/
   font-size: 40px;                    /* 文字の大きさ */
-  font-family: 'New Tegomin', serif;  /* フォントの変更 */
+  font-family: 'New Tegomin', serif;  /* フォント変更 */
   text-align: center;                 /* 左右の中央揃え */
 }
 
 .Kagoshima_about {text-align: center;}  /* 左右の中央揃え */
 
 .Kagoshima_about p {
-  font-family: serif;  /* フォントの変更 */
+  font-family: serif;  /* フォント変更 */
   font-weight: bold;   /* 文字の太さ */
 }
 
 a.text_area {
   font-size: 32px;      /* 文字の大きさ */
-  font-family: serif;   /* フォントの変更 */
+  font-family: serif;   /* フォント変更 */
   text-align: center;   /* 左右の中央揃え */
-  margin: 0 auto;       /* 全余白の指定 */
-  color: rgb(0, 0, 0);  /* 文字の色指定 */
-  text-decoration: none;  /* 下線の削除 */
+  margin: 0 auto;       /* 要素の外側余白*/
+  color: rgb(0, 0, 0);  /* 文字の色 */
+  text-decoration: none;  /* 下線削除 */
 }
 
 /* スマホ（ 画面サイズが480px ） */
 @media screen and (max-width:480px) {
-  .pc {display: none;}    /* 表示しない */
+  .pc {display: none;}  /* 表示しない */
 
 /* トップ画像 */
   .top_img {
-    margin-top: 90px;   /* 全余白の指定 */
-    height: 16rem;      /* 高さの指定 */
+    margin-top: 90px;   /* 要素の外側の余白 */
+    height: 16rem;      /* 高さ */
   }
 
   .img_font {font-size: 32px;}  /* 文字の大きさ */
@@ -256,7 +256,7 @@ a.text_area {
   .Kagoshima_about h1 {font-size: 32px;}  /* 文字の大きさ */
 
   .Kagoshima_about p {
-    margin: 0;            /* 全余白の指定 */
+    margin: 0;            /* 要素の外側余白 */
     font-size: 16px;      /* 文字の大きさ */
   }
 
@@ -265,7 +265,7 @@ a.text_area {
   figure.image_area04,
   figure.image_area06,
   figure.image_area08,
-  figure.image_area10 {margin: 8px 0;}  /* 全余白の指定 */
+  figure.image_area10 {margin: 8px 0;}  /* 要素の外側余白 */
 
   figure.image_area01 img,
   figure.image_area03 img,
@@ -277,10 +277,10 @@ a.text_area {
   figure.image_area04 img,
   figure.image_area06 img,
   figure.image_area08 img,
-  figure.image_area10 img {height: 16em;}  /* 高さの指定 */
+  figure.image_area10 img {height: 16em;}  /* 高さ */
 
   .introduction {
-    margin: auto;           /* 全余白の指定 */
+    margin: auto;           /* 要素の外側余白 */
     text-align: center;     /* 左右の中央揃え */
     border-top: 2px solid #d5d4c3;  /* 下線表示 */
   }
@@ -289,24 +289,24 @@ a.text_area {
 /* PC（ 画面サイズが1024px以上 ）*/
 @media screen and (min-width: 1024px) {
 /* トップ画像 */
-  .top_img {height: 36rem;}
+  .top_img {height: 36rem;}       /* 画像の高さ */
 
-  .fuchidori {font-size: 64px;}
+  .fuchidori {font-size: 64px;}   /* 文字の大きさ */
 
   .Kagoshima_about h1 {font-size: 40px;}  /* 文字の大きさ */
 
   .Kagoshima_about p {
     font-size: 25px;      /* 文字の大きさ */
-    margin: 0;            /* 全余白の指定 */
+    margin: 0;            /* 要素の外側余白*/
   }
 
   figure.image_area {
-    margin: auto;         /* 全余白の指定 */
-    margin-top: 0;        /* 上余白の指定 */
-    display: inline-block;  
+    margin: auto;           /* 要素の外側余白 */
+    margin-top: 0;          /* 要素の外側上余白 */
+    display: inline-block;  /* インラインブロック要素へ変更 */ 
   }
 
-/* 画像の高さ・幅の調整 */
+/* 画像の高さ・横幅の調整 */
   figure.image_area01 img {
     height: 16em;
     width: 15em;
@@ -358,9 +358,9 @@ a.text_area {
   }
 
   .introduction {
-    margin: auto;          /*全余白の指定 */
-    padding: 8px 0px;      /*全余白の指定 */
-    width: 1000px;         /* 幅の指定 */
+    margin: auto;          /* 要素の外側余白 */
+    padding: 8px 0px;      /* 要素の内側余白 */
+    width: 1000px;         /* 幅 */
     display: flex;         /* 横並び */
     align-items: center;   /* 上下の中央揃え */
     border-top: 2px solid #d5d4c3;    /* 上線 */
