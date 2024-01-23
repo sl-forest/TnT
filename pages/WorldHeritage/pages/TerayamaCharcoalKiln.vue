@@ -55,51 +55,36 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}
+body {margin: 0;}       /* 要素の外側余白 */
 
-h1 {font-family: 'New Tegomin', serif;}  /* フォントの変更 */
+main {margin: 0 auto;}  /* 要素の外側余白 */
+
+h1 {
+  margin: 0;            /* 要素の外側余白 */
+  padding: 8px 0;       /* 要素の内側余白 */
+  font-family: 'New Tegomin', serif;  /* フォントの変更 */
+}
 
 .WorldHeritage_note dd a {
   text-decoration: none;
   color: blue;
 }
 
-/* ボタン */
-a.btn {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  width: 320px;
-  margin: 24px auto;
-  padding: 1rem 4rem;
-  font-weight: bold;
-  border: 2px solid #27acd9;
-  background: #27acd9;
-  color: #fff;
-  border-radius: 100vh;
-  transition: 0.5s;
-}
-
-a.btn:hover {
-  color: #27acd9;
-  background: #fff;
-}
+/* マウスオーバー */
+.WorldHeritage_note dd a:hover {color: rgb(71, 1, 92);}
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  h1 {
-    margin: 16px 0;
-    text-align: center;
-  }
+  body {margin-top: 18%;}    /* 要素の外側上余白 */
+
+  h1 {text-align: center;}   /* 左右の中央揃え */
   
   .WorldHeritage {padding-bottom: 16px;}
 
-  .WorldHeritage h1 {margin: 1.6px auto;}
-
   .WorldHeritage_img {text-align: center;}
 
-  .WorldHeritage_img img {height: 6cm;}
-
+  .WorldHeritage_img img {width: 80%;}
+  
   .WorldHeritage_note {margin-top: 16px;}
 
   .WorldHeritage_note h2 {margin: 8px auto;}
@@ -135,14 +120,12 @@ a.btn:hover {
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {max-width: 1024px;}
+  main {max-width: 1024px;} /* 最大横幅 */
   
   .WorldHeritage {
     display: flex;
     padding-bottom: 24px;
   }
-
-  .WorldHeritage h1 {margin: 1.6px auto;}
 
   .WorldHeritage_img img {height: 8cm;}
 
@@ -177,7 +160,5 @@ a.btn:hover {
     padding-left: 1%;
     flex-grow: 1;
   }
-
-  .WorldHeritage_note dd a:hover {color: rgb(71, 1, 92);}
 }
 </style>

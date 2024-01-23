@@ -4,7 +4,7 @@
     <Loding />
     <TheHeader />
 
-    <body>
+    <main>
       <div class="top_img">
 
         <img class="item1" src="~/assets/img/Top01.jpg" alt="トップ画像">
@@ -117,7 +117,7 @@
           </a>
         </figure>
       </div>
-    </body>
+    </main>
     <TheFooter />
   </div>
   
@@ -125,10 +125,7 @@
 
 <style>
 /* 共通 */
-* {
-  margin: 0;        /* 全余白の指定 */
-  max-width: 100%;  /* 最大幅の指定 */
-}
+* {margin: 0;}  /* 要素の外側余白 */
 
 /* トップ画像 */
 .top_img {
@@ -136,30 +133,12 @@
   position: relative; /* 要素を元々の位置から相対的に移動 */
 }
 
-/* 横幅・高さの指定 */
-.top_img img {
-  width: 100%;
-  height: 100%;
-}
-
-.img_font {
-  margin: 0;                        /* 要素の外側余白 */
-  font-size: 64px;                  /* 文字の大きさ */
-  text-shadow: 1px 1px 3px #444;  /* 背景 */
-  font-family: 'New Tegomin';       /* フォント変更 */
-  writing-mode: vertical-rl;        /* 縦書き */
-  z-index: 11;                      /* 要素を重ねる順序の指定 */
-  top: 16%;                         /* 位置調整 */
-  left: 72%;                        /* 位置調整 */
-  position: absolute;
-  color: rgb(255, 255, 255);      /* 文字の色 */
-}
-
-/* imgのみ */
 .item1 {
   opacity: 0;         /* 不透明度 */
   object-fit: cover;
   position: absolute;
+  width: 100%;        /* 横幅 */
+  height: 100%;       /* 高さ */
   -webkit-animation: anime 30s 0s infinite;
   animation: anime 30s 0s infinite;
 }
@@ -213,13 +192,27 @@
   }
 }
 
+/* トップ画像の上の文字 */
+.img_font {
+  margin: 0;                        /* 要素の外側余白 */
+  font-size: 64px;                  /* 文字の大きさ */
+  text-shadow: 1px 1px 3px #444;  /* 背景 */
+  font-family: 'New Tegomin';       /* フォント変更 */
+  writing-mode: vertical-rl;        /* 縦書き */
+  z-index: 11;                      /* 要素を重ねる順序の指定 */
+  top: 16%;                         /* 位置調整 */
+  left: 72%;                        /* 位置調整 */
+  position: absolute;
+  color: rgb(255, 255, 255);      /* 文字の色 */
+}
+
 .Kagoshima_about h1 {
-  margin: 16px 0px;                   /* 要素の外側余白 */
+  margin: 8px 0px;                   /* 要素の外側余白 */
   font-family: 'New Tegomin', serif;  /* フォント変更 */
 }  
 
 .headline h2 {
-  margin: 16px 0px;                   /* 要素の外側余白*/
+  margin: 8px 0px;                   /* 要素の外側余白*/
   font-size: 40px;                    /* 文字の大きさ */
   font-family: 'New Tegomin', serif;  /* フォント変更 */
   text-align: center;                 /* 左右の中央揃え */

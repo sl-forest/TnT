@@ -18,7 +18,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/Kaseda">基本情報</a>
+          <a class="btn" href="http://localhost:3000/Craft/pages/Kaseda">鎌・包丁はこちら</a>
         </div>
       </div>
 
@@ -41,7 +41,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/Armor">基本情報</a>
+          <a class="btn" href="http://localhost:3000/Craft/pages/Armor">甲冑はこちら</a>
         </div>
       </div>        
 
@@ -58,7 +58,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/BambooProducts">基本情報</a>
+          <a class="btn" href="http://localhost:3000/Craft/pages/BambooProducts">竹製品はこちら</a>
         </div>
       </div>
       
@@ -103,13 +103,18 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}  /* 全余白の指定 */
+body {margin: 0;}       /* 要素の外側余白 */
 
-h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
+main {margin: 0 auto;}  /* 要素の外側余白 */
+
+h1 {
+  margin: 0;                          /* 要素の外側余白 */
+  font-family: 'New Tegomin', serif;  /* フォントの変更 */
+}
 
 h2.craft_headline {
-  margin: 0px;                       /* 全余白の指定 */
-  padding: 8px 0px;                  /* 全余白の指定 */
+  margin: 0px;                       /* 要素の外側余白 */
+  padding: 8px 0px;                  /* 要素の内側余白 */
   border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
@@ -117,12 +122,12 @@ h2.craft_headline {
 .teikyou {font-weight: bold;} /* 文字の太さ */
 
 .teikyou p {
-  margin: 0px;        /* 全余白の指定 */
+  margin: 0px;        /* 要素の外側余白 */
   font-size: 13px;    /* 文字の大きさ */
 }
 
 .explanation p {
-  margin: 0px;          /* 全余白の指定 */
+  margin: 0px;          /* 要素の外側余白 */
   font-family: serif;   /* フォントの変更 */
   font-weight: bold;    /* 文字の太さ */
   font-size: 15px;      /* 文字の大きさ */
@@ -131,7 +136,7 @@ h2.craft_headline {
 /* ボタン */
 .btn {
   display: inline-block;
-  padding: 0.3em 1.6em;
+  padding: 0.3em 0.6em;
   text-decoration: none;
   color: black;
   border: solid 2px black;
@@ -188,12 +193,13 @@ h2.craft_headline {
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
+  body {margin-top: 18%;} /* 要素の外側上余白 */
+
   br {display: none;}
 
   h1 {
-    margin: 8px;
-    text-align: center;
-    margin-bottom: 0;
+    padding: 8px 0px;     /* 要素の内側余白 */
+    text-align: center;   /* 左右の中央揃え */
   }
 
   .craft {text-align: center;}
@@ -213,9 +219,9 @@ h2.craft_headline {
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {max-width: 1024px;}
+  main {max-width: 1024px;} /* 最大横幅 */
 
-  h1 {margin-bottom: 0;}
+  h1 {padding-top: 16px;}   /* 要素の内側上余白 */
   
 /* 一覧説明 */
   .craft {

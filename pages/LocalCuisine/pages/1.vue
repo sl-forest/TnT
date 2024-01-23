@@ -124,13 +124,18 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}  /* 全余白の指定 */
+body {margin: 0;}       /* 要素の外側余白 */
 
-h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
+main {margin: 0 auto;}  /* 要素の外側余白 */
+
+h1 {
+  margin: 0;                          /* 要素の外側余白 */
+  font-family: 'New Tegomin', serif;  /* フォントの変更 */
+}
 
 h2.localcuisine_headline {
-  margin: 0px;                       /* 全余白の指定 */
-  padding: 8px 0px;                  /* 全余白の指定 */
+  margin: 0px;                       /* 要素の外側余白 */
+  padding: 8px 0px;                  /* 要素の内側余白 */
   border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
@@ -209,13 +214,14 @@ h2.localcuisine_headline {
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
+  body {margin-top: 18%;} /* 要素の外側上余白 */
+
   h1 {
-    margin: 8px;
-    text-align: center;
-    margin-bottom: 0;
+    padding: 8px 0px;     /* 要素の内側余白 */
+    text-align: center;   /* 左右の中央揃え */
   }
 
-  br {display: none;}
+  br {display: none;}     /* 表示しない */
 
   .localcuisine {text-align: center;}
 
@@ -234,9 +240,9 @@ h2.localcuisine_headline {
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {max-width: 1024px;}
+  main {max-width: 1024px;} /* 最大横幅 */
 
-  h1 {margin-bottom: 0;}
+  h1 {padding-top: 16px;}   /* 要素の内側上余白 */
   
 /* 郷土料理一覧説明 */
   .localcuisine {

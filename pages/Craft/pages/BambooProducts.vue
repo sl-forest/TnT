@@ -54,33 +54,36 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}
+body {margin: 0;}       /* 要素の外側余白 */
 
-h1 {font-family: 'New Tegomin', serif;}  /* フォントの変更 */
+main {margin: 0 auto;}  /* 要素の外側余白 */
+
+h1 {
+  margin: 0;            /* 要素の外側余白 */
+  padding: 8px 0;       /* 要素の内側余白 */
+  font-family: 'New Tegomin', serif;  /* フォントの変更 */
+}
+
 
 .Craft_note dd a {
   text-decoration: none;
   color: blue;
 }
 
+/* マウスオーバー */
 .Craft_note dd a:hover {color: rgb(71, 1, 92);}
   
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  h1 {
-    margin: 16px 0;
-    text-align: center;
-  }
+  body {margin-top: 18%;}   /* 要素の外側上余白 */
+
+  h1 {text-align: center;}  /* 左右の中央揃え */
   
   .Craft {padding-bottom: 16px;}
-
-  .Craft h1 {margin: 1.6px auto;}
 
   .Craft_img {text-align: center;}
 
   .Craft_img img {width: 72%;}
-
-  .Craft_img p {margin: 0;}
 
   .Craft_note {margin-top: 16px;}
 
@@ -117,20 +120,16 @@ h1 {font-family: 'New Tegomin', serif;}  /* フォントの変更 */
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {max-width: 1024px;}
-  
+  main {max-width: 1024px;} /* 最大横幅 */
+
   .Craft {
     display: flex;
     padding-bottom: 24px;
   }
 
-  .Craft h1 {margin: 1.6px auto;}
-
   .Craft_img {margin: auto;}
 
   .Craft_img img {height: 8cm;}
-
-  .Craft_img p {margin: 0;}
 
   .Craft_note {
     margin: auto;

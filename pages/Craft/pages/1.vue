@@ -19,7 +19,7 @@
         </div>
 
         <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/SatsumaPorcelain">基本情報</a>
+          <a class="btn" href="http://localhost:3000/Craft/pages/SatsumaPorcelain">薩摩焼はこちら</a>
         </div>
 
       </div>
@@ -40,7 +40,7 @@
         </div>
 
         <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/WhiteSatsuma">基本情報</a>
+          <a class="btn" href="http://localhost:3000/Craft/pages/WhiteSatsuma">白薩摩はこちら</a>
         </div>
 
       </div>
@@ -60,7 +60,7 @@
         </div>
 
         <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/BlackSatsuma">基本情報</a>
+          <a class="btn" href="http://localhost:3000/Craft/pages/BlackSatsuma">黒薩摩はこちら</a>
         </div>
 
       </div>
@@ -98,7 +98,7 @@
           </a>
         </li>
       </ul>
-    </main> 
+    </main>
     <TheFooter />
   </div>
 
@@ -106,18 +106,23 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}  /* 全余白の指定 */
+body {margin: 0;}       /* 要素の外側余白 */
 
-h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
+main {margin: 0 auto;}  /* 要素の外側余白 */
+
+h1 {
+  margin: 0;                          /* 要素の外側余白 */
+  font-family: 'New Tegomin', serif;  /* フォントの変更 */
+}
 
 h2.craft_headline {
-  margin: 0px;                       /* 全余白の指定 */
-  padding: 8px 0px;                  /* 全余白の指定 */
+  margin: 0px;                       /* 要素の外側余白 */
+  padding: 8px 0px;                  /* 要素の内側余白 */
   border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
 .explanation p {
-  margin: 0px;          /* 全余白の指定 */
+  margin: 0px;          /* 要素の外側余白 */
   font-family: serif;   /* フォントの変更 */
   font-weight: bold;    /* 文字の太さ */
   font-size: 15px;      /* 文字の大きさ */
@@ -126,31 +131,31 @@ h2.craft_headline {
 /* ボタン */
 .btn {
   display: inline-block;
-  padding: 0.3em 1.6em;
+  padding: 0.4em 0.8em;       /* 要素の内側余白 */
   text-decoration: none;
-  color: black;
+  color: black;             /* 文字の色 */
   border: solid 2px black;
   border-radius: 3px;
   transition: .4s;
 }
 
 .btn:hover {
-  background: black;
-  color: white;
+  background: black;  /* 背景 */
+  color: white;       /* 文字の色 */
 }
 
 /* ページネーション */
 .Pagination {
   padding: 0;               /* 要素の内側余白 */
   display: flex;            /* 親要素に対して子要素を横並びにする  */
-  align-items: center;
+  align-items: center;      /* 上下の中央揃え */
   justify-content: center;
   list-style: none;
 }
 
 .Pagination-Item-Link {
-  width: 45px;
-  height: 45px;
+  width: 45px;              /* 横幅 */
+  height: 45px;             /* 高さ */
   border-radius: 50%;
   display: flex;            /* 親要素に対して子要素を横並びにする  */
   justify-content: center;
@@ -183,48 +188,50 @@ h2.craft_headline {
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  br {display: none;}
+  body {margin-top: 18%;} /* 要素の外側上余白 */
+
+  br {display: none;}     /* 表示しない */
 
   h1 {
-    text-align: center;
-    margin-bottom: 0;
+    padding: 8px 0px;     /* 要素の内側余白 */
+    text-align: center;   /* 左右の中央揃え */
   }
 
-  .craft {text-align: center;}
+  .craft {text-align: center;}  /* 左右の中央揃え */
 
-  h2.craft_headline {text-align: center;}
+  h2.craft_headline {text-align: center;} /* 左右の中央揃え */
 
-  .link-space {margin: 16px 0;}
+  .link-space {margin: 16px 0;} /* 要素の外側余白 */
 
   .explanation p {
     text-align: left; /* 左寄せ */
-    margin-top: 16px;
+    margin-top: 16px; /* 要素の外側上余白 */
   }
   
 /* 画像 */
-  .craft_img img {width: 8cm;}
+  .craft_img img {width: 8cm;}  /* 横幅 */
 }
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {max-width: 1024px;}
+  main {max-width: 1024px;} /* 最大横幅 */
 
-  h1 {margin-bottom: 0;}
+  h1 {padding-top: 16px;}   /* 要素の内側上余白 */
   
 /* 一覧説明 */
   .craft {
     display: flex;        /* 親要素に対して子要素を横並びにする  */
-    margin-bottom: 16px;
+    margin-bottom: 16px;  /* 要素の外側下余白 */
   }
   
   .explanation {
-    margin: auto;
-    width: 40em;
+    margin: auto; /* 要素の外側余白 */
+    width: 40em;  /* 横幅 */
   }
 
   .link-space {align-self: end;}
 
 /* 画像 */
-  .craft_img img {width: 5cm;}
+  .craft_img img {width: 5cm;}  /* 横幅 */
 }
 </style>

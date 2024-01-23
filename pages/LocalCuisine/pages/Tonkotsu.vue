@@ -192,18 +192,26 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}
+body {margin: 0;}       /* 要素の外側余白 */
+
+main {margin: 0 auto;}  /* 要素の外側余白 */
+
+h1 {
+  margin: 0;            /* 要素の外側余白 */
+  padding: 8px 0;       /* 要素の内側余白 */
+  font-family: 'New Tegomin', serif;  /* フォントの変更 */
+}
 
 .quantity {list-style-type: none;}
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  h1 {text-align: center;}
+  body {margin-top: 18%;}  /* 要素の外側上余白 */
+
+  h1 {text-align: center;} /* 左右の中央揃え */
 
 /*郷土料理説明*/
   .localcuisine {padding-bottom: 24px;}
-
-  .localcuisine h1 {margin: 1.6px auto;}
 
 /* 画像 */
   .localcuisine_img {text-align: center;}
@@ -321,16 +329,12 @@ main {margin: 0 auto;}
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {max-width: 1024px;}
+  main {max-width: 1024px;} /* 最大横幅 */
 
 /*郷土料理説明*/
   .localcuisine {
     display: flex;
     padding-bottom: 24px;
-  }
-
-  .localcuisine h1 {
-    margin: 1.6px auto;
   }
 
 /* 画像 */

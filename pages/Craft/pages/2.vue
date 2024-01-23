@@ -19,7 +19,7 @@
         </div>
 
         <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/AuthenticOshimaTsumugi">基本情報</a>
+          <a class="btn" href="http://localhost:3000/Craft/pages/AuthenticOshimaTsumugi">本場大島紬はこちら</a>
         </div>
 
       </div>
@@ -39,7 +39,7 @@
         </div>
 
         <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/KawabeButsudan">基本情報</a>
+          <a class="btn" href="http://localhost:3000/Craft/pages/KawabeButsudan">川辺仏壇はこちら</a>
         </div>
 
       </div>
@@ -85,18 +85,23 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}  /* 全余白の指定 */
+body {margin: 0;}       /* 要素の外側余白 */
 
-h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
+main {margin: 0 auto;}  /* 要素の外側余白 */
+
+h1 {
+  margin: 0;                          /* 要素の外側余白 */
+  font-family: 'New Tegomin', serif;  /* フォントの変更 */
+}
 
 h2.craft_headline {
-  margin: 0px;                       /* 全余白の指定 */
-  padding: 8px 0px;                  /* 全余白の指定 */
+  margin: 0px;                       /* 要素の外側余白 */
+  padding: 8px 0px;                  /* 要素の内側余白 */
   border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
 .explanation p {
-  margin: 0px;          /* 全余白の指定 */
+  margin: 0px;          /* 要素の外側余白 */
   font-family: serif;   /* フォントの変更 */
   font-weight: bold;    /* 文字の太さ */
   font-size: 15px;      /* 文字の大きさ */
@@ -105,7 +110,7 @@ h2.craft_headline {
 /* ボタン */
 .btn {
   display: inline-block;
-  padding: 0.3em 1.6em;
+  padding: 0.4em 0.4em;
   text-decoration: none;
   color: black;
   border: solid 2px black;
@@ -128,8 +133,8 @@ h2.craft_headline {
 }
 
 .Pagination-Item-Link {
-  width: 45px;
-  height: 45px;
+  width: 45px;              /* 横幅 */
+  height: 45px;             /* 高さ */
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -145,65 +150,68 @@ h2.craft_headline {
   transition: all 0.15s linear;
 }
 
-.Pagination-Item-Link-Icon {width: 20px;}
+.Pagination-Item-Link-Icon {width: 20px;} /* 横幅 */
 
+/* マウスオーバー */
 .Pagination-Item-Link.isActive {
-  background: #111;
-  color: #fff;
-  pointer-events: none;
+  background: #111;   /* 背景 */
+  color: #fff;        /* 文字の色 */
+  pointer-events: none; /* クリックやタッチ操作を無効化 */
 }
 
 .Pagination-Item-Link:not(.isActive):hover {
-  background: #111;
-  color: #fff;
+  background: #111; /* 背景 */
+  color: #fff;      /* 文字の色 */
 }
 
-.Pagination > * + * {margin-left: 8px;}
+.Pagination > * + * {margin-left: 8px;} /* 要素の外側左余白 */
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  br {display: none;}
+  body {margin-top: 18%;} /* 要素の外側上余白 */
+  
+  br {display: none;}     /* 表示しない */
 
   h1 {
-    text-align: center;
-    margin-bottom: 0;
+    padding: 8px 0px;     /* 要素の内側余白 */
+    text-align: center;   /* 左右の中央揃え */
   }
 
   .craft {text-align: center;}
 
   h2.craft_headline {text-align: center;}
 
-  .link-space {margin: 8px 0;}
+  .link-space {margin: 8px 0;}  /* 要素の外側余白 */
 
   .explanation p {
     text-align: left; /* 左寄せ */
-    margin-top: 16px;
+    margin-top: 16px; /* 要素の外側上余白 */
   }
   
 /* 画像 */
-  .craft_img img {width: 8cm;}
+  .craft_img img {width: 8cm;}  /* 横幅 */
 }
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {max-width: 1024px;}
+  main {max-width: 1024px;} /* 最大横幅 */
 
-  h1 {margin-bottom: 0;}
+  h1 {padding-top: 16px;}   /* 要素の内側上余白 */
   
 /* 一覧説明 */
   .craft {
     display: flex;
-    margin-bottom: 16px;
+    margin-bottom: 16px;  /* 要素の外側下余白 */
   }
   
   .explanation {
-    margin: auto;
-    width: 40em;
+    margin: auto; /* 要素の外側余白 */
+    width: 40em;  /* 横幅 */
   }
 
   .link-space {align-self: end;}
 
 /* 画像 */
-  .craft_img img {width: 5cm;}
+  .craft_img img {width: 5cm;}  /* 横幅 */
 }
 </style>

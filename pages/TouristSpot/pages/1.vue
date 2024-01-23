@@ -221,7 +221,7 @@ h2.spot_headline {
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {max-width: 1024px;}
+  main {max-width: 1024px;} /* 最大横幅 */
 
   h1 {margin-bottom: 0;}
   

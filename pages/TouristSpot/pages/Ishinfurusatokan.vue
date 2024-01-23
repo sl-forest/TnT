@@ -137,7 +137,7 @@ a.btn:hover {
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {max-width: 1024px;}
+  main {max-width: 1024px;} /* 最大横幅 */
   
   .TouristSpot {
     display: flex;
