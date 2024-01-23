@@ -56,7 +56,6 @@
     font-family: 'New Tegomin', serif;
     color: white;
     margin: 0;          /* 要素の外側余白 */
-    margin-top: 16px;   /* 要素の外側上余白 */
     margin-left: 16px;  /* 要素の外側下余白 */
   }
 
@@ -154,14 +153,14 @@
   }
  
   #footer .nav {
-    display: inline-block;
+    display: inline-block;  /* インラインブロック要素へ変更 */
     margin-top: 30px;       /* 要素の外側上余白 */
     margin-bottom: 0;       /* 要素の外側下余白 */
   }
  
   #footer .nav li {display: inline-block;}    /* インラインブロック要素へ変更 */
 
-  #footer .nav li a {text-decoration: none;}
+  #footer .nav li a {text-decoration: none;}  /* 下線無効 */
 
   #footer .nav li a:hover {color: #ffd700;}
 }
@@ -195,14 +194,14 @@
   }
 
   #footer .nav {
-    padding: 0px 40px;    /* 要素の内側余白 */
+    padding: 0 40px;    /* 要素の内側余白 */
     list-style: none;
   }
 
   #footer .nav li {border-top: 1px solid #555;}
  
   #footer .nav li a {
-    text-decoration: none;
+    text-decoration: none;      /* 下線無効 */
     padding: 12px 20px;         /* 要素の内側余白 */
     display: block;
     background-size: 5px auto;

@@ -135,8 +135,8 @@ h1 {
 }
 
 h2.localcuisine_headline {
-  margin: 0px;                       /* 全余白の指定 */
-  padding: 8px 0px;                  /* 全余白の指定 */
+  margin: 0;                       /* 全余白の指定 */
+  padding: 8px 0;                  /* 全余白の指定 */
   border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
@@ -144,12 +144,12 @@ h2.localcuisine_headline {
 .teikyou {font-weight: bold;  /* 文字の太さ */}
 
 .teikyou p {
-  margin: 0px;        /* 全余白の指定 */
+  margin: 0;        /* 全余白の指定 */
   font-size: 13px;    /* 文字の大きさ */
 }
 
 .explanation p {
-  margin: 0px;          /* 全余白の指定 */
+  margin: 0;          /* 全余白の指定 */
   font-family: serif;   /* フォントの変更 */
   font-weight: bold;    /* 文字の太さ */
   font-size: 15px;      /* 文字の大きさ */
@@ -218,7 +218,7 @@ h2.localcuisine_headline {
  body {margin-top: 18%;} /* 要素の外側上余白 */
 
   h1 {
-    padding: 8px 0px;     /* 要素の内側余白 */
+    padding: 8px 0;     /* 要素の内側余白 */
     text-align: center;   /* 左右の中央揃え */
   }
 
@@ -235,7 +235,7 @@ h2.localcuisine_headline {
 
   .link-space {margin: 16px 0;}
 
-/* 郷土料理画像 */
+/* 画像 */
   .localcuisine_img img {height: 7cm;}
 }
 
@@ -258,7 +258,7 @@ h2.localcuisine_headline {
 
   .link-space {align-self: end;}
 
-/* 郷土料理画像 */
+/* 画像 */
   .localcuisine_img img {width: 5cm;}
 }
 </style>

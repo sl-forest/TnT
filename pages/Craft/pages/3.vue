@@ -116,13 +116,13 @@ h1 {
 }
 
 h2.craft_headline {
-  margin: 0px;                       /* 要素の外側余白 */
-  padding: 8px 0px;                  /* 要素の内側余白 */
+  margin: 0;                       /* 要素の外側余白 */
+  padding: 8px 0;                  /* 要素の内側余白 */
   border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
 .explanation p {
-  margin: 0px;          /* 要素の外側余白 */
+  margin: 0;          /* 要素の外側余白 */
   font-family: serif;   /* フォントの変更 */
   font-weight: bold;    /* 文字の太さ */
   font-size: 15px;      /* 文字の大きさ */
@@ -193,7 +193,7 @@ h2.craft_headline {
   br {display: none;}
 
   h1 {
-    padding: 8px 0px;     /* 要素の内側余白 */
+    padding: 8px 0;     /* 要素の内側余白 */
     text-align: center;   /* 左右の中央揃え */
   }
 
@@ -209,7 +209,7 @@ h2.craft_headline {
   }
   
 /* 画像 */
-  .craft_img img {width: 8cm;}  /* 横幅 */
+  .craft_img img {width: 320px;}  /* 横幅 */
 }
 
 /* PC向けスタイル */
@@ -232,6 +232,6 @@ h2.craft_headline {
   .link-space {align-self: end;}
 
 /* 画像 */
-  .craft_img img {width: 5cm;}  /* 横幅 */
+  .craft_img img {width: 180px;}  /* 横幅 */
 }
 </style>

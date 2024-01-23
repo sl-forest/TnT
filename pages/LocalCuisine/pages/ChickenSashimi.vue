@@ -177,7 +177,7 @@ h1 {
 
   .localcuisine_note dd {
     width: 12cm;
-    margin: 0px;
+    margin: 0;
     display: flex;
     background-color: #fff;
     padding-left: 1%;
@@ -251,12 +251,12 @@ h1 {
 
 /*提供*/
   .offer {
-    margin: 16px 0px 0px 0px;
+    margin: 16px 0 0 0;
     text-align: right;
   }
 
   .offer p {
-    margin: 4px 0px 0px 0px;
+    margin: 4px 0 0 0;
     font-size: 80%;
   }
 }
@@ -298,7 +298,7 @@ h1 {
 
   .localcuisine_note dd {
     width: 14cm;
-    margin: 0px;
+    margin: 0;
     display: flex;
     background-color: #fff;
     padding-left: 1%;
@@ -362,12 +362,12 @@ h1 {
 
 /*提供*/
   .offer {
-    margin: 16px 0px 0px 0px;
+    margin: 16px 0 0 0;
     text-align: right;
   }
 
   .offer p {
-    margin: 4px 0px 0px 0px;
+    margin: 4px 0 0 0;
     font-size: 80%;
   }
 }

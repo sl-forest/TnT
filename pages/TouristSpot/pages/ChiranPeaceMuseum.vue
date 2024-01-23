@@ -55,7 +55,15 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}
+body {margin: 0;}       /* 要素の外側余白 */
+
+main {margin: 0 auto;}  /* 要素の外側余白 */
+
+h1 {
+  margin: 0;            /* 要素の外側余白 */
+  padding: 8px 0;       /* 要素の内側余白 */
+  font-family: 'New Tegomin', serif;  /* フォントの変更 */
+}
 
 .TouristSpot_note dd a {
   text-decoration: none;
@@ -85,12 +93,9 @@ a.btn:hover {
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  h1 {
-    margin: 16px 0;
-    text-align: center;
-  }
-  
-  .TouristSpot h1 {margin: 1.6px auto;}
+  body {margin-top: 18%;}  /* 要素の外側上余白 */
+
+  h1 {text-align: center;} /* 左右の中央揃え */
 
   .TouristSpot_img {text-align: center;}
 
@@ -119,7 +124,7 @@ a.btn:hover {
   }
 
   .TouristSpot_note dd {
-    margin: 0px;
+    margin: 0;
     padding: 2%;
     font-size: 15px;
     display: flex;
@@ -137,8 +142,6 @@ a.btn:hover {
     display: flex;
     padding-bottom: 24px;
   }
-
-  .TouristSpot h1 {margin: 1.6px auto;}
 
   .TouristSpot_img img {height: 10cm;}
 
@@ -167,7 +170,7 @@ a.btn:hover {
 
   .TouristSpot_note dd {
     width: 14cm;
-    margin: 0px;
+    margin: 0;
     display: flex;
     background-color: #fff;
     padding-left: 1%;

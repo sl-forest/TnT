@@ -124,7 +124,7 @@ h1 {
   body {margin-top: 18%;} /* 要素の外側上余白 */
 
   h1 {
-    padding: 8px 0px;     /* 要素の内側余白 */
+    padding: 8px 0;     /* 要素の内側余白 */
     text-align: center;   /* 左右の中央揃え */
   }
   

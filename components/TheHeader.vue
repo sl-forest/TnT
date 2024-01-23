@@ -132,7 +132,7 @@ nav {
     font-family: 'New Tegomin', serif;
     font-size: 15px;
     font-weight: 400;
-    text-decoration: none;
+    text-decoration: none;              /* 下線無効 */
     text-transform: uppercase;
 
 // スマホ

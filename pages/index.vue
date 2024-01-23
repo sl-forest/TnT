@@ -207,12 +207,12 @@
 }
 
 .Kagoshima_about h1 {
-  margin: 8px 0px;                   /* 要素の外側余白 */
+  margin: 8px 0;                   /* 要素の外側余白 */
   font-family: 'New Tegomin', serif;  /* フォント変更 */
 }  
 
 .headline h2 {
-  margin: 8px 0px;                   /* 要素の外側余白*/
+  margin: 8px 0;                   /* 要素の外側余白*/
   font-size: 40px;                    /* 文字の大きさ */
   font-family: 'New Tegomin', serif;  /* フォント変更 */
   text-align: center;                 /* 左右の中央揃え */
@@ -231,7 +231,7 @@ a.text_area {
   text-align: center;   /* 左右の中央揃え */
   margin: 0 auto;       /* 要素の外側余白*/
   color: rgb(0, 0, 0);  /* 文字の色 */
-  text-decoration: none;  /* 下線削除 */
+  text-decoration: none;  /* 下線無効 */
 }
 
 /* スマホ（ 画面サイズが480px ） */
@@ -352,7 +352,7 @@ a.text_area {
 
   .introduction {
     margin: auto;          /* 要素の外側余白 */
-    padding: 8px 0px;      /* 要素の内側余白 */
+    padding: 8px 0;        /* 要素の内側余白 */
     width: 1000px;         /* 幅 */
     display: flex;         /* 横並び */
     align-items: center;   /* 上下の中央揃え */

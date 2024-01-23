@@ -116,13 +116,13 @@ h1 {
 }
 
 h2.craft_headline {
-  margin: 0px;                       /* 要素の外側余白 */
-  padding: 8px 0px;                  /* 要素の内側余白 */
+  margin: 0;                       /* 要素の外側余白 */
+  padding: 8px 0;                  /* 要素の内側余白 */
   border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
 .explanation p {
-  margin: 0px;          /* 要素の外側余白 */
+  margin: 0;            /* 要素の外側余白 */
   font-family: serif;   /* フォントの変更 */
   font-weight: bold;    /* 文字の太さ */
   font-size: 15px;      /* 文字の大きさ */
@@ -130,13 +130,13 @@ h2.craft_headline {
 
 /* ボタン */
 .btn {
-  display: inline-block;
+  display: inline-block;      /* インラインブロック要素へ変更 */
   padding: 0.4em 0.8em;       /* 要素の内側余白 */
-  text-decoration: none;
+  text-decoration: none;      /* 下線無効 */
   color: black;             /* 文字の色 */
-  border: solid 2px black;
-  border-radius: 3px;
-  transition: .4s;
+  border: solid 2px black;  /* 枠線 */
+  border-radius: 3px;         /* 要素の境界の外側の角を丸める */
+  transition: .4s;            /* 要素の2つの状態間の変化を定義する */
 }
 
 .btn:hover {
@@ -156,11 +156,11 @@ h2.craft_headline {
 .Pagination-Item-Link {
   width: 45px;              /* 横幅 */
   height: 45px;             /* 高さ */
-  border-radius: 50%;
+  border-radius: 50%;       
   display: flex;            /* 親要素に対して子要素を横並びにする  */
   justify-content: center;
   align-items: center;
-  text-decoration: none;
+  text-decoration: none;    /* 下線無効 */
   flex-wrap: wrap;
   overflow: hidden;         /* 要素からはみ出た部分を非表示 */
   background: #fff;       /* 背景 */
@@ -193,7 +193,7 @@ h2.craft_headline {
   br {display: none;}     /* 表示しない */
 
   h1 {
-    padding: 8px 0px;     /* 要素の内側余白 */
+    padding: 8px 0;     /* 要素の内側余白 */
     text-align: center;   /* 左右の中央揃え */
   }
 
@@ -209,7 +209,7 @@ h2.craft_headline {
   }
   
 /* 画像 */
-  .craft_img img {width: 8cm;}  /* 横幅 */
+  .craft_img img {width: 320px;}  /* 横幅 */
 }
 
 /* PC向けスタイル */
@@ -232,6 +232,6 @@ h2.craft_headline {
   .link-space {align-self: end;}
 
 /* 画像 */
-  .craft_img img {width: 5cm;}  /* 横幅 */
+  .craft_img img {width: 180px;}  /* 横幅 */
 }
 </style>

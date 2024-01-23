@@ -118,18 +118,23 @@
 
 <style>
 /* 共通 */
-main {margin: 0 auto;}  /* 全余白の指定 */
+body {margin: 0;}       /* 要素の外側余白 */
 
-h1 {font-family: 'New Tegomin', serif;} /* フォントの変更 */
+main {margin: 0 auto;}  /* 要素の外側余白 */
+
+h1 {
+  margin: 0;                          /* 要素の外側余白 */
+  font-family: 'New Tegomin', serif;  /* フォントの変更 */
+}
 
 h2.spot_headline {
-  margin: 0px;                       /* 全余白の指定 */
-  padding: 8px 0px;                  /* 全余白の指定 */
+  margin: 0;                       /* 全余白の指定 */
+  padding: 8px 0;                  /* 全余白の指定 */
   border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
 .explanation p {
-  margin: 0px;          /* 全余白の指定 */
+  margin: 0;          /* 全余白の指定 */
   font-family: serif;   /* フォントの変更 */
   font-weight: bold;    /* 文字の太さ */
   font-size: 15px;      /* 文字の大きさ */
@@ -195,11 +200,13 @@ h2.spot_headline {
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  br {display: none;}
+  body {margin-top: 18%;} /* 要素の外側上余白 */
+
+  br {display: none;}     /* 表示しない */
 
   h1 {
-    text-align: center;
-    margin-bottom: 0;
+    padding: 8px 0;     /* 要素の内側余白 */
+    text-align: center;   /* 左右の中央揃え */
   }
 
   .spot {text-align: center;}
@@ -213,7 +220,7 @@ h2.spot_headline {
     margin-top: 16px;
   }
   
-/* 観光地理画像 */
+/* 画像 */
   .spot_img img{height: 6cm;}
 }
 
@@ -221,9 +228,9 @@ h2.spot_headline {
 @media screen and (min-width: 1024px) {
   main {max-width: 1024px;} /* 最大横幅 */
 
-  h1 {margin-bottom: 0;}
+  h1 {padding-top: 16px;}   /* 要素の内側上余白 */
   
-/* 観光地一覧説明 */
+/* 一覧説明 */
   .spot {
     display: flex;
     margin-bottom: 16px;
@@ -236,7 +243,7 @@ h2.spot_headline {
 
   .link-space {align-self: end;}
 
-/* 観光地画像 */
+/* 画像 */
   .spot_img img {width: 5cm;}
 }
 </style>

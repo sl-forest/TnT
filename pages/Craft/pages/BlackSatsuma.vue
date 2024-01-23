@@ -77,7 +77,7 @@ h1 {
 
   .Craft_img {text-align: center;}
 
-  .Craft_img img {width: 72%;}
+  .Craft_img img {width: 345px;}
 
   .Craft_note {margin-top: 16px;}
 
@@ -102,7 +102,7 @@ h1 {
   }
 
   .Craft_note dd {
-    margin: 0px;
+    margin: 0;
     padding: 2%;
     font-size: 16px;
     display: flex;
@@ -123,7 +123,7 @@ h1 {
 
   .Craft_img {margin: auto;}
 
-  .Craft_img img {height: 8cm;}
+  .Craft_img img {width: 270px;}  /* 横幅 */
 
   .Craft_note {
     margin: auto;
@@ -150,7 +150,7 @@ h1 {
 
   .Craft_note dd {
     width: 14cm;
-    margin: 0px;
+    margin: 0;
     display: flex;
     background-color: #fff;
     padding-left: 1%;
