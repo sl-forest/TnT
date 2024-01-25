@@ -293,7 +293,7 @@ h1 {
   }
 
   .num {
-    display: inline-block;
+    display: inline-block;  /* インラインブロック要素へ変更 */
     font-size: 1.714em;
     width: 40px;
     margin-top: -5px;
@@ -404,11 +404,11 @@ h1 {
   }
 
   .num {
-    display: inline-block;
-    font-size: 1.714em;
-    width: 40px;
-    margin-top: -5px;
-    padding-right: 10px;
+    display: inline-block;  /* インラインブロック要素へ変更 */
+    font-size: 1.714em;     /* 文字の大きさ */
+    width: 40px;            /* 横幅 */
+    margin-top: -5px;       /* 要素の外側上余白 */
+    padding-right: 10px;    /* 要素の内側右余白 */
   }
 
   .text {

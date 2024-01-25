@@ -88,30 +88,30 @@ h1 {
 
   .Craft_note dl {
     display: table;
-    width: 100%;
-    font-size: 16px;
-    margin: 3px 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    background-color: #e0e2e2;
+    width: 100%;                  /* 横幅 */
+    font-size: 16px;              /* 文字の大きさ */
+    margin: 3px 0;                /* 要素の外側余白 */
+    overflow: hidden;             /* 要素からはみ出た部分を非表示 */
+    display: flex;                /* 親要素に対して子要素を横並びにする */
+    align-items: center;          /* 上下の中央揃え */
+    background-color: #e0e2e2;  /* 背景 */
   }
 
   .Craft_note dt {
-    vertical-align: middle;
-    flex-shrink: 0;
-    text-align: center;
-    width: 24%;
+    vertical-align: middle; 
+    flex-shrink: 0;         /* 縮小値 */
+    text-align: center;     /* 左右の中央揃え */
+    width: 24%;             /* 横幅 */
   }
 
   .Craft_note dd {
-    margin: 0;
-    padding: 2%;
-    font-size: 16px;
-    display: flex;
-    background-color: #fff;
-    padding-left: 1%;
-    flex-grow: 1;
+    margin: 0;                /* 要素の外側余白 */
+    padding: 2%;              /* 要素の内側余白 */
+    font-size: 16px;          /* 文字の大きさ */
+    display: flex;            /* 親要素に対して子要素を横並びにする */
+    background-color: #fff; /* 背景 */
+    padding-left: 1%;         /* 要素の内側左余白 */
+    flex-grow: 1;             /* 余白の追加 */
   }
 }
 
@@ -120,20 +120,20 @@ h1 {
   main {max-width: 1024px;} /* 最大横幅 */
   
   .Craft {
-    display: flex;
-    padding-bottom: 24px;
+    display: flex;        /* 親要素に対して子要素を横並びにする */
+    padding-bottom: 24px; /* 要素の内側下余白 */
   }
 
-  .Craft_img {margin: auto;}
+  .Craft_img {margin: auto;}  /* 要素の外側余白 */
 
   .Craft_img img {width: 450px;}  /* 横幅 */
 
   .Craft_note {
-    margin: auto;
-    padding-left: 16px;
+    margin: auto;       /* 要素の外側余白 */
+    padding-left: 16px; /* 要素の内側左余白 */
   }
 
-  .Craft_note h2 {margin: 8px auto;}
+  .Craft_note h2 {margin: 8px auto;}  /* 要素の外側余白 */
 
   .Craft_note dl {
     font-size: 18px;

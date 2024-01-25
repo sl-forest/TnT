@@ -59,7 +59,7 @@ header {
     width: 100%;            /* 横幅 */
     background: #242428;  /* 背景 */
     z-index: 12;            /* 要素を重ねる順序の指定 */
-    display: flex;          /* 親要素に対して子要素を横並びにする  */ 
+    display: flex;          /* 親要素に対して子要素を横並びにする */ 
     justify-content: space-evenly;  
 
 // スマホ
@@ -72,7 +72,7 @@ header {
 
 .logo-space {
     margin: 0;      /* 要素の外側余白 */
-    display: flex;  /* 親要素に対して子要素を横並びにする  */
+    display: flex;  /* 親要素に対して子要素を横並びにする */
 }
 
 .logo-space a img {
@@ -91,7 +91,7 @@ header {
 }
 
 nav {
-  display: flex;        /* 親要素に対して子要素を横並びにする  */
+  display: flex;        /* 親要素に対して子要素を横並びにする */
   align-items: center;  /* 上下の中央揃え */
   margin-top: 8px;      /* 要素の外側余白 */
   
@@ -100,7 +100,7 @@ nav {
 }
 
 .menu_box {
-  display: flex;        /* 親要素に対して子要素を横並びにする  */
+  display: flex;        /* 親要素に対して子要素を横並びにする */
   flex-direction: row;
   list-style-type: none;
   
@@ -125,22 +125,22 @@ nav {
 }
 
 .menu_item {
-    display: flex;             /* 親要素に対して子要素を横並びにする  */
+    display: flex;             /* 親要素に対して子要素を横並びにする */
     flex-direction: column;
     padding: 0 1em 0 1.9em;
     color: #ffffff;
-    font-family: 'New Tegomin', serif;
-    font-size: 15px;
-    font-weight: 400;
+    font-family: 'New Tegomin', serif;  /* フォント変更 */
+    font-size: 15px;                    /* 文字の大きさ */
+    font-weight: 400;                   /* 文字の太さ */
     text-decoration: none;              /* 下線無効 */
     text-transform: uppercase;
 
 // スマホ
     @media screen and (max-width: 480px) {
-        display: block;
-        padding: 12px 24px;
-        color: #ffffff;
-        font-size: 18px;
+        display: block;     /* ブロック要素へ変更 */
+        padding: 12px 24px; /* 要素の内側余白 */
+        color: #ffffff;   /* 文字の色 */
+        font-size: 18px;    /* 文字の大きさ */
         transition-duration: 0.5s;  /* アニメーションが完了するまでの時間 */
 
         &:hover {background-color: #4f5464;}
@@ -179,7 +179,7 @@ nav {
 .menu_btn {
     transition-duration: 0.25s; /* アニメーションが完了するまでの時間 */
     box-sizing: border-box;
-    display: flex;              /* 親要素に対して子要素を横並びにする  */
+    display: flex;              /* 親要素に対して子要素を横並びにする */
     align-items: center;
     position: relative;
     bottom: 2px;                /* 位置調整 */

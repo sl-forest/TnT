@@ -161,45 +161,47 @@ h2.spot_headline {
 
 /* ページネーション */
 .Pagination {
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
+  padding: 0;               /* 要素の内側余白 */
+  display: flex;            /* 親要素に対して子要素を横並びにする */
+  align-items: center;      /* 上下の中央揃え */
+  justify-content: center;  /* 横並び要素の左右中央揃え */
+  list-style: none;         /* 黒点削除 */
 }
 
 .Pagination-Item-Link {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  flex-wrap: wrap;
-  overflow: hidden;
-  background: #fff;
-  border: solid 2px #111;
-  font-size: 14px;
-  color: #111;
-  font-weight: bold;
-  transition: all 0.15s linear;
+  width: 45px;              /* 横幅 */
+  height: 45px;             /* 高さ */
+  border-radius: 50%;       /* 角を丸める */  
+  display: flex;            /* 親要素に対して子要素を横並びにする */
+  justify-content: center;  /* 横並び要素の左右中央揃え */
+  align-items: center;      /* 上下の中央揃え */
+  text-decoration: none;    /* 下線無効 */
+  flex-wrap: wrap;          /* 子要素を折り返す */       
+  overflow: hidden;         /* 要素からはみ出た部分を非表示 */
+  background: #fff;       /* 背景 */
+  border: solid 2px #111; /* 枠線 */
+  font-size: 14px;          /* 文字の大きさ */
+  color: #111;            /* 文字の色 */
+  font-weight: bold;        /* 文字の太さ */
+  transition: all 0.15s linear; /* 要素の2つの状態間の変化を定義する */
 }
 
-.Pagination-Item-Link-Icon {width: 20px;}
+.Pagination-Item-Link-Icon {width: 20px;} /* 横幅 */
 
+/* アクティブボタン */
 .Pagination-Item-Link.isActive {
-  background: #111;
-  color: #fff;
-  pointer-events: none;
+  background: #111;   /* 背景 */
+  color: #fff;        /* 文字の色 */
+  pointer-events: none; /* クリックやタッチ操作を無効化 */
 }
 
+/* マウスオーバー */
 .Pagination-Item-Link:not(.isActive):hover {
-  background: #111;
-  color: #fff;
+  background: #111; /* 背景 */
+  color: #fff;      /* 文字の色 */
 }
 
-.Pagination > * + * {margin-left: 8px;}
+.Pagination > * + * {margin-left: 8px;} /* 要素の外側左余白 */
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {

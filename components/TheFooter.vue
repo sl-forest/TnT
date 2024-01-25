@@ -73,10 +73,10 @@
   #footer form {margin: auto;}  /* 要素の外側余白 */
 
   #footer .search-form {
-    display: flex;        /* 親要素に対して子要素を横並びにする  */
+    display: flex;        /* 親要素に対して子要素を横並びにする */
     align-items: center;  /* 左右の中央揃え */
     overflow: hidden;     /* 要素からはみ出た部分を非表示 */
-    border-radius: 3px;
+    border-radius: 3px;   /* 角を丸める */
     margin: 0;            /* 要素の外側余白 */
   }
 
@@ -85,7 +85,7 @@
     height: 45px;       /* 高さ */
     padding: 5px 15px;  /* 要素の内側余白 */
     border: none;
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;   /* 角を丸める */
     box-sizing: border-box;
     background-color: #e6edf3;  /* 背景 */
     font-size: 1em;               /* 文字の大きさ */
@@ -95,14 +95,14 @@
   #footer .search-form input::placeholder {color: #767d83;}
 
   #footer .search-form button {
-    display: flex;            /* 親要素に対して子要素を横並びにする  */
+    display: flex;            /* 親要素に対して子要素を横並びにする */
     justify-content: center;  /* 横並び要素の左右中央揃え */
     align-items: center;      /* 上下の中央揃え */
     width: 50px;              /* 横幅 */
     height: 45px;             /* 高さ */
     border: none;
-    border-radius: 0 3px 3px 0;
-    background-color: #2589d0;
+    border-radius: 0 3px 3px 0;   /* 角を丸める */
+    background-color: #2589d0;  /* 背景 */
     cursor: pointer;
   }
 
@@ -124,7 +124,7 @@
 /* PC */
 @media screen and (min-width: 1024px) {
   #footer .wrap {
-    display: flex;            /* 親要素に対して子要素を横並びにする  */
+    display: flex;            /* 親要素に対して子要素を横並びにする */
     justify-content: center;  /* 横並び要素の左右中央揃え */
     align-items: center;      /* 上下の中央揃え */
   }
@@ -133,7 +133,7 @@
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;                /* 親要素に対して子要素を横並びにする  */
+    display: flex;                /* 親要素に対して子要素を横並びにする */
     flex-direction: row-reverse;
     align-items: center;          /* 上下の中央揃え */
   }
@@ -180,7 +180,7 @@
   .ie #footer .logo img,
   #footer .logo {
     text-align: center; /* 左右の中央揃え */
-    display: block;     /* 上下の中央揃え */
+    display: block;     /* ブロック要素へ変更 */
   }
 
   #footer .inner-block h1 {text-align: center;} /* 左右の中央揃え */
@@ -203,7 +203,7 @@
   #footer .nav li a {
     text-decoration: none;      /* 下線無効 */
     padding: 12px 20px;         /* 要素の内側余白 */
-    display: block;
+    display: block;             /* ブロック要素へ変更 */
     background-size: 5px auto;
   }
  

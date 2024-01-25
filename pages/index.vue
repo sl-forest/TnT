@@ -354,7 +354,7 @@ a.text_area {
     margin: auto;          /* 要素の外側余白 */
     padding: 8px 0;        /* 要素の内側余白 */
     width: 1000px;         /* 幅 */
-    display: flex;         /* 横並び */
+    display: flex;         /* 親要素に対して子要素を横並びにする */
     align-items: center;   /* 上下の中央揃え */
     border-top: 2px solid #d5d4c3;    /* 上線 */
   }

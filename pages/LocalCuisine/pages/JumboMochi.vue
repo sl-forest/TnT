@@ -252,7 +252,7 @@ h1 {
   }
 
   .num {
-    display: inline-block;
+    display: inline-block;  /* インラインブロック要素へ変更 */
     font-size: 1.714em;
     width: 40px;
     margin-top: -5px;
@@ -366,7 +366,7 @@ h1 {
   }
 
   .num {
-    display: inline-block;
+    display: inline-block;  /* インラインブロック要素へ変更 */
     font-size: 1.714em;
     width: 40px;
     margin-top: -5px;

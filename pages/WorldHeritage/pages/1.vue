@@ -36,7 +36,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/TerayamaCharcoalKiln">炭窯跡はこちr</a>
+          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/TerayamaCharcoalKiln">炭窯跡はこちら</a>
         </div>
       </div>
 
@@ -103,7 +103,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/ShokoShuseikanMuseum">尚古集成館はこちら</a>
+          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/ShokoShuseikanMuseum">機械工場はこちら</a>
         </div>
       </div>
     </main>
@@ -126,7 +126,7 @@ h1 {
 h2.worldheritage_headline {
   margin: 0;                       /* 全余白の指定 */
   padding: 8px 0;                  /* 全余白の指定 */
-  border-top: 2px solid #d5d4c3;   /* 上線 */
+  border-top: 2px solid #d5d4c3; /* 上線 */
 }
 
 h2.worldheritage_headline_small {
@@ -166,48 +166,6 @@ h2.worldheritage_headline_small {
   background: black;  /* 背景 */
   color: white;       /* 文字の色 */
 }
-
-/* ページネーション */
-.Pagination {
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
-}
-
-.Pagination-Item-Link {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  flex-wrap: wrap;
-  overflow: hidden;
-  background: #fff;
-  border: solid 2px #111;
-  font-size: 14px;
-  color: #111;
-  font-weight: bold;
-  transition: all 0.15s linear;
-}
-
-.Pagination-Item-Link-Icon {width: 20px;}
-
-.Pagination-Item-Link.isActive {
-  background: #111;
-  color: #fff;
-  pointer-events: none;
-}
-
-.Pagination-Item-Link:not(.isActive):hover {
-  background: #111;
-  color: #fff;
-}
-
-.Pagination > * + * {margin-left: 8px;} 
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {

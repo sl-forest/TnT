@@ -64,29 +64,30 @@ h1 {
 }
 
 .TouristSpot_note dd a {
-  text-decoration: none;
-  color: blue;
+  text-decoration: none;  /* 下線削除 */
+  color: blue;          /* 文字の色 */
 }
   
 /* ボタン */
 a.btn {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  width: 320px;
-  margin: 24px auto;
-  padding: 1rem 4rem;
-  font-weight: bold;
-  border: 2px solid #27acd9;
-  background: #27acd9;
-  color: #fff;
-  border-radius: 100vh;
-  transition: 0.5s;
+  display: block;                /* ブロック要素へ変更 */
+  text-align: center;            /* 左右の中央揃え */
+  text-decoration: none;         /* 下線削除 */
+  width: 320px;                  /* 横幅 */
+  margin: 24px auto;             /* 高さ */
+  padding: 1rem 4rem;            /* 要素の内側余白 */
+  font-weight: bold;             /* 文字の太さ */
+  border: 2px solid #27acd9;   /* 枠線 */
+  background: #27acd9;         /* 背景 */
+  color: #fff;                 /* 文字の色 */
+  border-radius: 100vh;          /* 角を丸める */
+  transition: 0.5s;              /* アニメーションが完了するまでの時間 */
 }
 
+/* マウスオーバー */
 a.btn:hover {
-  color: #27acd9;
-  background: #fff;
+  color: #27acd9;   /* 文字の色 */
+  background: #fff; /* 背景 */
 }
 
 /* スマホ向けスタイル */
@@ -137,8 +138,9 @@ a.btn:hover {
   main {max-width: 1024px;} /* 最大横幅 */
   
   .TouristSpot {
-    display: flex;
-    padding-bottom: 24px;
+    display: flex;            /* 親要素に対して子要素を横並びにする */
+    justify-content: center;  /* 横並び要素の左右中央揃え */
+    padding-bottom: 24px;     /* 要素の内側下余白 */
   }
 
   .TouristSpot_img img {height: 10cm;}
