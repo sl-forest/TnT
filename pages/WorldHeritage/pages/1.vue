@@ -19,7 +19,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/SekiyoshinoSosuiko">スポット情報</a>
+          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/SekiyoshinoSosuiko">疎水溝はこちら</a>
         </div>
       </div>
 
@@ -36,7 +36,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/TerayamaCharcoalKiln">スポット情報</a>
+          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/TerayamaCharcoalKiln">炭窯跡はこちr</a>
         </div>
       </div>
 
@@ -62,7 +62,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/ReverberatoryFurnaceRuins">スポット情報</a>
+          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/ReverberatoryFurnaceRuins">反射炉跡はこちら</a>
         </div>
       </div>
 
@@ -85,7 +85,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/Ijinkan">スポット情報</a>
+          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/Ijinkan">異人館はこちら</a>
         </div>
       </div>
 
@@ -103,7 +103,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/ShokoShuseikanMuseum">スポット情報</a>
+          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/ShokoShuseikanMuseum">尚古集成館はこちら</a>
         </div>
       </div>
     </main>
@@ -130,9 +130,9 @@ h2.worldheritage_headline {
 }
 
 h2.worldheritage_headline_small {
-  margin: 0;                       /* 全余白の指定 */
-  padding: 8px 0;                  /* 全余白の指定 */
-  border-top: 2px solid #d5d4c3;   /* 上線 */
+  margin: 0;                        /* 全余白の指定 */
+  padding: 8px 0;                   /* 全余白の指定 */
+  border-top: 2px solid #d5d4c3;  /* 上線 */
 }
 
 /* 提供 */
@@ -140,30 +140,31 @@ h2.worldheritage_headline_small {
 
 .teikyou p {
   margin: 0;        /* 全余白の指定 */
-  font-size: 13px;    /* 文字の大きさ */
+  font-size: 13px;  /* 文字の大きさ */
 }
 
 .explanation p {
-  margin: 0;          /* 全余白の指定 */
-  font-family: serif;   /* フォントの変更 */
-  font-weight: bold;    /* 文字の太さ */
-  font-size: 16px;      /* 文字の大きさ */
+  margin: 0;           /* 全余白の指定 */
+  font-family: serif;  /* フォントの変更 */
+  font-weight: bold;   /* 文字の太さ */
+  font-size: 16px;     /* 文字の大きさ */
 }
 
 /* ボタン */
 .btn {
-  display: inline-block;
-  padding: 0.3em 1.2em;
-  text-decoration: none;
-  color: black;
-  border: solid 2px black;
-  border-radius: 3px;
-  transition: .4s;
+  display: inline-block;      /* インラインブロック要素へ変更 */
+  padding: 0.3em 0.6em;       /* 要素の内側余白 */
+  text-decoration: none;      /* 下線無効 */
+  color: black;             /* 文字の色 */
+  border: solid 2px black;  /* 枠線 */
+  border-radius: 3px;         /* 要素の境界の外側の角を丸める */
+  transition: .4s;            /* 要素の2つの状態間の変化を定義する */
 }
 
+/* マウスオーバー */
 .btn:hover {
-  background: black;
-  color: white;
+  background: black;  /* 背景 */
+  color: white;       /* 文字の色 */
 }
 
 /* ページネーション */

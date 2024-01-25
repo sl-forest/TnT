@@ -21,7 +21,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/History/pages/ShimazuNariakira"><b>年表</b></a>
+          <a class ="btn" href="http://localhost:3000/History/pages/ShimazuNariakira">斉彬の年表</a>
         </div>
       </div>
 
@@ -40,7 +40,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/History/pages/SaigoTakamori"><b>年表</b></a>
+          <a class ="btn" href="http://localhost:3000/History/pages/SaigoTakamori">隆盛の年表</a>
         </div> 
       </div>
 
@@ -59,7 +59,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/History/pages/OkuboToshimichi"><b>年表</b></a>
+          <a class ="btn" href="http://localhost:3000/History/pages/OkuboToshimichi">利通の年表</a>
         </div>
       </div>
 
@@ -77,7 +77,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/History/pages/KomatsuTatewaki"><b>年表</b></a>
+          <a class ="btn" href="http://localhost:3000/History/pages/KomatsuTatewaki">帯刀の年表</a>
         </div>
       </div>
 
@@ -94,7 +94,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/History/pages/TenshoinAtsuhime"><b>年表</b></a>
+          <a class ="btn" href="http://localhost:3000/History/pages/TenshoinAtsuhime">篤姫の年表</a>
         </div>
       </div>
     
@@ -124,11 +124,11 @@ h2.history_headline {
 h2.history_headline_last {
   margin: 0;                       /* 要素の外側余白 */
   padding: 8px 0;                  /* 要素の内側余白 */
-  border-top: 2px solid #d5d4c3;   /* 上線 */
+  border-top: 2px solid #d5d4c3; /* 上線 */
 }
 
 .explanation p {
-  margin: 0;          /* 要素の外側余白 */
+  margin: 0;            /* 要素の外側余白 */
   font-family: serif;   /* フォントの変更 */
   font-weight: bold;    /* 文字の太さ */
   font-size: 15px;      /* 文字の大きさ */
@@ -136,18 +136,19 @@ h2.history_headline_last {
 
 /* ボタン */
 .btn {
-  display: inline-block;
-  padding: 0.3em 2.4em;
-  text-decoration: none;
-  color: black;
-  border: solid 2px black;
-  border-radius: 3px;
-  transition: .4s;
+  display: inline-block;      /* インラインブロック要素へ変更 */
+  padding: 0.4em 0.8em;       /* 要素の内側余白 */
+  text-decoration: none;      /* 下線無効 */
+  color: black;             /* 文字の色 */
+  border: solid 2px black;  /* 枠線 */
+  border-radius: 3px;         /* 要素の境界の外側の角を丸める */
+  transition: .4s;            /* 要素の2つの状態間の変化を定義する */
 }
 
+/* マウスオーバー */
 .btn:hover {
-  background: black;
-  color: white;
+  background: black;  /* 背景 */
+  color: white;       /* 文字の色 */
 }
 
 /* スマホ向けスタイル */

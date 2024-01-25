@@ -20,7 +20,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Soginotaki">スポット情報</a>
+          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Soginotaki">曾木の滝はこちら</a>
         </div>
       </div>
 
@@ -37,7 +37,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="ntn" href="http://localhost:3000/TouristSpot/pages/Maruonotaki">スポット情報</a>
+          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Maruonotaki">丸尾の滝はこちら</a>
         </div>
       </div>
 
@@ -55,7 +55,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Ogawanotaki">スポット情報</a>
+          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Ogawanotaki">雄川の滝はこちら</a>
         </div>
       </div>
       
@@ -73,7 +73,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Kaimondake">スポット情報</a>
+          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Kaimondake">開聞岳はこちら</a>
         </div>
       </div>
       
@@ -142,18 +142,19 @@ h2.spot_headline {
 
 /* ボタン */
 .btn {
-  display: inline-block;
-  padding: 0.3em 0.8em;
-  text-decoration: none;
-  color: black;
-  border: solid 2px black;
-  border-radius: 3px;
-  transition: .4s;
+  display: inline-block;      /* インラインブロック要素へ変更 */
+  padding: 0.3em 0.6em;       /* 要素の内側余白 */
+  text-decoration: none;      /* 下線無効 */
+  color: black;             /* 文字の色 */
+  border: solid 2px black;  /* 枠線 */
+  border-radius: 3px;         /* 要素の境界の外側の角を丸める */
+  transition: .4s;            /* 要素の2つの状態間の変化を定義する */
 }
 
+/* マウスオーバー */
 .btn:hover {
-  background: black;
-  color: white;
+  background: black;  /* 背景 */
+  color: white;       /* 文字の色 */
 }
 
 /* ページネーション */
@@ -206,12 +207,12 @@ h2.spot_headline {
 
   h1 {
     padding: 8px 0;     /* 要素の内側余白 */
-    text-align: center;   /* 左右の中央揃え */
+    text-align: center; /* 左右の中央揃え */
   }
 
-  .spot {text-align: center;}
+  .spot {text-align: center;} /* 左右の中央揃え */
 
-  h2.spot_headline {text-align: center;}
+  h2.spot_headline {text-align: center;}  /* 左右の中央揃え */
 
   .link-space {margin: 16px 0;}
 
@@ -221,7 +222,7 @@ h2.spot_headline {
   }
   
 /* 画像 */
-  .spot_img img{height: 7cm;}
+  .spot_img img {width: 400px;}
 }
 
 /* PC向けスタイル */
@@ -241,9 +242,9 @@ h2.spot_headline {
     width: 40em;
   }
 
-  .link-space {align-self: end;}
+  .link-space {align-self: end;}  /* 要素を下に移動 */
 
 /* 画像 */
-  .spot_img img {width: 5cm;}
+  .spot_img img {width: 192px;}
 }
 </style>

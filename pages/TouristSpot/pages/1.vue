@@ -19,7 +19,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Sakurajima">スポット情報</a>
+          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Sakurajima">桜島はこちら</a>
         </div>
       </div>
 
@@ -38,7 +38,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Yakushima">スポット情報</a>
+          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Yakushima">屋久島はこちら</a>
         </div>
       </div>
 
@@ -56,7 +56,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Amami">スポット情報</a>
+          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Amami">奄美大島はこちら</a>
         </div>
       </div>
 
@@ -75,7 +75,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/SpaceCenter">スポット情報</a>
+          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/SpaceCenter">宇宙センターはこちら</a>
         </div>
       </div>
       
@@ -144,18 +144,19 @@ h2.spot_headline {
 
 /* ボタン */
 .btn {
-  display: inline-block;
-  padding: 0.3em 0.8em;
-  text-decoration: none;
-  color: black;
-  border: solid 2px black;
-  border-radius: 3px;
-  transition: .4s;
+  display: inline-block;      /* インラインブロック要素へ変更 */
+  padding: 0.3em 0.6em;       /* 要素の内側余白 */
+  text-decoration: none;      /* 下線無効 */
+  color: black;             /* 文字の色 */
+  border: solid 2px black;  /* 枠線 */
+  border-radius: 3px;         /* 要素の境界の外側の角を丸める */
+  transition: .4s;            /* 要素の2つの状態間の変化を定義する */
 }
 
+/* マウスオーバー */
 .btn:hover {
-  background: black;
-  color: white;
+  background: black;  /* 背景 */
+  color: white;       /* 文字の色 */
 }
 
 /* ページネーション */
@@ -223,7 +224,7 @@ h2.spot_headline {
   }
   
 /* 画像 */
-  .spot_img img{height: 7cm;}
+  .spot_img img {width: 400px;}
 }
 
 /* PC向けスタイル */
@@ -246,6 +247,6 @@ h2.spot_headline {
   .link-space {align-self: end;}
 
 /* 観光地画像 */
-  .spot_img img {width: 5cm;}
+  .spot_img img {width: 192px;}
 }
 </style>

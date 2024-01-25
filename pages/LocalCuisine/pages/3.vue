@@ -21,7 +21,7 @@
           <p>「白熊」は、削った氷に練乳をかけ、その上にチェリーやレーズン、みかん、パイン、小豆、寒天と、色とりどりのトッピングをのせた氷菓子。</p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/ShiroKuma">詳細はこちら</a>
+          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/ShiroKuma">白熊はこちら</a>
         </div>
       </div>
 
@@ -38,7 +38,7 @@
           <p>「かるかん」は、かるかん粉、山芋、水を使ってつくる鹿児島県の銘菓。</p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Karukan">詳細はこちら</a>
+          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Karukan">かるかんはこちら</a>
         </div>
       </div>
 
@@ -61,7 +61,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/JumboMochi">詳細はこちら</a>
+          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/JumboMochi">両棒餅はこちら</a>
         </div>
       </div>
 
@@ -84,7 +84,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Miki">詳細はこちら</a>
+          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Miki">神酒はこちら</a>
         </div>
       </div>
       
@@ -157,18 +157,19 @@ h2.localcuisine_headline {
 
 /* ボタン */
 .btn {
-  display: inline-block;
-  padding: 0.3em 1.2em;
-  text-decoration: none;
-  color: black;
-  border: solid 2px black;
-  border-radius: 3px;
-  transition: .4s;
+  display: inline-block;      /* インラインブロック要素へ変更 */
+  padding: 0.3em 0.6em;       /* 要素の内側余白 */
+  text-decoration: none;      /* 下線無効 */
+  color: black;             /* 文字の色 */
+  border: solid 2px black;  /* 枠線 */
+  border-radius: 3px;         /* 要素の境界の外側の角を丸める */
+  transition: .4s;            /* 要素の2つの状態間の変化を定義する */
 }
 
+/* マウスオーバー */
 .btn:hover {
-  background: black;
-  color: white;
+  background: black;  /* 背景 */
+  color: white;       /* 文字の色 */
 }
 
 /* ページネーション */

@@ -18,7 +18,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Tonkotsu">詳細はこちら</a>
+          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Tonkotsu">豚骨はこちら</a>
         </div>
       </div>
 
@@ -32,7 +32,7 @@
           <p>「がね」は鹿児島県の特産品として全国に知られるさつまいもを食材とした郷土料理。</p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Gane">詳細はこちら</a>
+          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Gane">がねはこちら</a>
         </div>
       </div>
 
@@ -56,7 +56,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/AburaZomen">詳細はこちら</a>
+          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/AburaZomen">油ゾーメンはこちら</a>
         </div>  
       </div>
 
@@ -74,7 +74,7 @@
           </p>
         </div>
         <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Kokutou">詳細はこちら</a>
+          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Kokutou">黒糖はこちら</a>
         </div>
       </div>
       
@@ -147,18 +147,19 @@ h2.localcuisine_headline {
 
 /* ボタン */
 .btn {
-  display: inline-block;
-  padding: 0.3em 1.2em;
-  text-decoration: none;
-  color: black;
-  border: solid 2px black;
-  border-radius: 3px;
-  transition: .4s;
+  display: inline-block;      /* インラインブロック要素へ変更 */
+  padding: 0.3em 0.6em;       /* 要素の内側余白 */
+  text-decoration: none;      /* 下線無効 */
+  color: black;             /* 文字の色 */
+  border: solid 2px black;  /* 枠線 */
+  border-radius: 3px;         /* 要素の境界の外側の角を丸める */
+  transition: .4s;            /* 要素の2つの状態間の変化を定義する */
 }
 
+/* マウスオーバー */
 .btn:hover {
-  background: black;
-  color: white;
+  background: black;  /* 背景 */
+  color: white;       /* 文字の色 */
 }
 
 /* ページネーション */

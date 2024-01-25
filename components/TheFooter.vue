@@ -96,7 +96,7 @@
 
   #footer .search-form button {
     display: flex;            /* 親要素に対して子要素を横並びにする  */
-    justify-content: center;
+    justify-content: center;  /* 横並び要素の左右中央揃え */
     align-items: center;      /* 上下の中央揃え */
     width: 50px;              /* 横幅 */
     height: 45px;             /* 高さ */
@@ -125,8 +125,8 @@
 @media screen and (min-width: 1024px) {
   #footer .wrap {
     display: flex;            /* 親要素に対して子要素を横並びにする  */
-    justify-content: center;
-    align-items: center;
+    justify-content: center;  /* 横並び要素の左右中央揃え */
+    align-items: center;      /* 上下の中央揃え */
   }
  
   #footer .cont {
@@ -135,7 +135,7 @@
     display: -ms-flexbox;
     display: flex;                /* 親要素に対して子要素を横並びにする  */
     flex-direction: row-reverse;
-    align-items: center;
+    align-items: center;          /* 上下の中央揃え */
   }
 
   #footer .logo img {
@@ -179,11 +179,11 @@
  
   .ie #footer .logo img,
   #footer .logo {
-    text-align: center;
-    display: block;
+    text-align: center; /* 左右の中央揃え */
+    display: block;     /* 上下の中央揃え */
   }
 
-  #footer .inner-block h1 {text-align: center;}
+  #footer .inner-block h1 {text-align: center;} /* 左右の中央揃え */
 
   #footer .serach-pc {display: none;}
 

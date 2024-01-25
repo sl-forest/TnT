@@ -13,8 +13,8 @@
   z-index: 100;               /* 要素を重ねる順序の指定 */
   background-color: #fff;   /* 背景 */
   display: flex;              /* 親要素に対して子要素を横並びにする  */
-  align-items: center;
-  justify-content: center;
+  align-items: center;        /* 上下の中央揃え */
+  justify-content: center;    /* 横並び要素の左右中央揃え */
   animation: fadeOut 1.6s 3.2s forwards;
 }
 

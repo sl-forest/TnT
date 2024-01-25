@@ -139,6 +139,7 @@ h2.craft_headline {
   transition: .4s;            /* 要素の2つの状態間の変化を定義する */
 }
 
+/* マウスオーバー */
 .btn:hover {
   background: black;  /* 背景 */
   color: white;       /* 文字の色 */
