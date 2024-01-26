@@ -54,7 +54,7 @@
         </figure>
         
         <a href="http://localhost:3000/History/pages/1" class="text_area">
-          <strong>歴史（偉人）</strong>
+          <strong>歴史</strong>
         </a>
         
         <figure class="image_area04">
@@ -77,7 +77,7 @@
         
         <figure class="image_area06">
           <a href="http://localhost:3000/LocalCuisine/pages/1">
-            <img src="~/assets/img/Torisashi.jpeg" alt="馬刺し">
+            <img src="~/assets/img/Buridaikon.jpg" alt="ぶり大根">
           </a>
         </figure>
       </div>
@@ -258,19 +258,23 @@ a.text_area {
   figure.image_area04,
   figure.image_area06,
   figure.image_area08,
-  figure.image_area10 {margin: 8px 0;}  /* 要素の外側余白 */
+  figure.image_area10
+  {margin: 8px 0;}  /* 要素の外側余白 */
 
   figure.image_area01 img,
   figure.image_area03 img,
   figure.image_area05 img,
   figure.image_area07 img,
-  figure.image_area09 img {display: none;}  /* 表示しない */
+  figure.image_area09 img
+  {display: none;}  /* 表示しない */
 
   figure.image_area02 img,
   figure.image_area04 img,
   figure.image_area06 img,
   figure.image_area08 img,
-  figure.image_area10 img {height: 16em;}  /* 高さ */
+  figure.image_area10 img {
+    width: 320px; /* 横幅 */
+  } 
 
   .introduction {
     margin: auto;           /* 要素の外側余白 */
@@ -289,8 +293,8 @@ a.text_area {
   .Kagoshima_about h1 {font-size: 40px;}  /* 文字の大きさ */
 
   .Kagoshima_about p {
-    font-size: 25px;      /* 文字の大きさ */
-    margin: 0;            /* 要素の外側余白*/
+    font-size: 25px;  /* 文字の大きさ */
+    margin: 0;        /* 要素の外側余白*/
   }
 
   figure.image_area {
@@ -299,63 +303,27 @@ a.text_area {
     display: inline-block;  /* インラインブロック要素へ変更 */ 
   }
 
-/* 画像の高さ・横幅の調整 */
-  figure.image_area01 img {
-    height: 16em;
-    width: 15em;
-  }
-
-  figure.image_area02 img {
-    height: 16em;
-    width: 15em;
-  }
-
-  figure.image_area03 img {
-    height: 13em;
-    width: 15em;
-  }
-
-  figure.image_area04 img {
-    height: 13em;
-    width: 15em;
-  }
-
-  figure.image_area05 img {
-    height: 13em;
-    width: 15em;
-  }
-
-  figure.image_area06 img {
-    height: 13em;
-    width: 15em;
-  }
-
-  figure.image_area07 img {
-    height: 13em;
-    width: 15em;
-  }
-
-  figure.image_area08 img {
-    height: 13em;
-    width: 15em;
-  }
-
-  figure.image_area09 img {
-    height: 13em;
-    width: 15em;
-  }
-
+/* 画像の横幅・高さの調整 */
+  figure.image_area01 img,
+  figure.image_area02 img,
+  figure.image_area03 img,
+  figure.image_area04 img,
+  figure.image_area05 img,
+  figure.image_area06 img,
+  figure.image_area07 img,
+  figure.image_area08 img,
+  figure.image_area09 img,
   figure.image_area10 img {
-    height: 13em;
-    width: 15em;
+    width: 224px;
+    height: 200px;
   }
 
   .introduction {
-    margin: auto;          /* 要素の外側余白 */
-    padding: 8px 0;        /* 要素の内側余白 */
-    width: 1000px;         /* 幅 */
-    display: flex;         /* 親要素に対して子要素を横並びにする */
-    align-items: center;   /* 上下の中央揃え */
+    margin: auto;         /* 要素の外側余白 */
+    padding: 8px 0;       /* 要素の内側余白 */
+    width: 1000px;        /* 幅 */
+    display: flex;        /* 親要素に対して子要素を横並びにする */
+    align-items: center;  /* 上下の中央揃え */
     border-top: 2px solid #d5d4c3;    /* 上線 */
   }
 }

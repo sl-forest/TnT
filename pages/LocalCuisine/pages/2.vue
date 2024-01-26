@@ -229,7 +229,7 @@ h2.localcuisine_headline {
   .link-space {margin: 16px 0;}
 
 /* 画像 */
-  .localcuisine_img img {height: 7cm;}
+  .localcuisine_img img {width: 320px;}
 }
 
 /* PC向けスタイル */
@@ -252,6 +252,6 @@ h2.localcuisine_headline {
   .link-space {align-self: end;}
 
 /* 画像 */
-  .localcuisine_img img {width: 5cm;}
+  .localcuisine_img img {width: 190px;}
 }
 </style>

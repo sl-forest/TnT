@@ -53,13 +53,14 @@
 <style>
 /* 共通 */
   .wrap h1 {
-    font-family: 'New Tegomin', serif;
-    color: white;
-    margin: 0;          /* 要素の外側余白 */
-    margin-left: 16px;  /* 要素の外側下余白 */
+    font-family: 'New Tegomin', serif;  /* フォント変更 */
+    color: white;      /* 文字の色 */
+    margin: 0;           /* 要素の外側余白 */
+    padding-top: 21px;   /* 要素の外側上余白 */
+    padding-left: 16px;  /* 要素の外側下余白 */
   }
 
-  #footer {background: #242428;}
+  #footer {background: #242428;}  /* 背景 */
  
   #footer .nav li a {
     font-family: 'New Tegomin', serif;
