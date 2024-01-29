@@ -81,7 +81,7 @@ h1 {
   .WorldHeritage_img {text-align: center;}
 
   .WorldHeritage_img img {width: 400px;}
-  
+
   .WorldHeritage_note {margin-top: 16px;}
 
   .WorldHeritage_note h2 {margin: 8px auto;}
@@ -107,7 +107,7 @@ h1 {
   .WorldHeritage_note dd {
     margin: 0;
     padding: 2%;
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
     background-color: #fff;
     padding-left: 1%;
@@ -123,6 +123,8 @@ h1 {
     display: flex;
     padding-bottom: 24px;
   }
+
+  .WorldHeritage_img {margin: auto;}
 
   .WorldHeritage_img img {width: 480px;}
 

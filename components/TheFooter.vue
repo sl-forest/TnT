@@ -52,20 +52,21 @@
 
 <style>
 /* 共通 */
+  #footer {background: #242428;}    /* 背景 */
+
   .wrap h1 {
     font-family: 'New Tegomin', serif;  /* フォント変更 */
     color: white;      /* 文字の色 */
     margin: 0;           /* 要素の外側余白 */
-    padding-top: 21px;   /* 要素の外側上余白 */
-    padding-left: 16px;  /* 要素の外側下余白 */
+    padding: 0;          /* 要素の内側余白 */
+    padding-top: 21px;   /* 要素の内側上余白 */
+    padding-left: 16px;  /* 要素の内側下余白 */
   }
-
-  #footer {background: #242428;}  /* 背景 */
  
   #footer .nav li a {
-    font-family: 'New Tegomin', serif;
-    color: #ffffff;
-    padding: 15px;
+    font-family: 'New Tegomin', serif;  /* フォントの変更 */
+    color: #ffffff;                   /* 文字の色 */
+    padding: 15px;                      /* 要素の内側余白 */
   }
  
   #footer .c-btn {margin-left: 25px;} /* 要素の外側左余白 */
@@ -168,9 +169,11 @@
 
 /* スマホ */
 @media only screen and (max-width: 480px) {
-  #footer {padding: 8px 0;}
+  #footer {padding: 8px 0;}   /* 要素の内側余白 */
+
+  .wrap h1 {padding: 8px 0;} /* 要素の内側余白 */
  
-  #footer .inner-block {padding: 0;}
+  #footer .inner-block {padding: 0;}  /* 要素の内側余白 */
 
    #footer .logo img {
     padding: 0;       /* 要素の内側余白 */

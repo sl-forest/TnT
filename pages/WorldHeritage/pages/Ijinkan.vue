@@ -81,8 +81,8 @@ h1 {
 }
 
 .WorldHeritage_note dd a {
-  color: blue;
   text-decoration: none;
+  color: blue;
 }
 
 /* マウスオーバー */
@@ -92,10 +92,7 @@ h1 {
 @media screen and (max-width: 480px) {
   body {margin-top: 18%;}    /* 要素の外側上余白 */
 
-  h1 {
-    text-align: center;  /* 左右の中央揃え */
-    font-size: 27px;     /* 文字の大きさ */
-  }
+  h1 {text-align: center;}   /* 左右の中央揃え */
   
   .WorldHeritage {padding-bottom: 16px;}
 
