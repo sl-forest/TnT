@@ -36,7 +36,6 @@
 <style>
 /* 共通 */
 body {margin: 0;}       /* 要素の外側余白 */
-
 main {margin: 0 auto;}  /* 要素の外側余白 */
 
 h1 {
@@ -90,21 +89,19 @@ a.btn:hover {
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  body {margin-top: 18%;}  /* 要素の外側上余白 */
+  body {margin-top: 18%;}                   /* 要素の外側上余白 */
+  h1 {text-align: center;}                  /* 中央揃え */
+  .TouristSpot_img {text-align: center;}    /* 中央揃え */
 
-  h1 {text-align: center;} /* 中央揃え */
+  .TouristSpot_img img {
+    width: 400px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 
-  .TouristSpot_img {text-align: center;}  /* 中央揃え */
-
-  .TouristSpot_img img {width: 400px;}  /* 横幅 */
-
-  .TouristSpot_note {margin-top: 16px;} /* 要素の外側上余白 */
-
+  .TouristSpot_note {margin-top: 16px;}     /* 要素の外側上余白 */
   .TouristSpot_note h2 {margin: 8px auto;}  /* 要素の外側余白 */
-
-  .TouristSpot_note dl {font-size: 15px;} /* 文字の大きさ */
-
-  .TouristSpot_note dt {width: 20%;}  /* 横幅 */
+  .TouristSpot_note dl {font-size: 15px;}   /* 文字の大きさ */
+  .TouristSpot_note dt {width: 20%;}        /* 横幅 */
 
   .TouristSpot_note dd {
     padding: 2%;      /* 要素の内側余白 */
@@ -117,23 +114,23 @@ a.btn:hover {
   main {max-width: 1024px;} /* 最大横幅 */
   
   .TouristSpot {
-    display: flex;            /* 親要素に対して子要素を横並びにする */
-    padding-bottom: 24px;     /* 要素の内側下余白 */
+    display: flex;        /* 親要素に対して子要素を横並びにする */
+    padding-bottom: 24px; /* 要素の内側下余白 */
   }
 
-  .TouristSpot_img img {height: 345px;}  /* 高さ */
+  .TouristSpot_img img {
+    width: auto;    /* 横幅 */
+    height: 345px;  /* 高さ */
+  }
 
   .TouristSpot_note {
     margin: auto;       /* 要素の外側余白 */
     padding-left: 16px; /* 要素の内側左余白 */
   }
 
-  .TouristSpot_note h2 {margin: 8px auto;} /* 要素の外側余白 */
-
-  .TouristSpot_note dl {font-size: 18px;}  /* 文字の大きさ */
-
-  .TouristSpot_note dt {width: 20%;}  /* 横幅 */
-
-  .TouristSpot_note dd {width: 14cm;} /* 横幅 */
+  .TouristSpot_note h2 {margin: 8px auto;}  /* 要素の外側余白 */
+  .TouristSpot_note dl {font-size: 18px;}   /* 文字の大きさ */
+  .TouristSpot_note dt {width: 20%;}        /* 横幅 */
+  .TouristSpot_note dd {width: 14cm;}       /* 横幅 */
 }
 </style>

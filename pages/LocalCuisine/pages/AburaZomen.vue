@@ -8,6 +8,9 @@
       <div class="localcuisine">
         <div class = localcuisine_img>
           <img src="~/assets/img/Zomen.jpg" alt="油ゾーメン">
+          <div class="teikyou">
+            <p>出典：農林水産省「うちの郷土料理」</p>
+          </div>
         </div>
         
         <div class = localcuisine_note>
@@ -201,6 +204,11 @@ h1 {
 
 .quantity {list-style-type: none;}  /* 点削除 */
 
+/* 提供文字 */
+.teikyou {font-weight: bold;} /* 文字の太さ */
+
+.teikyou p {margin: 0;} /* 要素の外側余白 */
+
 /*郷土料理説明*/
 .localcuisine {padding-bottom: 24px;} /* 要素の内側下余白 */
 
@@ -298,6 +306,9 @@ h1 {
   .localcuisine_img {text-align: center;} /* 左右の中央揃え */
 
   .localcuisine_img img {width: 400px;}   /* 横幅 */
+
+/* 提供文字 */
+  .teikyou p {margin: 8px 0;} /* 要素の外側余白 */
 
 /*材料*/
   .localcuisine_note {margin-top: 16px;}    /* 要素の外側上余白 */

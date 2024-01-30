@@ -9,6 +9,9 @@
         
         <div class = WorldHeritage_img>
           <img src="~/assets/img/Ijinkan.jpeg" alt="旧集成館「旧鹿児島紡績所技師館」（異人館）">
+          <div class="teikyou">
+            <p>写真協力：公益社団法人 鹿児島県観光連盟</p>
+          </div>
         </div>
         
         <div class = WorldHeritage_note>    
@@ -71,7 +74,6 @@
 <style>
 /* 共通 */
 body {margin: 0;}       /* 要素の外側余白 */
-
 main {margin: 0 auto;}  /* 要素の外側余白 */
 
 h1 {
@@ -79,6 +81,11 @@ h1 {
   padding: 8px 0;       /* 要素の内側余白 */
   font-family: 'New Tegomin', serif;  /* フォントの変更 */
 }
+
+/* 提供文字 */
+.teikyou {font-weight: bold;} /* 文字の太さ */
+
+.teikyou p {margin: 0;} /* 要素の外側余白 */
 
 .WorldHeritage_note dl {
   margin: 3px 0;                /* 要素の外側余白 */
@@ -119,17 +126,18 @@ h1 {
   }
   
   .WorldHeritage {padding-bottom: 16px;}    /* 要素の外側下余白 */
-
   .WorldHeritage_img {text-align: center;}  /* 中央揃え */
 
-  .WorldHeritage_img img {width: 400px;}  /* 横幅 */
+  .WorldHeritage_img img {
+    width: 400px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 
+/* 提供文字 */
+  .teikyou p {margin: 8px 0;} /* 要素の外側余白 */
   .WorldHeritage_note {margin-top: 16px;} /* 要素の外側上余白 */
-
   .WorldHeritage_note h2 {margin: 8px auto;}  /* 要素の外側余白 */
-
   .WorldHeritage_note dl {font-size: 16px;} /* 文字の大きさ */
-
   .WorldHeritage_note dt {width: 24%;}  /* 横幅 */
 
   .WorldHeritage_note dd {
@@ -149,7 +157,10 @@ h1 {
 
   .WorldHeritage_img {margin: auto;}      /* 要素の外側余白 */
 
-  .WorldHeritage_img img {width: 480px;}  /* 横幅 */
+  .WorldHeritage_img img {
+    width: 480px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 
   .WorldHeritage_note {
     margin: auto;       /* 要素の外側余白 */
@@ -157,11 +168,8 @@ h1 {
   }
 
   .WorldHeritage_note h2 {margin: 8px auto;}  /* 要素の外側余白 */
-
   .WorldHeritage_note dl {font-size: 18px;}   /* 文字の大きさ */
-
   .WorldHeritage_note dt {width: 18%;}  /* 横幅 */
-
   .WorldHeritage_note dd {width: 16.5cm;} /* 横幅 */
 }
 </style>

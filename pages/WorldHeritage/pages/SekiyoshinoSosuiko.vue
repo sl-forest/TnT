@@ -52,98 +52,96 @@
 
 <style>
 /* 共通 */
-body {margin: 0;}       /* 要素の外側余白 */
-
-main {margin: 0 auto;}  /* 要素の外側余白 */
+body {margin: 0;}
+main {margin: 0 auto;}
 
 h1 {
-  margin: 0;            /* 要素の外側余白 */
-  padding: 8px 0;       /* 要素の内側余白 */
-  font-family: 'New Tegomin', serif;  /* フォントの変更 */
+  margin: 0;
+  padding: 8px 0;
+  font-family: 'New Tegomin', serif;
 }
 
 .WorldHeritage_note dl {
-  margin: 3px 0;                /* 要素の外側余白 */
-  overflow: hidden;             /* 要素からはみ出た部分を非表示 */
-  display: flex;                /* 親要素に対して子要素を横並びにする */
-  align-items: center;          /* 上下の中央揃え */
-  background-color: #e0e2e2;  /* 背景 */
+  margin: 3px 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: #e0e2e2;
 }
 
 .WorldHeritage_note dt {
-  flex-shrink: 0;         /* 縮小値 */
-  text-align: center;     /* 左右の中央揃え */
+  flex-shrink: 0;
+  text-align: center;
 }
 
 .WorldHeritage_note dd {
-  margin: 0;                 /* 要素の外側余白 */
-  display: flex;             /* 親要素に対して子要素を横並び */
-  background-color: #fff;  /* 背景 */
-  padding-left: 1%;          /* 要素の内側左余白 */
-  flex-grow: 1;              /* 余白の追加 */
+  margin: 0;
+  display: flex;
+  background-color: #fff;
+  padding-left: 1%;
+  flex-grow: 1;
 }
 
 .WorldHeritage_note dd a {
-  text-decoration: none;  /* 下線削除 */
-  color: blue;          /* 文字の色 */
+  text-decoration: none;
+  color: blue;
 }
 
 /* マウスオーバー */
-.WorldHeritage_note dd a:hover {color: rgb(71, 1, 92);} /* 文字の色 */
+.WorldHeritage_note dd a:hover {color: rgb(71, 1, 92);}
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  body {margin-top: 18%;}    /* 要素の外側上余白 */
+  body {margin-top: 18%;}
 
   h1 {
-    text-align: center; /* 左右の中央揃え */
-    font-size: 30px;    /* 文字の大きさ */
+    text-align: center;
+    font-size: 30px;
   }
   
-  .WorldHeritage {padding-bottom: 16px;}    /* 要素の外側下余白 */
+  .WorldHeritage {padding-bottom: 16px;}
+  .WorldHeritage_img {text-align: center;}
 
-  .WorldHeritage_img {text-align: center;}  /* 中央揃え */
+  .WorldHeritage_img img {
+    width: 400px;
+    height: auto;
+  }
 
-  .WorldHeritage_img img {width: 400px;}  /* 横幅 */
-
-  .WorldHeritage_note {margin-top: 16px;} /* 要素の外側上余白 */
-
-  .WorldHeritage_note h2 {margin: 8px auto;}  /* 要素の外側余白 */
-
-  .WorldHeritage_note dl {font-size: 16px;} /* 文字の大きさ */
-
-  .WorldHeritage_note dt {width: 24%;}  /* 横幅 */
+  .WorldHeritage_note {margin-top: 16px;}
+  .WorldHeritage_note h2 {margin: 8px auto;}
+  .WorldHeritage_note dl {font-size: 16px;}
+  .WorldHeritage_note dt {width: 24%;}
 
   .WorldHeritage_note dd {
-    padding: 2%;      /* 要素の内側余白 */
-    font-size: 16px;  /* 文字の大きさ */
+    padding: 2%;
+    font-size: 16px;
   }
 }
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {max-width: 1024px;} /* 最大横幅 */
+  main {max-width: 1024px;}
   
   .WorldHeritage {
-    display: flex;        /* 親要素に対して子要素を横並びにする */
-    padding-bottom: 24px; /* 要素の内側下余白 */
+    display: flex;
+    padding-bottom: 24px;
   }
 
-  .WorldHeritage_img {margin: auto;}      /* 要素の外側余白 */
+  .WorldHeritage_img {margin: auto;}
 
-  .WorldHeritage_img img {height: 340px;}  /* 高さ */
+  .WorldHeritage_img img {
+    width: auto;
+    height: 340px;
+  }
 
   .WorldHeritage_note {
-    margin: auto;       /* 要素の外側余白 */
-    padding-left: 16px; /* 要素の内側左余白 */
+    margin: auto;
+    padding-left: 16px;
   }
 
-  .WorldHeritage_note h2 {margin: 8px auto;}  /* 要素の外側余白 */
-
-  .WorldHeritage_note dl {font-size: 18px;}   /* 文字の大きさ */
-
-  .WorldHeritage_note dt {width: 18%;}  /* 横幅 */
-
-  .WorldHeritage_note dd {width: 14.5cm;} /* 横幅 */
+  .WorldHeritage_note h2 {margin: 8px auto;}
+  .WorldHeritage_note dl {font-size: 18px;}
+  .WorldHeritage_note dt {width: 18%;}
+  .WorldHeritage_note dd {width: 14.5cm;}
 }
 </style>

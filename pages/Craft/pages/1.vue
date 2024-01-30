@@ -14,14 +14,12 @@
           <p>
             薩摩焼は、鹿児島県内で焼かれる陶磁器。<br>
             鉄分が多い土を高温で焼き締めるため、素朴で頑丈な仕上がりが特徴。<br>
-           「白もん」と呼ばれる豪華絢爛な色絵錦手の陶器と<br>「黒もん」と呼ばれる大衆向けの雑器に分かれる。
+           「白もん」と呼ばれる豪華絢爛な色絵錦手の陶器と「黒もん」と呼ばれる大衆向けの雑器に分かれる。
           </p>
+          <div class="link-space">
+            <a class="btn" href="http://localhost:3000/Craft/pages/SatsumaPorcelain">薩摩焼はこちら</a>
+          </div>
         </div>
-
-        <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/SatsumaPorcelain">薩摩焼はこちら</a>
-        </div>
-
       </div>
 
       <h2 class = craft_headline>白薩摩</h2>
@@ -32,17 +30,14 @@
 
         <div class = explanation>
           <p>
-            淡い黄色の地に無色の釉薬が掛かった陶器で表面を貫入という細かいヒビが覆っており<br>
-            「白もん」と呼ばれている。<br>
-            白土を使った「白もん」は珍重され、藩主のみに使用が許されたもので、幕末のパリ万博に<br>
-            出品し、多くの人々の注目と賞賛を得た。
+            淡い黄色の地に無色の釉薬が掛かった陶器で表面を貫入という細かいヒビが覆っており「白もん」と呼ばれている。<br>
+            白土を使った「白もん」は珍重され、藩主のみに使用が許されたもので、幕末のパリ万博に出品し、<br>
+            多くの人々の注目と賞賛を得た。
           </p>
+          <div class="link-space">
+            <a class="btn" href="http://localhost:3000/Craft/pages/WhiteSatsuma">白薩摩はこちら</a>
+          </div>
         </div>
-
-        <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/WhiteSatsuma">白薩摩はこちら</a>
-        </div>
-
       </div>
 
       <h2 class = craft_headline>黒薩摩</h2>
@@ -53,16 +48,14 @@
 
         <div class = explanation>
           <p>
-            「黒薩摩」は鉄分の多い鹿児島の土とシラス層や凝塊岩などに雑木灰を調合したうわ薬を<br>
-            使い、素朴で剛健な焼物で「黒もん」と呼ばれている。<br>
+            「黒薩摩」は鉄分の多い鹿児島の土とシラス層や凝塊岩などに雑木灰を調合したうわ薬を使い、<br>
+            素朴で剛健な焼物で「黒もん」と呼ばれている。<br>
             「黒もん」は庶民生活道具として鹿児島の人々に愛されている。
           </p>
+          <div class="link-space">
+            <a class="btn" href="http://localhost:3000/Craft/pages/BlackSatsuma">黒薩摩はこちら</a>
+          </div>
         </div>
-
-        <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/BlackSatsuma">黒薩摩はこちら</a>
-        </div>
-
       </div>
       
       <ul class="Pagination">
@@ -131,7 +124,7 @@ h2.craft_headline {
 /* ボタン */
 .btn {
   display: inline-block;      /* インラインブロック要素へ変更 */
-  padding: 0.4em 0.8em;       /* 要素の内側余白 */
+  padding: 0.3em 0.6em;       /* 要素の内側余白 */
   text-decoration: none;      /* 下線無効 */
   color: black;             /* 文字の色 */
   border: solid 2px black;  /* 枠線 */
@@ -212,7 +205,10 @@ h2.craft_headline {
   }
   
 /* 画像 */
-  .craft_img img {width: 320px;}  /* 横幅 */
+  .craft_img img {
+    width: 320px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 }
 
 /* PC向けスタイル */
@@ -223,18 +219,19 @@ h2.craft_headline {
   
 /* 一覧説明 */
   .craft {
-    display: flex;        /* 親要素に対して子要素を横並びにする */
+    display: flex;        /* 親要素に対して子要素を横並び */
     margin-bottom: 16px;  /* 要素の外側下余白 */
+    column-gap: 1rem;     /* 行や列の間のすき間を定義 */
   }
   
-  .explanation {
-    margin: auto; /* 要素の外側余白 */
-    width: 40em;  /* 横幅 */
-  }
+  .explanation {align-self: center;}  /* 中央揃え */
 
-  .link-space {align-self: end;}
+  .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
 
 /* 画像 */
-  .craft_img img {width: 180px;}  /* 横幅 */
+  .craft_img img {
+    width: 180px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 }
 </style>

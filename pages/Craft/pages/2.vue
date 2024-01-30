@@ -16,12 +16,10 @@
             30数工程もある緻密な手作業により、図案から織り上がるまで半年から1年以上もかかる。<br>
             大島紬村では本場大島紬の製造現場見学や、泥染め・織り体験、着付体験などが楽しめる。
           </p>
+          <div class="link-space">
+            <a class="btn" href="http://localhost:3000/Craft/pages/AuthenticOshimaTsumugi">本場大島紬はこちら</a>
+          </div>
         </div>
-
-        <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/AuthenticOshimaTsumugi">本場大島紬はこちら</a>
-        </div>
-
       </div>
 
       <h2 class = craft_headline>川辺仏壇</h2>
@@ -36,12 +34,10 @@
             川辺仏壇の特徴は、「ガマ戸」と呼ばれる川辺仏壇オリジナルの独特な仏壇がある。<br>
             ”ガマ”とは、鹿児島県の方言で洞窟を表す。
           </p>
+          <div class="link-space">
+            <a class="btn" href="http://localhost:3000/Craft/pages/KawabeButsudan">川辺仏壇はこちら</a>
+          </div>
         </div>
-
-        <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/KawabeButsudan">川辺仏壇はこちら</a>
-        </div>
-
       </div>
       
       <ul class="Pagination">
@@ -110,7 +106,7 @@ h2.craft_headline {
 /* ボタン */
 .btn {
   display: inline-block;      /* インラインブロック要素へ変更 */
-  padding: 0.4em 0.8em;       /* 要素の内側余白 */
+  padding: 0.3em 0.6em;       /* 要素の内側余白 */
   text-decoration: none;      /* 下線無効 */
   color: black;             /* 文字の色 */
   border: solid 2px black;  /* 枠線 */
@@ -191,7 +187,10 @@ h2.craft_headline {
   }
   
 /* 画像 */
-  .craft_img img {width: 320px;}  /* 横幅 */
+  .craft_img img {
+    width: 320px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 }
 
 /* PC向けスタイル */
@@ -202,18 +201,19 @@ h2.craft_headline {
   
 /* 一覧説明 */
   .craft {
-    display: flex;        /* 親要素に対して子要素を横並びにする */
+    display: flex;        /* 親要素に対して子要素を横並び */
     margin-bottom: 16px;  /* 要素の外側下余白 */
+    column-gap: 1rem;     /* 行や列の間のすき間を定義 */
   }
   
-  .explanation {
-    margin: auto; /* 要素の外側余白 */
-    width: 40em;  /* 横幅 */
-  }
+  .explanation {align-self: center;}  /* 中央揃え */
 
-  .link-space {align-self: end;}
+  .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
 
 /* 画像 */
-  .craft_img img {width: 180px;}  /* 横幅 */
+  .craft_img img {
+    width: 180px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 }
 </style>

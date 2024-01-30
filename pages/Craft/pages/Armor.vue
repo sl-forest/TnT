@@ -9,6 +9,9 @@
 
         <div class = Craft_img>
           <img src="~/assets/img/Kattyu.jpeg" alt="甲冑">
+          <div class="teikyou">
+            <p>写真協力：公益社団法人 鹿児島県観光連盟</p>
+          </div>
         </div>
         
         <div class = Craft_note>
@@ -62,6 +65,11 @@ h1 {
   font-family: 'New Tegomin', serif;  /* フォントの変更 */
 }
 
+/* 提供文字 */
+.teikyou {font-weight: bold;} /* 文字の太さ */
+
+.teikyou p {margin: 0;} /* 要素の外側余白 */
+
 .Craft_note dl {
   margin: 3px 0;                /* 要素の外側余白 */
   overflow: hidden;             /* 要素からはみ出た部分を非表示 */
@@ -103,7 +111,8 @@ h1 {
 
   .Craft_img img {width: 345px;}  /* 横幅 */
 
-  .Craft_img p {margin: 0;} /* 要素の外側余白 */
+  /* 提供文字 */
+  .teikyou p {margin: 8px 0;} /* 要素の外側余白 */
 
   .Craft_note {margin-top: 16px;} /* 要素の外側上余白 */
 

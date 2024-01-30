@@ -286,7 +286,10 @@ a.text_area {
 /* PC（ 画面サイズが1024px以上 ）*/
 @media screen and (min-width: 1024px) {
 /* トップ画像 */
-  .top_img {height: 36rem;}       /* 画像の高さ */
+  .top_img {
+    width: auto;    /* 横幅 */
+    height: 36rem;  /* 高さ */
+  }
 
   .fuchidori {font-size: 64px;}   /* 文字の大きさ */
 

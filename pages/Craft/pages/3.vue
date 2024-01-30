@@ -17,12 +17,10 @@
             この大自然の中で育った樹齢1,000年以上のものを「屋久杉」と呼んでいる。<br>
             現在は自然保護のため、倒木や土埋木だけを工芸品として加工している。
           </p>
+          <div class="link-space">
+            <a class="btn" href="http://localhost:3000/Craft/pages/Yakusugi">屋久杉はこちら</a>
+          </div>
         </div>
-
-        <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/Yakusugi">屋久杉はこちら</a>
-        </div>
-
       </div>
 
       <h2 class = craft_headline>薩摩切子</h2>
@@ -36,13 +34,11 @@
             江戸末期に薩摩藩で造られた切子ガラス。鉛を24～25%含むクリスタルガラスを使用。<br>
             無色のガラス（クリアガラス）の表面に色ガラスを1～2mm程度溶着させた <br>
             ”色被せガラス”にカットを施し、磨きあげた製品を「薩摩切子」と言う。
-          </p> 
+          </p>
+          <div class="link-space">
+            <a class="btn" href="http://localhost:3000/Craft/pages/SatsumaKiriko">薩摩切子はこちら</a>
+          </div> 
         </div>
-
-        <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/SatsumaKiriko">薩摩切子はこちら</a>
-        </div>
-
       </div>
 
       <h2 class = craft_headline>薩摩つげ櫛</h2>
@@ -53,16 +49,14 @@
 
         <div class = explanation>
           <p>
-            江戸時代から「櫛になりたや薩摩の櫛に、諸国娘の手に渡ろ」とうたわれ、<br>全国に名を馳せていた。
+            江戸時代から「櫛になりたや薩摩の櫛に、諸国娘の手に渡ろ」とうたわれ、全国に名を馳せていた。<br>
             材質が硬く、色艶が美しいのが特徴。<br>
             なめらかな櫛どおりで、静電気・抜け毛・切れ毛が少ないといわれている。
           </p>
+          <div class="link-space">
+            <a class="btn" href="http://localhost:3000/Craft/pages/SatsumaBoxwoodComb">薩摩つげ櫛はこちら</a>
+          </div>
         </div>
-
-        <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/SatsumaBoxwoodComb">薩摩つげ櫛はこちら</a>
-        </div>
-
       </div>
       
       <ul class="Pagination">
@@ -131,7 +125,7 @@ h2.craft_headline {
 /* ボタン */
 .btn {
   display: inline-block;      /* インラインブロック要素へ変更 */
-  padding: 0.4em 0.8em;       /* 要素の内側余白 */
+  padding: 0.3em 0.6em;       /* 要素の内側余白 */
   text-decoration: none;      /* 下線無効 */
   color: black;             /* 文字の色 */
   border: solid 2px black;  /* 枠線 */
@@ -212,7 +206,10 @@ h2.craft_headline {
   }
   
 /* 画像 */
-  .craft_img img {width: 320px;}  /* 横幅 */
+  .craft_img img {
+    width: 320px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 }
 
 /* PC向けスタイル */
@@ -223,18 +220,19 @@ h2.craft_headline {
   
 /* 一覧説明 */
   .craft {
-    display: flex;        /* 親要素に対して子要素を横並びにする */
+    display: flex;        /* 親要素に対して子要素を横並び */
     margin-bottom: 16px;  /* 要素の外側下余白 */
+    column-gap: 1rem;     /* 行や列の間のすき間を定義 */
   }
   
-  .explanation {
-    margin: auto; /* 要素の外側余白 */
-    width: 40em;  /* 横幅 */
-  }
+  .explanation {align-self: center;}  /* 中央揃え */
 
-  .link-space {align-self: end;}
+  .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
 
 /* 画像 */
-  .craft_img img {width: 180px;}  /* 横幅 */
+  .craft_img img {
+    width: 180px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 }
 </style>

@@ -193,7 +193,10 @@ h2.worldheritage_headline_small {
   }
   
 /* 画像 */
-  .worldheritage_img img {width: 320px;}  /* 横幅 */
+  .worldheritage_img img {
+    width: 320px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 }
 
 /* PC向けスタイル */
@@ -214,6 +217,9 @@ h2.worldheritage_headline_small {
   .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
 
 /* 画像 */
-  .worldheritage_img img {width: 200px;}  /* 横幅 */
+  .worldheritage_img img {
+    width: 200px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 }
 </style>

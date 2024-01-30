@@ -220,7 +220,10 @@ h2.spot_headline {
   }
   
 /* 画像 */
-  .spot_img img {width: 400px;} /* 横幅 */
+  .spot_img img {
+    width: 400px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 }
 
 /* PC向けスタイル */
@@ -241,6 +244,9 @@ h2.spot_headline {
   .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
 
 /* 画像 */
-  .spot_img img {width: 192px;} /* 横幅 */
+  .spot_img img {
+    width: 192px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="loading"><img class="loading_logo" src="~/assets/img/lode_logo.png" alt="ロード画面"></div>
+    <div class="loading"><img class="loading_logo" src="~/assets/img/Kagoshima_logo.png" alt="ロード画面"></div>
 </template>
 
 <style>

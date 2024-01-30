@@ -16,9 +16,9 @@
             槌の打ち跡が生々しく、荒々しい鋼の黒光りを持つ加世田の刃物。<br>
             加世田包丁は日本刀と似た手法でつくられており、加世田鎌も両刃の丈夫さに刀鍛冶の技術がいかされている。
           </p>
-        </div>
-        <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/Kaseda">鎌・包丁はこちら</a>
+          <div class="link-space">
+            <a class="btn" href="http://localhost:3000/Craft/pages/Kaseda">加世田鎌・加世田包丁はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -39,9 +39,9 @@
             昔ながらの製法を守りながら、映画・テレビなどの時代劇に使用される鎧やかぶとの<br>
             全国シェア９割以上の生産を誇り、全国各地のお祭りの武者行列などでも使用されている。
           </p>
-        </div>
-        <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/Armor">甲冑はこちら</a>
+          <div class="link-space">
+            <a class="btn" href="http://localhost:3000/Craft/pages/Armor">甲冑はこちら</a>
+          </div>
         </div>
       </div>        
 
@@ -56,9 +56,9 @@
             鹿児島は竹林面積日本一の「竹」のふるさと。<br>
             古くから竹を使って様々な生活道具が作られており、庶民生活には欠かせないもの。
           </p>
-        </div>
-        <div class="link-space">
-          <a class="btn" href="http://localhost:3000/Craft/pages/BambooProducts">竹製品はこちら</a>
+          <div class="link-space">
+            <a class="btn" href="http://localhost:3000/Craft/pages/BambooProducts">竹製品はこちら</a>
+          </div>
         </div>
       </div>
       
@@ -128,7 +128,7 @@ h2.craft_headline {
 /* ボタン */
 .btn {
   display: inline-block;      /* インラインブロック要素へ変更 */
-  padding: 0.4em 0.8em;       /* 要素の内側余白 */
+  padding: 0.3em 0.6em;       /* 要素の内側余白 */
   text-decoration: none;      /* 下線無効 */
   color: black;             /* 文字の色 */
   border: solid 2px black;  /* 枠線 */
@@ -140,6 +140,13 @@ h2.craft_headline {
 .btn:hover {
   background: black;  /* 背景 */
   color: white;       /* 文字の色 */
+}
+
+.teikyou{font-weight: bold;}  /* 文字の太さ */
+
+.teikyou p {
+  margin: 0;        /* 全余白の指定 */
+  font-size: 13px;    /* 文字の大きさ */
 }
 
 /* ページネーション */
@@ -209,7 +216,10 @@ h2.craft_headline {
   }
   
 /* 画像 */
-  .craft_img img {width: 320px;}  /* 横幅 */
+  .craft_img img {
+    width: 320px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 }
 
 /* PC向けスタイル */
@@ -220,18 +230,19 @@ h2.craft_headline {
   
 /* 一覧説明 */
   .craft {
-    display: flex;        /* 親要素に対して子要素を横並びにする */
+    display: flex;        /* 親要素に対して子要素を横並び */
     margin-bottom: 16px;  /* 要素の外側下余白 */
+    column-gap: 1rem;     /* 行や列の間のすき間を定義 */
   }
   
-  .explanation {
-    margin: auto; /* 要素の外側余白 */
-    width: 40em;  /* 横幅 */
-  }
+  .explanation {align-self: center;}  /* 中央揃え */
 
-  .link-space {align-self: end;}
+  .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
 
 /* 画像 */
-  .craft_img img {width: 180px;}  /* 横幅 */
+  .craft_img img {
+    width: 180px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 }
 </style>

@@ -9,7 +9,7 @@
         <div class = localcuisine_img>
           <img src="~/assets/img/Karukan.jpg" alt="かるかん">
           <div class="teikyou">
-            <p>出典：農林水産省「うちの郷土料理」</p>
+            <p>画像提供元：鹿児島県</p>
           </div>
         </div>
         
