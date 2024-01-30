@@ -13,14 +13,13 @@
           
         <div class = explanation>
           <p>
-            幅約210メートル、高さ約12メートルのスケールを誇り、<br>
-            「東洋のナイアガラ」とも呼ばれる滝。<br>
+            幅約210メートル、高さ約12メートルのスケールを誇り、「東洋のナイアガラ」とも呼ばれる滝。<br>
             春は桜やつつじが彩り、夏は水量も多く豪快。<br>
             秋は紅葉がライトアップされ、冬は雪景色を楽しめる。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Soginotaki">曾木の滝はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Soginotaki">曾木の滝はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -35,9 +34,9 @@
             高さ約23メートル、幅約16メートルの滝。<br>
             ここを流れる水は温泉の湯であり、霧島地区の温泉水を集めて流れる珍しい「湯の滝」。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Maruonotaki">丸尾の滝はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Maruonotaki">丸尾の滝はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -53,9 +52,9 @@
             大河ドラマ『西郷どん』のオープニング映像で話題となった。<br>
             エメラルドグリーンの美しい滝つぼが特徴で、フォトジェニックな光景が広がる。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Ogawanotaki">雄川の滝はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Ogawanotaki">雄川の滝はこちら</a>
+          </div>
         </div>
       </div>
       
@@ -67,13 +66,13 @@
 
         <div class = explanation>
           <p>
-            薩摩半島の最南端に位置する標高約924メートルの開聞岳は、「日本百名山」<br>
-            にも数えられている南薩摩を代表する山。<br>
+            薩摩半島の最南端に位置する標高約924メートルの開聞岳は、「日本百名山」にも<br>
+            数えられている南薩摩を代表する山。<br>
             別名「薩摩富士」と呼ばれ、指宿のシンボルとして親しまれている。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Kaimondake">開聞岳はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Kaimondake">開聞岳はこちら</a>
+          </div>
         </div>
       </div>
       
@@ -128,16 +127,16 @@ h1 {
 }
 
 h2.spot_headline {
-  margin: 0;                       /* 全余白の指定 */
-  padding: 8px 0;                  /* 全余白の指定 */
-  border-top: 2px solid #d5d4c3;   /* 上線 */
+  margin: 0;                        /* 全余白の指定 */
+  padding: 8px 0;                   /* 全余白の指定 */
+  border-top: 2px solid #d5d4c3;  /* 上線 */
 }
 
 .explanation p {
-  margin: 0;          /* 全余白の指定 */
-  font-family: serif;   /* フォントの変更 */
-  font-weight: bold;    /* 文字の太さ */
-  font-size: 15px;      /* 文字の大きさ */
+  margin: 0;           /* 全余白の指定 */
+  font-family: serif;  /* フォントの変更 */
+  font-weight: bold;   /* 文字の太さ */
+  font-size: 15px;     /* 文字の大きさ */
 }
 
 /* ボタン */
@@ -161,8 +160,8 @@ h2.spot_headline {
 .Pagination {
   padding: 0;               /* 要素の内側余白 */
   display: flex;            /* 親要素に対して子要素を横並びにする */
-  align-items: center;      /* 上下の中央揃え */
-  justify-content: center;  /* 横並び要素の左右中央揃え */
+  align-items: center;      /* 中央揃え */
+  justify-content: center;  /* 横並び要素の中央揃え */
   list-style: none;         /* 黒点削除 */
 }
 
@@ -171,8 +170,8 @@ h2.spot_headline {
   height: 45px;             /* 高さ */
   border-radius: 50%;       /* 角を丸める */  
   display: flex;            /* 親要素に対して子要素を横並びにする */
-  justify-content: center;  /* 横並び要素の左右中央揃え */
-  align-items: center;      /* 上下の中央揃え */
+  justify-content: center;  /* 横並び要素の中央揃え */
+  align-items: center;      /* 中央揃え */
   text-decoration: none;    /* 下線無効 */
   flex-wrap: wrap;          /* 子要素を折り返す */       
   overflow: hidden;         /* 要素からはみ出た部分を非表示 */
@@ -208,23 +207,23 @@ h2.spot_headline {
   br {display: none;}     /* 表示しない */
 
   h1 {
-    padding: 8px 0;     /* 要素の内側余白 */
-    text-align: center; /* 左右の中央揃え */
+    padding: 8px 0;       /* 要素の内側余白 */
+    text-align: center;   /* 中央揃え */
   }
 
-  .spot {text-align: center;} /* 左右の中央揃え */
+  .spot {text-align: center;} /* 中央揃え */
 
-  h2.spot_headline {text-align: center;}  /* 左右の中央揃え */
+  h2.spot_headline {text-align: center;}  /* 中央揃え */
 
-  .link-space {margin: 16px 0;}
+  .link-space {margin: 16px 0;} /* 要素の外側余白 */
 
   .explanation p {
     text-align: left; /* 左寄せ */
-    margin-top: 16px;
+    margin-top: 16px; /* 要素の外側上余白 */
   }
   
 /* 画像 */
-  .spot_img img {width: 400px;}
+  .spot_img img {width: 400px;} /* 横幅 */
 }
 
 /* PC向けスタイル */
@@ -235,18 +234,16 @@ h2.spot_headline {
   
 /* 一覧説明 */
   .spot {
-    display: flex;
-    margin-bottom: 16px;
+    display: flex;        /* 親要素に対して子要素を横並び */
+    margin-bottom: 16px;  /* 要素の外側下余白 */
+    column-gap: 1rem;     /* 行や列の間のすき間を定義 */
   }
   
-  .explanation {
-    margin: auto;
-    width: 40em;
-  }
+  .explanation {align-self: center;}  /* 中央揃え */
 
-  .link-space {align-self: end;}  /* 要素を下に移動 */
+  .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
 
 /* 画像 */
-  .spot_img img {width: 192px;}
+  .spot_img img {width: 192px;} /* 横幅 */
 }
 </style>

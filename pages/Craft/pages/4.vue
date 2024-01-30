@@ -118,16 +118,8 @@ h2.craft_headline {
   border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
-/* 提供 */
-.teikyou {font-weight: bold;} /* 文字の太さ */
-
-.teikyou p {
-  margin: 0;        /* 要素の外側余白 */
-  font-size: 13px;    /* 文字の大きさ */
-}
-
 .explanation p {
-  margin: 0;          /* 要素の外側余白 */
+  margin: 0;            /* 要素の外側余白 */
   font-family: serif;   /* フォントの変更 */
   font-weight: bold;    /* 文字の太さ */
   font-size: 15px;      /* 文字の大きさ */
@@ -140,7 +132,7 @@ h2.craft_headline {
   text-decoration: none;      /* 下線無効 */
   color: black;             /* 文字の色 */
   border: solid 2px black;  /* 枠線 */
-  border-radius: 3px;         /* 要素の境界の外側の角を丸める */
+  border-radius: 3px;         /* 角を丸める */
   transition: .4s;            /* 要素の2つの状態間の変化を定義する */
 }
 
@@ -154,8 +146,8 @@ h2.craft_headline {
 .Pagination {
   padding: 0;               /* 要素の内側余白 */
   display: flex;            /* 親要素に対して子要素を横並びにする */
-  align-items: center;      /* 上下の中央揃え */
-  justify-content: center;  /* 横並び要素の左右中央揃え */
+  align-items: center;      /* 中央揃え */
+  justify-content: center;  /* 横並び要素の中央揃え */
   list-style: none;         /* 黒点削除 */
 }
 
@@ -164,8 +156,8 @@ h2.craft_headline {
   height: 45px;             /* 高さ */
   border-radius: 50%;       /* 角を丸める */  
   display: flex;            /* 親要素に対して子要素を横並びにする */
-  justify-content: center;  /* 横並び要素の左右中央揃え */
-  align-items: center;      /* 上下の中央揃え */
+  justify-content: center;  /* 横並び要素の中央揃え */
+  align-items: center;      /* 中央揃え */
   text-decoration: none;    /* 下線無効 */
   flex-wrap: wrap;          /* 子要素を折り返す */       
   overflow: hidden;         /* 要素からはみ出た部分を非表示 */
@@ -198,22 +190,22 @@ h2.craft_headline {
 @media screen and (max-width: 480px) {
   body {margin-top: 18%;} /* 要素の外側上余白 */
 
-  br {display: none;} /* 表示しない */
+  br {display: none;}     /* 表示しない */
 
   h1 {
-    padding: 8px 0;     /* 要素の内側余白 */
-    text-align: center; /* 左右の中央揃え */
+    padding: 8px 0;       /* 要素の内側余白 */
+    text-align: center;   /* 中央揃え */
   }
 
-  .craft {text-align: center;}
+  .craft {text-align: center;}  /* 中央揃え */
 
-  h2.craft_headline {text-align: center;}
+  h2.craft_headline {text-align: center;} /* 中央揃え */
 
-  .link-space {margin: 8px 0;}
+  .link-space {margin: 16px 0;} /* 要素の外側余白 */
 
   .explanation p {
     text-align: left; /* 左寄せ */
-    margin-top: 16px;
+    margin-top: 16px; /* 要素の外側上余白 */
   }
   
 /* 画像 */
@@ -228,12 +220,12 @@ h2.craft_headline {
   
 /* 一覧説明 */
   .craft {
-    display: flex;
-    margin-bottom: 16px;
+    display: flex;        /* 親要素に対して子要素を横並びにする */
+    margin-bottom: 16px;  /* 要素の外側下余白 */
   }
   
   .explanation {
-    margin: auto;
+    margin: auto; /* 要素の外側余白 */
     width: 40em;  /* 横幅 */
   }
 

@@ -92,7 +92,7 @@ header {
 
 nav {
   display: flex;        /* 親要素に対して子要素を横並びにする */
-  align-items: center;  /* 上下の中央揃え */
+  align-items: center;  /* 中央揃え */
   margin-top: 8px;      /* 要素の外側余白 */
   
 // スマホ
@@ -115,7 +115,7 @@ nav {
     height: 15em;                               /* 高さ */
     margin: -600px 0 0 0;                       /* 要素の外側余白 */
     padding: 0.6em 0;                           /* 要素の内側余白 */
-    text-align: center;                         /* 左右の中央揃え */
+    text-align: center;                         /* 中央揃え */
     background-color: #2d303a;                /* 背景 */
     box-shadow: 1px 0 6px rgba(0, 0, 0, .2);  /* 影 */
     z-index: 1;                                 /* 要素を重ねる順序の指定 */
@@ -180,8 +180,8 @@ nav {
     transition-duration: 0.25s; /* アニメーションが完了するまでの時間 */
     box-sizing: border-box;
     display: flex;              /* 親要素に対して子要素を横並びにする */
-    align-items: center;
-    position: relative;
+    align-items: center;        /* 中央揃え */
+    position: relative;         /* 現在位置を基準に相対位置を指定 */
     bottom: 2px;                /* 位置調整 */
     width: 26px;                /* 横幅 */
     height: 26px;               /* 高さ */

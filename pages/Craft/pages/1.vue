@@ -149,8 +149,8 @@ h2.craft_headline {
 .Pagination {
   padding: 0;               /* 要素の内側余白 */
   display: flex;            /* 親要素に対して子要素を横並びにする */
-  align-items: center;      /* 上下の中央揃え */
-  justify-content: center;  /* 横並び要素の左右中央揃え */
+  align-items: center;      /* 中央揃え */
+  justify-content: center;  /* 横並び要素の中央揃え */
   list-style: none;         /* 黒点削除 */
 }
 
@@ -159,8 +159,8 @@ h2.craft_headline {
   height: 45px;             /* 高さ */
   border-radius: 50%;       /* 角を丸める */  
   display: flex;            /* 親要素に対して子要素を横並びにする */
-  justify-content: center;  /* 横並び要素の左右中央揃え */
-  align-items: center;      /* 上下の中央揃え */
+  justify-content: center;  /* 横並び要素の中央揃え */
+  align-items: center;      /* 中央揃え */
   text-decoration: none;    /* 下線無効 */
   flex-wrap: wrap;          /* 子要素を折り返す */       
   overflow: hidden;         /* 要素からはみ出た部分を非表示 */
@@ -196,13 +196,13 @@ h2.craft_headline {
   br {display: none;}     /* 表示しない */
 
   h1 {
-    padding: 8px 0;     /* 要素の内側余白 */
-    text-align: center;   /* 左右の中央揃え */
+    padding: 8px 0;       /* 要素の内側余白 */
+    text-align: center;   /* 中央揃え */
   }
 
-  .craft {text-align: center;}  /* 左右の中央揃え */
+  .craft {text-align: center;}  /* 中央揃え */
 
-  h2.craft_headline {text-align: center;} /* 左右の中央揃え */
+  h2.craft_headline {text-align: center;} /* 中央揃え */
 
   .link-space {margin: 16px 0;} /* 要素の外側余白 */
 

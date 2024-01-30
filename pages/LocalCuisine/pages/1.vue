@@ -19,13 +19,12 @@
         
         <div class = explanation>
           <p>
-            「鶏飯」は、ほぐした鶏肉、干ししいたけ、錦糸卵、パパイヤの味噌漬け、<br>
-            みかんの皮などを、白いごはんの上にのせ、鶏ガラのスープをかけて食べる、<br>
-            奄美地域を代表する郷土料理。
+            「鶏飯」は、ほぐした鶏肉、干ししいたけ、錦糸卵、パパイヤの味噌漬け、みかんの皮などを、<br>
+            白いごはんの上にのせ、鶏ガラのスープをかけて食べる、奄美地域を代表する郷土料理。<br>
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Keihan">鶏飯はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Keihan">鶏飯はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -37,13 +36,12 @@
 
         <div class = explanation>
           <p>
-            鹿児島県の特産品であるブリと大根を使った「ぶり大根」は冬の定番料理<br>
-            として親しまれている。<br>
+            鹿児島県の特産品であるブリと大根を使った「ぶり大根」は冬の定番料理として親しまれている。<br>
             ブリの旨味と大根の甘みが一体となった、冬の定番料理。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/BuriDaikon">ぶり大根はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/BuriDaikon">ぶり大根はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -61,12 +59,11 @@
 
         <div class = explanation>
           <p>
-            もも肉、むね肉、ささみ、砂肝などの部位を魚のお刺身と同じように醤油をつけて<br>
-            食べる料理。
+            もも肉、むね肉、ささみ、砂肝などの部位を魚のお刺身と同じように醤油をつけて食べる料理。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/ChickenSashimi">鳥刺しはこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/ChickenSashimi">鳥刺しはこちら</a>
+          </div>
         </div>
       </div>
 
@@ -81,9 +78,9 @@
             豚肉（主にバラ肉）と好みの野菜（ニンジン、ゴボウ、だいこん）などを煮て、<br>
             味噌仕立てにした汁物で、味噌汁の一種。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Tonjiru">豚汁はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Tonjiru">豚汁はこちら</a>
+          </div>
         </div>
       </div>
       
@@ -249,16 +246,14 @@ h2.localcuisine_headline {
   
 /* 郷土料理一覧説明 */
   .localcuisine {
-    display: flex;
-    margin-bottom: 16px;
+    display: flex;        /* 親要素に対して子要素を横並び */
+    margin-bottom: 16px;  /* 要素の外側下余白 */
+    column-gap: 1rem;     /* 行や列の間のすき間を定義 */
   }
   
-  .explanation {
-    margin: auto;
-    width: 40em;
-  }
+  .explanation {align-self: center;}  /* 中央揃え */
 
-  .link-space {align-self: end;}
+  .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
 
 /* 画像 */
   .localcuisine_img img {width: 190px;}

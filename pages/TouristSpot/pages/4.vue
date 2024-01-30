@@ -14,14 +14,12 @@
         <div class = explanation>
           <p>
             江戸時代初期に薩摩藩主・島津氏によって造られた、別邸跡とその庭園。<br>
-            錦江湾や桜島の景観を取り入れた設計で、雄大な景色が楽しめる。<br>
-            隣接する尚古集成館は幕末に建てられた金属加工の工場跡で、<br>
-            世界遺産「明治日本の産業革命遺産」のひとつ。<br>
+            隣接する尚古集成館は幕末に建てられた金属加工の工場跡で、世界遺産「明治日本の産業革命遺産」のひとつ。<br>
             島津家の歴史や近代化事業を紹介する展示が行われている。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Sengannen">仙厳園はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Sengannen">仙厳園はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -34,12 +32,12 @@
         <div class = explanation>
           <p>
             南九州一の繁華街として人気のスポット。<br>
-            江戸時代に、西洋文明を進んで取り入れた島津重豪公が1779年に天文観測や暦の作成<br>
-            などを行う施設「明時館（別名天文館）」を建てたことが名前の由来。
+            江戸時代に、西洋文明を進んで取り入れた島津重豪公が1779年に天文観測や暦の作成などを<br>
+            行う施設「明時館（別名天文館）」を建てたことが名前の由来。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Tenmonkan">天文館はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Tenmonkan">天文館はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -54,9 +52,9 @@
             館内では、平和を祈念し、その記録を後世に正しく伝えるべく、陸軍特別攻撃隊員や<br>
             各地の戦地で戦死した隊員たちの遺品、遺影、関係資料を展示している。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/ChiranPeaceMuseum">平和会館はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/TouristSpot/pages/ChiranPeaceMuseum">知覧特攻平和会館はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -68,12 +66,11 @@
         
         <div class = explanation>
           <p>
-            西郷隆盛、大久保利通など明治維新に活躍した偉人の出身地加治屋町に<br>
-            ある歴史ミュージアム。
+            西郷隆盛、大久保利通など明治維新に活躍した偉人の出身地加治屋町にある歴史ミュージアム。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Ishinfurusatokan">ふるさと館はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Ishinfurusatokan">維新ふるさと館はこちら</a>
+          </div>
         </div>
       </div>
       
@@ -128,16 +125,16 @@ h1 {
 }
 
 h2.spot_headline {
-  margin: 0;                       /* 全余白の指定 */
-  padding: 8px 0;                  /* 全余白の指定 */
-  border-top: 2px solid #d5d4c3;   /* 上線 */
+  margin: 0;                        /* 全余白の指定 */
+  padding: 8px 0;                   /* 全余白の指定 */
+  border-top: 2px solid #d5d4c3;  /* 上線 */
 }
 
 .explanation p {
-  margin: 0;          /* 全余白の指定 */
-  font-family: serif;   /* フォントの変更 */
-  font-weight: bold;    /* 文字の太さ */
-  font-size: 15px;      /* 文字の大きさ */
+  margin: 0;           /* 全余白の指定 */
+  font-family: serif;  /* フォントの変更 */
+  font-weight: bold;   /* 文字の太さ */
+  font-size: 15px;     /* 文字の大きさ */
 }
 
 /* ボタン */
@@ -161,8 +158,8 @@ h2.spot_headline {
 .Pagination {
   padding: 0;               /* 要素の内側余白 */
   display: flex;            /* 親要素に対して子要素を横並びにする */
-  align-items: center;      /* 上下の中央揃え */
-  justify-content: center;  /* 横並び要素の左右中央揃え */
+  align-items: center;      /* 中央揃え */
+  justify-content: center;  /* 横並び要素の中央揃え */
   list-style: none;         /* 黒点削除 */
 }
 
@@ -171,8 +168,8 @@ h2.spot_headline {
   height: 45px;             /* 高さ */
   border-radius: 50%;       /* 角を丸める */  
   display: flex;            /* 親要素に対して子要素を横並びにする */
-  justify-content: center;  /* 横並び要素の左右中央揃え */
-  align-items: center;      /* 上下の中央揃え */
+  justify-content: center;  /* 横並び要素の中央揃え */
+  align-items: center;      /* 中央揃え */
   text-decoration: none;    /* 下線無効 */
   flex-wrap: wrap;          /* 子要素を折り返す */       
   overflow: hidden;         /* 要素からはみ出た部分を非表示 */
@@ -208,23 +205,23 @@ h2.spot_headline {
   br {display: none;}     /* 表示しない */
 
   h1 {
-    padding: 8px 0;     /* 要素の内側余白 */
-    text-align: center;   /* 左右の中央揃え */
+    padding: 8px 0;       /* 要素の内側余白 */
+    text-align: center;   /* 中央揃え */
   }
 
-  .spot {text-align: center;}
+  .spot {text-align: center;} /* 中央揃え */
 
-  h2.spot_headline {text-align: center;}
+  h2.spot_headline {text-align: center;}  /* 中央揃え */
 
-  .link-space {margin: 16px 0;}
+  .link-space {margin: 16px 0;} /* 要素の外側余白 */
 
   .explanation p {
     text-align: left; /* 左寄せ */
-    margin-top: 16px;
+    margin-top: 16px; /* 要素の外側上余白 */
   }
   
 /* 画像 */
-  .spot_img img{height: 6cm;}
+  .spot_img img {width: 400px;} /* 横幅 */
 }
 
 /* PC向けスタイル */
@@ -235,18 +232,16 @@ h2.spot_headline {
   
 /* 一覧説明 */
   .spot {
-    display: flex;
-    margin-bottom: 16px;
+    display: flex;        /* 親要素に対して子要素を横並び */
+    margin-bottom: 16px;  /* 要素の外側下余白 */
+    column-gap: 1rem;     /* 行や列の間のすき間を定義 */
   }
   
-  .explanation {
-    margin: auto;
-    width: 40em;
-  }
+  .explanation {align-self: center;}  /* 中央揃え */
 
-  .link-space {align-self: end;}
+  .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
 
 /* 画像 */
-  .spot_img img {width: 5cm;}
+  .spot_img img {width: 192px;} /* 横幅 */
 }
 </style>

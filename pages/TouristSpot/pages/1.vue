@@ -17,9 +17,9 @@
             標高約1,117メートルの御岳（北岳）という活火山が、現在も活発に噴火を続けている。<br>
             散策に適した溶岩遊歩道の途中には、絶景を望める展望所も複数完備。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Sakurajima">桜島はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Sakurajima">桜島はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -36,10 +36,10 @@
             小さな面積ながら、九州最高峰の宮之浦岳（標高約1,936メートル）をはじめ、<br>
             1,000メートル超の山々が46座もあり、「洋上のアルプス」と呼ばれている。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Yakushima">屋久島はこちら</a>
-        </div>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Yakushima">屋久島はこちら</a>
+          </div>
+        </div>       
       </div>
 
       <h2 class = spot_headline>奄美大島</h2>
@@ -54,9 +54,9 @@
             鹿児島県と沖縄県の中間に位置し、日本版「天国に一番近い島」と称されている。<br>
             青く澄んだ海や、ここにしか生息していない動植物など、雄大な自然が魅力。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Amami">奄美大島はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/TouristSpot/pages/Amami">奄美大島はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -68,14 +68,12 @@
 
         <div class = explanation>
           <p>
-            1969年に造られた種子島宇宙センターは、総面積約970万平米に及ぶ、<br>
-            日本最大のロケット発射場。<br>
-            青い海と白い砂浜に囲まれていることから、「世界一美しいロケット発射場」<br>
-            と呼ばれている。
+            1969年に造られた種子島宇宙センターは、総面積約970万平米に及ぶ、日本最大のロケット発射場。<br>
+            青い海と白い砂浜に囲まれていることから、「世界一美しいロケット発射場」と呼ばれている。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/TouristSpot/pages/SpaceCenter">宇宙センターはこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/TouristSpot/pages/SpaceCenter">宇宙センターはこちら</a>
+          </div>
         </div>
       </div>
       
@@ -130,16 +128,16 @@ h1 {
 }
 
 h2.spot_headline {
-  margin: 0;                       /* 全余白の指定 */
-  padding: 8px 0;                  /* 全余白の指定 */
-  border-top: 2px solid #d5d4c3;   /* 上線 */
+  margin: 0;                        /* 全余白の指定 */
+  padding: 8px 0;                   /* 全余白の指定 */
+  border-top: 2px solid #d5d4c3;  /* 上線 */
 }
 
 .explanation p {
-  margin: 0;          /* 全余白の指定 */
-  font-family: serif;   /* フォントの変更 */
-  font-weight: bold;    /* 文字の太さ */
-  font-size: 15px;      /* 文字の大きさ */
+  margin: 0;           /* 全余白の指定 */
+  font-family: serif;  /* フォントの変更 */
+  font-weight: bold;   /* 文字の太さ */
+  font-size: 15px;     /* 文字の大きさ */
 }
 
 /* ボタン */
@@ -163,8 +161,8 @@ h2.spot_headline {
 .Pagination {
   padding: 0;               /* 要素の内側余白 */
   display: flex;            /* 親要素に対して子要素を横並びにする */
-  align-items: center;      /* 上下の中央揃え */
-  justify-content: center;  /* 横並び要素の左右中央揃え */
+  align-items: center;      /* 中央揃え */
+  justify-content: center;  /* 横並び要素の中央揃え */
   list-style: none;         /* 黒点削除 */
 }
 
@@ -173,8 +171,8 @@ h2.spot_headline {
   height: 45px;             /* 高さ */
   border-radius: 50%;       /* 角を丸める */  
   display: flex;            /* 親要素に対して子要素を横並びにする */
-  justify-content: center;  /* 横並び要素の左右中央揃え */
-  align-items: center;      /* 上下の中央揃え */
+  justify-content: center;  /* 横並び要素の中央揃え */
+  align-items: center;      /* 中央揃え */
   text-decoration: none;    /* 下線無効 */
   flex-wrap: wrap;          /* 子要素を折り返す */       
   overflow: hidden;         /* 要素からはみ出た部分を非表示 */
@@ -210,23 +208,23 @@ h2.spot_headline {
   br {display: none;}     /* 表示しない */
 
   h1 {
-    padding: 8px 0;     /* 要素の内側余白 */
-    text-align: center;   /* 左右の中央揃え */
+    padding: 8px 0;       /* 要素の内側余白 */
+    text-align: center;   /* 中央揃え */
   }
 
-  .spot {text-align: center;}
+  .spot {text-align: center;} /* 中央揃え */
 
-  h2.spot_headline {text-align: center;}
+  h2.spot_headline {text-align: center;}  /* 中央揃え */
 
-  .link-space {margin: 16px 0;}
+  .link-space {margin: 16px 0;} /* 要素の外側余白 */
 
   .explanation p {
     text-align: left; /* 左寄せ */
-    margin-top: 16px;
+    margin-top: 16px; /* 要素の外側上余白 */
   }
   
 /* 画像 */
-  .spot_img img {width: 400px;}
+  .spot_img img {width: 400px;} /* 横幅 */
 }
 
 /* PC向けスタイル */
@@ -237,18 +235,16 @@ h2.spot_headline {
   
 /* 一覧説明 */
   .spot {
-    display: flex;
-    margin-bottom: 16px;
+    display: flex;        /* 親要素に対して子要素を横並び */
+    margin-bottom: 16px;  /* 要素の外側下余白 */
+    column-gap: 1rem;     /* 行や列の間のすき間を定義 */
   }
   
-  .explanation {
-    margin: auto;
-    width: 40em;
-  }
+  .explanation {align-self: center;}  /* 中央揃え */
 
-  .link-space {align-self: end;}
+  .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
 
-/* 観光地画像 */
-  .spot_img img {width: 192px;}
+/* 画像 */
+  .spot_img img {width: 192px;} /* 横幅 */
 }
 </style>

@@ -76,11 +76,27 @@ h1 {
   font-family: 'New Tegomin', serif;  /* フォントの変更 */
 }
 
-.TouristSpot_note dd a {
-  text-decoration: none;  /* 下線削除 */
-  color: blue;          /* 文字の色 */
+.TouristSpot_note dl {
+  margin: 3px 0;                /* 要素の外側余白 */
+  overflow: hidden;             /* 要素からはみ出た部分を非表示 */
+  display: flex;                /* 親要素に対して子要素を横並びにする */
+  align-items: center;          /* 中央揃え */
+  background-color: #e0e2e2;  /* 背景 */
 }
-  
+
+.TouristSpot_note dt {
+  flex-shrink: 0;         /* 縮小値 */
+  text-align: center;     /* 中央揃え */
+}
+
+.TouristSpot_note dd {
+  margin: 0;                 /* 要素の外側余白 */
+  display: flex;             /* 親要素に対して子要素を横並び */
+  background-color: #fff;  /* 背景 */
+  padding-left: 1%;          /* 要素の内側左余白 */
+  flex-grow: 1;              /* 余白の追加 */
+}
+
 /* ボタン */
 a.btn {
   display: block;                /* ブロック要素へ変更 */
@@ -107,42 +123,23 @@ a.btn:hover {
 @media screen and (max-width: 480px) {
   body {margin-top: 18%;}  /* 要素の外側上余白 */
 
-  h1 {text-align: center;} /* 左右の中央揃え */
+  h1 {text-align: center;} /* 中央揃え */
 
-  .TouristSpot_img {text-align: center;}
+  .TouristSpot_img {text-align: center;}  /* 中央揃え */
 
-  .TouristSpot_img img {height: 8cm;}
+  .TouristSpot_img img {width: 400px;}  /* 横幅 */
 
-  .TouristSpot_note {margin-top: 16px;}
+  .TouristSpot_note {margin-top: 16px;} /* 要素の外側上余白 */
 
-  .TouristSpot_note h2 {margin: 8px auto;}
+  .TouristSpot_note h2 {margin: 8px auto;}  /* 要素の外側余白 */
 
-  .TouristSpot_note dl {
-    display: table;
-    width: 100%;
-    font-size: 16px;
-    margin: 3px 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    background-color: #e0e2e2;
-  }
+  .TouristSpot_note dl {font-size: 15px;} /* 文字の大きさ */
 
-  .TouristSpot_note dt {
-    vertical-align: middle;
-    flex-shrink: 0;
-    text-align: center;
-    width: 20%;
-  }
+  .TouristSpot_note dt {width: 20%;}  /* 横幅 */
 
   .TouristSpot_note dd {
-    margin: 0;
-    padding: 2%;
-    font-size: 15px;
-    display: flex;
-    background-color: #fff;
-    padding-left: 1%;
-    flex-grow: 1;
+    padding: 2%;      /* 要素の内側余白 */
+    font-size: 16px;  /* 文字の大きさ */
   }
 }
 
@@ -152,48 +149,22 @@ a.btn:hover {
   
   .TouristSpot {
     display: flex;            /* 親要素に対して子要素を横並びにする */
-    justify-content: center;  /* 横並び要素の左右中央揃え */
     padding-bottom: 24px;     /* 要素の内側下余白 */
   }
 
-  .TouristSpot_img img {height: 10cm;}
-
-  .TouristSpot_img p {margin: 0;}
+  .TouristSpot_img img {height: 345px;}  /* 高さ */
 
   .TouristSpot_note {
-    margin: auto;
-    padding-left: 16px;
+    margin: auto;       /* 要素の外側余白 */
+    padding-left: 16px; /* 要素の内側左余白 */
   }
 
-  .TouristSpot_note h2 {
-    margin: 8px auto;
-  }
+  .TouristSpot_note h2 {margin: 8px auto;}    /* 要素の外側余白 */
 
-  .TouristSpot_note dl {
-    font-size: 18px;
-    margin: 3px 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    background-color: #e0e2e2;
-  }
+  .TouristSpot_note dl {font-size: 18px;}     /* 文字の大きさ */
 
-  .TouristSpot_note dt {
-    vertical-align: middle;
-    flex-shrink: 0;
-    text-align: center;
-    width: 20%;
-  }
+  .TouristSpot_note dt {width: 20%;}  /* 横幅 */
 
-  .TouristSpot_note dd {
-    width: 14cm;
-    margin: 0;
-    display: flex;
-    background-color: #fff;
-    padding-left: 1%;
-    flex-grow: 1;
-  }
-
-  .TouristSpot_note dd a:hover {color: rgb(71, 1, 92);}
+  .TouristSpot_note dd {width: 14cm;} /* 横幅 */
 }
 </style>

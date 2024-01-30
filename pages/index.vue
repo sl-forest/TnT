@@ -130,7 +130,7 @@
 /* トップ画像 */
 .top_img {
   overflow: hidden;   /* 要素からはみ出た部分を非表示 */
-  position: relative; /* 要素を元々の位置から相対的に移動 */
+  position: relative; /* 現在位置を基準に相対位置を指定 */
 }
 
 .item1 {
@@ -207,18 +207,18 @@
 }
 
 .Kagoshima_about h1 {
-  margin: 8px 0;                   /* 要素の外側余白 */
+  margin: 8px 0;                      /* 要素の外側余白 */
   font-family: 'New Tegomin', serif;  /* フォント変更 */
 }  
 
 .headline h2 {
-  margin: 8px 0;                   /* 要素の外側余白*/
+  margin: 8px 0;                      /* 要素の外側余白*/
   font-size: 40px;                    /* 文字の大きさ */
   font-family: 'New Tegomin', serif;  /* フォント変更 */
-  text-align: center;                 /* 左右の中央揃え */
+  text-align: center;                 /* 中央揃え */
 }
 
-.Kagoshima_about {text-align: center;}  /* 左右の中央揃え */
+.Kagoshima_about {text-align: center;}  /* 中央揃え */
 
 .Kagoshima_about p {
   font-family: serif;  /* フォント変更 */
@@ -228,7 +228,7 @@
 a.text_area {
   font-size: 32px;      /* 文字の大きさ */
   font-family: serif;   /* フォント変更 */
-  text-align: center;   /* 左右の中央揃え */
+  text-align: center;   /* 中央揃え */
   margin: 0 auto;       /* 要素の外側余白*/
   color: rgb(0, 0, 0);  /* 文字の色 */
   text-decoration: none;  /* 下線無効 */
@@ -278,7 +278,7 @@ a.text_area {
 
   .introduction {
     margin: auto;           /* 要素の外側余白 */
-    text-align: center;     /* 左右の中央揃え */
+    text-align: center;     /* 中央揃え */
     border-top: 2px solid #d5d4c3;  /* 下線表示 */
   }
 }
@@ -323,7 +323,7 @@ a.text_area {
     padding: 8px 0;       /* 要素の内側余白 */
     width: 1000px;        /* 幅 */
     display: flex;        /* 親要素に対して子要素を横並びにする */
-    align-items: center;  /* 上下の中央揃え */
+    align-items: center;  /* 中央揃え */
     border-top: 2px solid #d5d4c3;    /* 上線 */
   }
 }

@@ -16,9 +16,9 @@
             「豚骨」とは、豚の骨付きあばら肉を焼いて芋焼酎で炒りつけてこんにゃくや大根などの<br>
             野菜とともに、味噌と黒砂糖で煮こんでつくる郷土料理。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Tonkotsu">豚骨はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Tonkotsu">豚骨はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -30,9 +30,9 @@
 
         <div class = explanation>
           <p>「がね」は鹿児島県の特産品として全国に知られるさつまいもを食材とした郷土料理。</p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Gane">がねはこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Gane">がねはこちら</a>
+          </div>
         </div>
       </div>
 
@@ -51,12 +51,11 @@
         <div class = explanation>
           <p>
             「油ゾーメン」は、豚肉と野菜、そうめんを炒めた郷土料理。<br>
-            沖縄の「そうめんチャンプルー」に似ているが、奄美地域の「油ゾーメン」は、<br>
-            炒める時にだし汁を入れるのが特徴。
+            沖縄の「そうめんチャンプルー」に似ているが、奄美地域の「油ゾーメン」は、炒める時にだし汁を入れるのが特徴。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/AburaZomen">油ゾーメンはこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/AburaZomen">油ゾーメンはこちら</a>
+          </div>
         </div>  
       </div>
 
@@ -68,13 +67,12 @@
 
         <div class = explanation>
           <p>
-            「黒糖」は、とうきびを細かくカットし、圧搾機にかけて絞り出した汁を<br>
-            煮詰めてつくる砂糖。<br>
+            「黒糖」は、とうきびを細かくカットし、圧搾機にかけて絞り出した汁を煮詰めてつくる砂糖。<br>
             奄美地域および沖縄県の特産品。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Kokutou">黒糖はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Kokutou">黒糖はこちら</a>
+          </div>
         </div>
       </div>
       
@@ -125,8 +123,8 @@ h1 {
 }
 
 h2.localcuisine_headline {
-  margin: 0;                       /* 全余白の指定 */
-  padding: 8px 0;                  /* 全余白の指定 */
+  margin: 0;                       /* 要素の外側余白 */
+  padding: 8px 0;                  /* 要素の内側余白 */
   border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
@@ -240,16 +238,14 @@ h2.localcuisine_headline {
   
 /* 郷土料理一覧説明 */
   .localcuisine {
-    display: flex;
-    margin-bottom: 16px;
+    display: flex;        /* 親要素に対して子要素を横並び */
+    margin-bottom: 16px;  /* 要素の外側下余白 */
+    column-gap: 1rem;     /* 行や列の間のすき間を定義 */
   }
   
-  .explanation {
-    margin: auto;
-    width: 40em;
-  }
+  .explanation {align-self: center;}  /* 中央揃え */
 
-  .link-space {align-self: end;}
+  .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
 
 /* 画像 */
   .localcuisine_img img {width: 190px;}

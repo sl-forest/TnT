@@ -17,9 +17,9 @@
             新たな水路をこの場所に築いた。<br>
             世界文化遺産「明治日本の産業革命遺産」の構成資産。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/SekiyoshinoSosuiko">疎水溝はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/SekiyoshinoSosuiko">関吉の疎水溝はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -34,9 +34,9 @@
             集成館事業で使用する白炭を増産するために建設した寺山炭窯の跡。<br>
             炭窯は斜面を造成して凝灰岩を積み上げて建設、その大きさは国内最大級。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/TerayamaCharcoalKiln">炭窯跡はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/TerayamaCharcoalKiln">寺山炭窯跡はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -54,15 +54,13 @@
 
         <div class = explanation>
           <p>
-            1851年、薩摩藩主に就任した島津斉彬は、富国強兵・殖産興業を<br>
-            唱え、集成館事業を興した。<br>
+            1851年、薩摩藩主に就任した島津斉彬は、富国強兵・殖産興業を唱え、集成館事業を興した。<br>
             集成館事業の中核となったのが、鹿児島市磯に築かれた工場群「集成館」。<br>
-            製鉄大砲鋳造、洋式艦船の建造、製鉄や紡績、ガラス製造、活版印刷などが<br>
-            おこなわれた。
+            製鉄大砲鋳造、洋式艦船の建造、製鉄や紡績、ガラス製造、活版印刷などがおこなわれた。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/ReverberatoryFurnaceRuins">反射炉跡はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/ReverberatoryFurnaceRuins">旧集成館「反射炉跡」はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -83,9 +81,9 @@
             日本で最初期の木造西洋建築。<br>
             西欧人たちがアジアなどの植民地によく建設したコロニアル様式の建物。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/Ijinkan">異人館はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/Ijinkan">旧集成館「旧鹿児島紡績所技師館」（異人館）はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -101,9 +99,9 @@
             竹下清右衛門は長崎製鉄所などの西洋式の建物を参考に工場を建設。<br>
             現在は博物館（尚古集成館）として島津家や集成館事業の歴史を学ぶことができる。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/ShokoShuseikanMuseum">機械工場はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/WorldHeritage/pages/ShokoShuseikanMuseum">旧集成館機械工場（尚古集成館）はこちら</a>
+          </div>
         </div>
       </div>
     </main>
@@ -206,16 +204,14 @@ h2.worldheritage_headline_small {
   
 /* 一覧説明 */
   .worldheritage {
-    display: flex;
+    display: flex;        /* 親要素に対して子要素を横並び */
     margin-bottom: 16px;  /* 要素の外側下余白 */
-  }
-  
-  .explanation {
-    margin: auto; /* 要素の外側余白 */
-    width: 40em;  /* 横幅 */
+    column-gap: 1rem;     /* 行や列の間のすき間を定義 */
   }
 
-  .link-space {align-self: end;}
+  .explanation {align-self: center;}  /* 中央揃え */
+
+  .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
 
 /* 画像 */
   .worldheritage_img img {width: 200px;}  /* 横幅 */

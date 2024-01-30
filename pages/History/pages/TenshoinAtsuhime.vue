@@ -70,49 +70,49 @@ h1 {
 /* 年表 */
 .timeline {margin: 0;}  /* 要素の外側余白 */
 
+.timeline > li {
+  overflow: hidden;   /* 要素からはみ出た部分を非表示 */
+  margin: 0;          /* 要素の外側余白 */
+  position: relative; /* 現在位置を基準に相対位置を指定 */
+}
+
+.timeline-date {
+  width: 135px;       /* 横幅 */
+  float: left;        /* 左から順に横並び */
+  margin-top: 20px;   /* 要素の外側上余白 */
+}
+
+.timeline-content {
+  width: 75%;                       /* 横幅 */
+  float: left;                      /* 左から順に横並び */
+  border-left: 3px #e5e5d1 solid; /* 下線 */
+  padding-left: 30px;               /* 要素の内側左余白 */
+}
+
+/* timeline-content要素の後ろ */
+.timeline-content:before {
+  content: '';            /* 中点*/
+  width: 12px;            /* 横幅 */
+  height: 12px;           /* 高さ */
+  background: #6fc173;  /* 背景 */
+  position: absolute;     /* 親要素を基準に絶対配置を指定 */
+  left: 130px;            /* 位置調整 */
+  top: 24px;              /* 位置調整 */
+  border-radius: 100%;
+}
+
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
   body {margin-top: 18%;} /* 要素の外側上余白 */
 
   h1 {
     padding: 8px 0;     /* 要素の内側余白 */
-    text-align: center;   /* 左右の中央揃え */
+    text-align: center; /* 中央揃え */
   }
-  
-/* 年表 */
-  .timeline > li {
-    overflow: hidden;
-    margin: 0;
-    position: relative;
-  }
-  
-  .timeline-date {
-    width: 135px;
-    float: left;
-    margin-top: 20px;
-  }
-  
-  .timeline-content {
-    width: 75%;
-    float: left;
-    border-left: 3px #e5e5d1 solid;
-    padding-left: 30px;
-  }
-  
-  .timeline-content:before {
-    content: '';
-    width: 12px;
-    height: 12px;
-    background: #6fc173;
-    position: absolute;
-    left: 130px;
-    top: 24px;
-    border-radius: 100%;
-  }
-  
-  .timeline {list-style: none;}
 
-  .timeline > li {margin-bottom: 40px;}
+  .timeline {list-style: none;} /* 点削除 */
+
+  .timeline li {margin-bottom: 40px;} /* 要素の外側下余白 */
 }
 
 /* PC向けスタイル */
@@ -120,36 +120,5 @@ h1 {
   main {max-width: 1024px;} /* 最大横幅 */
 
   h1 {padding-top: 16px;}   /* 要素の内側上余白 */
-  
-/* 年表 */
-  .timeline > li {
-    overflow: hidden;
-    margin: 0;
-    position: relative;
-  }
-  
-  .timeline-date {
-    width: 135px;
-    float: left;
-    margin-top: 20px;
-  }
-  
-  .timeline-content {
-    width: 75%;
-    float: left;
-    border-left: 3px #e5e5d1 solid;
-    padding-left: 30px;
-  }
-  
-  .timeline-content:before {
-    content: '';
-    width: 12px;
-    height: 12px;
-    background: #6fc173;
-    position: absolute;
-    left: 130px;
-    top: 24px;
-    border-radius: 100%;
-  }
 }
 </style>

@@ -67,13 +67,13 @@ h1 {
   margin: 3px 0;                /* 要素の外側余白 */
   overflow: hidden;             /* 要素からはみ出た部分を非表示 */
   display: flex;                /* 親要素に対して子要素を横並びにする */
-  align-items: center;          /* 上下の中央揃え */
+  align-items: center;          /* 中央揃え */
   background-color: #e0e2e2;  /* 背景 */
 }
 
 .Craft_note dt {
   flex-shrink: 0;         /* 縮小値 */
-  text-align: center;     /* 左右の中央揃え */
+  text-align: center;     /* 中央揃え */
 }
 
 .Craft_note dd {
@@ -96,11 +96,11 @@ h1 {
 @media screen and (max-width: 480px) {
   body {margin-top: 18%;}    /* 要素の外側上余白 */
 
-  h1 {text-align: center;}   /* 左右の中央揃え */
+  h1 {text-align: center;}   /* 中央揃え */
   
   .Craft {padding-bottom: 16px;}  /* 要素の内側下余白 */
 
-  .Craft_img {text-align: center;}  /* 左右の中央揃え */
+  .Craft_img {text-align: center;}  /* 中央揃え */
 
   .Craft_img img {width: 345px;}  /* 横幅 */
 

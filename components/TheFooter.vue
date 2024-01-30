@@ -76,7 +76,7 @@
 
   #footer .search-form {
     display: flex;        /* 親要素に対して子要素を横並びにする */
-    align-items: center;  /* 左右の中央揃え */
+    align-items: center;  /* 中央揃え */
     overflow: hidden;     /* 要素からはみ出た部分を非表示 */
     border-radius: 3px;   /* 角を丸める */
     margin: 0;            /* 要素の外側余白 */
@@ -99,7 +99,7 @@
   #footer .search-form button {
     display: flex;            /* 親要素に対して子要素を横並びにする */
     justify-content: center;  /* 横並び要素の左右中央揃え */
-    align-items: center;      /* 上下の中央揃え */
+    align-items: center;      /* 中央揃え */
     width: 50px;              /* 横幅 */
     height: 45px;             /* 高さ */
     border: none;
@@ -118,7 +118,7 @@
 
 /* コピーライト */
   #footer .copyright {
-    text-align: center;   /* 左右の中央揃え */
+    text-align: center;   /* 中央揃え */
     height: 32px;         /* 高さ */
     color: white;       /* 文字の色 */
   }
@@ -127,8 +127,8 @@
 @media screen and (min-width: 1024px) {
   #footer .wrap {
     display: flex;            /* 親要素に対して子要素を横並びにする */
-    justify-content: center;  /* 横並び要素の左右中央揃え */
-    align-items: center;      /* 上下の中央揃え */
+    justify-content: center;  /* 横並び要素の中央揃え */
+    align-items: center;      /* 中央揃え */
   }
  
   #footer .cont {
@@ -137,12 +137,12 @@
     display: -ms-flexbox;
     display: flex;                /* 親要素に対して子要素を横並びにする */
     flex-direction: row-reverse;
-    align-items: center;          /* 上下の中央揃え */
+    align-items: center;          /* 中央揃え */
   }
 
   #footer .logo img {
     padding: 0;       /* 要素の内側余白 */
-    margin-top: 16px; /* 要素の外側上余白 */
+    margin-top: 24px; /* 要素の外側上余白 */
     height: 80px;     /* 高さ */
   }
 
@@ -183,11 +183,11 @@
  
   .ie #footer .logo img,
   #footer .logo {
-    text-align: center; /* 左右の中央揃え */
+    text-align: center; /* 中央揃え */
     display: block;     /* ブロック要素へ変更 */
   }
 
-  #footer .inner-block h1 {text-align: center;} /* 左右の中央揃え */
+  #footer .inner-block h1 {text-align: center;} /* 中央揃え */
 
   #footer .serach-pc {display: none;}
 

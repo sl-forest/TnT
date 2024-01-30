@@ -18,10 +18,13 @@
         </div>
         
         <div class = explanation>
-          <p>「白熊」は、削った氷に練乳をかけ、その上にチェリーやレーズン、みかん、パイン、小豆、寒天と、色とりどりのトッピングをのせた氷菓子。</p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/ShiroKuma">白熊はこちら</a>
+          <p>
+            「白熊」は、削った氷に練乳をかけ、その上にチェリーやレーズン、みかん、パイン、小豆、寒天と、<br>
+            色とりどりのトッピングをのせた氷菓子。
+          </p>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/ShiroKuma">白熊はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -36,9 +39,9 @@
 
         <div class = explanation>
           <p>「かるかん」は、かるかん粉、山芋、水を使ってつくる鹿児島県の銘菓。</p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Karukan">かるかんはこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Karukan">かるかんはこちら</a>
+          </div>
         </div>
       </div>
 
@@ -59,9 +62,9 @@
             「じゃんぼ餅」とは、つきたての餅やもち米粉を使っただんご串を2本さして、とろみのある<br>
             砂糖醤油ダレをかけて食べる、鹿児島県で古くから親しまれている料理である。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/JumboMochi">両棒餅はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/JumboMochi">両棒餅はこちら</a>
+          </div>
         </div>
       </div>
 
@@ -79,12 +82,12 @@
 
         <div class = explanation>
           <p>
-            米とさつまいも、砂糖を使った乳酸菌発酵飲料で、奄美地域の他に沖縄県でも飲まれている。
+            米とさつまいも、砂糖を使った乳酸菌発酵飲料で、奄美地域の他に沖縄県でも飲まれている。<br>
             沖縄県では、さつまいもではなく麦を使う。
           </p>
-        </div>
-        <div class="link-space">
-          <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Miki">神酒はこちら</a>
+          <div class="link-space">
+            <a class ="btn" href="http://localhost:3000/LocalCuisine/pages/Miki">神酒はこちら</a>
+          </div>
         </div>
       </div>
       
@@ -135,13 +138,13 @@ h1 {
 }
 
 h2.localcuisine_headline {
-  margin: 0;                       /* 全余白の指定 */
-  padding: 8px 0;                  /* 全余白の指定 */
+  margin: 0;                       /* 要素の外側余白 */
+  padding: 8px 0;                  /* 要素の内側余白 */
   border-top: 2px solid #d5d4c3;   /* 上線 */
 }
 
 /* 提供文字 */
-.teikyou {font-weight: bold;  /* 文字の太さ */}
+.teikyou {font-weight: bold;}  /* 文字の太さ */
 
 .teikyou p {
   margin: 0;        /* 全余白の指定 */
@@ -218,7 +221,7 @@ h2.localcuisine_headline {
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
- body {margin-top: 18%;} /* 要素の外側上余白 */
+  body {margin-top: 18%;} /* 要素の外側上余白 */
 
   h1 {
     padding: 8px 0;     /* 要素の内側余白 */
@@ -250,16 +253,14 @@ h2.localcuisine_headline {
   
 /* 郷土料理一覧説明 */
   .localcuisine {
-    display: flex;
-    margin-bottom: 16px;
+    display: flex;        /* 親要素に対して子要素を横並び */
+    margin-bottom: 16px;  /* 要素の外側下余白 */
+    column-gap: 1rem;     /* 行や列の間のすき間を定義 */
   }
   
-  .explanation {
-    margin: auto;
-    width: 40em;
-  }
+  .explanation {align-self: center;}  /* 中央揃え */
 
-  .link-space {align-self: end;}
+  .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
 
 /* 画像 */
   .localcuisine_img img {width: 190px;}
