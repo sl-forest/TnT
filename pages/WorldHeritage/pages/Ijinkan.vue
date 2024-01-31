@@ -84,8 +84,7 @@ h1 {
 
 /* 提供文字 */
 .teikyou {font-weight: bold;} /* 文字の太さ */
-
-.teikyou p {margin: 0;} /* 要素の外側余白 */
+.teikyou p {margin: 0;}       /* 要素の外側余白 */
 
 .WorldHeritage_note dl {
   margin: 3px 0;                /* 要素の外側余白 */
@@ -97,7 +96,7 @@ h1 {
 
 .WorldHeritage_note dt {
   flex-shrink: 0;         /* 縮小値 */
-  text-align: center;     /* 左右の中央揃え */
+  text-align: center;     /* 中央揃え */
 }
 
 .WorldHeritage_note dd {
@@ -118,7 +117,7 @@ h1 {
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  body {margin-top: 18%;}    /* 要素の外側上余白 */
+  body {margin-top: 18%;} /* 要素の外側上余白 */
 
   h1 {
     text-align: center; /* 左右の中央揃え */
@@ -134,11 +133,11 @@ h1 {
   }
 
 /* 提供文字 */
-  .teikyou p {margin: 8px 0;} /* 要素の外側余白 */
-  .WorldHeritage_note {margin-top: 16px;} /* 要素の外側上余白 */
+  .teikyou p {margin: 8px 0;}                 /* 要素の外側余白 */
+  .WorldHeritage_note {margin-top: 16px;}     /* 要素の外側上余白 */
   .WorldHeritage_note h2 {margin: 8px auto;}  /* 要素の外側余白 */
-  .WorldHeritage_note dl {font-size: 16px;} /* 文字の大きさ */
-  .WorldHeritage_note dt {width: 24%;}  /* 横幅 */
+  .WorldHeritage_note dl {font-size: 16px;}   /* 文字の大きさ */
+  .WorldHeritage_note dt {width: 24%;}        /* 横幅 */
 
   .WorldHeritage_note dd {
     padding: 2%;      /* 要素の内側余白 */
@@ -169,7 +168,7 @@ h1 {
 
   .WorldHeritage_note h2 {margin: 8px auto;}  /* 要素の外側余白 */
   .WorldHeritage_note dl {font-size: 18px;}   /* 文字の大きさ */
-  .WorldHeritage_note dt {width: 18%;}  /* 横幅 */
-  .WorldHeritage_note dd {width: 16.5cm;} /* 横幅 */
+  .WorldHeritage_note dt {width: 18%;}        /* 横幅 */
+  .WorldHeritage_note dd {width: 16.5cm;}     /* 横幅 */
 }
 </style>

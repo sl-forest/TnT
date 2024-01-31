@@ -178,15 +178,15 @@ nav {
 
 .menu_btn {
     transition-duration: 0.25s; /* アニメーションが完了するまでの時間 */
-    box-sizing: border-box;
+    box-sizing: border-box;     /* ボックスサイズの指定 */
     display: flex;              /* 親要素に対して子要素を横並びにする */
     align-items: center;        /* 中央揃え */
     position: relative;         /* 現在位置を基準に相対位置を指定 */
     bottom: 2px;                /* 位置調整 */
     width: 26px;                /* 横幅 */
     height: 26px;               /* 高さ */
-    cursor: pointer;
-    z-index: 2;                /* 要素を重ねる順序の指定 */
+    cursor: pointer;            /* カーソルをポインターに指定 */
+    z-index: 2;                 /* 要素を重ねる順序の指定 */
 
     span {
     @include burgerSpan;
@@ -208,7 +208,7 @@ nav {
 }
 
 // PC
-@media screen and (min-width: 1024px) {display: none;}
+@media screen and (min-width: 1024px) {display: none;}  /* 表示しない */
 
 }
 </style>

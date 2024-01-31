@@ -56,7 +56,6 @@
 <style>
 /* 共通 */
 body {margin: 0;}       /* 要素の外側余白 */
-
 main {margin: 0 auto;}  /* 要素の外側余白 */
 
 h1 {
@@ -67,8 +66,7 @@ h1 {
 
 /* 提供文字 */
 .teikyou {font-weight: bold;} /* 文字の太さ */
-
-.teikyou p {margin: 0;} /* 要素の外側余白 */
+.teikyou p {margin: 0;}       /* 要素の外側余白 */
 
 .Craft_note dl {
   margin: 3px 0;                /* 要素の外側余白 */
@@ -101,26 +99,19 @@ h1 {
   
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  body {margin-top: 18%;}    /* 要素の外側上余白 */
-
-  h1 {text-align: center;}   /* 中央揃え */
-  
-  .Craft {padding-bottom: 16px;}  /* 要素の内側下余白 */
-
+  body {margin-top: 18%;}           /* 要素の外側上余白 */
+  h1 {text-align: center;}          /* 中央揃え */
+  .Craft {padding-bottom: 16px;}    /* 要素の内側下余白 */
   .Craft_img {text-align: center;}  /* 中央揃え */
-
-  .Craft_img img {width: 345px;}  /* 横幅 */
+  .Craft_img img {width: 345px;}    /* 横幅 */
 
   /* 提供文字 */
-  .teikyou p {margin: 8px 0;} /* 要素の外側余白 */
+  .teikyou p {margin: 8px 0;}         /* 要素の外側余白 */
 
-  .Craft_note {margin-top: 16px;} /* 要素の外側上余白 */
-
+  .Craft_note {margin-top: 16px;}     /* 要素の外側上余白 */
   .Craft_note h2 {margin: 8px auto;}  /* 要素の外側余白 */
-
-  .Craft_note dl {font-size: 16px;} /* 文字の大きさ */
-
-  .Craft_note dt {width: 24%;}  /* 横幅 */
+  .Craft_note dl {font-size: 16px;}   /* 文字の大きさ */
+  .Craft_note dt {width: 24%;}        /* 横幅 */
 
   .Craft_note dd {
     padding: 2%;      /* 要素の内側余白 */
@@ -137,8 +128,7 @@ h1 {
     padding-bottom: 24px; /* 要素の内側下余白 */
   }
 
-  .Craft_img {margin: auto;}  /* 要素の外側余白 */
-
+  .Craft_img {margin: auto;}       /* 要素の外側余白 */
   .Craft_img img {height: 345px;}  /* 高さ */
 
   .Craft_note {
@@ -147,11 +137,8 @@ h1 {
   }
 
   .Craft_note h2 {margin: 8px auto;}    /* 要素の外側余白 */
-
   .Craft_note dl {font-size: 18px;}     /* 文字の大きさ */
-
-  .Craft_note dt {width: 20%;}  /* 横幅 */
-
-  .Craft_note dd {width: 14cm;} /* 横幅 */
+  .Craft_note dt {width: 20%;}          /* 横幅 */
+  .Craft_note dd {width: 14cm;}         /* 横幅 */
 }
 </style>

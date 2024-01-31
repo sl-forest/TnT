@@ -103,12 +103,12 @@
         </li>
 
         <li class="Pagination-Item">
-            <a class="Pagination-Item-Link" href="http://localhost:3000/TouristSpot/pages/4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
-              </svg>
-            </a>
-          </li>
+          <a class="Pagination-Item-Link" href="http://localhost:3000/TouristSpot/pages/4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="Pagination-Item-Link-Icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+            </svg>
+          </a>
+        </li>
       </ul>
     </main>
     <TheFooter />
@@ -119,7 +119,6 @@
 <style>
 /* 共通 */
 body {margin: 0;}       /* 要素の外側余白 */
-
 main {margin: 0 auto;}  /* 要素の外側余白 */
 
 h1 {
@@ -204,7 +203,6 @@ h2.spot_headline {
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
   body {margin-top: 18%;} /* 要素の外側上余白 */
-
   br {display: none;}     /* 表示しない */
 
   h1 {
@@ -212,11 +210,9 @@ h2.spot_headline {
     text-align: center;   /* 中央揃え */
   }
 
-  .spot {text-align: center;} /* 中央揃え */
-
+  .spot {text-align: center;}             /* 中央揃え */
   h2.spot_headline {text-align: center;}  /* 中央揃え */
-
-  .link-space {margin: 16px 0;} /* 要素の外側余白 */
+  .link-space {margin: 16px 0;}           /* 要素の外側余白 */
 
   .explanation p {
     text-align: left; /* 左寄せ */
@@ -233,7 +229,6 @@ h2.spot_headline {
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
   main {max-width: 1024px;} /* 最大横幅 */
-
   h1 {padding-top: 16px;}   /* 要素の内側上余白 */
   
 /* 一覧説明 */
@@ -244,8 +239,7 @@ h2.spot_headline {
   }
   
   .explanation {align-self: center;}  /* 中央揃え */
-
-  .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
+  .link-space {margin-top: 0.5rem;}   /* 要素の外側上余白 */
 
 /* 画像 */
   .spot_img img {

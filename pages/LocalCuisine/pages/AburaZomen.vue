@@ -27,7 +27,10 @@
 
           <dl>
             <dt>歴史</dt>
-            <dd>薩摩藩統治時代に薩摩から持ち込まれ、乾麺で保存がきくことから奄美地域でよく食べられるようになったのではないかという説があるが、定かではない。</dd>
+            <dd>
+              薩摩藩統治時代に薩摩から持ち込まれ、乾麺で保存がきくことから奄美地域でよく食べられるようになったのではないかという
+              説があるが、定かではない。
+            </dd>
           </dl>
         </div>
       </div>
@@ -193,12 +196,11 @@
 <style>
 /* 共通 */
 body {margin: 0;}       /* 要素の外側余白 */
-
 main {margin: 0 auto;}  /* 要素の外側余白 */
 
 h1 {
-  margin: 0;            /* 要素の外側余白 */
-  padding: 8px 0;       /* 要素の内側余白 */
+  margin: 0;                          /* 要素の外側余白 */
+  padding: 8px 0;                     /* 要素の内側余白 */
   font-family: 'New Tegomin', serif;  /* フォントの変更 */
 }
 
@@ -206,8 +208,7 @@ h1 {
 
 /* 提供文字 */
 .teikyou {font-weight: bold;} /* 文字の太さ */
-
-.teikyou p {margin: 0;} /* 要素の外側余白 */
+.teikyou p {margin: 0;}       /* 要素の外側余白 */
 
 /*郷土料理説明*/
 .localcuisine {padding-bottom: 24px;} /* 要素の内側下余白 */
@@ -304,7 +305,6 @@ h1 {
 
 /* 画像 */
   .localcuisine_img {text-align: center;} /* 左右の中央揃え */
-
   .localcuisine_img img {width: 400px;}   /* 横幅 */
 
 /* 提供文字 */
@@ -312,10 +312,8 @@ h1 {
 
 /*材料*/
   .localcuisine_note {margin-top: 16px;}    /* 要素の外側上余白 */
-
   .localcuisine_note dl {font-size: 16px;}  /* 文字の大きさ */
-
-  .localcuisine_note dt {width: 30%;}   /* 横幅 */
+  .localcuisine_note dt {width: 30%;}       /* 横幅 */
 
   .localcuisine_note dd {
     padding: 2%;  /* 要素の内側余白 */
@@ -340,9 +338,7 @@ h1 {
   }
 
   .localcuisine_note dl {font-size: 18px;}  /* 文字の大きさ */
-
-  .localcuisine_note dt {width: 25%;}   /* 横幅 */
-
-  .localcuisine_note dd {width: 16cm;}  /* 横幅 */
+  .localcuisine_note dt {width: 25%;}       /* 横幅 */
+  .localcuisine_note dd {width: 16cm;}      /* 横幅 */
 }
 </style>

@@ -122,7 +122,6 @@
 <style>
 /* 共通 */
 body {margin: 0;}       /* 要素の外側余白 */
-
 main {margin: 0 auto;}  /* 要素の外側余白 */
 
 h1 {
@@ -131,24 +130,24 @@ h1 {
 }
 
 h2.localcuisine_headline {
-  margin: 0;                       /* 要素の外側余白 */
-  padding: 8px 0;                  /* 要素の内側余白 */
-  border-top: 2px solid #d5d4c3;   /* 上線 */
+  margin: 0;                        /* 要素の外側余白 */
+  padding: 8px 0;                   /* 要素の内側余白 */
+  border-top: 2px solid #d5d4c3;  /* 上線 */
 }
 
 /* 提供文字 */
-.teikyou {font-weight: bold;}  /* 文字の太さ */
+.teikyou {font-weight: bold;} /* 文字の太さ */
 
 .teikyou p {
-  margin: 0;        /* 全余白の指定 */
-  font-size: 13px;    /* 文字の大きさ */
+  margin: 0;       /* 全余白の指定 */
+  font-size: 13px; /* 文字の大きさ */
 }
 
 .explanation p {
   margin: 0;          /* 全余白の指定 */
-  font-family: serif;   /* フォントの変更 */
-  font-weight: bold;    /* 文字の太さ */
-  font-size: 15px;      /* 文字の大きさ */
+  font-family: serif; /* フォントの変更 */
+  font-weight: bold;  /* 文字の太さ */
+  font-size: 15px;    /* 文字の大きさ */
 }
 
 /* ボタン */
@@ -173,7 +172,7 @@ h2.localcuisine_headline {
   padding: 0;               /* 要素の内側余白 */
   display: flex;            /* 親要素に対して子要素を横並びにする */
   align-items: center;      /* 上下の中央揃え */
-  justify-content: center;  /* 横並び要素の左右中央揃え */
+  justify-content: center;  /* 横並び要素の中央揃え */
   list-style: none;         /* 黒点削除 */
 }
 
@@ -182,7 +181,7 @@ h2.localcuisine_headline {
   height: 45px;             /* 高さ */
   border-radius: 50%;       /* 角を丸める */  
   display: flex;            /* 親要素に対して子要素を横並びにする */
-  justify-content: center;  /* 横並び要素の左右中央揃え */
+  justify-content: center;  /* 横並び要素の中央揃え */
   align-items: center;      /* 上下の中央揃え */
   text-decoration: none;    /* 下線無効 */
   flex-wrap: wrap;          /* 子要素を折り返す */       
@@ -218,21 +217,19 @@ h2.localcuisine_headline {
 
   h1 {
     padding: 8px 0;     /* 要素の内側余白 */
-    text-align: center;   /* 左右の中央揃え */
+    text-align: center; /* 中央揃え */
   }
 
-  br {display: none;}     /* 表示しない */
-
-  .localcuisine {text-align: center;}
-
-  h2.localcuisine_headline {text-align: center;}
+  br {display: none;}   /* 表示しない */
+  .localcuisine {text-align: center;} /* 中央揃え */
+  h2.localcuisine_headline {text-align: center;}  /* 中央揃え */
 
   .explanation p {
     text-align: left; /* 左寄せ */
-    margin-top: 16px;
+    margin-top: 16px; /* 要素の外側上余白 */
   }
 
-  .link-space {margin: 16px 0;}
+  .link-space {margin: 16px 0;} /* 要素の外側余白 */
 
 /* 画像 */
   .localcuisine_img img {
@@ -244,7 +241,6 @@ h2.localcuisine_headline {
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
   main {max-width: 1024px;} /* 最大横幅 */
-
   h1 {padding-top: 16px;}   /* 要素の内側上余白 */
   
 /* 郷土料理一覧説明 */
@@ -255,8 +251,7 @@ h2.localcuisine_headline {
   }
   
   .explanation {align-self: center;}  /* 中央揃え */
-
-  .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
+  .link-space {margin-top: 0.5rem;}   /* 要素の外側上余白 */
 
 /* 画像 */
   .localcuisine_img img {

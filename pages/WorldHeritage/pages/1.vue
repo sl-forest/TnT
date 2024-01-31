@@ -113,7 +113,6 @@
 <style>
 /* 共通 */
 body {margin: 0;}       /* 要素の外側余白 */
-
 main {margin: 0 auto;}  /* 要素の外側余白 */
 
 h1 {
@@ -168,20 +167,18 @@ h2.worldheritage_headline_small {
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
   body {margin-top: 18%;} /* 要素の外側上余白 */
-  
   br {display: none;}     /* 表示しない */
 
   h1 {
     padding: 8px 0;       /* 要素の内側余白 */
-    text-align: center;   /* 左右の中央揃え */
+    text-align: center;   /* 中央揃え */
   }
 
-  .worldheritage {text-align: center;}  /* 左右の中央揃え */
-
-  h2.worldheritage_headline {text-align: center;} /* 左右の中央揃え */
+  .worldheritage {text-align: center;}            /* 中央揃え */
+  h2.worldheritage_headline {text-align: center;} /* 中央揃え */
 
   h2.worldheritage_headline_small {
-    text-align: center; /* 左右の中央揃え */
+    text-align: center; /* 中央揃え */
     font-size: 22px;    /* 文字の大きさ */
   }
 
@@ -202,7 +199,6 @@ h2.worldheritage_headline_small {
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
   main {max-width: 1024px;} /* 最大横幅 */
-
   h1 {padding-top: 16px;}   /* 要素の内側上余白 */
   
 /* 一覧説明 */
@@ -213,8 +209,7 @@ h2.worldheritage_headline_small {
   }
 
   .explanation {align-self: center;}  /* 中央揃え */
-
-  .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
+  .link-space {margin-top: 0.5rem;}   /* 要素の外側上余白 */
 
 /* 画像 */
   .worldheritage_img img {
