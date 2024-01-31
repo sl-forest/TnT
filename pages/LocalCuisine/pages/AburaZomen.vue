@@ -300,12 +300,15 @@ h1 {
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
   body {margin-top: 18%;}  /* 要素の外側上余白 */
-
   h1 {text-align: center;} /* 左右の中央揃え */
 
 /* 画像 */
   .localcuisine_img {text-align: center;} /* 左右の中央揃え */
-  .localcuisine_img img {width: 400px;}   /* 横幅 */
+
+  .localcuisine_img img {
+    width: 400px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 
 /* 提供文字 */
   .teikyou p {margin: 8px 0;} /* 要素の外側余白 */
@@ -329,7 +332,10 @@ h1 {
   .localcuisine {display: flex;}  /* 親要素に対して子要素を横並び */
 
 /* 画像 */
-  .localcuisine_img img {width: 400px;} /* 横幅 */
+  .localcuisine_img img {
+    width: 400px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 
 /*材料*/
   .localcuisine_note {

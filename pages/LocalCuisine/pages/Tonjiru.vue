@@ -8,9 +8,6 @@
       <div class="localcuisine">
         <div class = localcuisine_img>
           <img src="~/assets/img/Tonjiru.jpg" alt="豚汁">
-          <div class="teikyou">
-            <p>写真協力：公益社団法人 鹿児島県観光連盟</p>
-          </div>
         </div>
           
         <div class = localcuisine_note>
@@ -266,7 +263,11 @@ h1 {
 
 /* 画像 */
   .localcuisine_img {text-align: center;}
-  .localcuisine_img img {width: 400px;}
+
+  .localcuisine_img img {
+    width: 400px;
+    height: auto;
+  }
 
 /*材料*/
   .localcuisine_note {margin-top: 16px;}

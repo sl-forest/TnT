@@ -143,6 +143,10 @@ h1 {
 
 .quantity {list-style-type: none;}
 
+/* 提供文字 */
+.teikyou {font-weight: bold;}
+.teikyou p {margin: 0;}
+
 /*郷土料理説明*/
 .localcuisine {padding-bottom: 24px;}
 
@@ -242,6 +246,9 @@ h1 {
     width: 400px;
     height: auto;
   }
+
+/* 提供文字 */
+  .teikyou p {margin: 8px 0;} /* 要素の外側余白 */
 
 /*材料*/
   .localcuisine_note {margin-top: 16px;}

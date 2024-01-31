@@ -166,20 +166,20 @@ h2.spot_headline {
 }
 
 .Pagination-Item-Link {
-  width: 45px;              /* 横幅 */
-  height: 45px;             /* 高さ */
-  border-radius: 50%;       /* 角を丸める */  
-  display: flex;            /* 親要素に対して子要素を横並びにする */
-  justify-content: center;  /* 横並び要素の中央揃え */
-  align-items: center;      /* 中央揃え */
-  text-decoration: none;    /* 下線無効 */
-  flex-wrap: wrap;          /* 子要素を折り返す */       
-  overflow: hidden;         /* 要素からはみ出た部分を非表示 */
-  background: #fff;       /* 背景 */
-  border: solid 2px #111; /* 枠線 */
-  font-size: 14px;          /* 文字の大きさ */
-  color: #111;            /* 文字の色 */
-  font-weight: bold;        /* 文字の太さ */
+  width: 45px;                  /* 横幅 */
+  height: 45px;                 /* 高さ */
+  border-radius: 50%;           /* 角を丸める */  
+  display: flex;                /* 親要素に対して子要素を横並びにする */
+  justify-content: center;      /* 横並び要素の中央揃え */
+  align-items: center;          /* 中央揃え */
+  text-decoration: none;        /* 下線無効 */
+  flex-wrap: wrap;              /* 子要素を折り返す */       
+  overflow: hidden;             /* 要素からはみ出た部分を非表示 */
+  background: #fff;           /* 背景 */
+  border: solid 2px #111;     /* 枠線 */
+  font-size: 14px;              /* 文字の大きさ */
+  color: #111;                /* 文字の色 */
+  font-weight: bold;            /* 文字の太さ */
   transition: all 0.15s linear; /* 要素の2つの状態間の変化を定義する */
 }
 

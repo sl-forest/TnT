@@ -117,139 +117,133 @@
 
 <style>
 /* 共通 */
-body {margin: 0;}       /* 要素の外側余白 */
-
-main {margin: 0 auto;}  /* 要素の外側余白 */
+body {margin: 0;}
+main {margin: 0 auto;}
 
 h1 {
-  margin: 0;                          /* 要素の外側余白 */
-  font-family: 'New Tegomin', serif;  /* フォントの変更 */
+  margin: 0;
+  font-family: 'New Tegomin', serif;
 }
 
 h2.spot_headline {
-  margin: 0;                        /* 全余白の指定 */
-  padding: 8px 0;                   /* 全余白の指定 */
-  border-top: 2px solid #d5d4c3;  /* 上線 */
+  margin: 0;
+  padding: 8px 0;
+  border-top: 2px solid #d5d4c3;
 }
 
 .explanation p {
-  margin: 0;           /* 全余白の指定 */
-  font-family: serif;  /* フォントの変更 */
-  font-weight: bold;   /* 文字の太さ */
-  font-size: 15px;     /* 文字の大きさ */
+  margin: 0;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 /* ボタン */
 .btn {
-  display: inline-block;      /* インラインブロック要素へ変更 */
-  padding: 0.3em 0.6em;       /* 要素の内側余白 */
-  text-decoration: none;      /* 下線無効 */
-  color: black;             /* 文字の色 */
-  border: solid 2px black;  /* 枠線 */
-  border-radius: 3px;         /* 要素の境界の外側の角を丸める */
-  transition: .4s;            /* 要素の2つの状態間の変化を定義する */
+  display: inline-block;
+  padding: 0.3em 0.6em;
+  text-decoration: none;
+  color: black;
+  border: solid 2px black;
+  border-radius: 3px;
+  transition: .4s;
 }
 
 /* マウスオーバー */
 .btn:hover {
-  background: black;  /* 背景 */
-  color: white;       /* 文字の色 */
+  background: black;
+  color: white;
 }
 
 /* ページネーション */
 .Pagination {
-  padding: 0;               /* 要素の内側余白 */
-  display: flex;            /* 親要素に対して子要素を横並びにする */
-  align-items: center;      /* 中央揃え */
-  justify-content: center;  /* 横並び要素の中央揃え */
-  list-style: none;         /* 黒点削除 */
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
 }
 
 .Pagination-Item-Link {
-  width: 45px;              /* 横幅 */
-  height: 45px;             /* 高さ */
-  border-radius: 50%;       /* 角を丸める */  
-  display: flex;            /* 親要素に対して子要素を横並びにする */
-  justify-content: center;  /* 横並び要素の中央揃え */
-  align-items: center;      /* 中央揃え */
-  text-decoration: none;    /* 下線無効 */
-  flex-wrap: wrap;          /* 子要素を折り返す */       
-  overflow: hidden;         /* 要素からはみ出た部分を非表示 */
-  background: #fff;       /* 背景 */
-  border: solid 2px #111; /* 枠線 */
-  font-size: 14px;          /* 文字の大きさ */
-  color: #111;            /* 文字の色 */
-  font-weight: bold;        /* 文字の太さ */
-  transition: all 0.15s linear; /* 要素の2つの状態間の変化を定義する */
+  width: 45px;
+  height: 45px;
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: #fff;
+  border: solid 2px #111;
+  font-size: 14px;
+  color: #111;
+  font-weight: bold;
+  transition: all 0.15s linear;
 }
 
-.Pagination-Item-Link-Icon {width: 20px;} /* 横幅 */
+.Pagination-Item-Link-Icon {width: 20px;}
 
 /* アクティブボタン */
 .Pagination-Item-Link.isActive {
-  background: #111;   /* 背景 */
-  color: #fff;        /* 文字の色 */
-  pointer-events: none; /* クリックやタッチ操作を無効化 */
+  background: #111;
+  color: #fff;
+  pointer-events: none;
 }
 
 /* マウスオーバー */
 .Pagination-Item-Link:not(.isActive):hover {
-  background: #111; /* 背景 */
-  color: #fff;      /* 文字の色 */
+  background: #111;
+  color: #fff;
 }
 
-.Pagination > * + * {margin-left: 8px;} /* 要素の外側左余白 */
+.Pagination > * + * {margin-left: 8px;}
 
 /* スマホ向けスタイル */
 @media screen and (max-width: 480px) {
-  body {margin-top: 18%;} /* 要素の外側上余白 */
-
-  br {display: none;}     /* 表示しない */
+  body {margin-top: 18%;}
+  br {display: none;}
 
   h1 {
-    padding: 8px 0;       /* 要素の内側余白 */
-    text-align: center;   /* 中央揃え */
+    padding: 8px 0;
+    text-align: center;
   }
 
-  .spot {text-align: center;} /* 中央揃え */
-
-  h2.spot_headline {text-align: center;}  /* 中央揃え */
-
-  .link-space {margin: 16px 0;} /* 要素の外側余白 */
+  .spot {text-align: center;}
+  h2.spot_headline {text-align: center;}
+  .link-space {margin: 16px 0;}
 
   .explanation p {
-    text-align: left; /* 左寄せ */
-    margin-top: 16px; /* 要素の外側上余白 */
+    text-align: left;
+    margin-top: 16px;
   }
   
 /* 画像 */
   .spot_img img {
-    width: 400px; /* 横幅 */
-    height: auto; /* 高さ */
+    width: 400px;
+    height: auto;
   }
 }
 
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
-  main {max-width: 1024px;} /* 最大横幅 */
-
-  h1 {padding-top: 16px;}   /* 要素の内側上余白 */
+  main {max-width: 1024px;}
+  h1 {padding-top: 16px;}
   
 /* 一覧説明 */
   .spot {
-    display: flex;        /* 親要素に対して子要素を横並び */
-    margin-bottom: 16px;  /* 要素の外側下余白 */
-    column-gap: 1rem;     /* 行や列の間のすき間を定義 */
+    display: flex;
+    margin-bottom: 16px;
+    column-gap: 1rem;
   }
   
-  .explanation {align-self: center;}  /* 中央揃え */
-
-  .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
+  .explanation {align-self: center;}
+  .link-space {margin-top: 0.5rem;}
 
 /* 画像 */
   .spot_img img {
-    width: 192px; /* 横幅 */
-    height: auto; /* 高さ */
+    width: 192px;
+    height: auto;
   }
 }
 </style>

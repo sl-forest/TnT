@@ -139,18 +139,18 @@
   position: absolute; /* 親要素を基準に絶対配置を指定 */
   width: 100%;        /* 横幅 */
   height: 100%;       /* 高さ */
-  -webkit-animation: anime 30s 0s infinite; /* 30秒間アニメーションを繰り返し再生 */
-  animation: anime 30s 0s infinite;         /* 30秒間アニメーションを繰り返し再生 */
+  -webkit-animation: anime 21s 0s infinite; /* 30秒間アニメーションを繰り返し再生 */
+  animation: anime 21s 0s infinite;         /* 30秒間アニメーションを繰り返し再生 */
 }
 
 .item1:nth-of-type(2) {
-  -webkit-animation-delay: 10s; /* アニメーション開始までの指定 */
-  animation-delay: 10s;         /* アニメーション開始までの指定 */
+  -webkit-animation-delay: 7s; /* アニメーション開始までの指定 */
+  animation-delay: 7s;         /* アニメーション開始までの指定 */
 }
 
 .item1:nth-of-type(3) {
-  -webkit-animation-delay: 20s; /* アニメーション開始までの指定 */
-  animation-delay: 20s;         /* アニメーション開始までの指定 */
+  -webkit-animation-delay: 14s; /* アニメーション開始までの指定 */
+  animation-delay: 14s;         /* アニメーション開始までの指定 */
 }
 
 /* ふわっとアニメーション */

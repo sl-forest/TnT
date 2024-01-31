@@ -103,7 +103,11 @@ h1 {
   h1 {text-align: center;}          /* 中央揃え */
   .Craft {padding-bottom: 16px;}    /* 要素の内側下余白 */
   .Craft_img {text-align: center;}  /* 中央揃え */
-  .Craft_img img {width: 345px;}    /* 横幅 */
+
+  .Craft_img img {
+    width: 345px; /* 横幅 */
+    height: auto; /* 高さ */
+  }
 
   /* 提供文字 */
   .teikyou p {margin: 8px 0;}         /* 要素の外側余白 */
@@ -128,8 +132,12 @@ h1 {
     padding-bottom: 24px; /* 要素の内側下余白 */
   }
 
-  .Craft_img {margin: auto;}       /* 要素の外側余白 */
-  .Craft_img img {height: 345px;}  /* 高さ */
+  .Craft_img {margin: auto;} /* 要素の外側余白 */
+
+  .Craft_img img {
+    width: auto;    /* 横幅 */
+    height: 345px;  /* 高さ */
+  }
 
   .Craft_note {
     margin: auto;       /* 要素の外側余白 */

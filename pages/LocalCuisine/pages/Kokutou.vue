@@ -81,7 +81,11 @@ h1 {
 
 /* 画像 */
   .localcuisine_img {text-align: center;}
-  .localcuisine_img img {width: 400px;}
+
+  .localcuisine_img img {
+    width: 400px;
+    height: auto;
+  }
 
 /* 提供文字 */
   .teikyou p {margin: 8px 0;}
@@ -101,7 +105,10 @@ h1 {
   .localcuisine {display: flex;}
 
 /* 画像 */
-  .localcuisine_img img {width: 400px;}
+  .localcuisine_img img {
+    width: 400px;
+    height: auto;
+  }
 
 /*材料*/
   .localcuisine_note {

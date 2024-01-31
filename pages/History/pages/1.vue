@@ -106,7 +106,6 @@
 <style>
 /* 共通 */
 body {margin: 0;}       /* 要素の外側余白 */
-
 main {margin: 0 auto;}  /* 要素の外側余白 */
 
 h1 {
@@ -159,8 +158,7 @@ h2.history_headline_last {
     text-align: center; /* 中央揃え */
   }
 
-  br {display: none;}   /* 表示しない */
-
+  br {display: none;}             /* 表示しない */
   .history {text-align: center;} /* 中央揃え */
 
   h2.history_headline {
@@ -190,7 +188,6 @@ h2.history_headline_last {
 /* PC向けスタイル */
 @media screen and (min-width: 1024px) {
   main {max-width: 1024px;} /* 最大横幅 */
-  
   h1 {padding-top: 16px;}   /* 要素の内側上余白 */
   
 /* 一覧説明 */
@@ -201,8 +198,7 @@ h2.history_headline_last {
   }
 
   .explanation {align-self: center;}  /* 中央揃え */
-
-  .link-space {margin-top: 0.5rem;} /* 要素の外側上余白 */
+  .link-space {margin-top: 0.5rem;}   /* 要素の外側上余白 */
 
 /* 画像 */
   .history_img img {
