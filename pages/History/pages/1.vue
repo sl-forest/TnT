@@ -19,7 +19,7 @@
             その卓越した識見は、松平春嶽より「英明近世の第一人者」と称された。
           </p>
           <div class="link-space">
-            <a class ="btn" href="http://localhost:3000/History/pages/ShimazuNariakira">島津斉彬の年表</a>
+            <a class ="btn" href="http://localhost:3000/History/pages/ShimazuNariakira">島津斉彬の年表はこちら</a>
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@
             維新後、封建制度下の特権を失った不平士族（旧武士）の首領となって西南戦争を起こしたが政府軍に敗れ自刃した。
           </p>
           <div class="link-space">
-            <a class ="btn" href="http://localhost:3000/History/pages/SaigoTakamori">西郷隆盛の年表</a>
+            <a class ="btn" href="http://localhost:3000/History/pages/SaigoTakamori">西郷隆盛の年表はこちら</a>
           </div> 
         </div>
       </div>
@@ -57,7 +57,7 @@
             版籍奉還や廃藩置県を推進し、新政府の基礎を固める。
           </p>
           <div class="link-space">
-            <a class ="btn" href="http://localhost:3000/History/pages/OkuboToshimichi">大久保利通の年表</a>
+            <a class ="btn" href="http://localhost:3000/History/pages/OkuboToshimichi">大久保利通の年表はこちら</a>
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@
             大政奉還に尽力。明治政府に重用され外国官（外務省の前身）副知事になったが病死。
           </p>
           <div class="link-space">
-            <a class ="btn" href="http://localhost:3000/History/pages/KomatsuTatewaki">小松帯刀の年表</a>
+            <a class ="btn" href="http://localhost:3000/History/pages/KomatsuTatewaki">小松帯刀の年表はこちら</a>
           </div>
         </div>
       </div>
@@ -92,7 +92,7 @@
             明治期には徳川本家の家格・家名の維持を目ざした。
           </p>
           <div class="link-space">
-            <a class ="btn" href="http://localhost:3000/History/pages/TenshoinAtsuhime">天璋院篤姫の年表</a>
+            <a class ="btn" href="http://localhost:3000/History/pages/TenshoinAtsuhime">天璋院篤姫の年表はこちら</a>
           </div>
         </div>
       </div>
