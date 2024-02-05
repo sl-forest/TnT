@@ -8,7 +8,7 @@
       <div class="TouristSpot">
 
         <div class = TouristSpot_img>
-          <img src="~/assets/img/Senganen.jpg" alt="仙厳園">
+          <img src="~/assets/img/Senganen-min.jpg" alt="仙厳園">
         </div>
         
         <div class = TouristSpot_note>    

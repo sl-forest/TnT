@@ -7,7 +7,7 @@
       <h1>白熊</h1>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Shirokuma.jpg" alt="白熊">
+          <img src="~/assets/img/Shirokuma-min.jpg" alt="白熊">
           <div class="teikyou">
             <p>出典：農林水産省「うちの郷土料理」</p>
           </div>

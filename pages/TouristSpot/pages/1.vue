@@ -8,7 +8,7 @@
       <h2 class = spot_headline>桜島</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/sakurajima.jpg" alt="桜島">
+          <img src="~/assets/img/sakurajima-min.jpg" alt="桜島">
         </div>
         
         <div class = explanation>
@@ -26,7 +26,7 @@
       <h2 class = spot_headline>屋久島</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/Yakushima.jpg" alt="屋久島">
+          <img src="~/assets/img/Yakushima-min.jpg" alt="屋久島">
         </div>
 
         <div class = explanation>
@@ -45,7 +45,7 @@
       <h2 class = spot_headline>奄美大島</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/Amami.jpg" alt="奄美大島">
+          <img src="~/assets/img/Amami-min.jpg" alt="奄美大島">
         </div>
 
         <div class = explanation>
@@ -63,7 +63,7 @@
       <h2 class = spot_headline>種子島宇宙センター</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/SpaceCenter.jpg" alt="種子島宇宙センター">
+          <img src="~/assets/img/SpaceCenter-min.jpg" alt="種子島宇宙センター">
         </div>
 
         <div class = explanation>

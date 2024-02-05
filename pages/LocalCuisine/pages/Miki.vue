@@ -7,7 +7,7 @@
       <h1>神酒（みき）</h1>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Miki.jpg" alt="みき">
+          <img src="~/assets/img/Miki-min.jpg" alt="みき">
           <div class="teikyou">
             <p>出典：農林水産省「うちの郷土料理」</p>
           </div>

@@ -8,7 +8,7 @@
       <div class="TouristSpot">
 
         <div class = TouristSpot_img>
-          <img src="~/assets/img/Jingu.jpg" alt="霧島神宮">
+          <img src="~/assets/img/Jingu-min.jpg" alt="霧島神宮">
         </div>
         
         <div class = TouristSpot_note>    

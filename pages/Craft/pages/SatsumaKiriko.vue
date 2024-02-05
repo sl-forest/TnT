@@ -8,7 +8,7 @@
       <div class="Craft">
             
         <div class = Craft_img>
-          <img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子">
+          <img src="~/assets/img/SatumaKiriko-min.jpg" alt="薩摩切子">
         </div>
 
         <div class = Craft_note>

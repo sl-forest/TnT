@@ -8,7 +8,7 @@
       <div class="TouristSpot">
 
         <div class = TouristSpot_img>
-          <img src="~/assets/img/KaimonDake.jpg" alt="開聞岳">
+          <img src="~/assets/img/KaimonDake-min.jpg" alt="開聞岳">
         </div>
         
         <div class = TouristSpot_note>

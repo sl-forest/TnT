@@ -7,7 +7,7 @@
       <h1>ぶり大根</h1>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Buridaikon.jpg" alt="ぶり大根">
+          <img src="~/assets/img/Buridaikon-min.jpg" alt="ぶり大根">
         </div>
         
         <div class = localcuisine_note>

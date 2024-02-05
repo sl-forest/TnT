@@ -6,7 +6,7 @@
       <h1>黒糖</h1>
       <div class="localcuisine">
         <div class = localcuisine_img>
-            <img src="~/assets/img/Kokutou.jpg" alt="黒糖">
+            <img src="~/assets/img/Kokutou-min.jpg" alt="黒糖">
         </div>
         
         <div class = localcuisine_note>

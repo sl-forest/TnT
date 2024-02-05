@@ -8,7 +8,7 @@
       <h2 class = localcuisine_headline>白熊</h2>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Shirokuma.jpg" alt="白熊">
+          <img src="~/assets/img/Shirokuma-min.jpg" alt="白熊">
           <div class="teikyou">
             <p>
               出典：<br>
@@ -31,7 +31,7 @@
       <h2 class = localcuisine_headline>かるかん</h2>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Karukan02.jpg" alt="かるかん">
+          <img src="~/assets/img/Karukan02-min.jpg" alt="かるかん">
           <div class="teikyou">
             <p>画像提供元：鹿児島県</p>
           </div>
@@ -48,7 +48,7 @@
       <h2 class = localcuisine_headline>両棒餅（じゃんぼ餅）</h2>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Janbomoti.jpg" alt="じゃんぼ餅">
+          <img src="~/assets/img/Janbomoti-min.jpg" alt="じゃんぼ餅">
           <div class="teikyou">
             <p>
               出典：<br>
@@ -71,7 +71,7 @@
       <h2 class = localcuisine_headline>神酒（みき）</h2>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Miki.jpg" alt="みき">
+          <img src="~/assets/img/Miki-min.jpg" alt="みき">
           <div class="teikyou">
             <p>
               出典：<br>

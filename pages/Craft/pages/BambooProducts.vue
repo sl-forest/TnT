@@ -8,7 +8,7 @@
       <div class="Craft">
           
         <div class = Craft_img>
-          <img src="~/assets/img/bambooproducts.jpg" alt="竹製品">
+          <img src="~/assets/img/bambooproducts-min.jpg" alt="竹製品">
         </div>
 
         <div class = Craft_note>

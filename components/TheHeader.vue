@@ -4,7 +4,7 @@
     <header>
         <div class="logo-space">
   
-            <a href="http://localhost:3000"><img src="~/assets/img/Kagoshima_logo.png" alt="サイトのロゴ"></a>
+            <a href="http://localhost:3000"><img src="~/assets/img/Kagoshima_logo-min.png" alt="サイトのロゴ"></a>
 
             <div class="site-name">
                 <h1>鹿児島紹介サイト</h1>

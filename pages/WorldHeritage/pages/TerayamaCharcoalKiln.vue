@@ -8,7 +8,7 @@
       <div class="WorldHeritage">
 
         <div class = WorldHeritage_img>
-          <img src="~/assets/img/Sumigamaato.jpg" alt="寺山炭窯跡">
+          <img src="~/assets/img/Sumigamaato-min.jpg" alt="寺山炭窯跡">
         </div>
         
         <div class = WorldHeritage_note>    

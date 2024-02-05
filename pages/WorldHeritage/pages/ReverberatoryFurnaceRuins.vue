@@ -8,7 +8,7 @@
       <div class="WorldHeritage">
 
         <div class = WorldHeritage_img>
-          <img src="~/assets/img/Reverberatory furnace ruins.jpeg" alt="旧集成館「反射炉跡」">
+          <img src="~/assets/img/Reverberatory furnace ruins-min.jpeg" alt="旧集成館「反射炉跡」">
           <div class="teikyou">
             <p>写真協力：公益社団法人 鹿児島県観光連盟</p>
           </div>

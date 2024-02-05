@@ -31,7 +31,7 @@
       <div class = "introduction">
         <figure class="image_area01">
           <a href="http://localhost:3000/Craft/pages/1">
-            <img src="~/assets/img/SatumaKiriko.jpg" alt="薩摩切子">
+            <img src="~/assets/img/SatumaKiriko-min.jpg" alt="薩摩切子">
           </a>
         </figure>
         
@@ -41,7 +41,7 @@
         
         <figure class="image_area02">
           <a href="http://localhost:3000/Craft/pages/1">
-            <img src="~/assets/img/SatsumaYaki.jpg" alt="薩摩焼">
+            <img src="~/assets/img/SatsumaYaki-min.jpg" alt="薩摩焼">
           </a>
         </figure>
       </div>
@@ -49,7 +49,7 @@
       <div class = "introduction">
         <figure class="image_area03">
           <a href="http://localhost:3000/History/pages/1">
-            <img src="~/assets/img/segodon.jpeg" alt="西郷隆盛">
+            <img src="~/assets/img/segodon-min.jpeg" alt="西郷隆盛">
           </a>
         </figure>
         
@@ -59,7 +59,7 @@
         
         <figure class="image_area04">
           <a href="http://localhost:3000/History/pages/1">
-            <img src="~/assets/img/ookubo.jpg" alt="大久保利通">
+            <img src="~/assets/img/ookubo-min.jpg" alt="大久保利通">
           </a>
         </figure>
       </div>
@@ -67,7 +67,7 @@
       <div class = "introduction">
         <figure class="image_area05">
           <a href="http://localhost:3000/LocalCuisine/pages/1">
-            <img src="~/assets/img/Keihan.jpg" alt="鶏飯">
+            <img src="~/assets/img/Keihan-min.jpg" alt="鶏飯">
           </a>
         </figure>
 
@@ -77,7 +77,7 @@
         
         <figure class="image_area06">
           <a href="http://localhost:3000/LocalCuisine/pages/1">
-            <img src="~/assets/img/Buridaikon.jpg" alt="ぶり大根">
+            <img src="~/assets/img/Buridaikon-min.jpg" alt="ぶり大根">
           </a>
         </figure>
       </div>
@@ -85,7 +85,7 @@
       <div class = "introduction">
         <figure class="image_area07">
           <a href="http://localhost:3000/TouristSpot/pages/1">
-            <img src="~/assets/img/Jingu.jpg" alt="霧島神宮">
+            <img src="~/assets/img/Jingu-min.jpg" alt="霧島神宮">
           </a>
         </figure>
         
@@ -95,7 +95,7 @@
         
         <figure class="image_area08">
           <a href="http://localhost:3000/TouristSpot/pages/1">
-            <img src="~/assets/img/Senganen.jpg" alt="仙厳園">
+            <img src="~/assets/img/Senganen-min.jpg" alt="仙厳園">
           </a>
         </figure>
       </div>
@@ -103,7 +103,7 @@
       <div class = "introduction">
         <figure class="image_area09">
           <a href="http://localhost:3000/WorldHeritage/pages/1">
-            <img src="~/assets/img/Shoko Shuseikan Museum.jpg" alt="旧集成館機械工場（尚古集成館）">
+            <img src="~/assets/img/Shoko Shuseikan Museum-min.jpg" alt="旧集成館機械工場（尚古集成館）">
           </a>
         </figure>
         
@@ -113,7 +113,7 @@
         
         <figure class="image_area10">
           <a href="http://localhost:3000/WorldHeritage/pages/1">
-            <img src="~/assets/img/Ijinkan.jpeg" alt="旧集成館「旧鹿児島紡績所技師館」（異人館）">
+            <img src="~/assets/img/Ijinkan-min.jpeg" alt="旧集成館「旧鹿児島紡績所技師館」（異人館）">
           </a>
         </figure>
       </div>

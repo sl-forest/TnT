@@ -8,7 +8,7 @@
       <div class="TouristSpot">
 
         <div class = TouristSpot_img>
-          <img src="~/assets/img/SpaceCenter.jpg" alt="種子島宇宙センター">
+          <img src="~/assets/img/SpaceCenter-min.jpg" alt="種子島宇宙センター">
         </div>
         
         <div class = TouristSpot_note>    

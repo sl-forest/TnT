@@ -8,7 +8,7 @@
       <h2 class = worldheritage_headline>関吉の疎水溝</h2>
       <div class="worldheritage">
         <div class = worldheritage_img>
-          <img src="~/assets/img/Sekiyoshi.jpg" alt="関吉の疎水溝">
+          <img src="~/assets/img/Sekiyoshi-min.jpg" alt="関吉の疎水溝">
         </div>
         
         <div class = explanation>
@@ -26,7 +26,7 @@
       <h2 class = worldheritage_headline>寺山炭窯跡</h2>
       <div class="worldheritage">
         <div class = worldheritage_img>
-        <img src="~/assets/img/Sumigamaato.jpg" alt="寺山炭窯跡">
+        <img src="~/assets/img/Sumigamaato-min.jpg" alt="寺山炭窯跡">
         </div>
 
         <div class = explanation>
@@ -43,7 +43,7 @@
       <h2 class = worldheritage_headline>旧集成館「反射炉跡」</h2>
       <div class="worldheritage">
         <div class = worldheritage_img>
-          <img src="~/assets/img/Reverberatory furnace ruins.jpeg" alt="旧集成館「反射炉跡」">
+          <img src="~/assets/img/Reverberatory furnace ruins-min.jpeg" alt="旧集成館「反射炉跡」">
           <div class="teikyou">
             <p>
               写真協力：<br>
@@ -67,7 +67,7 @@
       <h2 class = worldheritage_headline_small>旧集成館「旧鹿児島紡績所技師館」（異人館）</h2>
       <div class="worldheritage">
         <div class = worldheritage_img>
-          <img src="~/assets/img/Ijinkan.jpeg" alt="旧集成館「旧鹿児島紡績所技師館」（異人館）">
+          <img src="~/assets/img/Ijinkan-min.jpeg" alt="旧集成館「旧鹿児島紡績所技師館」（異人館）">
           <div class="teikyou">
             <p>
               写真協力：<br>
@@ -90,7 +90,7 @@
       <h2 class = worldheritage_headline>旧集成館機械工場（尚古集成館）</h2>
       <div class="worldheritage">
         <div class = worldheritage_img>
-          <img src="~/assets/img/Shoko Shuseikan Museum.jpg" alt="旧集成館機械工場（尚古集成館）">
+          <img src="~/assets/img/Shoko Shuseikan Museum-min.jpg" alt="旧集成館機械工場（尚古集成館）">
         </div>
 
         <div class = explanation>

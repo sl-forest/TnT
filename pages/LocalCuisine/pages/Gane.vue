@@ -7,7 +7,7 @@
       <h1>がね</h1>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Gane.jpg" alt="がね">
+          <img src="~/assets/img/Gane-min.jpg" alt="がね">
         </div>
         
         <div class = localcuisine_note>

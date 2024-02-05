@@ -8,7 +8,7 @@
       <div class="WorldHeritage">
 
         <div class = WorldHeritage_img>
-            <img src="~/assets/img/Shoko Shuseikan Museum.jpg" alt="旧集成館機械工場（尚古集成館）">
+            <img src="~/assets/img/Shoko Shuseikan Museum-min.jpg" alt="旧集成館機械工場（尚古集成館）">
         </div>
         
         <div class = WorldHeritage_note>   

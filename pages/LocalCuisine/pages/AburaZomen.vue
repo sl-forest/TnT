@@ -7,7 +7,7 @@
       <h1>油ゾーメン</h1>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Zomen.jpg" alt="油ゾーメン">
+          <img src="~/assets/img/Zomen-min.jpg" alt="油ゾーメン">
           <div class="teikyou">
             <p>出典：農林水産省「うちの郷土料理」</p>
           </div>

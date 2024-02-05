@@ -8,7 +8,7 @@
       <h2 class = spot_headline>仙巌園</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/Senganen.jpg" alt="仙厳園">
+          <img src="~/assets/img/Senganen-min.jpg" alt="仙厳園">
         </div>
 
         <div class = explanation>
@@ -26,7 +26,7 @@
       <h2 class = spot_headline>天文館</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/TenmonKan.jpg" alt="天文館">
+          <img src="~/assets/img/TenmonKan-min.jpg" alt="天文館">
         </div>
 
         <div class = explanation>
@@ -44,7 +44,7 @@
       <h2 class = spot_headline>知覧特攻平和会館</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/Kinenkan.jpg" alt="知覧特攻平和会館">
+          <img src="~/assets/img/Kinenkan-min.jpg" alt="知覧特攻平和会館">
         </div>
         
         <div class = explanation>
@@ -61,7 +61,7 @@
       <h2 class = spot_headline>維新ふるさと館</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/Furusatokan.jpg" alt="維新ふるさと館">
+          <img src="~/assets/img/Furusatokan-min.jpg" alt="維新ふるさと館">
         </div>
         
         <div class = explanation>

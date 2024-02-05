@@ -8,7 +8,7 @@
       <div class="TouristSpot">
 
         <div class = TouristSpot_img>
-          <img src="~/assets/img/Amami.jpg" alt="奄美大島">
+          <img src="~/assets/img/Amami-min.jpg" alt="奄美大島">
         </div>
         
         <div class = TouristSpot_note>    

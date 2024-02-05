@@ -8,7 +8,7 @@
       <h2 class = spot_headline>曾木の滝</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/SogiTaki.jpg" alt="曾木の滝">
+          <img src="~/assets/img/SogiTaki-min.jpg" alt="曾木の滝">
         </div>
           
         <div class = explanation>
@@ -26,7 +26,7 @@
       <h2 class = spot_headline>丸尾の滝</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/MaruoTaki.jpg" alt="丸尾の滝">
+          <img src="~/assets/img/MaruoTaki-min.jpg" alt="丸尾の滝">
         </div>
 
         <div class = explanation>
@@ -43,7 +43,7 @@
       <h2 class = spot_headline>雄川の滝</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/OgawaTaki.jpg" alt="雄川の滝">
+          <img src="~/assets/img/OgawaTaki-min.jpg" alt="雄川の滝">
         </div>
 
         <div class = explanation>
@@ -61,7 +61,7 @@
       <h2 class = spot_headline>開聞岳</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/KaimonDake.jpg" alt="開聞岳">
+          <img src="~/assets/img/KaimonDake-min.jpg" alt="開聞岳">
         </div>
 
         <div class = explanation>

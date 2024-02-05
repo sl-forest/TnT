@@ -7,7 +7,7 @@
       <h1>豚骨</h1>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Tonkotsu.jpg" alt="豚骨">
+          <img src="~/assets/img/Tonkotsu-min.jpg" alt="豚骨">
         </div>
         
         <div class = localcuisine_note>

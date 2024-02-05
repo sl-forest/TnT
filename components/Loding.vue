@@ -1,6 +1,6 @@
 <template>
     <div class="loading">
-      <img class="loading_logo" src="~/assets/img/Kagoshima_logo.png" alt="ロード画面">
+      <img class="loading_logo" src="~/assets/img/Kagoshima_logo-min.png" alt="ロード画面">
     </div>
 </template>
 

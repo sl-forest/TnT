@@ -8,7 +8,7 @@
       <h2 class = history_headline>島津斉彬（しまづなりあきら）（1809-1858）</h2>
       <div class="history">
         <div class = history_img>
-          <img src="~/assets/img/shimadu.jpg" alt="島津斉彬">
+          <img src="~/assets/img/shimadu-min.jpg" alt="島津斉彬">
         </div>
 
         <div class = explanation>
@@ -27,7 +27,7 @@
       <h2 class = history_headline>西郷隆盛（さいごうたかもり）（1827-1877）</h2>
       <div class="history">
         <div class = history_img>
-          <img src="~/assets/img/segodon.jpeg" alt="西郷隆盛">
+          <img src="~/assets/img/segodon-min.jpeg" alt="西郷隆盛">
         </div>
         
         <div class = explanation>
@@ -46,7 +46,7 @@
       <h2 class = history_headline>大久保利通（おおくぼとしみち）（1830-1878）</h2>
       <div class="history">
         <div class = history_img>
-          <img src="~/assets/img/ookubo.jpg" alt="大久保利通">
+          <img src="~/assets/img/ookubo-min.jpg" alt="大久保利通">
         </div>
 
         <div class = explanation>
@@ -65,7 +65,7 @@
       <h2 class = history_headline>小松帯刀（こまつたてわき）（1835-1870）</h2>
       <div class="history">
         <div class = history_img>
-          <img src="~/assets/img/komatsu.jpg" alt="小松帯刀">
+          <img src="~/assets/img/komatsu-min.jpg" alt="小松帯刀">
         </div>
 
         <div class = explanation>
@@ -83,7 +83,7 @@
       <h2 class = history_headline_last>天璋院篤姫（てんしょういんあつひめ）（1836-1883）</h2>
       <div class="history">
         <div class = history_img>
-          <img src="~/assets/img/Atsuhime.jpg" alt="天璋院篤姫">
+          <img src="~/assets/img/Atsuhime-min.jpg" alt="天璋院篤姫">
         </div>
 
         <div class = explanation>

@@ -8,7 +8,7 @@
       <h2 class = localcuisine_headline>鶏飯</h2>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Keihan.jpg" alt="鶏飯">
+          <img src="~/assets/img/Keihan-min.jpg" alt="鶏飯">
           <div class="teikyou">
             <p>
               写真協力：<br>
@@ -31,7 +31,7 @@
       <h2 class = localcuisine_headline>ぶり大根</h2>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Buridaikon.jpg" alt="ぶり大根">
+          <img src="~/assets/img/Buridaikon-min.jpg" alt="ぶり大根">
         </div>
 
         <div class = explanation>
@@ -48,7 +48,7 @@
       <h2 class = localcuisine_headline>鶏刺し</h2>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Torisashi.jpeg" alt="鶏刺し">
+          <img src="~/assets/img/Torisashi-min.jpeg" alt="鶏刺し">
           <div class="teikyou">
             <p>
               写真協力：<br>
@@ -70,7 +70,7 @@
       <h2 class = localcuisine_headline>豚汁</h2>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Tonjiru.jpg" alt="豚汁">
+          <img src="~/assets/img/Tonjiru-min.jpg" alt="豚汁">
         </div>
         
         <div class = explanation>

@@ -6,7 +6,7 @@
       <div class="wrap">
         
         <div class="logo">
-          <a href="http://localhost:3000"><img src="~/assets/img/Kagoshima_logo.png" alt="サイトロゴ"></a>
+          <a href="http://localhost:3000"><img src="~/assets/img/Kagoshima_logo-min.png" alt="サイトロゴ"></a>
         </div>
 
         <h1>鹿児島紹介サイト</h1>

@@ -8,7 +8,7 @@
       <div class="Craft">
           
         <div class = Craft_img>
-          <img src="~/assets/img/Kaseda.jpg" alt="加世田鎌・加世田包丁">
+          <img src="~/assets/img/Kaseda-min.jpg" alt="加世田鎌・加世田包丁">
         </div>
 
         <div class = Craft_note>

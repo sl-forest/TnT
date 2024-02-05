@@ -8,7 +8,7 @@
       <div class="WorldHeritage">
 
         <div class = WorldHeritage_img>
-          <img src="~/assets/img/Sekiyoshi.jpg" alt="関吉の疎水溝">
+          <img src="~/assets/img/Sekiyoshi-min.jpg" alt="関吉の疎水溝">
         </div>
         
         <div class = WorldHeritage_note>    

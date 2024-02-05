@@ -7,7 +7,7 @@
       <h1>両棒餅（じゃんぼ餅）</h1>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Janbomoti.jpg" alt="両棒餅">
+          <img src="~/assets/img/Janbomoti-min.jpg" alt="両棒餅">
           <div class="teikyou">
             <p>出典：農林水産省「うちの郷土料理」</p>
           </div>

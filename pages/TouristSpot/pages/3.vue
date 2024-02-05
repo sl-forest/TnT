@@ -8,7 +8,7 @@
       <h2 class = spot_headline>指宿温泉 砂むし会館 砂楽</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/Sunamushi.jpg" alt="指宿温泉 砂むし会館 砂楽">
+          <img src="~/assets/img/Sunamushi-min.jpg" alt="指宿温泉 砂むし会館 砂楽">
         </div>
         
         <div class = explanation>
@@ -25,7 +25,7 @@
       <h2 class = spot_headline>霧島温泉市場</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/Itiba.jpg" alt="霧島温泉市場">
+          <img src="~/assets/img/Itiba-min.jpg" alt="霧島温泉市場">
         </div>
         
         <div class = explanation>
@@ -42,7 +42,7 @@
       <h2 class = spot_headline>霧島神宮</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/Jingu.jpg" alt="霧島神宮">
+          <img src="~/assets/img/Jingu-min.jpg" alt="霧島神宮">
         </div>
 
         <div class = explanation>
@@ -59,7 +59,7 @@
       <h2 class = spot_headline>鹿児島神宮</h2>
       <div class="spot">
         <div class = spot_img>
-          <img src="~/assets/img/kagoshimajingu.jpg" alt="鹿児島神宮">
+          <img src="~/assets/img/kagoshimajingu-min.jpg" alt="鹿児島神宮">
         </div>
 
         <div class = explanation>

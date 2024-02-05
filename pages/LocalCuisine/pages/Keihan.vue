@@ -7,7 +7,7 @@
       <h1>鶏飯（けいはん）</h1>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Keihan.jpg" alt="鶏飯">
+          <img src="~/assets/img/Keihan-min.jpg" alt="鶏飯">
           <div class="teikyou">
             <p>写真協力：公益社団法人 鹿児島県観光連盟</p>
           </div>

@@ -8,7 +8,7 @@
       <div class="TouristSpot">
 
         <div class = TouristSpot_img>
-          <img src="~/assets/img/Sunamushi.jpg" alt="指宿温泉 砂むし会館 砂楽">
+          <img src="~/assets/img/Sunamushi-min.jpg" alt="指宿温泉 砂むし会館 砂楽">
         </div>
         
         <div class = TouristSpot_note>    

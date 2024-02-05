@@ -7,7 +7,7 @@
       <h1>鳥刺し</h1>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Torisashi.jpeg" alt="鳥刺し">
+          <img src="~/assets/img/Torisashi-min.jpeg" alt="鳥刺し">
           <div class="teikyou">
             <p>写真協力：公益社団法人 鹿児島県観光連盟</p>
           </div>

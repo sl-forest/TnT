@@ -7,7 +7,7 @@
       <h2 class = craft_headline>薩摩焼</h2>
       <div class="craft">
         <div class = craft_img>
-          <img src="~/assets/img/SatsumaYaki.jpg" alt="薩摩焼">
+          <img src="~/assets/img/SatsumaYaki-min.jpg" alt="薩摩焼">
         </div>
 
         <div class = explanation>
@@ -25,7 +25,7 @@
       <h2 class = craft_headline>白薩摩</h2>
       <div class="craft">
         <div class = craft_img>
-          <img src="~/assets/img/ShiroSatsuma.jpg" alt="白薩摩">
+          <img src="~/assets/img/ShiroSatsuma-min.jpg" alt="白薩摩">
         </div>
 
         <div class = explanation>
@@ -43,7 +43,7 @@
       <h2 class = craft_headline>黒薩摩</h2>
       <div class="craft">
         <div class = craft_img>
-          <img src="~/assets/img/KuroSatsuma.jpg" alt="黒薩摩">
+          <img src="~/assets/img/KuroSatsuma-min.jpg" alt="黒薩摩">
         </div>
 
         <div class = explanation>

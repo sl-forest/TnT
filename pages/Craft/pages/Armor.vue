@@ -8,7 +8,7 @@
       <div class="Craft">         
 
         <div class = Craft_img>
-          <img src="~/assets/img/Kattyu.jpeg" alt="甲冑">
+          <img src="~/assets/img/Kattyu-min.jpeg" alt="甲冑">
           <div class="teikyou">
             <p>写真協力：公益社団法人 鹿児島県観光連盟</p>
           </div>

@@ -7,7 +7,7 @@
       <h1>かるかん</h1>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Karukan.jpg" alt="かるかん">
+          <img src="~/assets/img/Karukan-min.jpg" alt="かるかん">
           <div class="teikyou">
             <p>画像提供元：鹿児島県</p>
           </div>

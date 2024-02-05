@@ -8,7 +8,7 @@
       <div class="TouristSpot">
 
         <div class = TouristSpot_img>
-          <img src="~/assets/img/Itiba.jpg" alt="霧島温泉市場">
+          <img src="~/assets/img/Itiba-min.jpg" alt="霧島温泉市場">
         </div>
         
         <div class = TouristSpot_note>    

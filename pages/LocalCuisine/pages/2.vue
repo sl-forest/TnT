@@ -8,7 +8,7 @@
       <h2 class = localcuisine_headline>豚骨</h2>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Tonkotsu.jpg" alt="豚骨">
+          <img src="~/assets/img/Tonkotsu-min.jpg" alt="豚骨">
         </div>
           
         <div class = explanation>
@@ -25,7 +25,7 @@
       <h2 class = localcuisine_headline>がね</h2>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Gane.jpg" alt="がね">
+          <img src="~/assets/img/Gane-min.jpg" alt="がね">
         </div>
 
         <div class = explanation>
@@ -39,7 +39,7 @@
       <h2 class = localcuisine_headline>油ゾーメン</h2>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Zomen.jpg" alt="油ゾーメン">
+          <img src="~/assets/img/Zomen-min.jpg" alt="油ゾーメン">
           <div class="teikyou">
             <p>
               出典：<br>
@@ -62,7 +62,7 @@
       <h2 class = localcuisine_headline>黒糖</h2>
       <div class="localcuisine">
         <div class = localcuisine_img>
-          <img src="~/assets/img/Kokutou.jpg" alt="黒糖">
+          <img src="~/assets/img/Kokutou-min.jpg" alt="黒糖">
         </div>
 
         <div class = explanation>
