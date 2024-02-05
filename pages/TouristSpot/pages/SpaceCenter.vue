@@ -88,6 +88,11 @@ h1 {
   flex-grow: 1;
 }
 
+.TouristSpot_note dd a {
+  text-decoration: none;
+  color: blue;
+}
+
 /* ボタン */
 a.btn {
   display: block;
@@ -155,5 +160,7 @@ a.btn:hover {
   .TouristSpot_note dl {font-size: 18px;}
   .TouristSpot_note dt {width: 20%;}
   .TouristSpot_note dd {width: 14cm;}
+  /* マウスオーバー */
+  .TouristSpot_note dd a:hover {color: rgb(71, 1, 92);}
 }
 </style>
