@@ -72,7 +72,7 @@
             青い海と白い砂浜に囲まれていることから、「世界一美しいロケット発射場」と呼ばれている。
           </p>
           <div class="link-space">
-            <a class ="btn" href="http://localhost:3000/TouristSpot/pages/SpaceCenter">宇宙センターはこちら</a>
+            <a class ="btn" href="http://localhost:3000/TouristSpot/pages/SpaceCenter">種子島宇宙センターはこちら</a>
           </div>
         </div>
       </div>
